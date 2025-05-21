@@ -67,7 +67,8 @@ def queryGames(header,searchTerm):
     return out
 
 @app.route('/games/name/<searchTerm>')
-def getNames(searchTerm):
+@app.route('/games/name/')
+def getNames(searchTerm='%'):
     out = []
     try:
         query = f'''

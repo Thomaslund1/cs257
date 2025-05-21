@@ -95,6 +95,7 @@ def getGames(name):
 
 @app.route('/', methods =["GET", "POST"])
 def home():
+    games = 'None'
     if flask.request.method == "POST":
        name = flask.request.form.get("name")
        games = getGames(name)

@@ -11,9 +11,12 @@
     <div><p>This is the homepage for the website, enter a serach term below and you will see all of the 
         games that match the name give.
     </p> </div>
-    <div class="thirds"> </div>
-    <div class="thirds"><input id="name": placeholder="Name"></div>
-    <button id="search">Search</button>
+    <form method="post">
+    <input id="name" type="text" name="name" required>
+    <button type="submit">Submit</button>
+    </form>
+
+    <div><p>The matching games are: <br><br>{{ games }}</p></div>
 </body>
 </html>
 
