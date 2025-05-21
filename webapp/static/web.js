@@ -21,11 +21,12 @@ function getAPIBaseURL() {
 }
 
 function loadAuthorsSelector() {
-    let url = getAPIBaseURL() + '/name/';
+    let url = getAPIBaseURL() + '/designer';
 
     fetch(url, { method: 'get' })
         .then((response) => response.json())
         .then(function(result) {
+            console.log("Designer result:", result);
             let selectorBody = '';
             for (let k = 0; k < result.name.length; k++) {
                 let gameName = result.name[k];

@@ -89,8 +89,61 @@ def getNames(searchTerm):
     return flask.jsonify({'name': out})
 
 
+def getId(id):
+    out = []
+    try:
+        query = '''
+            SELECT * 
+            FROM game WHERE game.id = %s
+        '''
+        connection = get_connection()
+        cursor = connection.cursor()
+        cursor.execute(query, (id,))
+        for row in cursor:
+            out.append(row)
+        connection.close()
+    except Exception as e:
+        print(e, file=sys.stderr)
+    print(query)
+    if out == []:
+        out = 'No results found'
+    return jsonify({'name': out})
+
+def queryGames(header,searchTerm):
+    
+    out = []
+    try:
+        valid_headers = ['artist','designer','maxplayers','minplayers','minplaytime','name']
+        if header not in valid_headers:
+            return "That is not a recognized paramater, check spelling/caps"
+        query = f'''
+            SELECT * 
+            FROM name, {header}, {header}_to_name
+            WHERE {header}.{header} LIKE %s
+            AND {header}.id = {header}_to_name.{header}_to_nameId
+            AND name.id = {header}_to_name.nameid;
+        '''
+        connection = get_connection()
+        cursor = connection.cursor()
+        cursor.execute(query, (f'%{searchTerm}%',)) 
+        for row in cursor:
+            out.append(row[2])
+        connection.close()
+    except Exception as e:
+        print(e, file=sys.stderr)
+    if out == []:
+        out = 'No results found'
+    return flask.jsonify({'name': out})
+
+
 def getGames(name):
     return getNames(name)
+
+
+@app.route('/api/<paramater>/<searchTerm>')
+@app.route('/api/<paramater>')
+def funt(paramater,searchTerm='%'):
+    return queryGames(paramater,searchTerm)
 
 @app.route('/api/name/<searchTerm>')
 @app.route('/api/name/')

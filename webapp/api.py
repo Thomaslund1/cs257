@@ -58,7 +58,7 @@ def queryGames(header,searchTerm):
         cursor = connection.cursor()
         cursor.execute(query, (f'%{searchTerm}%',)) 
         for row in cursor:
-            out.append([row[0],row[2]])
+            out.append(row[2])
         connection.close()
     except Exception as e:
         print(e, file=sys.stderr)
