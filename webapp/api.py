@@ -96,6 +96,40 @@ def funt(paramater,searchTerm='%'):
     return queryGames(paramater,searchTerm)
 
 
+
+def queryGamesNames(header,searchTerm):
+    
+    out = []
+    try:
+        valid_headers = ['artist','designer','maxplayers','minplayers','minplaytime','name']
+        if header not in valid_headers:
+            return "That is not a recognized paramater, check spelling/caps"
+        query = f'''
+            SELECT * 
+            FROM name, {header}, {header}_to_name
+            WHERE {header}.{header} LIKE %s
+            AND {header}.id = {header}_to_name.{header}_to_nameId
+            AND name.id = {header}_to_name.nameid;
+        '''
+        connection = get_connection()
+        cursor = connection.cursor()
+        cursor.execute(query, (f'%{searchTerm}%',)) 
+        for row in cursor:
+            out.append(row[0])
+        connection.close()
+    except Exception as e:
+        print(e, file=sys.stderr)
+    if out == []:
+        out = 'No results found'
+    return fl.jsonify({'name': out})
+
+
+@app.route('/api/names2/<searchTerm>')
+@app.route('/api/names2')
+def funt2(paramater,searchTerm='%'):
+    return queryGamesNames(paramater,searchTerm)
+
+
 @app.route('/game/<id>')
 def id(id):
     return getId(id)

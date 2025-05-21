@@ -127,13 +127,16 @@ def queryGames(header,searchTerm):
         cursor = connection.cursor()
         cursor.execute(query, (f'%{searchTerm}%',)) 
         for row in cursor:
-            out.append(row[2])
+            out.append({
+            'name': row[0],
+            'author': row[2]
+        })
         connection.close()
     except Exception as e:
         print(e, file=sys.stderr)
     if out == []:
         out = 'No results found'
-    return flask.jsonify({'name': out})
+    return flask.jsonify(out)
 
 
 def getGames(name):
@@ -161,12 +164,12 @@ def getNames(searchTerm='%'):
         for row in cursor:
             out.append(row)
         connection.close()
-        print(query)
     except Exception as e:
         print(e, file=sys.stderr)
     if out == []:
         out = 'No results found'
     return flask.jsonify({'name': out})
+
 
 
 @app.route('/', methods =["GET", "POST"])
