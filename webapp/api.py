@@ -66,8 +66,8 @@ def queryGames(header,searchTerm):
         out = 'No results found'
     return out
 
-@app.route('/games/name/<searchTerm>')
-@app.route('/games/name/')
+@app.route('/api/name/<searchTerm>')
+@app.route('/api/name/')
 def getNames(searchTerm='%'):
     out = []
     try:

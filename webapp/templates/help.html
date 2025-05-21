@@ -2,7 +2,6 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Boardgames API Documentation</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head> 
@@ -11,12 +10,24 @@
     <div><p>This is the homepage for the website, enter a serach term below and you will see all of the 
         games that match the name give.
     </p> </div>
-    <form method="post">
-    <input id="name" type="text" name="name" required>
-    <button type="submit">Submit</button>
-    </form>
+    <select id="namesSelect">
+        <option>Loading authors...</option>
+    </select>
 
-    <div><p>The matching games are: <br><br>{{ games }}</p></div>
+
+    <h3>Books by Selected Author:</h3>
+    <table>
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>Year</th>
+            </tr>
+        </thead>
+        <tbody id="namesTable">
+        </tbody>
+    </table>
+
+    <script src="{{ url_for('static', filename='web.js') }}"></script>
 </body>
 </html>
 
