@@ -16,43 +16,69 @@ SET xmloption = content;
 SET client_min_messages = warning;
 SET row_security = off;
 
-DROP TABLE public.names;
+DROP TABLE public.name;
+DROP TABLE public.minplaytime_to_name;
 DROP TABLE public.minplaytime;
+DROP TABLE public.minplayers_to_name;
 DROP TABLE public.minplayers;
+DROP TABLE public.maxplaytime_to_name;
 DROP TABLE public.maxplaytime;
+DROP TABLE public.maxplayers_to_name;
 DROP TABLE public.maxplayers;
-DROP TABLE public.games;
-DROP TABLE public.designers;
-DROP TABLE public.artists;
+DROP TABLE public.game;
+DROP TABLE public.designer_to_name;
+DROP TABLE public.designer;
+DROP TABLE public.artist_to_name;
+DROP TABLE public.artist;
 SET default_tablespace = '';
 
 SET default_table_access_method = heap;
 
 --
--- Name: artists; Type: TABLE; Schema: public; Owner: -
+-- Name: artist; Type: TABLE; Schema: public; Owner: -
 --
 
-CREATE TABLE public.artists (
-    artists text,
+CREATE TABLE public.artist (
+    artist text,
     id integer NOT NULL
 );
 
 
 --
--- Name: designers; Type: TABLE; Schema: public; Owner: -
+-- Name: artist_to_name; Type: TABLE; Schema: public; Owner: -
 --
 
-CREATE TABLE public.designers (
-    designers text,
+CREATE TABLE public.artist_to_name (
+    artist_to_nameid integer,
+    nameid integer
+);
+
+
+--
+-- Name: designer; Type: TABLE; Schema: public; Owner: -
+--
+
+CREATE TABLE public.designer (
+    designer text,
     id integer NOT NULL
 );
 
 
 --
--- Name: games; Type: TABLE; Schema: public; Owner: -
+-- Name: designer_to_name; Type: TABLE; Schema: public; Owner: -
 --
 
-CREATE TABLE public.games (
+CREATE TABLE public.designer_to_name (
+    designer_to_nameid integer,
+    nameid integer
+);
+
+
+--
+-- Name: game; Type: TABLE; Schema: public; Owner: -
+--
+
+CREATE TABLE public.game (
     id integer,
     name text,
     designer text,
@@ -151,12 +177,32 @@ CREATE TABLE public.maxplayers (
 
 
 --
+-- Name: maxplayers_to_name; Type: TABLE; Schema: public; Owner: -
+--
+
+CREATE TABLE public.maxplayers_to_name (
+    maxplayers_to_nameid integer,
+    nameid integer
+);
+
+
+--
 -- Name: maxplaytime; Type: TABLE; Schema: public; Owner: -
 --
 
 CREATE TABLE public.maxplaytime (
     maxplaytime text,
     id integer NOT NULL
+);
+
+
+--
+-- Name: maxplaytime_to_name; Type: TABLE; Schema: public; Owner: -
+--
+
+CREATE TABLE public.maxplaytime_to_name (
+    maxplayetime_ti_nameid integer,
+    nameid integer
 );
 
 
@@ -171,6 +217,16 @@ CREATE TABLE public.minplayers (
 
 
 --
+-- Name: minplayers_to_name; Type: TABLE; Schema: public; Owner: -
+--
+
+CREATE TABLE public.minplayers_to_name (
+    minplayers_to_nameid integer,
+    nameid integer
+);
+
+
+--
 -- Name: minplaytime; Type: TABLE; Schema: public; Owner: -
 --
 
@@ -181,20 +237,30 @@ CREATE TABLE public.minplaytime (
 
 
 --
--- Name: names; Type: TABLE; Schema: public; Owner: -
+-- Name: minplaytime_to_name; Type: TABLE; Schema: public; Owner: -
 --
 
-CREATE TABLE public.names (
+CREATE TABLE public.minplaytime_to_name (
+    minplaytime_to_nameid integer,
+    nameid integer
+);
+
+
+--
+-- Name: name; Type: TABLE; Schema: public; Owner: -
+--
+
+CREATE TABLE public.name (
     name text,
     id integer NOT NULL
 );
 
 
 --
--- Data for Name: artists; Type: TABLE DATA; Schema: public; Owner: -
+-- Data for Name: artist; Type: TABLE DATA; Schema: public; Owner: -
 --
 
-COPY public.artists (artists, id) FROM stdin;
+COPY public.artist (artist, id) FROM stdin;
 William Bricker	0
 Gavan Brown	1
 Jakub Dzikowski	2
@@ -686,442 +752,1017 @@ Roman Kucharski	486
 
 
 --
--- Data for Name: designers; Type: TABLE DATA; Schema: public; Owner: -
+-- Data for Name: artist_to_name; Type: TABLE DATA; Schema: public; Owner: -
 --
 
-COPY public.designers (designers, id) FROM stdin;
-Jacob Fryxelius	0
-Gavan Brown	1
-Stefan Feld	2
-Rob Daviau	3
-Mathias Wigge	4
-Isaac Childres	5
-Dane Beltrami	6
-Paul Dennen	7
-Roberto Di Meglio	8
-Corey Konieczka	9
-R. Eric Reuss	10
-Jens Drögemüller	11
-Ananda Gupta	12
-Vlaada Chvátil	13
-Jamey Stegmaier	14
-Alexander Pfister	15
-Touko Tahkokallio	16
-Antoine Bauza	17
-Martin Wallace	18
-Elwen	19
-Ryan Lopez DeVinaspre	20
-Adam Kwapiński	21
-Andy Clautice	22
-Uwe Rosenberg	23
-Mac Gerdts	24
-Elizabeth Hargrave	25
-Nate French	26
-Cole Wehrle	27
-Josh J. Carlson	28
-Reiner Stockhausen	29
-Tommaso Battista	30
-Luc Rémond	31
-Donald X. Vaccarino	32
-Thomas Sing	33
-James A. Wilson	34
-Chris Dupuis	35
-Asger Harding Granerud	36
-Michael Boggs	37
-(Uncredited)	38
-Jeroen Doumen	39
-Vital Lacerda	40
-Vladimír Suchý	41
-Vangelis Bagiartakis	42
-Andreas Seyfarth	43
-Randy Flynn	44
-Dávid Turczi	45
-Gary Dworetsky	46
-Eric M. Lang	47
-Jamie Jolly	48
-Patrick Leder	49
-Ryan Laukat	50
-Helge Ostertag	51
-Dan Hallagan	52
-Matt Leacock	53
-Gernot Köpke	54
-Virginio Gigli	55
-Nikki Valens	56
-Simone Luciani	57
-Friedemann Friese	58
-Tomáš Holek	59
-Wolfgang Warsch	60
-Juma Al-JouJou	61
-S J Macdonald	62
-Justin Kemppainen	63
-Richard Garfield	64
-Chris Cantrell	65
-Adam Poots	66
-Thomas Lehmann	67
-Michael Kiesling	68
-Bruno Cathala	69
-Andreas Steding	70
-Johan Benvenuto	71
-Isra C.	72
-Helge Meissner	73
-Jenny Iglesias	74
-Peter Lee	75
-Wolfgang Kramer	76
-Daniele Tascini	77
-Kei Kajino (梶野 桂)	78
-Dennis K. Chan	79
-Steven Medway	80
-Chad Jensen	81
-Matthew O'Malley	82
-Joanna Kijanka	83
-Evan Derrick	84
-Alan R. Moon	85
-Thomas Dagenais-Lespérance	86
-Marc André	87
-Christian Martinez	88
-Richard Amann	89
-Nigel Buckle	90
-Xavier Georges	91
-Krzysztof Piskorski	92
-Reiner Knizia	93
-Luke Laurie	94
-Sebastian Bleasdale	95
-Shem Phillips	96
-William Attia	97
-Sébastien Dujardin	98
-Flaminia Brasini	99
-Nathan I. Hajek	100
-Christian T. Petersen	101
-John Bohrer	102
-Helmut Ohley	103
-Tim Eisner	104
-Connie Vogelmann	105
-Ludovic Roudy	106
-Hisashi Hayashi	107
-Jesús Torres Castro	108
-Samuel Bailey	109
-Andrzej Betkiewicz	110
-Ole Steiness	111
-Henry Audubon	112
-Inka Brand	113
-Wei-Hwa Huang	114
-Bobby Hill	115
-Andreas Steiger	116
-Jordy Adan	117
-Robert Dougherty	118
-Frank West	119
-Matúš Kotry	120
-Matthias Cramer	121
-Frédéric Guérard	122
-Adam Carlson	123
-Trevor Benjamin	124
-Klaus-Jürgen Wrede	125
-Ryan Lambert	126
-Bernd Brunnhofer	127
-Jacques Bariot	128
-Raymond Edwards	129
-Sydney Engelstein	130
-Carl de Visser	131
-Rüdiger Dorn	132
-Ben Cichoski	133
-Jay Little	134
-Devin Low	135
-Cody Miller	136
-Daniel Piechnick	137
-Sébastien Pauchon	138
-Benoit Turpin	139
-Maxime Tardif	140
-Alexis Allard	141
-Bill Eberle	142
-Michał Oracz	143
-Kosch	144
-John Yianni	145
-Richard Borg	146
-Klemens Kalicki	147
-Daniel Clark (I)	148
-Adrian Adamescu	149
-Matt Calkins	150
-Ted Alspach	151
-John D. Clair	152
-Don Eskridge	153
-Prospero Hall	154
-Glenn Drover	155
-Peter Rustemeyer	156
-Caleb Grace	157
-Nick Brachmann	158
-Christian Marcussen	159
-Roberto Fraga	160
-Tim Burrell-Saward	161
-Jonathan Gilmour-Long	162
-Urs Hostettler	163
-Serge Laget	164
-Ted Raicer	165
-Kris Burm	166
-Tomáš Uhlíř	167
-Mikkel Bertelsen	168
-Rustan Håkansson	169
-Kevin Russ	170
-Mike Boxleiter	171
-Steffen Bogen	172
-Michael Keller (II)	173
-Ira Fay	174
-Bruce Glassco	175
-Emerson Matsuuchi	176
-Kota Nakayama (中山 宏太)	177
-Tobey Ho	178
-Phil Walker-Harding	179
-Johannes Sich	180
-Raphaël Guiton	181
-Andreas Pelikan	182
-Keith Matejka	183
-Ed Carter (III)	184
-Hervé Lemaître	185
-Gord!	186
-Bruce Shelley	187
-François Romain	188
-Dirk Henn	189
-Mattox Shuler	190
-Kai Starck	191
-Alex Hague	192
-Johannes Goupy	193
-Germán P. Millán	194
-Jay Cormier	195
-Christian Leonhard	196
-Stan Kordonskiy	197
-Jakub Łapot	198
-Dave Beck	199
-Brent Beck	200
-Kevin Wilson	201
-Cédrick Chaboussit	202
-Dave Chalker	203
-Andrea Chiarvesio	204
-David Cicurel	205
-Hal Duncan	206
-Mr. Bistro	207
-Fabien Gridel	208
-Paolo Mori	209
-Nate Chatellier	210
-Peggy Chassenet	211
-Sandy Petersen	212
-Jean-Louis Roubira	213
-Régis Bonnessée	214
-Klaus Teuber	215
-Chris Handy (I)	216
-Seiji Kanai	217
-Thiago Aranha	218
-Łukasz Woźniak	219
-Tom Jolly	220
-Shimpei Sato	221
-Richard Launius	222
-Stefan Dorra	223
-Colby Dauch	224
-Sid Sackson	225
-Muneyuki Yokouchi (横内宗幸)	226
-Peer Sylvester	227
-Julian Courtland-Smith	228
-Michael Palm	229
-Ignacy Trzewiczek	230
-Kara Centell-Dunk	231
-Chris Taylor (I)	232
-Hjalmar Hach	233
-Frank Brooks	234
-Scott Almes	235
-Karsten Hartwig	236
-Ron Gonzalo García	237
-Michał Gołąb Gołębiowski	238
-Michal Mikeš	239
-Tory Niemann	240
-Manny Vega	241
-Philippe Keyaerts	242
-Matthew Dunstan	243
-Tim Fowers	244
-Carl Chudyk	245
-Kasper Aagaard	246
-Phil Eklund	247
-Skaff Elias	248
-Dan Cassar	249
-Ivan Lashin	250
-TauCeti Deichmann	251
-Gabriele Mari	252
-Sean Fletcher	253
-Jon Perry	254
-Oleksandr Nevskiy	255
-Luís Brueh	256
-Eric Hong	257
-James Kniffen	258
-Marco Maggi	259
-Mark Simonitch	260
-Michael Rieneck	261
-Jules Messaud	262
-Bryan Pope	263
-Laskas	264
-Paul Salomon	265
-Koota Yamada	266
-Hervé Marly	267
-Peter McPherson	268
-Karl-Heinz Schmiel	269
-Tony Fanchi	270
-Etienne Espreman	271
-Aaron Dill	272
-Steve Finn	273
-Francis Tresham	274
-Kamil 'Sanex' Cieśla	275
-Dominic Crapuchettes	276
-Benoit Vogt	277
-Ed Beach	278
-Tom Mattson	279
-Simone Romano	280
-Nicolas Normandon	281
-Kristian Amundsen Østby	282
-D. Brad Talton Jr.	283
-Unai Rubio	284
-Wilhelm Su	285
-Steven Aramini	286
-Wolfgang Panning	287
-Richard Halliwell	288
-Suzanne Goldberg	289
-Ross Arnold	290
-Kevin Lanzing	291
-Brett Sobol	292
-Nuno Bizarro Sentieiro	293
-Maxime Rambourg	294
-Alex Olteanu	295
-Mike Elliott	296
-Jean du Poël	297
-Noah Cohen	298
-Jerry Hawthorne	299
-Philip duBarry	300
-Maikel Cheney	301
-Croc	302
-Josh Wood	303
-Brandon Tibbetts	304
-Stephen Baker	305
-Lauren Banerd	306
-Hermann Luttmann	307
-Charlie Bink	308
-Don Greenwood	309
-Kasper Kjær Christiansen	310
-Zé Mendes	311
-Thorsten Gimmler	312
-Bruno Faidutti	313
-Clayton Helme	314
-Christophe Raimbault	315
-François Gandon	316
-Ryan Courtney	317
-Marco Montanaro	318
-Annick Lobet	319
-Benjamin Schwer	320
-Joseph Z Chen	321
-Ondřej Bystroň	322
-Mark Herman	323
-Molly Johnson	324
-Jeff Chin	325
-James Ernest	326
-Stefano Castelli	327
-Ivan Tuzovsky	328
-Sérgio Halaban	329
-Jason Hager	330
-Manuel Rozoy	331
-Viktor Kobilke	332
-Jervis Johnson	333
-Marcin Wełnicki	334
-Nick Bentley	335
-Gavin Birnbaum	336
-Thomas Dupont	337
-Trey Chambers	338
-Jason C. Hill	339
-Tido Lorenz	340
-Paul Abrahams	341
-Volko Ruhnke	342
-宮野 華也 (Kaya Miyano)	343
-Grégory Grard	344
-Bryan Bornmueller	345
-Beau Beckett	346
-Brian Lewis	347
-Ben Pinchback	348
-Gerard Ascensi	349
-Brian Mayer	350
-Lukas Litzsinger	351
-Fabien Riffaud	352
-Malcolm Braff	353
-Isaias Vallejo	354
-Michael Menzel	355
-Joshua Buergel	356
-Marcus Carleson	357
-Christophe Boelinger	358
-Galen Ciscell	359
-Alice Carroll	360
-Jim Krohn	361
-Anthony J. Gallela	362
-Christopher Badell	363
-Michael Adams	364
-Mike Fitzgerald	365
-Dani Garcia	366
-Seth Jaffee	367
-Charlie Catino	368
-Mike Selinker	369
-Matt Eklund	370
-James Hata	371
-T. C. Petty III	372
-Mathieu Casnin	373
-Clay Blankenship	374
-Roberta Taylor	375
-Craig Besinque	376
-Acchittocca	377
-Bruce Allen	378
-Joshua Van Laningham	379
-Konstantinos Kokkinis	380
-Rikki Tahta	381
-Ian Brody	382
-Jo Hartwig	383
-Andreas Odendahl	384
-Gary Arant	385
-Tim Puls	386
-Jeff Grossman	387
-Robert Vaughn	388
-Michael Schacht	389
-Peter Hawes	390
-Gabriele Ausiello	391
-Peter Prinz	392
-Tom Dalgliesh	393
-Jun Sasaki	394
-Laurent Lavaur	395
-Frédéric Henry	396
-Eric Zimmerman	397
-Aske Christiansen	398
-Peter Sarrett	399
-Alexandar Ortloff-Tang	400
-Jim Cartwright	401
-Sir John Suckling	402
-Marcel-André Casasola Merkle	403
-Aaron Donogh	404
-James M. Hewitt	405
-Kasper Lapp	406
-Fabio Lopiano	407
-Dimitri Perrier	408
-Grant Rodiek	409
-Yasutaka Ikeda	410
-Mark K. Swanson	411
-Ralph Bienert	412
-Richard Berthold	413
-Tim Pinder	414
-Tony Boydell	415
-Aristide Bruyant	416
-Hervé Rigal	417
-Alex Davy	418
-John Fiorillo	419
-Scott Caputo	420
-Aurélien Picolet	421
-Marc Paquien	422
-Nicolas Robert	423
-John H. Butterfield	424
-Isaac Vega	425
-Klaus Zoch	426
-Kevin Bishop	427
-Jamie Bloom	428
-Shadi Torbey	429
-Stefan Risthaus	430
-Jake Staines	431
+COPY public.artist_to_name (artist_to_nameid, nameid) FROM stdin;
+0	0
+0	0
+1	1
+2	2
+3	3
+4	4
+5	5
+6	6
+7	7
+8	8
+9	9
+10	10
+11	11
+12	12
+13	13
+7	14
+14	15
+12	16
+7	17
+15	18
+16	19
+17	20
+18	21
+19	22
+20	23
+21	24
+22	20
+23	25
+1	26
+24	27
+25	28
+20	29
+26	30
+13	31
+7	32
+14	33
+27	34
+28	35
+28	36
+3	37
+29	38
+30	39
+31	40
+4	41
+32	42
+14	43
+28	44
+8	45
+33	46
+34	47
+35	48
+36	49
+37	50
+38	51
+39	52
+40	53
+41	54
+42	55
+41	56
+43	57
+20	58
+44	59
+45	60
+46	61
+47	62
+48	63
+49	64
+50	65
+18	66
+51	67
+52	68
+31	69
+53	70
+54	71
+55	72
+46	73
+56	74
+57	75
+33	76
+13	77
+31	78
+58	79
+46	80
+59	81
+60	82
+61	83
+62	84
+14	85
+33	86
+63	87
+48	88
+64	89
+30	90
+14	91
+33	92
+33	93
+65	94
+66	95
+67	96
+46	97
+7	98
+68	99
+69	100
+70	101
+33	102
+38	103
+71	104
+72	105
+73	106
+74	107
+75	108
+14	109
+76	110
+77	111
+78	112
+73	113
+79	114
+80	115
+14	116
+81	117
+82	118
+83	119
+84	120
+85	121
+28	122
+86	123
+3	124
+87	125
+50	126
+27	127
+88	128
+89	129
+90	130
+91	131
+92	132
+93	133
+14	134
+94	135
+79	136
+95	137
+96	138
+97	139
+54	140
+46	141
+98	142
+34	143
+46	144
+66	145
+99	146
+26	147
+41	148
+100	149
+101	150
+102	151
+66	152
+103	153
+67	154
+104	65
+105	155
+31	156
+106	157
+107	158
+33	159
+99	160
+2	161
+33	162
+43	163
+0	164
+108	165
+6	166
+109	167
+23	168
+67	169
+110	170
+39	171
+73	172
+82	173
+63	174
+14	175
+111	176
+112	177
+113	178
+114	179
+46	180
+7	181
+115	182
+59	183
+78	184
+43	185
+116	186
+117	187
+118	188
+119	189
+120	190
+14	191
+73	192
+62	193
+121	194
+19	195
+122	196
+14	197
+123	198
+124	199
+125	200
+126	201
+17	202
+79	203
+127	204
+128	205
+33	206
+129	207
+79	208
+130	209
+131	210
+85	211
+132	212
+133	213
+29	214
+134	215
+48	216
+97	217
+135	218
+67	219
+136	220
+0	221
+62	222
+19	223
+43	224
+66	225
+137	226
+14	227
+46	228
+23	229
+10	230
+138	231
+43	232
+139	233
+140	234
+14	235
+41	236
+19	237
+141	238
+142	239
+27	240
+141	241
+143	242
+144	243
+145	244
+9	245
+116	246
+146	247
+3	248
+147	249
+79	250
+148	251
+149	252
+150	253
+85	254
+33	255
+151	256
+23	257
+152	258
+153	259
+154	260
+155	261
+156	262
+81	263
+124	264
+157	265
+158	266
+159	267
+160	268
+161	269
+3	270
+162	271
+31	272
+163	273
+164	274
+79	275
+33	276
+165	277
+82	278
+166	279
+152	280
+167	281
+168	282
+80	283
+14	284
+169	285
+51	286
+33	287
+170	288
+171	289
+79	290
+172	291
+173	292
+174	293
+14	294
+125	295
+175	296
+164	297
+176	298
+79	299
+3	300
+177	301
+178	302
+31	303
+80	304
+134	305
+54	306
+58	307
+18	308
+23	309
+179	310
+180	311
+73	312
+181	313
+3	314
+104	315
+182	316
+139	317
+183	318
+23	319
+184	320
+185	321
+186	322
+187	323
+188	324
+189	325
+190	326
+51	327
+191	328
+33	329
+80	330
+192	331
+169	332
+193	333
+92	334
+194	335
+131	336
+79	337
+195	338
+196	339
+39	340
+197	341
+39	342
+198	343
+199	344
+200	345
+46	346
+65	347
+33	348
+43	349
+134	350
+182	351
+201	352
+120	353
+20	354
+202	355
+48	356
+203	357
+204	358
+40	359
+205	360
+206	361
+62	362
+97	363
+66	364
+207	365
+208	366
+209	367
+210	368
+211	369
+169	370
+41	371
+212	372
+73	373
+213	374
+214	375
+215	376
+79	377
+216	378
+31	379
+217	380
+218	381
+131	382
+82	383
+219	384
+220	385
+181	386
+134	387
+147	388
+181	389
+221	390
+222	391
+223	392
+9	393
+1	394
+224	395
+225	396
+226	397
+227	398
+228	399
+229	400
+230	401
+231	402
+79	403
+39	404
+232	405
+55	406
+233	407
+66	408
+62	409
+234	410
+41	411
+57	412
+235	413
+39	414
+67	415
+27	416
+19	417
+236	418
+66	419
+237	420
+128	421
+238	422
+239	423
+240	424
+241	425
+78	426
+36	427
+85	428
+242	429
+243	430
+104	431
+244	404
+3	432
+66	433
+245	434
+246	435
+247	436
+226	437
+248	438
+63	439
+249	440
+14	441
+46	442
+160	443
+63	444
+3	445
+250	446
+251	447
+252	448
+43	449
+134	450
+253	451
+215	452
+73	453
+0	454
+254	455
+169	456
+255	457
+256	458
+257	459
+48	460
+258	461
+259	462
+0	463
+260	464
+98	465
+261	466
+262	467
+23	468
+133	469
+121	470
+263	471
+264	472
+265	473
+18	474
+14	475
+58	476
+266	477
+248	478
+267	479
+268	480
+269	481
+270	482
+74	483
+271	484
+181	485
+214	486
+241	487
+33	488
+39	489
+57	490
+272	491
+226	492
+273	493
+274	494
+128	495
+20	496
+46	497
+275	498
+276	499
+277	500
+57	501
+278	502
+279	503
+51	504
+280	505
+281	506
+187	507
+79	508
+282	509
+283	510
+50	511
+284	512
+33	513
+285	514
+286	515
+287	516
+288	517
+17	518
+289	519
+290	520
+291	521
+292	522
+293	523
+138	524
+57	525
+158	526
+33	527
+104	528
+134	529
+51	530
+59	531
+33	532
+294	533
+295	534
+296	535
+33	536
+85	537
+297	538
+298	539
+299	540
+19	541
+230	542
+39	543
+1	544
+141	545
+99	546
+300	547
+301	548
+164	549
+302	550
+303	551
+304	552
+305	553
+306	554
+17	555
+33	556
+200	557
+307	558
+82	559
+79	560
+104	561
+62	562
+308	563
+309	564
+43	565
+164	566
+128	567
+310	568
+3	569
+107	570
+104	571
+311	572
+312	573
+251	574
+66	575
+182	576
+312	577
+313	578
+314	579
+116	580
+315	581
+316	582
+152	583
+39	584
+317	585
+318	586
+319	587
+320	588
+81	589
+321	590
+322	591
+121	592
+323	593
+324	594
+325	595
+326	596
+327	597
+136	598
+14	599
+112	600
+123	601
+328	602
+124	603
+329	604
+3	605
+17	606
+20	607
+294	608
+40	609
+330	610
+331	611
+80	612
+23	613
+63	614
+214	615
+332	616
+333	617
+334	618
+214	619
+335	620
+169	621
+336	622
+337	623
+338	624
+33	625
+339	626
+340	627
+341	243
+74	628
+342	629
+190	630
+343	631
+15	632
+344	633
+152	634
+345	635
+36	636
+346	637
+347	638
+86	639
+73	640
+248	641
+182	642
+23	643
+348	644
+199	645
+39	646
+349	647
+350	648
+79	649
+325	650
+351	651
+46	652
+352	653
+353	654
+354	655
+159	656
+355	657
+131	658
+293	659
+258	660
+152	661
+356	662
+357	663
+358	664
+79	646
+359	665
+79	666
+274	667
+104	668
+360	669
+361	670
+362	671
+63	672
+262	673
+72	674
+363	675
+74	676
+104	677
+23	678
+364	679
+365	680
+366	681
+136	682
+367	683
+12	684
+368	685
+169	686
+369	687
+41	688
+311	689
+76	690
+53	691
+370	692
+311	693
+371	694
+19	695
+372	696
+317	697
+373	698
+374	699
+134	700
+228	701
+375	702
+376	703
+23	704
+198	705
+228	706
+377	707
+378	708
+379	709
+41	710
+43	711
+380	712
+381	713
+79	714
+382	715
+18	716
+203	717
+383	718
+33	719
+54	720
+384	721
+43	722
+385	723
+23	724
+43	725
+211	726
+386	727
+387	728
+46	729
+57	730
+8	731
+66	732
+388	733
+389	734
+390	735
+391	736
+104	737
+23	738
+181	739
+392	740
+176	741
+194	742
+73	743
+393	744
+66	745
+238	746
+391	747
+394	748
+3	749
+63	750
+244	751
+395	752
+14	753
+396	754
+397	755
+351	756
+189	757
+134	758
+224	759
+94	760
+182	761
+254	762
+253	763
+66	764
+31	765
+134	766
+43	767
+398	768
+182	769
+399	770
+200	771
+387	772
+400	773
+33	774
+401	775
+61	776
+43	777
+402	778
+41	779
+403	780
+104	781
+40	782
+41	783
+94	784
+404	785
+152	786
+405	787
+59	788
+98	789
+330	790
+176	791
+62	792
+406	793
+43	794
+165	795
+39	796
+289	797
+0	798
+407	799
+0	800
+408	801
+43	802
+112	803
+41	804
+409	805
+410	806
+187	807
+66	808
+370	809
+411	810
+14	811
+3	812
+54	813
+412	814
+217	815
+187	816
+63	817
+413	818
+414	819
+79	820
+415	821
+416	822
+111	823
+330	824
+417	825
+418	826
+419	827
+23	828
+420	829
+121	830
+79	831
+175	832
+165	833
+421	834
+50	835
+422	836
+352	837
+423	838
+424	839
+43	840
+39	841
+14	842
+46	843
+425	844
+426	845
+427	846
+428	847
+53	848
+321	849
+429	850
+430	851
+252	852
+33	853
+431	854
+432	855
+433	856
+199	857
+434	858
+435	859
+211	860
+436	861
+351	862
+200	863
+43	864
+92	865
+437	866
+23	867
+438	868
+50	869
+302	870
+51	871
+14	872
+134	873
+439	874
+107	875
+23	876
+440	877
+441	878
+442	879
+443	880
+169	881
+444	882
+35	883
+290	884
+238	885
+134	886
+41	887
+230	888
+445	889
+446	890
+447	891
+316	892
+199	893
+448	894
+449	895
+450	896
+451	897
+452	898
+453	899
+59	900
+454	901
+73	902
+455	903
+43	904
+174	905
+456	906
+43	907
+457	908
+399	909
+57	910
+458	911
+51	912
+326	913
+43	914
+372	915
+151	916
+459	917
+9	623
+435	918
+78	919
+18	920
+460	921
+461	922
+99	923
+46	924
+134	925
+284	926
+81	927
+23	928
+462	929
+31	930
+463	931
+112	932
+99	933
+280	934
+403	935
+464	936
+253	937
+380	938
+114	939
+465	940
+175	941
+33	942
+274	943
+466	944
+416	945
+467	946
+43	947
+468	948
+192	949
+43	950
+1	951
+169	952
+326	953
+14	954
+469	955
+79	956
+470	957
+471	958
+472	959
+473	960
+386	961
+474	962
+62	963
+475	964
+134	965
+41	966
+251	967
+124	968
+476	969
+39	970
+477	971
+43	972
+33	973
+478	974
+479	975
+480	976
+481	977
+482	978
+483	979
+484	980
+43	981
+74	982
+17	983
+485	984
+33	985
+249	986
+107	987
+59	988
+486	989
+104	990
+144	991
+\.
+
+
+--
+-- Data for Name: designer; Type: TABLE DATA; Schema: public; Owner: -
+--
+
+COPY public.designer (designer, id) FROM stdin;
 Jacob Fryxelius	0
 Gavan Brown	1
 Stefan Feld	2
@@ -1558,10 +2199,1017 @@ Jake Staines	431
 
 
 --
--- Data for Name: games; Type: TABLE DATA; Schema: public; Owner: -
+-- Data for Name: designer_to_name; Type: TABLE DATA; Schema: public; Owner: -
 --
 
-COPY public.games (id, name, designer, publisher, artist, yearpublished, minplayers, maxplayers, playingtime, minplaytime, maxplaytime, age, usersrated, average, bayesaverage, rank, rank_wg, numcomments, numweights, averageweight, stddev, median, owned, trading, wanting, wishing, userrating, image, category, mechanic, comment, player1, player2, player3, player4, player5, player6, player7, player8, player9, player10, player11, player12, player13, player14, player15, player16, player17, player18, player19, player20, description, exp, basegame, basegame_name, reimplement, reimplement_name, reimplemented, reimplemented_name, contains, contains_name, iscontained, iscontained_name, integration, integration_name, accessories, accessories_name, numplays, price, userweight, wishpriority, expansions, domain, family, age_poll, name_others, comments_gl, thumbs_gl, sold_gl, price_gl, currency_gl, user_gl, tags, tags_user) FROM stdin;
+COPY public.designer_to_name (designer_to_nameid, nameid) FROM stdin;
+0	0
+0	0
+1	1
+2	2
+3	3
+4	4
+5	5
+6	6
+7	7
+0	8
+8	9
+9	10
+10	11
+10	12
+5	13
+7	14
+11	15
+10	16
+7	17
+12	18
+13	19
+2	20
+14	21
+15	22
+14	23
+16	24
+2	20
+17	25
+18	26
+13	27
+19	28
+20	29
+21	30
+5	31
+22	32
+23	33
+24	34
+25	35
+25	36
+15	37
+26	38
+19	39
+27	40
+4	41
+28	42
+11	43
+25	44
+0	45
+29	46
+13	47
+30	48
+31	49
+32	50
+33	51
+34	52
+14	53
+17	54
+35	55
+36	56
+37	57
+14	58
+38	59
+39	60
+40	61
+27	62
+41	63
+42	64
+43	65
+44	66
+3	67
+3	68
+27	69
+23	70
+45	71
+9	72
+40	73
+46	74
+47	75
+23	76
+48	77
+49	78
+50	79
+40	80
+3	81
+51	82
+52	83
+53	84
+54	85
+55	86
+56	87
+57	88
+58	89
+59	90
+60	91
+61	92
+23	93
+15	94
+62	95
+32	96
+40	97
+7	98
+63	99
+64	100
+65	101
+23	102
+33	103
+66	104
+17	105
+67	106
+68	107
+69	108
+70	109
+71	110
+72	111
+7	112
+67	113
+3	114
+16	115
+23	116
+73	117
+74	118
+57	119
+75	120
+76	121
+25	122
+77	123
+15	124
+78	125
+79	126
+24	127
+13	128
+80	129
+81	130
+82	131
+17	132
+83	133
+57	134
+84	135
+85	136
+86	137
+87	138
+88	139
+89	140
+90	141
+9	142
+13	143
+91	144
+62	145
+56	146
+92	147
+93	148
+9	149
+94	150
+95	151
+96	152
+93	153
+32	154
+43	65
+97	155
+27	156
+93	157
+98	158
+99	159
+9	160
+21	161
+15	162
+100	163
+0	164
+23	165
+101	166
+102	167
+17	168
+32	169
+2	170
+34	171
+103	172
+74	173
+6	174
+70	175
+104	176
+47	177
+105	178
+106	179
+40	180
+7	181
+107	182
+108	183
+7	184
+109	185
+110	186
+13	187
+106	188
+111	189
+112	190
+113	191
+114	192
+53	193
+115	194
+57	195
+116	196
+11	197
+75	198
+117	199
+118	200
+64	201
+67	202
+85	203
+119	204
+120	205
+121	206
+122	207
+85	208
+123	209
+124	210
+125	211
+126	212
+26	213
+26	214
+127	215
+41	216
+128	217
+124	218
+32	219
+129	220
+130	221
+131	222
+132	223
+133	224
+62	225
+121	226
+57	227
+3	228
+17	229
+134	230
+60	231
+135	232
+136	233
+137	234
+60	235
+138	236
+15	237
+139	238
+140	239
+24	240
+141	241
+9	242
+142	243
+47	244
+8	245
+143	246
+144	247
+15	248
+145	249
+146	250
+147	251
+72	252
+148	253
+125	254
+23	255
+149	256
+17	257
+150	258
+151	259
+142	260
+152	261
+93	262
+111	263
+153	264
+154	265
+155	266
+156	267
+157	268
+101	269
+68	270
+38	271
+158	272
+26	273
+32	274
+85	275
+23	276
+125	277
+159	278
+160	279
+146	280
+151	281
+87	282
+16	283
+113	284
+161	285
+47	286
+29	287
+27	288
+162	289
+85	290
+163	291
+74	292
+164	293
+60	294
+118	295
+165	296
+32	297
+166	298
+85	299
+99	300
+167	301
+168	302
+27	303
+169	304
+93	305
+89	306
+50	307
+170	308
+69	309
+171	310
+81	311
+67	312
+162	313
+172	314
+173	315
+13	316
+174	317
+175	318
+17	319
+135	320
+176	321
+177	322
+3	323
+178	324
+179	325
+180	326
+181	327
+93	328
+182	329
+36	330
+76	331
+183	332
+184	333
+64	334
+23	335
+185	336
+85	337
+41	338
+118	339
+34	340
+40	341
+14	342
+186	343
+132	344
+187	345
+121	346
+18	347
+113	348
+188	349
+189	350
+13	351
+131	352
+190	353
+191	354
+192	355
+57	356
+193	357
+94	358
+14	359
+194	360
+195	361
+196	362
+128	363
+197	364
+198	365
+57	366
+199	367
+200	368
+201	369
+183	370
+202	371
+203	372
+103	373
+69	374
+204	375
+2	376
+69	377
+205	378
+27	379
+69	380
+118	381
+93	382
+74	383
+18	384
+148	385
+105	386
+121	387
+145	388
+206	389
+176	390
+207	391
+208	392
+209	393
+210	394
+211	395
+212	396
+213	397
+214	398
+215	399
+56	400
+38	401
+216	402
+85	403
+217	404
+218	405
+56	406
+219	407
+90	408
+220	409
+221	410
+93	411
+222	412
+39	413
+34	414
+24	415
+24	416
+132	417
+125	418
+96	419
+223	420
+13	421
+28	422
+224	423
+13	424
+39	425
+7	426
+225	427
+76	428
+226	429
+155	430
+58	431
+217	404
+53	432
+62	433
+227	434
+228	435
+229	436
+213	437
+230	438
+231	439
+68	440
+23	441
+232	442
+56	443
+231	444
+176	445
+233	446
+64	447
+234	448
+9	449
+2	450
+68	451
+24	452
+114	453
+235	454
+236	455
+224	456
+23	457
+237	458
+238	459
+41	460
+19	461
+239	462
+0	463
+240	464
+9	465
+241	466
+113	467
+242	468
+26	469
+96	470
+243	471
+244	472
+245	473
+14	474
+2	475
+50	476
+246	477
+143	478
+9	479
+247	480
+162	481
+248	482
+249	483
+250	484
+251	485
+204	486
+39	487
+179	488
+69	489
+201	490
+252	491
+213	492
+179	493
+21	494
+13	495
+14	496
+152	497
+77	498
+91	499
+253	500
+146	501
+2	502
+254	503
+17	504
+69	505
+255	506
+3	507
+85	508
+2	509
+93	510
+43	511
+17	512
+23	513
+153	514
+256	515
+32	516
+134	517
+67	518
+257	519
+258	520
+250	521
+21	522
+230	523
+60	524
+259	525
+260	526
+29	527
+2	528
+261	529
+47	530
+53	531
+57	532
+204	533
+152	534
+117	535
+23	536
+127	537
+8	538
+262	539
+263	540
+70	541
+38	542
+264	543
+210	544
+265	545
+222	546
+64	547
+266	548
+32	549
+209	550
+231	551
+267	552
+214	553
+154	554
+85	555
+15	556
+18	557
+3	558
+268	559
+85	560
+2	561
+131	562
+152	563
+269	564
+270	565
+32	566
+13	567
+12	568
+68	569
+271	570
+43	571
+58	572
+272	573
+64	574
+90	575
+13	576
+272	577
+273	578
+274	579
+275	580
+276	581
+277	582
+278	583
+34	584
+279	585
+192	586
+280	587
+281	588
+282	589
+283	590
+151	591
+96	592
+284	593
+285	594
+286	595
+287	596
+288	597
+289	598
+2	599
+47	600
+75	601
+290	602
+291	603
+146	604
+159	605
+2	606
+14	607
+204	608
+292	609
+293	610
+294	611
+36	612
+17	613
+26	614
+295	615
+296	616
+297	617
+209	618
+181	619
+298	620
+299	621
+300	622
+93	623
+13	624
+124	625
+301	626
+302	627
+142	243
+53	628
+298	629
+180	630
+303	631
+304	632
+305	633
+306	634
+307	635
+308	636
+309	637
+310	638
+311	639
+121	640
+93	641
+13	642
+242	643
+23	644
+312	645
+313	646
+314	647
+315	648
+316	649
+121	650
+18	651
+317	652
+39	653
+318	654
+319	655
+320	656
+321	657
+124	658
+83	659
+322	660
+323	661
+152	662
+299	663
+324	664
+313	646
+93	665
+69	666
+10	667
+58	668
+325	669
+93	670
+326	671
+56	672
+113	673
+17	674
+327	675
+195	676
+2	677
+146	678
+58	679
+3	680
+328	681
+53	682
+329	683
+10	684
+53	685
+330	686
+1	687
+331	688
+58	689
+98	690
+332	691
+9	692
+58	693
+201	694
+132	695
+333	696
+334	697
+335	698
+10	699
+43	700
+215	701
+336	702
+3	703
+179	704
+14	705
+215	706
+189	707
+337	708
+87	709
+69	710
+37	711
+233	712
+338	713
+146	714
+339	715
+340	716
+243	717
+341	718
+15	719
+89	720
+342	721
+231	722
+134	723
+242	724
+135	725
+222	726
+343	727
+93	728
+40	729
+270	730
+0	731
+62	732
+143	733
+344	734
+345	735
+346	736
+132	737
+242	738
+347	739
+348	740
+166	741
+23	742
+67	743
+67	744
+96	745
+349	746
+350	747
+333	748
+15	749
+9	750
+217	751
+351	752
+172	753
+352	754
+64	755
+18	756
+179	757
+102	758
+209	759
+84	760
+13	761
+353	762
+85	763
+354	764
+49	765
+103	766
+37	767
+243	768
+41	769
+132	770
+18	771
+355	772
+356	773
+151	774
+53	775
+52	776
+357	777
+358	778
+359	779
+151	780
+68	781
+14	782
+84	783
+235	784
+360	785
+361	786
+362	787
+93	788
+9	789
+293	790
+166	791
+195	792
+363	793
+364	794
+125	795
+34	796
+17	797
+365	798
+366	799
+0	800
+32	801
+135	802
+47	803
+182	804
+111	805
+367	806
+3	807
+62	808
+368	809
+135	810
+113	811
+68	812
+89	813
+136	814
+69	815
+3	816
+56	817
+369	818
+272	819
+76	820
+76	821
+370	822
+210	823
+40	824
+371	825
+372	826
+373	827
+374	828
+375	829
+62	830
+85	831
+376	832
+125	833
+107	834
+377	835
+378	836
+39	837
+379	838
+380	839
+231	840
+34	841
+2	842
+40	843
+381	844
+382	845
+383	846
+305	847
+384	848
+283	849
+244	850
+385	851
+28	852
+386	853
+387	854
+93	855
+388	856
+179	857
+23	858
+222	859
+201	860
+389	861
+18	862
+18	863
+37	864
+17	865
+100	866
+69	867
+348	868
+390	869
+252	870
+181	871
+391	872
+392	873
+8	874
+91	875
+181	876
+101	877
+258	878
+93	879
+247	880
+276	881
+99	882
+30	883
+9	884
+155	885
+235	886
+93	887
+38	888
+393	889
+394	890
+395	891
+396	892
+125	893
+397	894
+175	895
+227	896
+26	897
+398	898
+399	899
+400	900
+9	901
+103	902
+82	903
+401	904
+164	905
+81	906
+402	907
+403	908
+179	909
+201	910
+233	911
+17	912
+32	913
+404	914
+405	915
+149	916
+406	917
+93	623
+222	918
+22	919
+324	920
+47	921
+205	922
+258	923
+407	924
+355	925
+69	926
+282	927
+408	928
+107	929
+409	930
+410	931
+47	932
+258	933
+255	934
+151	935
+411	936
+412	937
+233	938
+106	939
+413	940
+323	941
+225	942
+173	943
+414	944
+247	945
+415	946
+404	947
+416	948
+417	949
+418	950
+1	951
+224	952
+282	953
+2	954
+419	955
+85	956
+18	957
+420	958
+68	959
+282	960
+421	961
+17	962
+195	963
+93	964
+261	965
+422	966
+68	967
+423	968
+68	969
+14	970
+424	971
+64	972
+15	973
+17	974
+82	975
+425	976
+69	977
+426	978
+427	979
+428	980
+217	981
+429	982
+67	983
+9	984
+2	985
+209	986
+91	987
+176	988
+93	989
+430	990
+431	991
+\.
+
+
+--
+-- Data for Name: game; Type: TABLE DATA; Schema: public; Owner: -
+--
+
+COPY public.game (id, name, designer, publisher, artist, yearpublished, minplayers, maxplayers, playingtime, minplaytime, maxplaytime, age, usersrated, average, bayesaverage, rank, rank_wg, numcomments, numweights, averageweight, stddev, median, owned, trading, wanting, wishing, userrating, image, category, mechanic, comment, player1, player2, player3, player4, player5, player6, player7, player8, player9, player10, player11, player12, player13, player14, player15, player16, player17, player18, player19, player20, description, exp, basegame, basegame_name, reimplement, reimplement_name, reimplemented, reimplemented_name, contains, contains_name, iscontained, iscontained_name, integration, integration_name, accessories, accessories_name, numplays, price, userweight, wishpriority, expansions, domain, family, age_poll, name_others, comments_gl, thumbs_gl, sold_gl, price_gl, currency_gl, user_gl, tags, tags_user) FROM stdin;
 247030	Terraforming Mars: Prelude	Jacob Fryxelius	FryxGames	William Bricker	2018	1	5	120	90	120	12	16382	8.85	8.41	0	0	2682	220	2.54	1.09	0	49569	189	207	1836	0	C:\\Users\\thoma\\Downloads\\bgg1toolu\\img\\247030.jpg	Expansion for Base-game, Economic, Environmental, Industry / Manufacturing, Science Fiction	Hand Management, Open Drafting, Solo / Solitaire Game, Tile Placement	0	R	R	B	R	R	N	N	N	N	N	N	N	N	N	N	N	N	N	N	N	As the mega corporations are getting ready to start the terraforming process, you now have the chance to make those early choices that will come to define your corporation and set the course for the future history of Mars - this is the prelude to your greatest endeavors!&lt;br/&gt;&lt;br/&gt;Terraforming Mars: Prelude introduces the new Prelude cards. At the start of the game, each player chooses from Prelude cards that jumpstart the terraforming process or boost their corporation&apos;s engine. This expans...	Y	167791	Terraforming Mars	0	0	0	0	0	0	0	0	0	0	334522, 263156, 263728, 326364, 271967, 326742, 373842, 348608, 426252	Terraformacja Marsa: reDrewno Insert, Terraforming Mars: e-Raptor Insert, Terraforming Mars: Folded Space Insert, Terraforming Mars: Folded Space Insert (Second edition), Terraforming Mars: Insert Here Insert, Terraforming Mars: Laserox Terraformer's Toolbox Insert, Terraforming Mars: Spike Craft Insert, Terraforming Mars: The GiftForge Insert, Terraforming Mars: Upended Games Organizer	0	18.29	0	0	427367, 370074, 375783, 427696, 427697, 377179, 364339, 358525, 427693	Strategy Games	Digital Implementations: Board Game Arena, Game: Terraforming Mars, Players: Games with Solitaire Rules, Series: Terraforming Mars, Setting: Future Timeline (Fryxgames), Space: Earth's Solar System, Space: Mars, Space: Venus	11.89	A Mars Terraformálása: A kezdetek, Mars: Teraformace - Předehra, Teraformiranje Marsa: Preludijum, Terraformacja Marsa: Preludium, Terraforming Mars: Präludium, Terraforming Mars: Prélude, Terraforming Mars: Prelúdio, Terraforming Mars: Preludio, Покорение Марса. Пролог, Тераформування Марса: Початок, ภาคเสริมพลิกภิภพดาวอังคาร: ปฐมบท, テラフォーミング・マーズ：拡張 プレリュード, 重塑火星：序幕, 테라포밍 마스 확장: 서곡	0	0	0	0	0	0	0	0
 224517	Brass: Birmingham	Gavan Brown	Roxley	Gavan Brown	2018	2	4	120	60	120	14	51644	8.58	8.4	1	0	7111	2504	3.87	1.42	0	73309	256	1746	19798	0	C:\\Users\\thoma\\Downloads\\bgg1toolu\\img\\224517.jpg	Age of Reason, Economic, Industry / Manufacturing, Post-Napoleonic, Trains, Transportation	Chaining, Hand Management, Income, Loans, Market, Network and Route Building, Tags, Tech Trees / Tech Tracks, Turn Order: Stat-Based, Variable Set-up	0	N	R	B	B	N	N	N	N	N	N	N	N	N	N	N	N	N	N	N	N	Brass: Birmingham is an economic strategy game sequel to Martin Wallace&apos;s 2007 masterpiece, Brass. Brass: Birmingham tells the story of competing entrepreneurs in Birmingham during the industrial revolution between the years of 1770 and 1870.&lt;br/&gt;&lt;br/&gt;It offers a very different story arc and experience from its predecessor. As in its predecessor, you must develop, build and establish your industries and network in an effort to exploit low or high market demands. The game is played over two ...	N	0	0	28720	Brass: Lancashire	0	0	0	0	0	0	0	0	334571, 399634, 439465, 309493, 347407, 419962, 430615, 339385, 420437, 373838, 350761, 348604, 432279, 340345, 428779, 347851, 306354, 328775, 349935, 268234, 233281	Brass: Birmingham / Lancashire - reDrewno Insert, Brass: Birmingham - BGExpansions Upgrade Kit, Brass: Birmingham - Česká pravidla a nápovědy, Brass: Birmingham - e-Raptor Insert, Brass: Birmingham - Game Tamer Organizer, Brass: Birmingham - Inserty Herman Insert, Brass: Birmingham - Iron Clays Upgrade, Brass: Birmingham - Laserox Organizer, Brass: Birmingham - Playmat, Brass: Birmingham - Spike Craft Insert, Brass: Birmingham - The Dicetroyers Organizer, Brass: Birmingham - The GiftForge Insert, Brass: Birmingham - Tokens Garden Metal Coins, Brass: Birmingham - TowerRex Organizer, Brass: Birmingham - Upended Games Organizer, Brass: Birmingham / Lancashire - Eurohell Design Insert, Brass: Birmingham / Lancashire - Folded Space Insert, Brass: Coin-Cases, Brass: Eurohell Design 3D Locomotive & Barge Upgrade, Brass: Meeple Realty Insert, Iron Clays	0	77.83	0	0	0	Strategy Games	Cities: Birmingham (England), Components: Map (Regional scale), Components: Multi-Use Cards, Country: England, Crowdfunding: Kickstarter, Crowdfunding: Spieleschmiede, Digital Implementations: Steam, Digital Implementations: Tabletopia, Digital Implementations: VASSAL, Food & Drink: Beer, Game: Brass, History: Industrial Revolution, Misc: LongPack Games, Misc: Watch It Played How To Videos, Occupation: Engineer, Organizations: The Game Artisans of Canada, Theme: Canals	13.35	Brass. Бирмингем, Brass. Бірмінгем, ブラス：バーミンガム, 工业革命：伯明翰(Chinese edition) (2018), 工業革命：伯明翰, 브라스: 버밍엄	0	0	0	0	0	0	0	0
 363622	The Castles of Burgundy: Special Edition	Stefan Feld	alea	Jakub Dzikowski	2023	1	4	120	70	120	12	8854	9.16	8.38	0	0	1578	228	2.83	0.97	0	20241	30	327	2764	0	C:\\Users\\thoma\\Downloads\\bgg1toolu\\img\\363622.jpg	Dice, Medieval, Territory Building	Dice Rolling, End Game Bonuses, Grid Movement, Set Collection, Solo / Solitaire Game, Team-Based Game, Tile Placement	0	R	B	R	R	N	N	N	N	N	N	N	N	N	N	N	N	N	N	N	N	Castles of Burgundy is a legendary Board Game design created by Stefan Feld. In this 1-4 players tabletop experience, you will take on the role of an aristocrat controlling a small princedom. Trying to build a settlement with powerful castles, practice trades, exploit silver mines, and use the knowledge of travelers.&lt;br/&gt;Now, this timeless game is coming back with an extremely polished, high-end special edition resulting from a collaboration between Ravensburger and Awaken Realms.&lt;br/&gt;&lt;br/&gt...	N	0	0	0	0	0	0	84876, 264104, 110926, 132477, 139160, 150083, 166589, 190225, 193585, 214005, 234163	The Castles of Burgundy, The Castles of Burgundy: 10th Expansion - Solo, The Castles of Burgundy: 1st Expansion - New Player Boards, The Castles of Burgundy: 2nd Expansion - New Hex Tiles, The Castles of Burgundy: 3rd Expansion - German Board Game Championship Board 2013, The Castles of Burgundy: 4th Expansion - Monastery Boards, The Castles of Burgundy: 5th Expansion - Pleasure Garden, The Castles of Burgundy: 6th Expansion - The Cloisters, The Castles of Burgundy: 7th Expansion - German Board Game Championship Board 2016, The Castles of Burgundy: 8th Expansion - Trade Routes, The Castles of Burgundy: 9th Expansion - The Team Game	0	0	0	0	367780, 367779, 373669, 426899, 364793, 419781	The Castles of Burgundy: Special Edition - 3D Terrain Pack, The Castles of Burgundy: Special Edition - Acrylic Hexes, The Castles of Burgundy: Special Edition - Acrylic Tiles, The Castles of Burgundy: Special Edition - Agon Spiele tray for acrylic tokens, The Castles of Burgundy: Special Edition - Playmat, The Castles of Burgundy: Special Edition - Tame My Games Organizer	0	186.92	0	0	0	Strategy Games	Animals: Cattle / Cows, Animals: Chickens / Roosters, Animals: Pigs, Animals: Sheep, Country: France, Crowdfunding: Gamefound, Game: The Castles of Burgundy, Mechanism: Tableau Building, Region: Burgundy (France), Versions & Editions: Big Box Versions of Individual Games	10.76	Zamki Burgundii: Edycja Specjalna, 勃艮第城堡：特别典藏版	0	0	0	0	0	0	0	0
@@ -2588,6 +4236,1013 @@ COPY public.maxplayers (maxplayers, id) FROM stdin;
 
 
 --
+-- Data for Name: maxplayers_to_name; Type: TABLE DATA; Schema: public; Owner: -
+--
+
+COPY public.maxplayers_to_name (maxplayers_to_nameid, nameid) FROM stdin;
+0	0
+0	0
+1	1
+1	2
+1	3
+1	4
+1	5
+2	6
+1	7
+0	8
+1	9
+1	10
+2	11
+1	12
+1	13
+2	14
+1	15
+1	16
+1	17
+3	18
+1	19
+1	20
+2	21
+1	22
+0	23
+2	24
+1	20
+3	25
+1	26
+0	27
+1	28
+0	29
+0	30
+1	31
+1	32
+1	33
+0	34
+0	35
+0	36
+1	37
+3	38
+1	39
+1	40
+1	41
+1	42
+0	43
+0	44
+0	45
+0	46
+1	47
+1	48
+3	49
+1	50
+0	51
+1	52
+2	53
+3	54
+2	55
+2	56
+1	57
+4	58
+1	59
+0	60
+1	61
+0	62
+1	63
+1	64
+0	65
+1	66
+0	67
+1	68
+2	69
+4	70
+1	71
+1	72
+1	73
+1	74
+1	75
+0	76
+1	77
+2	78
+1	79
+1	80
+1	81
+0	82
+1	83
+0	84
+1	85
+1	86
+0	87
+1	88
+2	89
+1	90
+1	91
+1	92
+0	93
+1	94
+1	95
+1	96
+1	97
+1	98
+0	99
+3	100
+1	101
+1	102
+0	103
+1	104
+3	105
+1	106
+1	107
+1	108
+0	109
+1	110
+1	111
+1	112
+0	113
+0	114
+2	115
+3	116
+1	117
+1	118
+1	119
+0	120
+0	121
+3	122
+1	123
+1	124
+0	125
+1	126
+2	127
+1	128
+5	129
+2	130
+1	131
+4	132
+1	133
+1	134
+6	135
+0	136
+7	137
+3	138
+1	139
+1	140
+1	141
+2	142
+0	143
+1	144
+0	145
+7	146
+1	147
+1	148
+7	149
+0	150
+2	151
+1	152
+1	153
+2	154
+0	65
+0	155
+1	156
+0	157
+1	158
+1	159
+7	160
+0	161
+1	162
+0	163
+0	164
+3	165
+2	166
+2	167
+4	168
+1	169
+1	170
+2	171
+1	172
+1	173
+7	174
+0	175
+0	176
+0	177
+0	178
+1	179
+1	180
+1	181
+1	182
+0	183
+1	184
+1	185
+1	186
+7	187
+4	188
+1	189
+0	190
+1	191
+0	192
+1	193
+2	194
+1	195
+3	196
+0	197
+1	198
+8	199
+3	200
+3	201
+1	202
+0	203
+1	204
+1	205
+3	206
+0	207
+0	208
+3	209
+3	210
+2	211
+2	212
+3	213
+1	214
+1	215
+1	216
+0	217
+1	218
+1	219
+7	220
+1	221
+0	222
+0	223
+0	224
+1	225
+1	226
+1	227
+1	228
+7	229
+3	230
+1	231
+0	232
+0	233
+3	234
+0	235
+3	236
+1	237
+8	238
+0	239
+0	240
+2	241
+1	242
+2	243
+1	244
+1	245
+2	246
+0	247
+1	248
+3	249
+7	250
+1	251
+1	252
+0	253
+2	254
+0	255
+1	256
+4	257
+3	258
+1	259
+0	260
+0	261
+0	262
+1	263
+9	264
+0	265
+2	266
+1	267
+3	268
+2	269
+1	270
+3	271
+2	272
+3	273
+1	274
+10	275
+1	276
+0	277
+1	278
+7	279
+3	280
+1	281
+1	282
+11	283
+1	284
+1	285
+0	286
+0	287
+2	288
+0	289
+0	290
+1	291
+1	292
+0	293
+1	294
+3	295
+3	296
+1	297
+3	298
+0	299
+1	300
+6	301
+3	302
+2	303
+0	304
+1	305
+1	306
+1	307
+1	308
+0	309
+9	310
+3	311
+2	312
+1	313
+7	314
+1	315
+3	316
+0	317
+2	318
+3	319
+0	320
+0	321
+3	322
+1	323
+12	324
+7	325
+1	326
+2	327
+1	328
+0	329
+1	330
+0	331
+1	332
+0	333
+2	334
+1	335
+2	336
+0	337
+1	338
+1	339
+1	340
+1	341
+0	342
+1	343
+1	344
+4	345
+0	346
+1	347
+0	348
+2	349
+0	350
+1	351
+1	352
+0	353
+4	354
+13	355
+0	356
+2	357
+1	358
+2	359
+1	360
+0	361
+3	362
+0	363
+1	364
+0	365
+1	366
+0	367
+7	368
+2	369
+0	370
+0	371
+1	372
+1	373
+1	374
+1	375
+1	376
+1	377
+1	378
+2	379
+1	380
+1	381
+3	382
+1	383
+0	384
+4	385
+0	386
+0	387
+3	388
+0	389
+1	390
+4	391
+1	392
+2	393
+2	394
+1	395
+1	396
+12	397
+1	398
+1	399
+7	400
+7	401
+7	402
+1	403
+2	404
+1	405
+2	406
+0	407
+1	408
+0	409
+3	410
+3	411
+7	412
+0	413
+2	414
+2	415
+0	416
+0	417
+2	418
+0	419
+2	420
+1	421
+1	422
+3	423
+0	424
+0	425
+1	426
+2	427
+0	428
+0	429
+0	430
+2	431
+1	404
+2	432
+1	433
+1	434
+1	435
+2	436
+2	437
+1	438
+0	439
+1	440
+1	441
+1	442
+7	443
+0	444
+0	445
+0	446
+1	447
+0	448
+2	449
+1	450
+1	451
+2	452
+0	453
+0	454
+0	455
+1	456
+0	457
+7	458
+10	459
+1	460
+1	461
+1	462
+0	463
+1	464
+1	465
+0	466
+2	467
+0	468
+1	469
+1	470
+1	471
+1	472
+0	473
+2	474
+1	475
+1	476
+1	477
+1	478
+7	479
+1	480
+0	481
+3	482
+1	483
+1	484
+11	485
+0	486
+1	487
+1	488
+2	489
+1	490
+2	491
+7	492
+1	493
+1	494
+1	495
+0	496
+1	497
+1	498
+0	499
+1	500
+3	501
+1	502
+3	503
+1	504
+1	505
+4	506
+3	507
+2	508
+1	509
+3	510
+1	511
+1	512
+3	513
+9	514
+1	515
+1	516
+1	517
+0	518
+1	519
+3	520
+0	521
+1	522
+1	523
+1	524
+1	525
+3	526
+0	527
+0	528
+1	529
+0	530
+0	531
+1	532
+0	533
+11	534
+8	535
+1	536
+1	537
+1	538
+1	539
+3	540
+0	541
+3	542
+1	543
+2	544
+1	545
+7	546
+2	547
+1	548
+1	549
+3	550
+1	551
+2	552
+1	553
+1	554
+0	555
+1	556
+1	557
+2	558
+2	559
+0	560
+0	561
+0	562
+1	563
+0	564
+1	565
+1	566
+7	567
+3	568
+1	569
+0	570
+1	571
+2	572
+1	573
+2	574
+1	575
+0	576
+1	577
+1	578
+4	579
+1	580
+2	581
+1	582
+2	583
+1	584
+1	585
+12	586
+0	587
+1	588
+1	589
+0	590
+0	591
+6	592
+3	593
+6	594
+1	595
+1	596
+3	597
+7	598
+1	599
+0	600
+1	601
+1	602
+2	603
+3	604
+1	605
+1	606
+4	607
+0	608
+0	609
+1	610
+1	611
+12	612
+4	613
+3	614
+2	615
+1	616
+7	617
+2	618
+2	619
+1	620
+1	621
+0	622
+3	623
+1	624
+3	625
+14	626
+3	627
+2	243
+1	628
+3	629
+1	630
+1	631
+0	632
+1	633
+7	634
+0	635
+1	636
+3	637
+3	638
+0	639
+0	640
+0	641
+0	642
+0	643
+4	644
+4	645
+7	646
+1	647
+2	648
+1	649
+0	650
+3	651
+1	652
+0	653
+1	654
+1	655
+0	656
+0	657
+3	658
+1	659
+1	660
+1	661
+1	662
+1	663
+2	664
+7	646
+0	665
+4	666
+2	667
+6	668
+0	669
+0	670
+1	671
+7	672
+1	673
+0	674
+1	675
+2	676
+1	677
+3	678
+2	679
+0	680
+1	681
+0	682
+0	683
+10	684
+0	685
+1	686
+2	687
+1	688
+2	689
+1	690
+1	691
+0	692
+2	693
+0	694
+0	695
+3	696
+1	697
+1	698
+1	699
+1	700
+1	701
+0	702
+0	703
+1	704
+2	705
+1	706
+2	707
+1	708
+1	709
+3	710
+1	711
+2	712
+0	713
+7	714
+1	715
+2	716
+1	717
+1	718
+0	719
+1	720
+3	721
+0	722
+3	723
+0	724
+0	725
+7	726
+2	727
+1	728
+0	729
+2	730
+0	731
+1	732
+1	733
+0	734
+1	735
+1	736
+0	737
+0	738
+1	739
+1	740
+3	741
+1	742
+2	743
+0	744
+0	745
+1	746
+1	747
+3	748
+1	749
+7	750
+7	751
+1	752
+7	753
+0	754
+7	755
+1	756
+0	757
+2	758
+2	759
+6	760
+1	761
+2	762
+0	763
+0	764
+1	765
+1	766
+1	767
+1	768
+0	769
+1	770
+1	771
+1	772
+3	773
+1	774
+1	775
+2	776
+9	777
+0	778
+4	779
+9	780
+1	781
+2	782
+0	783
+6	784
+2	785
+1	786
+2	787
+0	788
+2	789
+1	790
+3	791
+0	792
+0	793
+15	794
+0	795
+1	796
+0	797
+1	798
+1	799
+0	800
+1	801
+0	802
+1	803
+0	804
+0	805
+1	806
+1	807
+2	808
+1	809
+0	810
+0	811
+1	812
+1	813
+1	814
+1	815
+3	816
+7	817
+1	818
+10	819
+0	820
+9	821
+2	822
+2	823
+1	824
+0	825
+1	826
+2	827
+0	828
+0	829
+1	830
+10	831
+10	832
+0	833
+0	834
+1	835
+1	836
+1	837
+1	838
+2	839
+0	840
+1	841
+1	842
+1	843
+2	844
+1	845
+2	846
+0	847
+1	848
+0	849
+0	850
+1	851
+1	852
+1	853
+1	854
+2	855
+7	856
+1	857
+2	858
+7	859
+2	860
+0	861
+4	862
+0	863
+1	864
+4	865
+0	866
+0	867
+1	868
+0	869
+1	870
+2	871
+0	872
+1	873
+3	874
+0	875
+2	876
+0	877
+4	878
+1	879
+0	880
+2	881
+1	882
+1	883
+1	884
+2	885
+3	886
+1	887
+12	888
+3	889
+9	890
+9	891
+0	892
+1	893
+1	894
+2	895
+0	896
+1	897
+1	898
+15	899
+0	900
+3	901
+1	902
+4	903
+1	904
+0	905
+1	906
+2	907
+1	908
+1	909
+0	910
+1	911
+1	912
+1	913
+10	914
+3	915
+2	916
+7	917
+3	623
+7	918
+1	919
+0	920
+1	921
+1	922
+1	923
+1	924
+1	925
+3	926
+7	927
+1	928
+1	929
+1	930
+2	931
+2	932
+7	933
+4	934
+9	935
+0	936
+1	937
+1	938
+1	939
+2	940
+10	941
+1	942
+1	943
+2	944
+1	945
+0	946
+10	947
+2	948
+1	949
+3	950
+1	951
+1	952
+0	953
+1	954
+1	955
+0	956
+1	957
+1	958
+1	959
+1	960
+11	961
+4	962
+0	963
+1	964
+0	965
+0	966
+1	967
+1	968
+1	969
+0	970
+3	971
+3	972
+1	973
+0	974
+1	975
+1	976
+1	977
+0	978
+0	979
+1	980
+1	981
+3	982
+0	983
+2	984
+1	985
+3	986
+2	987
+1	988
+3	989
+1	990
+6	991
+\.
+
+
+--
 -- Data for Name: maxplaytime; Type: TABLE DATA; Schema: public; Owner: -
 --
 
@@ -2629,6 +5284,1013 @@ COPY public.maxplaytime (maxplaytime, id) FROM stdin;
 
 
 --
+-- Data for Name: maxplaytime_to_name; Type: TABLE DATA; Schema: public; Owner: -
+--
+
+COPY public.maxplaytime_to_name (maxplayetime_ti_nameid, nameid) FROM stdin;
+0	0
+0	0
+0	1
+0	2
+1	3
+2	4
+0	5
+3	6
+0	7
+0	8
+4	9
+5	10
+0	11
+0	12
+0	13
+0	14
+2	15
+0	16
+0	17
+4	18
+0	19
+6	20
+2	21
+2	22
+7	23
+8	24
+0	20
+9	25
+0	26
+2	27
+0	28
+2	29
+4	30
+4	31
+0	32
+0	33
+10	34
+11	35
+11	36
+2	37
+0	38
+0	39
+6	40
+2	41
+0	42
+2	43
+11	44
+0	45
+6	46
+5	47
+0	48
+12	49
+9	50
+13	51
+14	52
+6	53
+15	54
+1	55
+1	56
+6	57
+16	58
+9	59
+5	60
+4	61
+0	62
+2	63
+4	64
+2	65
+15	66
+0	67
+1	68
+6	69
+17	70
+0	71
+5	72
+2	73
+2	74
+6	75
+2	76
+6	77
+6	78
+18	79
+0	80
+1	81
+8	82
+6	83
+15	84
+0	85
+0	86
+4	87
+6	88
+0	89
+19	90
+15	91
+0	92
+2	93
+0	94
+0	95
+9	96
+2	97
+6	98
+0	99
+15	100
+0	101
+0	102
+13	103
+4	104
+9	105
+1	106
+15	107
+14	108
+6	109
+15	110
+14	111
+1	112
+1	113
+6	114
+4	115
+0	116
+0	117
+1	118
+0	119
+0	120
+0	121
+11	122
+0	123
+2	124
+13	125
+0	126
+0	127
+0	128
+0	129
+5	130
+20	131
+9	132
+0	133
+10	134
+1	135
+1	136
+15	137
+9	138
+6	139
+4	140
+5	141
+4	142
+5	143
+0	144
+14	145
+4	146
+0	147
+1	148
+5	149
+2	150
+0	151
+14	152
+0	153
+9	154
+2	65
+2	155
+0	156
+1	157
+6	158
+0	159
+5	160
+4	161
+2	162
+0	163
+0	164
+9	165
+5	166
+0	167
+21	168
+9	169
+0	170
+0	171
+0	172
+1	173
+3	174
+6	175
+22	176
+0	177
+6	178
+23	179
+4	180
+0	181
+6	182
+15	183
+6	184
+4	185
+0	186
+12	187
+1	188
+6	189
+1	190
+20	191
+15	192
+15	193
+1	194
+2	195
+1	196
+10	197
+1	198
+15	199
+13	200
+13	201
+1	202
+1	203
+6	204
+0	205
+1	206
+15	207
+1	208
+4	209
+1	210
+1	211
+14	212
+1	213
+4	214
+6	215
+2	216
+0	217
+9	218
+9	219
+0	220
+1	221
+6	222
+1	223
+1	224
+6	225
+0	226
+0	227
+21	228
+21	229
+15	230
+9	231
+1	232
+4	233
+21	234
+15	235
+9	236
+2	237
+24	238
+6	239
+6	240
+9	241
+4	242
+4	243
+0	244
+0	245
+0	246
+1	247
+2	248
+13	249
+1	250
+6	251
+14	252
+0	253
+1	254
+8	255
+15	256
+9	257
+4	258
+6	259
+0	260
+1	261
+15	262
+0	263
+9	264
+1	265
+0	266
+1	267
+9	268
+5	269
+15	270
+4	271
+6	272
+0	273
+9	274
+1	275
+4	276
+15	277
+5	278
+1	279
+1	280
+6	281
+9	282
+0	283
+6	284
+0	285
+6	286
+6	287
+5	288
+0	289
+20	290
+1	291
+6	292
+15	293
+1	294
+13	295
+3	296
+9	297
+1	298
+1	299
+6	300
+21	301
+25	302
+26	303
+8	304
+9	305
+4	306
+0	307
+15	308
+6	309
+15	310
+4	311
+1	312
+0	313
+15	314
+0	315
+9	316
+4	317
+13	318
+9	319
+1	320
+15	321
+12	322
+21	323
+13	324
+13	325
+15	326
+4	327
+1	328
+27	329
+15	330
+10	331
+6	332
+1	333
+9	334
+16	335
+6	336
+1	337
+6	338
+13	339
+10	340
+0	341
+0	342
+13	343
+6	344
+28	345
+0	346
+0	347
+0	348
+9	349
+0	350
+1	351
+0	352
+11	353
+16	354
+1	355
+6	356
+9	357
+19	358
+6	359
+0	360
+1	361
+0	362
+4	363
+0	364
+4	365
+10	366
+2	367
+9	368
+1	369
+0	370
+0	371
+20	372
+0	373
+15	374
+21	375
+0	376
+14	377
+6	378
+2	379
+24	380
+15	381
+9	382
+1	383
+6	384
+4	385
+6	386
+0	387
+13	388
+27	389
+6	390
+5	391
+13	392
+1	393
+21	394
+6	395
+0	396
+9	397
+1	398
+2	399
+5	400
+9	401
+24	402
+1	403
+13	404
+1	405
+4	406
+2	407
+0	408
+0	409
+13	410
+9	411
+5	412
+5	413
+0	414
+4	415
+6	416
+6	417
+29	418
+14	419
+9	420
+6	421
+4	422
+1	423
+9	424
+2	425
+1	426
+6	427
+6	428
+21	429
+0	430
+0	431
+13	404
+1	432
+6	433
+15	434
+1	435
+1	436
+9	437
+6	438
+4	439
+6	440
+14	441
+0	442
+4	443
+4	444
+15	445
+1	446
+1	447
+4	448
+4	449
+1	450
+6	451
+4	452
+1	453
+15	454
+1	455
+1	456
+10	457
+20	458
+2	459
+4	460
+0	461
+21	462
+0	463
+6	464
+5	465
+1	466
+0	467
+14	468
+6	469
+14	470
+15	471
+6	472
+1	473
+0	474
+10	475
+6	476
+4	477
+9	478
+5	479
+0	480
+0	481
+24	482
+9	483
+1	484
+4	485
+21	486
+4	487
+15	488
+6	489
+5	490
+6	491
+9	492
+27	493
+2	494
+6	495
+6	496
+2	497
+0	498
+15	499
+1	500
+6	501
+0	502
+13	503
+15	504
+1	505
+30	506
+13	507
+1	508
+20	509
+13	510
+1	511
+1	512
+9	513
+9	514
+21	515
+9	516
+0	517
+1	518
+15	519
+0	520
+6	521
+6	522
+6	523
+9	524
+0	525
+8	526
+0	527
+20	528
+0	529
+6	530
+1	531
+6	532
+6	533
+1	534
+15	535
+0	536
+1	537
+4	538
+9	539
+6	540
+6	541
+26	542
+0	543
+21	544
+6	545
+5	546
+9	547
+6	548
+9	549
+15	550
+4	551
+15	552
+15	553
+1	554
+1	555
+19	556
+6	557
+21	558
+1	559
+1	560
+10	561
+6	562
+1	563
+5	564
+4	565
+9	566
+12	567
+5	568
+15	569
+22	570
+1	571
+0	572
+4	573
+9	574
+19	575
+0	576
+5	577
+9	578
+28	579
+4	580
+1	581
+6	582
+28	583
+14	584
+6	585
+15	586
+6	587
+6	588
+6	589
+0	590
+6	591
+1	592
+29	593
+9	594
+13	595
+1	596
+1	597
+0	598
+4	599
+6	600
+6	601
+0	602
+15	603
+6	604
+5	605
+10	606
+7	607
+6	608
+15	609
+0	610
+1	611
+15	612
+9	613
+0	614
+1	615
+6	616
+9	617
+1	618
+1	619
+21	620
+6	621
+6	622
+9	623
+0	624
+13	625
+6	626
+15	627
+4	243
+21	628
+13	629
+15	630
+1	631
+0	632
+6	633
+3	634
+0	635
+1	636
+3	637
+1	638
+11	639
+1	640
+9	641
+1	642
+14	643
+15	644
+13	645
+1	646
+1	647
+21	648
+1	649
+1	650
+6	651
+0	652
+0	653
+6	654
+12	655
+1	656
+1	657
+1	658
+6	659
+0	660
+4	661
+15	662
+6	663
+9	664
+1	646
+15	665
+6	666
+4	667
+24	668
+9	669
+6	670
+6	671
+26	672
+0	673
+24	674
+15	675
+9	676
+6	677
+1	678
+0	679
+6	680
+1	681
+9	682
+1	683
+0	684
+15	685
+1	686
+21	687
+4	688
+0	689
+6	690
+2	691
+4	692
+0	693
+5	694
+1	695
+4	696
+26	697
+6	698
+0	699
+1	700
+0	701
+15	702
+1	703
+21	704
+20	705
+6	706
+1	707
+9	708
+9	709
+9	710
+6	711
+9	712
+2	713
+1	714
+0	715
+6	716
+9	717
+9	718
+27	719
+0	720
+4	721
+4	722
+15	723
+14	724
+15	725
+4	726
+12	727
+15	728
+0	729
+5	730
+0	731
+6	732
+4	733
+24	734
+13	735
+0	736
+9	737
+6	738
+15	739
+15	740
+1	741
+1	742
+1	743
+5	744
+14	745
+6	746
+0	747
+0	748
+2	749
+5	750
+9	751
+4	752
+9	753
+9	754
+0	755
+1	756
+12	757
+1	758
+1	759
+1	760
+9	761
+1	762
+20	763
+15	764
+6	765
+14	766
+6	767
+1	768
+20	769
+21	770
+6	771
+6	772
+9	773
+6	774
+0	775
+6	776
+9	777
+5	778
+0	779
+25	780
+1	781
+1	782
+2	783
+15	784
+20	785
+5	786
+0	787
+6	788
+5	789
+2	790
+9	791
+6	792
+1	793
+1	794
+29	795
+14	796
+12	797
+15	798
+6	799
+2	800
+9	801
+15	802
+6	803
+20	804
+6	805
+1	806
+21	807
+14	808
+6	809
+15	810
+0	811
+1	812
+0	813
+5	814
+24	815
+21	816
+5	817
+6	818
+4	819
+6	820
+15	821
+0	822
+21	823
+31	824
+6	825
+4	826
+1	827
+14	828
+15	829
+0	830
+1	831
+28	832
+29	833
+9	834
+6	835
+1	836
+5	837
+13	838
+1	839
+4	840
+10	841
+10	842
+2	843
+12	844
+0	845
+1	846
+6	847
+0	848
+15	849
+15	850
+9	851
+5	852
+28	853
+4	854
+1	855
+5	856
+13	857
+6	858
+6	859
+1	860
+9	861
+5	862
+0	863
+6	864
+21	865
+0	866
+6	867
+1	868
+0	869
+1	870
+1	871
+20	872
+1	873
+5	874
+6	875
+1	876
+4	877
+4	878
+6	879
+5	880
+1	881
+0	882
+0	883
+4	884
+0	885
+15	886
+6	887
+9	888
+4	889
+13	890
+1	891
+6	892
+15	893
+1	894
+1	895
+6	896
+0	897
+21	898
+6	899
+1	900
+9	901
+0	902
+1	903
+13	904
+0	905
+2	906
+9	907
+15	908
+15	909
+4	910
+1	911
+26	912
+15	913
+1	914
+4	915
+21	916
+12	917
+9	623
+6	918
+1	919
+1	920
+20	921
+6	922
+0	923
+6	924
+1	925
+9	926
+12	927
+0	928
+15	929
+21	930
+5	931
+0	932
+0	933
+30	934
+25	935
+4	936
+10	937
+9	938
+23	939
+32	940
+32	941
+9	942
+0	943
+1	944
+0	945
+6	946
+1	947
+6	948
+6	949
+15	950
+0	951
+1	952
+25	953
+10	954
+9	955
+0	956
+0	957
+6	958
+1	959
+6	960
+9	961
+24	962
+0	963
+1	964
+0	965
+15	966
+6	967
+1	968
+15	969
+0	970
+3	971
+15	972
+9	973
+15	974
+15	975
+0	976
+14	977
+1	978
+9	979
+2	980
+13	981
+12	982
+1	983
+1	984
+10	985
+13	986
+4	987
+15	988
+15	989
+5	990
+9	991
+\.
+
+
+--
 -- Data for Name: minplayers; Type: TABLE DATA; Schema: public; Owner: -
 --
 
@@ -2639,6 +6301,1013 @@ COPY public.minplayers (minplayers, id) FROM stdin;
 6	3
 5	4
 4	5
+\.
+
+
+--
+-- Data for Name: minplayers_to_name; Type: TABLE DATA; Schema: public; Owner: -
+--
+
+COPY public.minplayers_to_name (minplayers_to_nameid, nameid) FROM stdin;
+0	0
+0	0
+1	1
+0	2
+1	3
+0	4
+0	5
+2	6
+0	7
+0	8
+1	9
+1	10
+0	11
+0	12
+0	13
+0	14
+0	15
+0	16
+0	17
+1	18
+1	19
+1	20
+0	21
+1	22
+0	23
+1	24
+0	20
+1	25
+1	26
+0	27
+0	28
+0	29
+0	30
+0	31
+1	32
+0	33
+1	34
+0	35
+0	36
+0	37
+0	38
+0	39
+1	40
+0	41
+0	42
+1	43
+0	44
+0	45
+1	46
+0	47
+0	48
+1	49
+1	50
+1	51
+0	52
+0	53
+1	54
+1	55
+0	56
+0	57
+0	58
+1	59
+1	60
+0	61
+0	62
+0	63
+1	64
+2	65
+0	66
+0	67
+1	68
+0	69
+0	70
+0	71
+1	72
+0	73
+0	74
+1	75
+0	76
+0	77
+1	78
+0	79
+0	80
+1	81
+0	82
+0	83
+1	84
+0	85
+1	86
+0	87
+1	88
+1	89
+0	90
+1	91
+0	92
+0	93
+0	94
+0	95
+1	96
+0	97
+1	98
+1	99
+1	100
+1	101
+0	102
+1	103
+0	104
+1	105
+1	106
+1	107
+1	108
+2	109
+0	110
+0	111
+1	112
+0	113
+1	114
+1	115
+0	116
+0	117
+0	118
+0	119
+1	120
+1	121
+0	122
+0	123
+0	124
+1	125
+1	126
+1	127
+1	128
+3	129
+1	130
+0	131
+1	132
+0	133
+1	134
+0	135
+1	136
+2	137
+1	138
+1	139
+1	140
+0	141
+2	142
+0	143
+0	144
+0	145
+0	146
+0	147
+1	148
+2	149
+0	150
+1	151
+1	152
+1	153
+1	154
+1	65
+1	155
+1	156
+1	157
+0	158
+1	159
+0	160
+0	161
+1	162
+0	163
+0	164
+1	165
+2	166
+0	167
+1	168
+1	169
+1	170
+0	171
+1	172
+0	173
+2	174
+1	175
+1	176
+2	177
+0	178
+0	179
+0	180
+0	181
+1	182
+1	183
+1	184
+1	185
+0	186
+1	187
+2	188
+1	189
+0	190
+1	191
+1	192
+1	193
+0	194
+0	195
+1	196
+1	197
+1	198
+0	199
+1	200
+1	201
+1	202
+1	203
+0	204
+1	205
+1	206
+0	207
+1	208
+0	209
+1	210
+1	211
+0	212
+0	213
+0	214
+1	215
+0	216
+1	217
+1	218
+1	219
+0	220
+0	221
+1	222
+1	223
+0	224
+0	225
+1	226
+1	227
+1	228
+1	229
+1	230
+0	231
+0	232
+2	233
+1	234
+1	235
+1	236
+1	237
+0	238
+0	239
+1	240
+0	241
+0	242
+1	243
+2	244
+1	245
+0	246
+1	247
+0	248
+1	249
+1	250
+0	251
+0	252
+0	253
+1	254
+0	255
+0	256
+2	257
+1	258
+0	259
+2	260
+1	261
+2	262
+1	263
+4	264
+0	265
+1	266
+1	267
+1	268
+2	269
+1	270
+1	271
+1	272
+0	273
+1	274
+1	275
+0	276
+1	277
+1	278
+1	279
+1	280
+0	281
+1	282
+1	283
+1	284
+0	285
+1	286
+1	287
+0	288
+1	289
+1	290
+5	291
+0	292
+1	293
+1	294
+1	295
+1	296
+1	297
+1	298
+1	299
+1	300
+0	301
+1	302
+1	303
+0	304
+1	305
+0	306
+1	307
+0	308
+1	309
+4	310
+1	311
+0	312
+0	313
+2	314
+0	315
+1	316
+0	317
+1	318
+1	319
+0	320
+1	321
+1	322
+1	323
+5	324
+1	325
+0	326
+0	327
+1	328
+1	329
+1	330
+0	331
+0	332
+1	333
+1	334
+0	335
+1	336
+1	337
+1	338
+1	339
+0	340
+1	341
+0	342
+1	343
+1	344
+1	345
+0	346
+0	347
+0	348
+2	349
+2	350
+1	351
+0	352
+0	353
+0	354
+5	355
+1	356
+1	357
+1	358
+1	359
+0	360
+0	361
+1	362
+1	363
+0	364
+0	365
+0	366
+0	367
+1	368
+2	369
+0	370
+0	371
+1	372
+0	373
+1	374
+0	375
+1	376
+1	377
+0	378
+0	379
+1	380
+0	381
+1	382
+0	383
+2	384
+2	385
+0	386
+1	387
+1	388
+2	389
+1	390
+2	391
+0	392
+1	393
+1	394
+1	395
+1	396
+2	397
+1	398
+2	399
+0	400
+5	401
+0	402
+1	403
+1	404
+1	405
+0	406
+0	407
+0	408
+0	409
+1	410
+1	411
+0	412
+1	413
+0	414
+1	415
+1	416
+1	417
+1	418
+1	419
+2	420
+1	421
+0	422
+1	423
+0	424
+1	425
+1	426
+1	427
+1	428
+1	429
+1	430
+1	431
+1	404
+0	432
+0	433
+1	434
+1	435
+0	436
+2	437
+0	438
+0	439
+1	440
+0	441
+0	442
+0	443
+0	444
+1	445
+2	446
+1	447
+1	448
+2	449
+1	450
+1	451
+1	452
+1	453
+0	454
+2	455
+1	456
+0	457
+0	458
+0	459
+0	460
+0	461
+0	462
+0	463
+1	464
+1	465
+0	466
+0	467
+1	468
+0	469
+0	470
+0	471
+0	472
+1	473
+0	474
+0	475
+1	476
+1	477
+0	478
+2	479
+0	480
+1	481
+1	482
+1	483
+1	484
+5	485
+0	486
+1	487
+1	488
+1	489
+1	490
+1	491
+2	492
+1	493
+0	494
+1	495
+0	496
+0	497
+0	498
+0	499
+1	500
+1	501
+1	502
+1	503
+1	504
+1	505
+1	506
+1	507
+1	508
+1	509
+1	510
+1	511
+0	512
+1	513
+4	514
+0	515
+1	516
+1	517
+1	518
+1	519
+1	520
+0	521
+0	522
+0	523
+0	524
+0	525
+1	526
+1	527
+1	528
+1	529
+1	530
+0	531
+0	532
+1	533
+1	534
+0	535
+0	536
+1	537
+1	538
+0	539
+1	540
+0	541
+1	542
+0	543
+1	544
+0	545
+0	546
+1	547
+1	548
+1	549
+0	550
+0	551
+2	552
+1	553
+1	554
+1	555
+0	556
+1	557
+1	558
+0	559
+1	560
+1	561
+2	562
+1	563
+2	564
+0	565
+1	566
+1	567
+1	568
+1	569
+1	570
+1	571
+1	572
+2	573
+1	574
+0	575
+1	576
+0	577
+1	578
+1	579
+0	580
+1	581
+1	582
+1	583
+0	584
+1	585
+1	586
+0	587
+1	588
+0	589
+1	590
+0	591
+0	592
+1	593
+0	594
+0	595
+1	596
+1	597
+0	598
+0	599
+4	600
+1	601
+0	602
+1	603
+1	604
+1	605
+1	606
+0	607
+1	608
+1	609
+1	610
+0	611
+0	612
+1	613
+0	614
+0	615
+1	616
+1	617
+0	618
+0	619
+1	620
+0	621
+0	622
+1	623
+1	624
+1	625
+4	626
+1	627
+1	243
+1	628
+1	629
+0	630
+0	631
+1	632
+1	633
+1	634
+0	635
+1	636
+1	637
+1	638
+0	639
+1	640
+2	641
+1	642
+1	643
+1	644
+2	645
+1	646
+0	647
+1	648
+1	649
+1	650
+1	651
+1	652
+2	653
+1	654
+1	655
+1	656
+0	657
+1	658
+0	659
+1	660
+0	661
+1	662
+1	663
+1	664
+1	646
+1	665
+2	666
+0	667
+0	668
+0	669
+2	670
+1	671
+0	672
+0	673
+1	674
+1	675
+1	676
+1	677
+1	678
+1	679
+2	680
+0	681
+1	682
+2	683
+0	684
+1	685
+0	686
+1	687
+1	688
+1	689
+1	690
+0	691
+1	692
+1	693
+1	694
+1	695
+1	696
+0	697
+1	698
+0	699
+1	700
+2	701
+2	702
+2	703
+1	704
+0	705
+2	706
+1	707
+1	708
+1	709
+1	710
+0	711
+0	712
+1	713
+1	714
+0	715
+0	716
+0	717
+0	718
+1	719
+0	720
+0	721
+0	722
+1	723
+1	724
+0	725
+0	726
+2	727
+0	728
+0	729
+2	730
+0	731
+0	732
+0	733
+1	734
+0	735
+1	736
+1	737
+1	738
+0	739
+0	740
+1	741
+0	742
+0	743
+2	744
+1	745
+0	746
+0	747
+1	748
+0	749
+0	750
+1	751
+1	752
+1	753
+1	754
+1	755
+1	756
+1	757
+1	758
+1	759
+0	760
+1	761
+1	762
+1	763
+0	764
+0	765
+1	766
+0	767
+1	768
+1	769
+1	770
+1	771
+1	772
+1	773
+0	774
+0	775
+0	776
+1	777
+1	778
+0	779
+2	780
+1	781
+1	782
+0	783
+0	784
+1	785
+0	786
+1	787
+1	788
+1	789
+1	790
+1	791
+1	792
+1	793
+5	794
+1	795
+0	796
+1	797
+0	798
+0	799
+0	800
+1	801
+0	802
+1	803
+1	804
+1	805
+1	806
+1	807
+0	808
+1	809
+0	810
+1	811
+1	812
+0	813
+0	814
+1	815
+1	816
+0	817
+0	818
+2	819
+2	820
+1	821
+0	822
+1	823
+1	824
+2	825
+1	826
+0	827
+1	828
+0	829
+0	830
+1	831
+1	832
+1	833
+1	834
+1	835
+1	836
+0	837
+0	838
+0	839
+0	840
+0	841
+1	842
+1	843
+1	844
+1	845
+1	846
+1	847
+0	848
+0	849
+1	850
+1	851
+0	852
+0	853
+0	854
+1	855
+0	856
+1	857
+0	858
+0	859
+2	860
+1	861
+1	862
+2	863
+0	864
+2	865
+0	866
+1	867
+0	868
+2	869
+1	870
+0	871
+0	872
+1	873
+1	874
+1	875
+0	876
+2	877
+2	878
+1	879
+0	880
+1	881
+0	882
+0	883
+0	884
+1	885
+1	886
+1	887
+5	888
+1	889
+4	890
+1	891
+1	892
+1	893
+1	894
+2	895
+2	896
+1	897
+0	898
+5	899
+0	900
+1	901
+0	902
+1	903
+1	904
+2	905
+1	906
+1	907
+1	908
+1	909
+1	910
+1	911
+1	912
+1	913
+1	914
+1	915
+4	916
+0	917
+1	623
+0	918
+1	919
+0	920
+0	921
+0	922
+1	923
+0	924
+1	925
+1	926
+0	927
+1	928
+1	929
+1	930
+1	931
+2	932
+0	933
+1	934
+2	935
+1	936
+0	937
+0	938
+0	939
+0	940
+0	941
+1	942
+0	943
+0	944
+1	945
+0	946
+1	947
+0	948
+0	949
+1	950
+0	951
+1	952
+0	953
+1	954
+0	955
+1	956
+0	957
+1	958
+1	959
+0	960
+5	961
+1	962
+1	963
+1	964
+1	965
+1	966
+1	967
+0	968
+1	969
+0	970
+0	971
+1	972
+1	973
+0	974
+0	975
+1	976
+1	977
+1	978
+1	979
+0	980
+1	981
+0	982
+1	983
+0	984
+0	985
+0	986
+1	987
+1	988
+1	989
+1	990
+0	991
 \.
 
 
@@ -2676,10 +7345,1017 @@ COPY public.minplaytime (minplaytime, id) FROM stdin;
 
 
 --
--- Data for Name: names; Type: TABLE DATA; Schema: public; Owner: -
+-- Data for Name: minplaytime_to_name; Type: TABLE DATA; Schema: public; Owner: -
 --
 
-COPY public.names (name, id) FROM stdin;
+COPY public.minplaytime_to_name (minplaytime_to_nameid, nameid) FROM stdin;
+0	0
+0	0
+1	1
+2	2
+1	3
+0	4
+1	5
+3	6
+1	7
+4	8
+5	9
+6	10
+0	11
+0	12
+7	13
+1	14
+1	15
+0	16
+1	17
+4	18
+4	19
+7	20
+1	21
+8	22
+0	23
+1	24
+2	20
+7	25
+1	26
+5	27
+7	28
+8	29
+0	30
+0	31
+0	32
+7	33
+9	34
+10	35
+10	36
+8	37
+1	38
+7	39
+1	40
+0	41
+1	42
+1	43
+10	44
+0	45
+0	46
+1	47
+1	48
+11	49
+7	50
+12	51
+10	52
+13	53
+7	54
+1	55
+7	56
+13	57
+0	58
+7	59
+4	60
+1	61
+13	62
+14	63
+0	64
+0	65
+7	66
+0	67
+13	68
+1	69
+7	70
+7	71
+6	72
+0	73
+7	74
+1	75
+7	76
+7	77
+1	78
+1	79
+1	80
+1	81
+10	82
+7	83
+13	84
+7	85
+1	86
+4	87
+0	88
+4	89
+10	90
+13	91
+7	92
+7	93
+7	94
+0	95
+7	96
+1	97
+13	98
+1	99
+13	100
+1	101
+7	102
+12	103
+1	104
+7	105
+7	106
+7	107
+10	108
+13	109
+7	110
+14	111
+7	112
+1	113
+12	114
+1	115
+1	116
+0	117
+1	118
+1	119
+1	120
+1	121
+10	122
+0	123
+8	124
+12	125
+1	126
+1	127
+4	128
+7	129
+4	130
+1	131
+7	132
+1	133
+10	134
+12	135
+7	136
+11	137
+7	138
+1	139
+1	140
+0	141
+4	142
+3	143
+0	144
+1	145
+6	146
+1	147
+7	148
+3	149
+1	150
+0	151
+1	152
+1	153
+7	154
+0	65
+1	155
+1	156
+13	157
+0	158
+1	159
+4	160
+0	161
+8	162
+1	163
+4	164
+11	165
+6	166
+4	167
+10	168
+7	169
+1	170
+10	171
+4	172
+1	173
+3	174
+13	175
+13	176
+0	177
+0	178
+15	179
+0	180
+1	181
+0	182
+13	183
+13	184
+4	185
+0	186
+11	187
+12	188
+1	189
+7	190
+13	191
+13	192
+13	193
+7	194
+1	195
+1	196
+9	197
+1	198
+7	199
+12	200
+12	201
+7	202
+7	203
+1	204
+4	205
+7	206
+13	207
+7	208
+1	209
+13	210
+1	211
+1	212
+7	213
+13	214
+1	215
+13	216
+0	217
+7	218
+7	219
+1	220
+13	221
+1	222
+10	223
+7	224
+1	225
+0	226
+1	227
+12	228
+10	229
+7	230
+7	231
+7	232
+1	233
+12	234
+13	235
+7	236
+8	237
+16	238
+13	239
+0	240
+16	241
+4	242
+4	243
+1	244
+4	245
+13	246
+10	247
+8	248
+12	249
+7	250
+1	251
+14	252
+4	253
+1	254
+9	255
+7	256
+7	257
+6	258
+0	259
+1	260
+1	261
+13	262
+1	263
+7	264
+1	265
+4	266
+13	267
+7	268
+4	269
+7	270
+7	271
+1	272
+1	273
+7	274
+7	275
+1	276
+7	277
+6	278
+13	279
+1	280
+1	281
+7	282
+4	283
+1	284
+9	285
+0	286
+0	287
+0	288
+1	289
+7	290
+1	291
+13	292
+13	293
+1	294
+12	295
+17	296
+7	297
+7	298
+7	299
+1	300
+12	301
+18	302
+19	303
+10	304
+7	305
+1	306
+0	307
+7	308
+1	309
+13	310
+1	311
+1	312
+0	313
+7	314
+0	315
+11	316
+1	317
+12	318
+7	319
+7	320
+7	321
+11	322
+12	323
+12	324
+12	325
+11	326
+1	327
+7	328
+7	329
+7	330
+8	331
+1	332
+1	333
+7	334
+20	335
+1	336
+7	337
+1	338
+12	339
+10	340
+0	341
+0	342
+12	343
+0	344
+6	345
+1	346
+4	347
+0	348
+7	349
+0	350
+1	351
+1	352
+10	353
+2	354
+7	355
+0	356
+11	357
+14	358
+0	359
+4	360
+1	361
+0	362
+0	363
+1	364
+4	365
+1	366
+7	367
+7	368
+1	369
+1	370
+4	371
+13	372
+0	373
+7	374
+10	375
+1	376
+10	377
+1	378
+13	379
+11	380
+12	381
+7	382
+1	383
+0	384
+4	385
+1	386
+1	387
+12	388
+7	389
+1	390
+4	391
+12	392
+13	393
+12	394
+0	395
+0	396
+7	397
+1	398
+0	399
+4	400
+7	401
+16	402
+7	403
+12	404
+1	405
+4	406
+0	407
+1	408
+1	409
+11	410
+7	411
+3	412
+6	413
+10	414
+4	415
+1	416
+10	417
+21	418
+1	419
+7	420
+0	421
+0	422
+10	423
+7	424
+0	425
+1	426
+0	427
+0	428
+12	429
+0	430
+4	431
+12	404
+13	432
+1	433
+7	434
+13	435
+7	436
+7	437
+13	438
+4	439
+0	440
+12	441
+1	442
+6	443
+4	444
+7	445
+13	446
+10	447
+4	448
+4	449
+1	450
+1	451
+4	452
+7	453
+7	454
+1	455
+7	456
+12	457
+13	458
+0	459
+9	460
+7	461
+12	462
+0	463
+0	464
+6	465
+1	466
+1	467
+10	468
+7	469
+1	470
+13	471
+13	472
+12	473
+1	474
+2	475
+0	476
+6	477
+7	478
+6	479
+1	480
+1	481
+11	482
+7	483
+7	484
+4	485
+10	486
+4	487
+7	488
+13	489
+4	490
+0	491
+7	492
+10	493
+4	494
+0	495
+1	496
+0	497
+1	498
+13	499
+7	500
+13	501
+4	502
+12	503
+13	504
+7	505
+22	506
+12	507
+7	508
+13	509
+12	510
+13	511
+1	512
+7	513
+7	514
+10	515
+7	516
+1	517
+7	518
+7	519
+4	520
+1	521
+1	522
+1	523
+7	524
+4	525
+10	526
+1	527
+13	528
+0	529
+1	530
+13	531
+0	532
+0	533
+13	534
+7	535
+1	536
+13	537
+6	538
+12	539
+0	540
+1	541
+19	542
+1	543
+12	544
+13	545
+4	546
+7	547
+1	548
+7	549
+12	550
+4	551
+11	552
+13	553
+1	554
+7	555
+14	556
+1	557
+12	558
+13	559
+7	560
+8	561
+0	562
+7	563
+3	564
+4	565
+7	566
+11	567
+4	568
+7	569
+20	570
+13	571
+4	572
+4	573
+7	574
+10	575
+1	576
+4	577
+7	578
+23	579
+4	580
+1	581
+1	582
+6	583
+10	584
+1	585
+7	586
+1	587
+1	588
+13	589
+14	590
+0	591
+1	592
+16	593
+11	594
+11	595
+1	596
+1	597
+1	598
+0	599
+1	600
+0	601
+1	602
+13	603
+0	604
+6	605
+20	606
+0	607
+0	608
+13	609
+1	610
+1	611
+7	612
+7	613
+1	614
+1	615
+1	616
+7	617
+13	618
+1	619
+12	620
+1	621
+0	622
+7	623
+4	624
+12	625
+13	626
+13	627
+1	243
+10	628
+12	629
+11	630
+13	631
+4	632
+0	633
+23	634
+0	635
+7	636
+4	637
+7	638
+20	639
+1	640
+11	641
+1	642
+10	643
+13	644
+12	645
+7	646
+1	647
+10	648
+7	649
+1	650
+1	651
+1	652
+4	653
+0	654
+11	655
+13	656
+13	657
+13	658
+13	659
+1	660
+6	661
+13	662
+1	663
+11	664
+12	646
+13	665
+1	666
+0	667
+16	668
+7	669
+0	670
+1	671
+6	672
+1	673
+16	674
+7	675
+7	676
+0	677
+1	678
+4	679
+13	680
+7	681
+7	682
+1	683
+0	684
+13	685
+12	686
+12	687
+0	688
+4	689
+1	690
+8	691
+4	692
+4	693
+4	694
+10	695
+6	696
+0	697
+1	698
+0	699
+1	700
+1	701
+13	702
+1	703
+10	704
+13	705
+0	706
+13	707
+7	708
+7	709
+7	710
+13	711
+12	712
+1	713
+7	714
+4	715
+1	716
+16	717
+18	718
+12	719
+7	720
+6	721
+4	722
+7	723
+10	724
+13	725
+6	726
+11	727
+7	728
+1	729
+4	730
+4	731
+1	732
+0	733
+18	734
+12	735
+1	736
+7	737
+7	738
+7	739
+7	740
+7	741
+7	742
+7	743
+4	744
+1	745
+0	746
+1	747
+4	748
+8	749
+4	750
+12	751
+4	752
+12	753
+7	754
+13	755
+1	756
+11	757
+7	758
+10	759
+12	760
+12	761
+7	762
+8	763
+7	764
+1	765
+10	766
+13	767
+1	768
+13	769
+7	770
+0	771
+1	772
+7	773
+0	774
+1	775
+7	776
+7	777
+7	778
+1	779
+18	780
+1	781
+1	782
+7	783
+7	784
+13	785
+1	786
+4	787
+13	788
+6	789
+1	790
+7	791
+0	792
+7	793
+1	794
+21	795
+10	796
+11	797
+13	798
+1	799
+5	800
+7	801
+13	802
+1	803
+7	804
+1	805
+10	806
+12	807
+1	808
+0	809
+13	810
+1	811
+13	812
+1	813
+1	814
+16	815
+12	816
+4	817
+0	818
+6	819
+1	820
+13	821
+4	822
+12	823
+1	824
+0	825
+6	826
+1	827
+10	828
+13	829
+0	830
+7	831
+3	832
+21	833
+7	834
+0	835
+1	836
+3	837
+18	838
+1	839
+4	840
+10	841
+9	842
+1	843
+11	844
+0	845
+1	846
+0	847
+1	848
+13	849
+13	850
+7	851
+4	852
+7	853
+6	854
+1	855
+4	856
+12	857
+13	858
+0	859
+1	860
+7	861
+6	862
+4	863
+13	864
+10	865
+1	866
+1	867
+7	868
+0	869
+13	870
+1	871
+7	872
+1	873
+0	874
+0	875
+1	876
+6	877
+4	878
+1	879
+7	880
+1	881
+0	882
+1	883
+1	884
+4	885
+7	886
+0	887
+7	888
+4	889
+12	890
+1	891
+0	892
+13	893
+1	894
+1	895
+1	896
+1	897
+10	898
+0	899
+1	900
+7	901
+0	902
+13	903
+12	904
+0	905
+0	906
+7	907
+13	908
+13	909
+6	910
+7	911
+13	912
+13	913
+10	914
+1	915
+12	916
+11	917
+7	623
+0	918
+7	919
+13	920
+13	921
+1	922
+1	923
+0	924
+1	925
+7	926
+11	927
+1	928
+13	929
+12	930
+6	931
+0	932
+0	933
+22	934
+18	935
+14	936
+10	937
+11	938
+15	939
+24	940
+1	941
+7	942
+0	943
+1	944
+1	945
+7	946
+10	947
+1	948
+12	949
+7	950
+0	951
+7	952
+18	953
+2	954
+7	955
+1	956
+7	957
+1	958
+1	959
+1	960
+7	961
+16	962
+4	963
+1	964
+8	965
+13	966
+0	967
+7	968
+7	969
+0	970
+4	971
+11	972
+7	973
+13	974
+7	975
+7	976
+10	977
+10	978
+18	979
+1	980
+12	981
+11	982
+12	983
+7	984
+1	985
+12	986
+0	987
+7	988
+7	989
+4	990
+7	991
+\.
+
+
+--
+-- Data for Name: name; Type: TABLE DATA; Schema: public; Owner: -
+--
+
+COPY public.name (name, id) FROM stdin;
 Terraforming Mars: Prelude	0
 Brass: Birmingham	1
 The Castles of Burgundy: Special Edition	2

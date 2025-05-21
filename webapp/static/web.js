@@ -23,35 +23,23 @@ function getAPIBaseURL() {
 function loadAuthorsSelector() {
     let url = getAPIBaseURL() + '/name/';
 
-    // Send the request to the books API /authors/ endpoint
-    fetch(url, {method: 'get'})
+    fetch(url, { method: 'get' })
+        .then((response) => response.json())
+        .then(function(result) {
+            let selectorBody = '';
+            for (let k = 0; k < result.name.length; k++) {
+                let gameName = result.name[k];
+                selectorBody += '<option value="' + gameName + '">' + gameName + '</option>\n';
+            }
 
-    // When the results come back, transform them from a JSON string into
-    // a Javascript object (in this case, a list of author dictionaries).
-    .then((response) => response.json())
-
-    // Once you have your list of author dictionaries, use it to build
-    // an HTML table displaying the author names and lifespan.
-    .then(function(result) {
-        // Add the <option> elements to the <select> element
-        let selectorBody = '';
-        for (let k = 0; k < result.name.length; k++) {
-            let author = result.name[k];
-            selectorBody += '<option value="' + author['id'] + '">'
-                                + author['surname'] + ', ' + author['given_name']
-                                + '</option>\n';
-        }
-
-        let selector = document.getElementById('author_selector');
-        if (selector) {
-            selector.innerHTML = selectorBody;
-        }
-    })
-
-    // Log the error if anything went wrong during the fetch.
-    .catch(function(error) {
-        console.log(error);
-    });
+            let selector = document.getElementById('nameSelect');
+            if (selector) {
+                selector.innerHTML = selectorBody;
+            }
+        })
+        .catch(function(error) {
+            console.log(error);
+        });
 }
 
 function onAuthorsSelectionChanged() {

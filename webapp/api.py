@@ -38,7 +38,7 @@ def getId(id):
     print(query)
     if out == []:
         out = 'No results found'
-    return out
+    return jsonify({'name': out})
 
 def queryGames(header,searchTerm):
     
@@ -64,7 +64,7 @@ def queryGames(header,searchTerm):
         print(e, file=sys.stderr)
     if out == []:
         out = 'No results found'
-    return out
+    return fl.jsonify({'name': out})
 
 @app.route('/api/name/<searchTerm>')
 @app.route('/api/name/')
@@ -87,7 +87,7 @@ def getNames(searchTerm='%'):
         print(e, file=sys.stderr)
     if out == []:
         out = 'No results found'
-    return out
+    return fl.jsonify({'name': out})
 
 
 @app.route('/games/<paramater>/<searchTerm>')

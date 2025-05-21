@@ -86,11 +86,34 @@ def getNames(searchTerm):
         print(e, file=sys.stderr)
     if out == []:
         out = 'No results found'
-    return out
+    return flask.jsonify({'name': out})
 
 
 def getGames(name):
     return getNames(name)
+
+@app.route('/api/name/<searchTerm>')
+@app.route('/api/name/')
+def getNames(searchTerm='%'):
+    out = []
+    try:
+        query = f'''
+            SELECT * 
+            FROM name
+            WHERE name.name LIKE %s;
+        '''
+        connection = get_connection()
+        cursor = connection.cursor()
+        cursor.execute(query, (f'{searchTerm}%',)) 
+        for row in cursor:
+            out.append(row)
+        connection.close()
+        print(query)
+    except Exception as e:
+        print(e, file=sys.stderr)
+    if out == []:
+        out = 'No results found'
+    return flask.jsonify({'name': out})
 
 
 @app.route('/', methods =["GET", "POST"])
