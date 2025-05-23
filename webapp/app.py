@@ -143,6 +143,12 @@ def getGames(name):
     return getNames(name)
 
 
+@app.route('/')
+@app.route('/home')
+def home():
+    return flask.render_template('index.html')
+
+
 @app.route('/api/<paramater>/<searchTerm>')
 @app.route('/api/<paramater>')
 def funt(paramater,searchTerm='%'):
@@ -172,14 +178,10 @@ def getNames(searchTerm='%'):
 
 
 
-@app.route('/', methods =["GET", "POST"])
-def home():
-    games = 'None'
-    if flask.request.method == "POST":
-       name = flask.request.form.get("name")
-       games = getGames(name)
-    return flask.render_template('help.html',games=games)
-    
+@app.route('/search')
+def land():
+    return flask.render_template('mainSearchPage.html')
+
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser('A sample Flask application/API')
