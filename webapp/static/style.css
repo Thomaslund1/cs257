@@ -266,6 +266,17 @@ body {
   cursor: pointer;
 }
 
+div{
+    padding-bottom: 5px;
+}
+.header {
+    border: 1px solid #888;
+    background-color: #999;
+    width: 13%;
+    height: 25px;
+}
+
+
 /* Headings and paragraph styles */
 h1 {
   font-size: 3rem;
