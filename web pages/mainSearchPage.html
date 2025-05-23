@@ -1,0 +1,44 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Search Board Games</title>
+    <link rel="stylesheet" href="./style.css">
+    </head>
+<body>
+    <h1>Game Finder</h1>
+    <div>
+        <p>This website takes data from BGG and makes it easy to sort and filter by 
+            a variety of paramater in an attempt to make it easy to find the next board 
+            game to play. Search tags are largely provided by community members, and certain
+            paramaters such as complexity may not always be accurate. 
+        </p>
+    </div>
+    <hr>
+    <div class="box">
+    <div class="thirds section"><input placeholder="numer of players"></div>
+    <div class="thirds section"><input placeholder="(optional) complexity"></div>
+    <div class="thirds section"><input placeholder="(optional) minimum age"></div>
+    </div>
+    <div class="box">
+    <div class="thirds section"><input placeholder="time of game"></div>
+    <div class="thirds section">
+        <label for="mechanics">(optional) mechanics:</label>
+        <select name="mechanics" id="mechanics" multiple size="3">
+        <option value="1">Sample1</option>
+        <option value="2">Sample2</option>
+        <option value="3">Sample3</option>
+        <option value="4">Sample5</option>
+        <option value="5">Sample6</option>
+        <option value="6">Sample7</option>
+        <option value="7">Sample8</option>
+        </select></div>
+    <div class="thirds section"><input placeholder="(optional) author"></div>
+    </div>
+    <hr>
+    <div class="box">
+        <div class="thirds section"> </div>
+        <div class="thirds section"> <button>Search</button></div>
+        <div class="thirds section"> </div>
+    </div>
+</body>
+</html>

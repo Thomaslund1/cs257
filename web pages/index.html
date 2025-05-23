@@ -1,0 +1,48 @@
+<!--
+Sources:
+    Overall Layout adapted from: https://codepen.io/bradtraversy/pen/eYdMqvx
+    Video Playback adapted from: https://www.fastpix.io/blog/guide-to-video-playback-in-javascript
+    & https://stackoverflow.com/questions/78932696/video-autoplay-issue-on-some-mobile-devices-works-on-some-but-not-others
+    Search Bar adapted from: https://www.w3schools.com/howto/howto_css_searchbar.asp
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BoardGameDB</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <a href="#" class="navbar-brand">BoardGameDB</a>
+        
+        <div class="navbar-links">
+            <a href="#" class="active">Home</a>
+            <a href="#">Games</a>
+            <a href="#">Users</a>
+        </div>
+        
+        <form action="#" class="search-container">
+            <input type="text" placeholder="Search games..." name="search">
+            <button type="submit"><i class="fas fa-search"></i></button>
+        </form>
+    </nav>
+
+    <!-- Text  -->
+    <div class="content-overlay">
+        <h1>Discover Your Next Adventure</h1>
+        <p>Explore thousands of games across all categories</p>
+        
+        <div class="buttons-container">
+            <button class="button primary-button">Explore Games</button>
+            <button class="button secondary-button">Explore Users</button>
+        </div>
+    </div>
+
+    <img src="game.jpg" alt="Photo of Board Game" width="640" height="365"> 
+</body>
+</html>
+
