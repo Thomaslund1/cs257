@@ -12,7 +12,7 @@ Sources:
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BoardGameDB</title>
-   <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
     <!-- Navigation Bar -->
@@ -20,8 +20,10 @@ Sources:
         <a href="#" class="navbar-brand">BoardGameDB</a>
         
         <div class="navbar-links">
-            <a href="search">Games</a>
-            <a href="help">help</a>
+            <a href="home" class="active">Home</a>
+            <a href="games">Games</a>
+            <a href="users">Users</a>
+            <a href="recommender">Recommender</a>
         </div>
         
         <form action="#" class="search-container">
@@ -30,7 +32,18 @@ Sources:
         </form>
     </nav>
 
-    <!-- Text  -->
+    <!-- 
+        Video Background 
+        Source:https://www.pexels.com/video/two-men-playing-a-board-game-2894883/
+    -->
+    <div class="video-container">
+        <video id="background-video" autoplay loop muted playsinline preload="auto">
+            <source src="{{ url_for('static', filename='game.mp4') }}" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+
+    <!-- Text on Video -->
     <div class="content-overlay">
         <h1>Discover Your Next Adventure</h1>
         <p>Explore thousands of games across all categories</p>
@@ -40,8 +53,10 @@ Sources:
             <button class="button secondary-button">Explore Users</button>
         </div>
     </div>
-
-    <img src="game.jpg" alt="Photo of Board Game" width="640" height="365"> 
+    <script>
+        document.body.style.overflowY = 'hidden'; // Hides vertical scrollbar
+        document.body.style.overflowX = 'hidden'; // Hides horizontal scrollbar
+    </script>
 </body>
 </html>
 
