@@ -182,6 +182,17 @@ def getNames(searchTerm='%'):
 def land():
     return flask.render_template('mainSearchPage.html')
 
+@app.route('/games')
+def returnGames():
+    return flask.render_template('games.html')
+
+@app.route('/recommender')
+def returnRecommender():
+    return flask.render_template('topGames.html')
+
+@app.route('/users')
+def returnUsers():
+    return flask.render_template('users.html')
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser('A sample Flask application/API')
