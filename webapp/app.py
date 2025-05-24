@@ -142,7 +142,6 @@ def queryGames(header,searchTerm):
 def getGames(name):
     return getNames(name)
 
-
 @app.route('/')
 @app.route('/home')
 def home():
@@ -185,6 +184,10 @@ def land():
 @app.route('/games')
 def returnGames():
     return flask.render_template('games.html')
+
+@app.route('/game')
+def returnGame():
+    return flask.render_template('game.html')
 
 @app.route('/recommender')
 def returnRecommender():
