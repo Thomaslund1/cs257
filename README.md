@@ -8,7 +8,7 @@ This repository contains a comprehensive board games analysis project . The proj
 
 ```bash
 # Clone the repository
-git clone https://github.com/lupo4/cs257.git
+git clone https://github.com/thomaslund1/cs257.git
 
 # Navigate to the project directory
 cd cs257
@@ -21,6 +21,6 @@ python app.py
 
 # Git shenanigans (for me)
 git remote remove origin
-git remote add origin https://github.com/polu4/cs257.git
+git remote add origin https://github.com/thomaslund1/cs257.git
 git push -f origin main
 ```
