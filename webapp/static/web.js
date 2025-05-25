@@ -1,9 +1,10 @@
+console.log('starting WEB.JS')
 
 window.addEventListener("load", initialize);
 
+
 function initialize() {
-    loadAttributeSelector();
-    document.getElementById('search').addEventListener('click', onSearch);
+    document.getElementById('searchBut').addEventListener('click', onSearch);
 }
 
 // Returns the base URL of the API, onto which endpoint
@@ -23,31 +24,33 @@ function getGameUrl() {
     return out;
 }
 
-let baseUrl = getAPIBaseURL();
+function onSearch(event) {
+    console.log("CLICKED")
+    let baseUrl = getAPIBaseURL();
+        event.preventDefault();
+        let params = [];
 
-    let params = [];
+        let numPlays = document.getElementById('numPlays').value;
+        if (numPlays) params.push('numPlays=' + encodeURIComponent(numPlays));
 
-    let numPlays = document.getElementById('numPlays').value;
-    if (numPlays) params.push('numPlays=' + encodeURIComponent(numPlays));
+        let complexity = document.getElementById('complexity').value;
+        if (complexity) params.push('complexity=' + encodeURIComponent(complexity));
 
-    let complexity = document.getElementById('complexity').value;
-    if (complexity) params.push('complexity=' + encodeURIComponent(complexity));
+        let minAge = document.getElementById('minAge').value;
+        if (minAge) params.push('minAge=' + encodeURIComponent(minAge));
 
-    let minAge = document.getElementById('minAge').value;
-    if (minAge) params.push('minAge=' + encodeURIComponent(minAge));
+        let time = document.getElementById('time').value;
+        if (time) params.push('time=' + encodeURIComponent(time));
 
-    let time = document.getElementById('time').value;
-    if (time) params.push('time=' + encodeURIComponent(time));
+        let mechanicsSelect = document.getElementById('mechanics');
+        let selectedMechanics = Array.from(mechanicsSelect.selectedOptions).map(opt => opt.value);
+        if (selectedMechanics.length > 0) {
+            params.push("mechanics=" + encodeURIComponent(selectedMechanics.join(',')));
+        }
+        let designer = document.getElementById('designer').value;
+        if (designer) params.push('designer=' + encodeURIComponent(designer));
 
-    let mechanicsSelect = document.getElementById('mechanics');
-    let selectedMechanics = Array.from(mechanicsSelect.selectedOptions).map(opt => opt.value);
-    if (selectedMechanics.length > 0) {
-        "mechanics=" + encodeURIComponent(selectedMechanics.join(','))
+        let fullUrl = baseUrl + params.join('&');
+        console.log("Final URL:", fullUrl);
+        window.location.href = fullUrl;
     }
-    let designer = document.getElementById('designer').value;
-    if (designer) params.push('designer=' + encodeURIComponent(designer));
-
-    let fullUrl = baseUrl + params.join('&');
-    console.log("Final URL:", fullUrl);
-    window.location.href = fullUrl;
-    fetch(fullUrl, { method: 'get' })
