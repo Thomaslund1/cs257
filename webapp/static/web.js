@@ -2,12 +2,8 @@
 window.addEventListener("load", initialize);
 
 function initialize() {
-    loadAuthorsSelector();
-
-    let element = document.getElementById('nameSelect');
-    if (element) {
-        element.onchange = onAuthorsSelectionChanged;
-    }
+    loadAttributeSelector();
+    document.getElementById('search').addEventListener('click', onSearch);
 }
 
 // Returns the base URL of the API, onto which endpoint
@@ -16,60 +12,42 @@ function getAPIBaseURL() {
     let baseURL = window.location.protocol
                     + '//' + window.location.hostname
                     + ':' + window.location.port
-                    + '/api';
+                    + '/api' + '/games?';
     return baseURL;
 }
 
-function loadAuthorsSelector() {
-    let url = getAPIBaseURL() + '/designer';
-
-    fetch(url, { method: 'get' })
-        .then((response) => response.json())
-        .then(function(result) {
-            console.log("Designer result:", result);
-            let selectorBody = '';
-            for (let k = 0; k < result.length; k++) {
-                let gameEntry = result[k];
-                selectorBody += '<option value="' + gameEntry.author + '">' + gameEntry.author + '</option>\n';
-            }
-
-            let selector = document.getElementById('nameSelect');
-            if (selector) {
-                selector.innerHTML = selectorBody;
-            }
-        })
-        .catch(function(error) {
-            console.log(error);
-        });
+function getGameUrl() {
+    let out = window.location.protocol + '//' + 
+                window.location.hostname + ':' +
+                window.location.port + '/game'
+    return out;
 }
 
+let baseUrl = getAPIBaseURL();
 
-function onAuthorsSelectionChanged() {
-    let element = document.getElementById('nameSelect');
-    if (!element) {
-        return;
+    let params = [];
+
+    let numPlays = document.getElementById('numPlays').value;
+    if (numPlays) params.push('numPlays=' + encodeURIComponent(numPlays));
+
+    let complexity = document.getElementById('complexity').value;
+    if (complexity) params.push('complexity=' + encodeURIComponent(complexity));
+
+    let minAge = document.getElementById('minAge').value;
+    if (minAge) params.push('minAge=' + encodeURIComponent(minAge));
+
+    let time = document.getElementById('time').value;
+    if (time) params.push('time=' + encodeURIComponent(time));
+
+    let mechanicsSelect = document.getElementById('mechanics');
+    let selectedMechanics = Array.from(mechanicsSelect.selectedOptions).map(opt => opt.value);
+    if (selectedMechanics.length > 0) {
+        "mechanics=" + encodeURIComponent(selectedMechanics.join(','))
     }
-    let authorID = element.value; 
+    let designer = document.getElementById('designer').value;
+    if (designer) params.push('designer=' + encodeURIComponent(designer));
 
-    let url = getAPIBaseURL() + '/designer/' + authorID;
-    console.log("Fetching:", url);
-
-    fetch(url, { method: 'get' })
-        .then((response) => response.json())
-        .then(function(result) {
-            let tableBody = '';
-            for (let k = 0; k < result.length; k++) {
-                let book = result[k];  // Each book object
-                tableBody += '<tr><td>' + book.name + '</td><td>' + book.author + '</td></tr>\n';
-            }
-
-            let booksTable = document.getElementById('namesTable');
-            if (booksTable) {
-                booksTable.innerHTML = tableBody;
-            }
-        })
-        .catch(function(error) {
-            console.log(error);
-        });
-}
-
+    let fullUrl = baseUrl + params.join('&');
+    console.log("Final URL:", fullUrl);
+    window.location.href = fullUrl;
+    fetch(fullUrl, { method: 'get' })
