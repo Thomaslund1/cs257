@@ -1,10 +1,8 @@
-import flask as fl
 import psycopg2 as psy
-import argparse as ap
+from flask import jsonify
 import sys
 import config
 
-app = fl.Flask(__name__)
 
 def get_connection():
     ''' Returns a database connection object with which you can create cursors,
@@ -41,10 +39,9 @@ def getId(id):
     return jsonify({'name': out})
 
 def queryGames(header,searchTerm):
-    
     out = []
     try:
-        valid_headers = ['artist','designer','maxplayers','minplayers','minplaytime','name']
+        valid_headers = ['artist','designer','maxplayers','minplayers','minplaytime','name','complexity','minage','maxplaytime','mechanics']
         if header not in valid_headers:
             return "That is not a recognized paramater, check spelling/caps"
         query = f'''
@@ -56,7 +53,7 @@ def queryGames(header,searchTerm):
         '''
         connection = get_connection()
         cursor = connection.cursor()
-        cursor.execute(query, (f'%{searchTerm}%',)) 
+        cursor.execute(query, (f'%{searchTerm}%',))
         for row in cursor:
             out.append(row[2])
         connection.close()
@@ -64,10 +61,9 @@ def queryGames(header,searchTerm):
         print(e, file=sys.stderr)
     if out == []:
         out = 'No results found'
-    return fl.jsonify({'name': out})
+    return jsonify({'name': out})
 
-@app.route('/api/name/<searchTerm>')
-@app.route('/api/name/')
+
 def getNames(searchTerm='%'):
     out = []
     try:
@@ -78,27 +74,17 @@ def getNames(searchTerm='%'):
         '''
         connection = get_connection()
         cursor = connection.cursor()
-        cursor.execute(query, (f'{searchTerm}%',)) 
+        cursor.execute(query, (f'{searchTerm}%',))
         for row in cursor:
             out.append(row)
         connection.close()
-        print(query)
     except Exception as e:
         print(e, file=sys.stderr)
     if out == []:
         out = 'No results found'
-    return fl.jsonify({'name': out})
-
-
-@app.route('/games/<paramater>/<searchTerm>')
-@app.route('/games/<paramater>')
-def funt(paramater,searchTerm='%'):
-    return queryGames(paramater,searchTerm)
-
-
+    return jsonify({'name': out})
 
 def queryGamesNames(header,searchTerm):
-    
     out = []
     try:
         valid_headers = ['artist','designer','maxplayers','minplayers','minplaytime','name']
@@ -121,37 +107,4 @@ def queryGamesNames(header,searchTerm):
         print(e, file=sys.stderr)
     if out == []:
         out = 'No results found'
-    return fl.jsonify({'name': out})
-
-
-@app.route('/api/names2/<searchTerm>')
-@app.route('/api/names2')
-def funt2(paramater,searchTerm='%'):
-    return queryGamesNames(paramater,searchTerm)
-
-
-@app.route('/game/<id>')
-def id(id):
-    return getId(id)
-
-@app.route('/games')
-def lotsaMotsa():
-    return "Whoa, thats a lot of data, try adding one of these search paramaters: designer, artist, " \
-    "minplayers, minplaytime"
-
-
-
-@app.route('/help')
-def get_help():
-    return fl.render_template('help.html')
-
-@app.route('/')
-def homepage():
-    return 'This is the homepage, \n neat right? Check out our help page at /help, or \n try running "//games//artist//A" to get all games whose name starts with A'
-
-if __name__ == '__main__':
-    parser = ap.ArgumentParser('A sample Flask application/API')
-    parser.add_argument('host', help='the host on which this application is running')
-    parser.add_argument('port', type=int, help='the port on which this application is listening')
-    arguments = parser.parse_args()
-    app.run(host=arguments.host, port=arguments.port, debug=True)
+    return jsonify({'name': out})
