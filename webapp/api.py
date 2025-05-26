@@ -43,31 +43,32 @@ def queryGames(params):
     try:
         valid_headers = ['artist', 'designer', 'maxplayers', 'minplayers', 'minplaytime',
                          'name', 'complexity', 'minage', 'maxplaytime', 'mechanics']
-        
+
         joins = []
         wheres = []
         values = []
 
         for i, (header, searchTerm) in enumerate(params.items()):
             if header not in valid_headers:
-                return f"'{header}' is not a recognized parameter. Check spelling/caps."
+                return None  # invalid parameter key
 
-            alias = f"{header}_{i}"  # avoid table name collisions
+            alias = f"{header}_{i}"
             joins.append(f"{header} AS {alias}")
             joins.append(f"{header}_to_name AS {alias}_map")
-            wheres.append(f"{alias}.{header} LIKE %s")
-            wheres.append(f"{alias}.id = {alias}_map.{header}_to_nameId")
-            wheres.append(f"name.id = {alias}_map.nameid")
+
+            # Use ILIKE for case-insensitive partial matching
+            wheres.append(f"{alias}.{header} ILIKE %s")
             values.append(f"%{searchTerm}%")
 
-        # Base table
+            wheres.append(f"{alias}.id = {alias}_map.{header}_to_nameId")
+            wheres.append(f"name.id = {alias}_map.nameid")
+
         joins.insert(0, "name")
 
-        query = f"""
-            SELECT DISTINCT name.name
-            FROM {' , '.join(joins)}
-            WHERE {' AND '.join(wheres)};
-        """
+        query = f"SELECT DISTINCT name.name FROM {', '.join(joins)}"
+        if wheres:
+            query += f" WHERE {' AND '.join(wheres)}"
+        query += ";"
 
         connection = get_connection()
         cursor = connection.cursor()
@@ -78,13 +79,9 @@ def queryGames(params):
 
     except Exception as e:
         print(e, file=sys.stderr)
-        return jsonify({'error': str(e)})
+        return None
 
-    if not out:
-        return jsonify({'name': 'No results found'})
-    return jsonify({'name': out})
-
-
+    return out
 
 def getNames(searchTerm='%'):
     out = []

@@ -11,16 +11,8 @@
     </div>
     <hr>
     <div class="centerText">
-        <div class="nbox">
-            <div class="header">id ^/⌄</div> 
-            <div class="header">name^/⌄</div>
-            <div class="header">rating^/⌄</div>
-            <div class="header">time^/⌄</div>
-            <div class="header">age min^/⌄</div>
-            <div class="header">designer^/⌄</div>
-        </div>
         <ul class="scroll">
-            {{ listBody }}
+            {{ listBody|safe }}
         </ul>
     </div>
     <hr>
