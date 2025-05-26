@@ -54,3 +54,37 @@ function onSearch(event) {
         console.log("Final URL:", fullUrl);
         window.location.href = fullUrl;
     }
+
+async function populateMechanicsDropdown() {
+        try {
+            // Fetch mechanics from the /api/mechanics endpoint
+            const response = await fetch('/api/mechanics');
+            
+            // Check if the response is OK (status code 200)
+            if (!response.ok) {
+                throw new Error('Failed to fetch mechanics');
+            }
+
+            // Parse the JSON response
+            const mechanics = await response.json();
+
+            // Get the select element
+            const selectElement = document.getElementById('mechanics');
+
+            // Clear existing options
+            selectElement.innerHTML = '';
+
+            // Populate dropdown with the mechanics from the API
+            mechanics.forEach(mechanic => {
+                const option = document.createElement('option');
+                option.value = mechanic.id;  // Assuming mechanic object has an 'id' and 'name' field
+                option.textContent = mechanic.name;  // Display mechanic name
+                selectElement.appendChild(option);
+            });
+        } catch (error) {
+            console.error('Error populating mechanics dropdown:', error);
+        }
+    }
+
+    // Call the function to populate the mechanics dropdown when the page loads
+    document.addEventListener('DOMContentLoaded', populateMechanicsDropdown);

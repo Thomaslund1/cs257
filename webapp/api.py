@@ -18,6 +18,16 @@ def get_connection():
         print(e, file=sys.stderr)
         exit()
 
+def getAllMechanics():
+    query = 'SELECT DISTINCT * FROM mechanics.mechanics'
+    connection = get_connection()
+    cursor = connection.cursor()
+    cursor.execute(query)
+    out = []
+    for i in cursor:
+        out.append(i)
+    return out
+
 def getId(id):
     out = []
     try:

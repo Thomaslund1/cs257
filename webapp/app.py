@@ -9,6 +9,9 @@ app = flask.Flask(__name__)
 def home():
     return flask.render_template('index.html')
 
+@app.route('/api/mechanics')
+def returnMechanics():
+    return api.getAllMechanics()
 
 @app.route('/api/<paramater>/<searchTerm>')
 @app.route('/api/<paramater>')
@@ -19,7 +22,6 @@ def funt(paramater,searchTerm='%'):
 @app.route('/api/name/')
 def returnName(searchTerm):
     return api.getNames(searchTerm)
-
 
 @app.route('/search')
 def land():
