@@ -108,3 +108,6 @@ def queryGamesNames(header,searchTerm):
     if out == []:
         out = 'No results found'
     return jsonify({'name': out})
+
+def getFromArgs(args):
+    return

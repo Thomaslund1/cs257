@@ -28,8 +28,11 @@ def land():
 @app.route('/games')
 def returnGames():
     args = flask.request.args
-    print(args)
-    return flask.render_template('searchResults.html')
+    sortedVals = api.getFromArgs(args)
+    listBody = ''
+    for i in sortedVals:
+        listBody += (f'<li>{i}</li>\n')
+    return flask.render_template('searchResults.html', listBody = sortedVals)
 
 @app.route('/game')
 def returnGame():
