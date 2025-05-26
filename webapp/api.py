@@ -38,30 +38,52 @@ def getId(id):
         out = 'No results found'
     return jsonify({'name': out})
 
-def queryGames(header,searchTerm):
+def queryGames(params):
     out = []
     try:
-        valid_headers = ['artist','designer','maxplayers','minplayers','minplaytime','name','complexity','minage','maxplaytime','mechanics']
-        if header not in valid_headers:
-            return "That is not a recognized paramater, check spelling/caps"
-        query = f'''
-            SELECT * 
-            FROM name, {header}, {header}_to_name
-            WHERE {header}.{header} LIKE %s
-            AND {header}.id = {header}_to_name.{header}_to_nameId
-            AND name.id = {header}_to_name.nameid;
-        '''
+        valid_headers = ['artist', 'designer', 'maxplayers', 'minplayers', 'minplaytime',
+                         'name', 'complexity', 'minage', 'maxplaytime', 'mechanics']
+        
+        joins = []
+        wheres = []
+        values = []
+
+        for i, (header, searchTerm) in enumerate(params.items()):
+            if header not in valid_headers:
+                return f"'{header}' is not a recognized parameter. Check spelling/caps."
+
+            alias = f"{header}_{i}"  # avoid table name collisions
+            joins.append(f"{header} AS {alias}")
+            joins.append(f"{header}_to_name AS {alias}_map")
+            wheres.append(f"{alias}.{header} LIKE %s")
+            wheres.append(f"{alias}.id = {alias}_map.{header}_to_nameId")
+            wheres.append(f"name.id = {alias}_map.nameid")
+            values.append(f"%{searchTerm}%")
+
+        # Base table
+        joins.insert(0, "name")
+
+        query = f"""
+            SELECT DISTINCT name.name
+            FROM {' , '.join(joins)}
+            WHERE {' AND '.join(wheres)};
+        """
+
         connection = get_connection()
         cursor = connection.cursor()
-        cursor.execute(query, (f'%{searchTerm}%',))
+        cursor.execute(query, values)
         for row in cursor:
-            out.append(row[2])
+            out.append(row[0])
         connection.close()
+
     except Exception as e:
         print(e, file=sys.stderr)
-    if out == []:
-        out = 'No results found'
+        return jsonify({'error': str(e)})
+
+    if not out:
+        return jsonify({'name': 'No results found'})
     return jsonify({'name': out})
+
 
 
 def getNames(searchTerm='%'):
