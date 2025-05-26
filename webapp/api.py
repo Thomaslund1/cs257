@@ -40,17 +40,53 @@ def getId(id):
 
 def queryGames(params):
     out = []
+    joins = []
+    wheres = []
+    values = []
+    # Check if plays parameter exists, and set up minPlays and maxPlays filters
+    if('plays' in params.keys()):
+        min_plays = params.get('minPlays', 0)  # Default to 0 if not specified
+        max_plays = params.get('maxPlays', 10000)  # Default to 10,000 if not specified
+        # Joins for minplays and maxplays tables
+        joins.append("minplays AS minplays_table")
+        joins.append("maxplays AS maxplays_table")
+        joins.append("minplays_to_name AS minplays_map")
+        joins.append("maxplays_to_name AS maxplays_map")
+        
+        # Filters for plays range
+        wheres.append(f"minplays_table.value >= {min_plays}")
+        wheres.append(f"maxplays_table.value <= {max_plays}")
+        wheres.append("minplays_table.id = minplays_map.minplays_to_nameId")
+        wheres.append("maxplays_table.id = maxplays_map.maxplays_to_nameId")
+        wheres.append("name.id = minplays_map.nameid")
+        wheres.append("name.id = maxplays_map.nameid")
+    
+    # Check if complexity parameter exists, and set up complexity filter
+    if('complexity' in params.keys()):
+        complexity_range = 0.5  # Let's assume a 0.5 complexity range tolerance
+        target_complexity = params['complexity']
+        wheres.append(f"complexity BETWEEN {target_complexity - complexity_range} AND {target_complexity + complexity_range}")
+    
+    # Check if age parameter exists, and set up age filter
+    if('age' in params.keys()):
+        max_age = params['age']  # Assuming 'age' is the maximum acceptable age
+        wheres.append(f"minage <= {max_age}")
+    
+    # Check if time parameter exists, and set up time filter
+    if('time' in params.keys()):
+        max_playtime = params['time']  # Assuming 'time' is the max acceptable playtime
+        wheres.append(f"minplaytime <= {max_playtime}")
+    
     try:
+        # List of valid headers
         valid_headers = ['artist', 'designer', 'maxplayers', 'minplayers', 'minplaytime',
                          'name', 'complexity', 'minage', 'maxplaytime', 'mechanics']
 
-        joins = []
-        wheres = []
-        values = []
 
+        # Loop over params to add dynamic conditions
         for i, (header, searchTerm) in enumerate(params.items()):
             if header not in valid_headers:
-                return None  # invalid parameter key
+                return None  # Invalid parameter key
 
             alias = f"{header}_{i}"
             joins.append(f"{header} AS {alias}")
@@ -60,21 +96,30 @@ def queryGames(params):
             wheres.append(f"{alias}.{header} ILIKE %s")
             values.append(f"%{searchTerm}%")
 
+            # Adding join conditions
             wheres.append(f"{alias}.id = {alias}_map.{header}_to_nameId")
             wheres.append(f"name.id = {alias}_map.nameid")
 
+        # Starting query with 'name' table
         joins.insert(0, "name")
 
         query = f"SELECT DISTINCT name.name FROM {', '.join(joins)}"
+
+        # Add WHERE clauses if there are any filters
         if wheres:
             query += f" WHERE {' AND '.join(wheres)}"
+
         query += ";"
 
+        # Execute query
         connection = get_connection()
         cursor = connection.cursor()
         cursor.execute(query, values)
+        
+        # Collect results
         for row in cursor:
             out.append(row[0])
+        
         connection.close()
 
     except Exception as e:
@@ -82,6 +127,8 @@ def queryGames(params):
         return None
 
     return out
+
+
 
 def getNames(searchTerm='%'):
     out = []

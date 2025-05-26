@@ -31,13 +31,13 @@ function onSearch(event) {
         let params = [];
 
         let numPlays = document.getElementById('numPlays').value;
-        if (numPlays) params.push('numPlays=' + encodeURIComponent(numPlays));
+        if (numPlays) params.push('plays=' + encodeURIComponent(numPlays));
 
         let complexity = document.getElementById('complexity').value;
         if (complexity) params.push('complexity=' + encodeURIComponent(complexity));
 
         let minAge = document.getElementById('minAge').value;
-        if (minAge) params.push('minAge=' + encodeURIComponent(minAge));
+        if (minAge) params.push('age=' + encodeURIComponent(minAge));
 
         let time = document.getElementById('time').value;
         if (time) params.push('time=' + encodeURIComponent(time));
