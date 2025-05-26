@@ -27,13 +27,12 @@ def land():
 
 @app.route('/games')
 def returnGames():
-    args = flask.request.args.getlist()
+    args = flask.request.args
     print(args)
-    return flask.render_template('games.html')
+    return flask.render_template('searchResults.html')
 
 @app.route('/game')
 def returnGame():
-
     return flask.render_template('game.html')
 
 @app.route('/recommender')

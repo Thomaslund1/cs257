@@ -1,4 +1,4 @@
-console.log('starting WEB.JS')
+
 
 window.addEventListener("load", initialize);
 
