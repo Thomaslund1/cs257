@@ -1,6 +1,7 @@
 import argparse
 import flask
 import api
+import sys
 
 
 app = flask.Flask(__name__)
@@ -51,6 +52,46 @@ def returnRecommender():
 @app.route('/users')
 def returnUsers():
     return flask.render_template('users.html')
+
+app.route('/api/search_games')
+def search_games():
+    query = flask.request.args.get('q', '').strip()
+    out = []
+    try:
+        connection = api.get_connection()
+        cursor = connection.cursor()
+        if query.lower() == "all":
+            cursor.execute(
+                "SELECT id, name, yearpublished, average, playingtime, age, minplayers, maxplayers, designer FROM game ORDER BY average DESC LIMIT 100"
+            )
+        elif len(query) >= 3:
+            cursor.execute(
+                "SELECT id, name, yearpublished, average, playingtime, age, minplayers, maxplayers, designer FROM game WHERE name ILIKE %s ORDER BY average DESC LIMIT 10",
+                (f"%{query}%",)
+            )
+        else:
+            return flask.jsonify(results=[])
+        for row in cursor.fetchall():
+            out.append({
+                "id": row[0],
+                "name": row[1],
+                "yearpublished": row[2],
+                "average": row[3],
+                "playingtime": row[4],
+                "age": row[5],
+                "minplayers": row[6],
+                "maxplayers": row[7],
+                "designer": row[8]
+            })
+        connection.close()
+    except Exception as e:
+        print(e, file=sys.stderr)
+    return flask.jsonify(results=out)
+
+@app.route('/search_results')
+def search_results():
+    query = flask.request.args.get('q', '').strip()
+    return flask.render_template('search_results.html', query=query)
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser('A sample Flask application/API')

@@ -1,7 +1,9 @@
 import psycopg2 as psy
-from flask import jsonify
+from flask import Flask, jsonify
 import sys
 import config
+
+app = Flask(__name__)
 
 
 def get_connection():
@@ -184,6 +186,42 @@ def queryGamesNames(header,searchTerm):
     if out == []:
         out = 'No results found'
     return jsonify({'name': out})
+
+@app.route('/api/search_games')
+def search_games():
+    query = Flask.request.args.get('q', '').strip()
+    out = []
+    try:
+        connection = get_connection()
+        cursor = connection.cursor()
+        if query.lower() == "all":
+            cursor.execute(
+                "SELECT id, name, yearpublished, average, playingtime, age, minplayers, maxplayers, designer FROM game ORDER BY average DESC LIMIT 100"
+            )
+        elif len(query) >= 3:
+            cursor.execute(
+                "SELECT id, name, yearpublished, average, playingtime, age, minplayers, maxplayers, designer FROM game WHERE name ILIKE %s ORDER BY average DESC LIMIT 10",
+                (f"%{query}%",)
+            )
+        else:
+            return Flask.jsonify(results=[])
+        for row in cursor.fetchall():
+            out.append({
+                "id": row[0],
+                "name": row[1],
+                "yearpublished": row[2],
+                "average": row[3],
+                "playingtime": row[4],
+                "age": row[5],
+                "minplayers": row[6],
+                "maxplayers": row[7],
+                "designer": row[8]
+            })
+        connection.close()
+    except Exception as e:
+        print(e, file=sys.stderr)
+    return Flask.jsonify(results=out)
+
 
 def getFromArgs(args):
     return
