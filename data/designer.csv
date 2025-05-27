@@ -1,432 +1,2011 @@
-Jacob Fryxelius,0
-Gavan Brown,1
-Stefan Feld,2
-Rob Daviau,3
-Mathias Wigge,4
-Isaac Childres,5
-Dane Beltrami,6
-Paul Dennen,7
-Roberto Di Meglio,8
-Corey Konieczka,9
-R. Eric Reuss,10
-Jens Drögemüller,11
-Ananda Gupta,12
-Vlaada Chvátil,13
-Jamey Stegmaier,14
-Alexander Pfister,15
-Touko Tahkokallio,16
-Antoine Bauza,17
-Martin Wallace,18
-Elwen,19
-Ryan Lopez DeVinaspre,20
-Adam Kwapiński,21
-Andy Clautice,22
-Uwe Rosenberg,23
-Mac Gerdts,24
-Elizabeth Hargrave,25
-Nate French,26
-Cole Wehrle,27
-Josh J. Carlson,28
-Reiner Stockhausen,29
-Tommaso Battista,30
-Luc Rémond,31
-Donald X. Vaccarino,32
-Thomas Sing,33
-James A. Wilson,34
-Chris Dupuis,35
-Asger Harding Granerud,36
-Michael Boggs,37
-(Uncredited),38
-Jeroen Doumen,39
-Vital Lacerda,40
-Vladimír Suchý,41
-Vangelis Bagiartakis,42
-Andreas Seyfarth,43
-Randy Flynn,44
-Dávid Turczi,45
-Gary Dworetsky,46
-Eric M. Lang,47
-Jamie Jolly,48
-Patrick Leder,49
-Ryan Laukat,50
-Helge Ostertag,51
-Dan Hallagan,52
-Matt Leacock,53
-Gernot Köpke,54
-Virginio Gigli,55
-Nikki Valens,56
-Simone Luciani,57
-Friedemann Friese,58
-Tomáš Holek,59
-Wolfgang Warsch,60
-Juma Al-JouJou,61
-S J Macdonald,62
-Justin Kemppainen,63
-Richard Garfield,64
-Chris Cantrell,65
-Adam Poots,66
-Thomas Lehmann,67
-Michael Kiesling,68
-Bruno Cathala,69
-Andreas Steding,70
-Johan Benvenuto,71
-Isra C.,72
-Helge Meissner,73
-Jenny Iglesias,74
-Peter Lee,75
-Wolfgang Kramer,76
-Daniele Tascini,77
-Kei Kajino (梶野 桂),78
-Dennis K. Chan,79
-Steven Medway,80
-Chad Jensen,81
-Matthew O'Malley,82
-Joanna Kijanka,83
-Evan Derrick,84
-Alan R. Moon,85
-Thomas Dagenais-Lespérance,86
-Marc André,87
-Christian Martinez,88
-Richard Amann,89
-Nigel Buckle,90
-Xavier Georges,91
-Krzysztof Piskorski,92
-Reiner Knizia,93
-Luke Laurie,94
-Sebastian Bleasdale,95
-Shem Phillips,96
-William Attia,97
-Sébastien Dujardin,98
-Flaminia Brasini,99
-Nathan I. Hajek,100
-Christian T. Petersen,101
-John Bohrer,102
-Helmut Ohley,103
-Tim Eisner,104
-Connie Vogelmann,105
-Ludovic Roudy,106
-Hisashi Hayashi,107
-Jesús Torres Castro,108
-Samuel Bailey,109
-Andrzej Betkiewicz,110
-Ole Steiness,111
-Henry Audubon,112
-Inka Brand,113
-Wei-Hwa Huang,114
-Bobby Hill,115
-Andreas Steiger,116
-Jordy Adan,117
-Robert Dougherty,118
-Frank West,119
-Matúš Kotry,120
-Matthias Cramer,121
-Frédéric Guérard,122
-Adam Carlson,123
-Trevor Benjamin,124
-Klaus-Jürgen Wrede,125
-Ryan Lambert,126
-Bernd Brunnhofer,127
-Jacques Bariot,128
-Raymond Edwards,129
-Sydney Engelstein,130
-Carl de Visser,131
-Rüdiger Dorn,132
-Ben Cichoski,133
-Jay Little,134
-Devin Low,135
-Cody Miller,136
-Daniel Piechnick,137
-Sébastien Pauchon,138
-Benoit Turpin,139
-Maxime Tardif,140
-Alexis Allard,141
-Bill Eberle,142
-Michał Oracz,143
-Kosch,144
-John Yianni,145
-Richard Borg,146
-Klemens Kalicki,147
-Daniel Clark (I),148
-Adrian Adamescu,149
-Matt Calkins,150
-Ted Alspach,151
-John D. Clair,152
-Don Eskridge,153
-Prospero Hall,154
-Glenn Drover,155
-Peter Rustemeyer,156
-Caleb Grace,157
-Nick Brachmann,158
-Christian Marcussen,159
-Roberto Fraga,160
-Tim Burrell-Saward,161
-Jonathan Gilmour-Long,162
-Urs Hostettler,163
-Serge Laget,164
-Ted Raicer,165
-Kris Burm,166
-Tomáš Uhlíř,167
-Mikkel Bertelsen,168
-Rustan Håkansson,169
-Kevin Russ,170
-Mike Boxleiter,171
-Steffen Bogen,172
-Michael Keller (II),173
-Ira Fay,174
-Bruce Glassco,175
-Emerson Matsuuchi,176
-Kota Nakayama (中山 宏太),177
-Tobey Ho,178
-Phil Walker-Harding,179
-Johannes Sich,180
-Raphaël Guiton,181
-Andreas Pelikan,182
-Keith Matejka,183
-Ed Carter (III),184
-Hervé Lemaître,185
-Gord!,186
-Bruce Shelley,187
-François Romain,188
-Dirk Henn,189
-Mattox Shuler,190
-Kai Starck,191
-Alex Hague,192
-Johannes Goupy,193
-Germán P. Millán,194
-Jay Cormier,195
-Christian Leonhard,196
-Stan Kordonskiy,197
-Jakub Łapot,198
-Dave Beck,199
-Brent Beck,200
-Kevin Wilson,201
-Cédrick Chaboussit,202
-Dave Chalker,203
-Andrea Chiarvesio,204
-David Cicurel,205
-Hal Duncan,206
-Mr. Bistro,207
-Fabien Gridel,208
-Paolo Mori,209
-Nate Chatellier,210
-Peggy Chassenet,211
-Sandy Petersen,212
-Jean-Louis Roubira,213
-Régis Bonnessée,214
-Klaus Teuber,215
-Chris Handy (I),216
-Seiji Kanai,217
-Thiago Aranha,218
-Łukasz Woźniak,219
-Tom Jolly,220
-Shimpei Sato,221
-Richard Launius,222
-Stefan Dorra,223
-Colby Dauch,224
-Sid Sackson,225
-Muneyuki Yokouchi (横内宗幸),226
-Peer Sylvester,227
-Julian Courtland-Smith,228
-Michael Palm,229
-Ignacy Trzewiczek,230
-Kara Centell-Dunk,231
-Chris Taylor (I),232
-Hjalmar Hach,233
-Frank Brooks,234
-Scott Almes,235
-Karsten Hartwig,236
-Ron Gonzalo García,237
-Michał Gołąb Gołębiowski,238
-Michal Mikeš,239
-Tory Niemann,240
-Manny Vega,241
-Philippe Keyaerts,242
-Matthew Dunstan,243
-Tim Fowers,244
-Carl Chudyk,245
-Kasper Aagaard,246
-Phil Eklund,247
-Skaff Elias,248
-Dan Cassar,249
-Ivan Lashin,250
-TauCeti Deichmann,251
-Gabriele Mari,252
-Sean Fletcher,253
-Jon Perry,254
-Oleksandr Nevskiy,255
-Luís Brueh,256
-Eric Hong,257
-James Kniffen,258
-Marco Maggi,259
-Mark Simonitch,260
-Michael Rieneck,261
-Jules Messaud,262
-Bryan Pope,263
-Laskas,264
-Paul Salomon,265
-Koota Yamada,266
-Hervé Marly,267
-Peter McPherson,268
-Karl-Heinz Schmiel,269
-Tony Fanchi,270
-Etienne Espreman,271
-Aaron Dill,272
-Steve Finn,273
-Francis Tresham,274
-Kamil 'Sanex' Cieśla,275
-Dominic Crapuchettes,276
-Benoit Vogt,277
-Ed Beach,278
-Tom Mattson,279
-Simone Romano,280
-Nicolas Normandon,281
-Kristian Amundsen Østby,282
-D. Brad Talton Jr.,283
-Unai Rubio,284
-Wilhelm Su,285
-Steven Aramini,286
-Wolfgang Panning,287
-Richard Halliwell,288
-Suzanne Goldberg,289
-Ross Arnold,290
-Kevin Lanzing,291
-Brett Sobol,292
-Nuno Bizarro Sentieiro,293
-Maxime Rambourg,294
-Alex Olteanu,295
-Mike Elliott,296
-Jean du Poël,297
-Noah Cohen,298
-Jerry Hawthorne,299
-Philip duBarry,300
-Maikel Cheney,301
-Croc,302
-Josh Wood,303
-Brandon Tibbetts,304
-Stephen Baker,305
-Lauren Banerd,306
-Hermann Luttmann,307
-Charlie Bink,308
-Don Greenwood,309
-Kasper Kjær Christiansen,310
-Zé Mendes,311
-Thorsten Gimmler,312
-Bruno Faidutti,313
-Clayton Helme,314
-Christophe Raimbault,315
-François Gandon,316
-Ryan Courtney,317
-Marco Montanaro,318
-Annick Lobet,319
-Benjamin Schwer,320
-Joseph Z Chen,321
-Ondřej Bystroň,322
-Mark Herman,323
-Molly Johnson,324
-Jeff Chin,325
-James Ernest,326
-Stefano Castelli,327
-Ivan Tuzovsky,328
-Sérgio Halaban,329
-Jason Hager,330
-Manuel Rozoy,331
-Viktor Kobilke,332
-Jervis Johnson,333
-Marcin Wełnicki,334
-Nick Bentley,335
-Gavin Birnbaum,336
-Thomas Dupont,337
-Trey Chambers,338
-Jason C. Hill,339
-Tido Lorenz,340
-Paul Abrahams,341
-Volko Ruhnke,342
-宮野 華也 (Kaya Miyano),343
-Grégory Grard,344
-Bryan Bornmueller,345
-Beau Beckett,346
-Brian Lewis,347
-Ben Pinchback,348
-Gerard Ascensi,349
-Brian Mayer,350
-Lukas Litzsinger,351
-Fabien Riffaud,352
-Malcolm Braff,353
-Isaias Vallejo,354
-Michael Menzel,355
-Joshua Buergel,356
-Marcus Carleson,357
-Christophe Boelinger,358
-Galen Ciscell,359
-Alice Carroll,360
-Jim Krohn,361
-Anthony J. Gallela,362
-Christopher Badell,363
-Michael Adams,364
-Mike Fitzgerald,365
-Dani Garcia,366
-Seth Jaffee,367
-Charlie Catino,368
-Mike Selinker,369
-Matt Eklund,370
-James Hata,371
-T. C. Petty III,372
-Mathieu Casnin,373
-Clay Blankenship,374
-Roberta Taylor,375
-Craig Besinque,376
-Acchittocca,377
-Bruce Allen,378
-Joshua Van Laningham,379
-Konstantinos Kokkinis,380
-Rikki Tahta,381
-Ian Brody,382
-Jo Hartwig,383
-Andreas Odendahl,384
-Gary Arant,385
-Tim Puls,386
-Jeff Grossman,387
-Robert Vaughn,388
-Michael Schacht,389
-Peter Hawes,390
-Gabriele Ausiello,391
-Peter Prinz,392
-Tom Dalgliesh,393
-Jun Sasaki,394
-Laurent Lavaur,395
-Frédéric Henry,396
-Eric Zimmerman,397
-Aske Christiansen,398
-Peter Sarrett,399
-Alexandar Ortloff-Tang,400
-Jim Cartwright,401
-Sir John Suckling,402
-Marcel-André Casasola Merkle,403
-Aaron Donogh,404
-James M. Hewitt,405
-Kasper Lapp,406
-Fabio Lopiano,407
-Dimitri Perrier,408
-Grant Rodiek,409
-Yasutaka Ikeda,410
-Mark K. Swanson,411
-Ralph Bienert,412
-Richard Berthold,413
-Tim Pinder,414
-Tony Boydell,415
-Aristide Bruyant,416
-Hervé Rigal,417
-Alex Davy,418
-John Fiorillo,419
-Scott Caputo,420
-Aurélien Picolet,421
-Marc Paquien,422
-Nicolas Robert,423
-John H. Butterfield,424
-Isaac Vega,425
-Klaus Zoch,426
-Kevin Bishop,427
-Jamie Bloom,428
-Shadi Torbey,429
-Stefan Risthaus,430
-Jake Staines,431
+Karl-Heinz Schmiel,0
+"G. W. ""Jerry"" D'Arcey",1
+Reiner Knizia,2
+Christian Beierer,3
+Sid Sackson,4
+Jean du Poël,5
+Robert P. Moore,6
+Martin Wallace,7
+Wolfgang Kramer,8
+Alan R. Moon,9
+Uwe Rosenberg,10
+Klaus Teuber,11
+Reinhard Staupe,12
+Bill Eberle,13
+Stefan Dorra,14
+James Ernest,15
+Richard Garfield,16
+Gérard Delfanti,17
+Mark A. Snowden,18
+Richard Hamblen,19
+Barry Beadman,20
+Christian T. Petersen,21
+Don Greenwood,22
+Robert J. Simpson,23
+Steve Jackson (I),24
+Franck Parcabe,25
+Roger Burten,26
+Eàmon Bloomfield,27
+Alex Randolph,28
+Charlie Krank,29
+Stephen V. Cole,30
+Ian Livingstone,31
+Richard Borg,32
+Karsten Hartwig,33
+Gerard Mulder,34
+Rick Priestley,35
+Valentin Herman,36
+Michael Kiesling,37
+Ken Howard,38
+Yves Hirschfeld,39
+Doug Kaufman,40
+Wilko Manz,41
+Philippe Keyaerts,42
+Klaus Palesch,43
+Stephen Hand,44
+Dan Campagna,45
+Pascal Bernard,46
+Amy Mook,47
+Donald Benge,48
+Richard H. Berg,49
+Rob Nelson (II),50
+Franz-Benno Delonge,51
+Francis Tresham,52
+Marcel-André Casasola Merkle,53
+Dirk Henn,54
+Matthew Kirby,55
+Evan Davis (I),56
+Craig Besinque,57
+Tim Taylor,58
+Tom Dalgliesh,59
+Steve Brewster,60
+Evan Jones,61
+Craig Van Ness,62
+Ted Raicer,63
+Doris Matthäus,64
+Larry Harris Jr.,65
+Michael Gray,66
+Jason B. McAllister,67
+Wulfdieter Hornung,68
+Mike Fitzgerald,69
+Dave Thornburg,70
+Kris Burm,71
+Dominique Ehrhard,72
+Philip O'Neill,73
+Paul Peterson,74
+Niek Neuwahl,75
+(Uncredited),76
+Simon Knock,77
+Mark McLaughlin,78
+Peter Burley,79
+Darwin Bromley,80
+Wolfgang Lüdtke,81
+Friedemann Friese,82
+Thorsten Gimmler,83
+Michael Schacht,84
+Sylvie Barc,85
+Edgar Cayce,86
+Christwart Conrad,87
+James J. St. Laurent,88
+Klaus Kreowski,89
+Reinhold Wittig,90
+Dieter Danziger,91
+Tom Wham,92
+Laura Robinson,93
+Eric Solomon,94
+Greg Porter,95
+David B. Bromley,96
+Laurent Lavaur,97
+Hanno Kuhn,98
+Lauren Banerd,99
+Albert Lamorisse,100
+David Hoyt,101
+Reiner Stockhausen,102
+Horst-Rainer Rösner,103
+Sergio Aragonés,104
+Urs Hostettler,105
+James Kyle,106
+Andreas Seyfarth,107
+Wil Dijkstra,108
+Scott Frisco,109
+Skaff Elias,110
+Rüdiger Dorn,111
+Rudi Hoffmann,112
+Larry Winters,113
+Gary Dicken,114
+John Cooper,115
+Corné van Moorsel,116
+Pierre Cléquin,117
+John Nephew,118
+Mark Simonitch,119
+S. Craig Taylor,120
+Irad B. Hardy,121
+Lewis Pulsipher,122
+Thomas Lehmann,123
+Eric Goldberg,124
+Gabriele Ausiello,125
+Mick Ado,126
+Derek Carver,127
+Ronald Wettering,128
+Peter Hawes,129
+John Young,130
+Greg Pinder,131
+Tom Walczyk,132
+Werner Hodel,133
+Andrew Looney,134
+Ben Knight,135
+Günter Burkhardt,136
+Neal Schlaffer,137
+Klaus Paal,138
+Dan Glimne,139
+Bernhard Weber,140
+Francis Pacherie,141
+Stephen Hubell,142
+Nicolas Pilartz,143
+Kim Bergström,144
+Bruce Harper,145
+Phil Eklund,146
+J. C. Connors (I),147
+François-Stanislas Thomas,148
+Charles Vasey,149
+Philippe Mouchebeuf,150
+Jacques Zeimet,151
+Richard Breese,152
+Leo Colovini,153
+Philip C. Barker,154
+Hartmut Witt,155
+Richard Winter,156
+Günter Cornett,157
+Willis P. Carpenter,158
+Reinhard Herbert,159
+Tom Kruszewski,160
+Mark Caines,161
+Eric Alleman,162
+Eberhard Schnatz,163
+Alfred Mosher Butts,164
+Virginia Charves,165
+Gerhard E. Kodys,166
+Spartaco Albertarelli,167
+Masaru Aoki,168
+John Bohrer,169
+Neil Zimmerer,170
+Richard Halliwell,171
+Mattiene Moustakas,172
+Charles Phillips,173
+Marsha J. Falco,174
+Phil Orbanes Sr.,175
+Helga Huber,176
+Scott Kimball,177
+David Parlett,178
+Henri Sala,179
+Frank DiLorenzo,180
+Jack Montgomery,181
+Steve Doherty,182
+David Coutts,183
+Michael Rieneck,184
+Mark J. Bronkowski,185
+Douglas Seaton,186
+Albrecht Nolte,187
+Scott Peterson,188
+Bruno Faidutti,189
+Oliver Abendroth,190
+Thomas Fackler,191
+Peter Schurzmann,192
+Mick Uhl,193
+Tod Gelle,194
+Jim Van Verth,195
+Hermann Huber,196
+Migou Auteurs,197
+Bernhard Naegele,198
+Herman Haverkort,199
+Michael Michaels,200
+Gordon A. Barlow,201
+R. S. Erickson,202
+Bruce Shelley,203
+Michael Meier-Bachl,204
+Bill Dixon,205
+Bruno Sinigaglio,206
+Jeff London,207
+H. Jean Vanaise,208
+Frederick A. Herschler,209
+Max J. Kobbert,210
+Manfred Burggraf,211
+Rob Bontenbal,212
+Robert Abbott,213
+Frank W. Sinden,214
+Nik Sewell,215
+Don Green (I),216
+Mark Sienholz,217
+Monty Stambler,218
+Roger Heyworth,219
+Wolfgang Riedesser,220
+David G. Watts,221
+Michael Hageböck,222
+Neil Carr,223
+Jim Musser,224
+Philippe des Pallières,225
+Jakob Bonds,226
+Wolfgang Panning,227
+Lenny Glynn,228
+Jack Carmichael,229
+Ernie Parmentier,230
+Hartmut Kommerell,231
+Allan B. Calhamer,232
+Heinz Meister,233
+Monte B. Young,234
+Angelo Porazzi,235
+Martin Arnold,236
+Ronald M. Corn,237
+Franz Josef Lamminger,238
+Phil Hall,239
+Christine Lehmann,240
+Dori Smith,241
+Jeff Dee,242
+Jean Tarrade,243
+Walter Toncar,244
+Patrick Dolan,245
+Patrick Folan,246
+Michel Lalet,247
+Walter Müller,248
+Projekt Team III,249
+Ron Dubren,250
+Burkhardt Münchhagen,251
+Peter Steinke,252
+Jim Winslow,253
+Jeff Grubb,254
+Stanley Kubiak,255
+Jeroen Doumen,256
+Jon Darbro,257
+Gerd Fenchel,258
+Gerd Deininger,259
+Birgit Stolte,260
+Gary R. Winfield,261
+Thilo Hutzler,262
+Aldo Ghiozzi,263
+K. von Rudloff,264
+Terry Goodchild,265
+André Frobel,266
+Jürgen P. Grunau,267
+Jason Wittman,268
+Gerhard H. Kuhlmann,269
+Courtney F. Allen,270
+Tom Jolly,271
+Edmond Dujardin,272
+Rick Heli,273
+Andy Daniel,274
+Baren Luders,275
+Heiko Wiese,276
+Tom Kremer,277
+Guido Hoffmann,278
+Randy Moorehead,279
+Torsten Marold,280
+Erno Rubik,281
+Hermann Huth,282
+Charlie Bambino,283
+Mark Herman,284
+Bruce Sterten,285
+T. O'Neill,286
+Mirko Marchesi,287
+Aaron Weissblum,288
+Roberto Fraga,289
+Alan D. Ernstein,290
+Michael Garton,291
+Brian Hersch,292
+Mark Alan Osterhaus,293
+Tray Green,294
+Eric M. Lang,295
+Sky Leaton,296
+Thomas Schneider Axmann,297
+Scott Schwartz,298
+0,299
+Tom Schoeps,300
+Randall C. Reed,301
+David Ladyman,302
+Edward Niecikowski,303
+John A. Ball,304
+Robert A. Kukla,305
+Randall Horn,306
+Cary Vernon,307
+Lester Smith,308
+Brad Stock,309
+Blaise Muller,310
+George Marino,311
+Joli Quentin Kansil,312
+Wolfgang Werner,313
+Roland Siegers,314
+Charles T. Kamps,315
+Thomas Naylor,316
+R. Hunter Gough,317
+Stephen Baker,318
+Frank Chadwick,319
+Mark Acres,320
+Joseph Miranda,321
+Edward Curran,322
+Dean Webb,323
+Tracy Hickman,324
+Jervis Johnson,325
+Douglas Malewicki,326
+Robert Harris,327
+Bob Brechin,328
+Leonard H. Kanterman,329
+Troy Denning,330
+Doug Spohn,331
+Bob Fowler,332
+"David ""Zeb"" Cook",333
+Charlie Paul,334
+Mary Couzin,335
+Thorsten Löpmann,336
+Dean Flanders,337
+John Astell,338
+Jim Dunnigan,339
+Randy Heller,340
+David L. Smith,341
+Eric Canfield,342
+John Prados,343
+Claude Duvernay,344
+Gilbert Obermair,345
+Matt Leacock,346
+Eric Kriser,347
+Terry White,348
+Frank Thibault,349
+Matthew Colville,350
+Hajo Bücken,351
+Edith Grein-Böttcher,352
+Nicole Thomsen,353
+M. K. Morrison,354
+Thomas M. Divoll,355
+Kristan Lawson,356
+Brian Astle,357
+Marc-Éric Gervais,358
+Walter Ziser,359
+Brad Freeman,360
+Steve Baldwin (II),361
+Sean McGuire,362
+Michael S. Dobson,363
+Steve Barnes (I),364
+Jesper Myrfors,365
+Jon De Young,366
+Steven Ross,367
+Jim Keifer,368
+Rob Daviau,369
+Han Heidema,370
+Ed Okimura,371
+W. Barrington Pink,372
+Ephraim Hertzano,373
+James Hlavaty,374
+Volker Tietze,375
+Michael Seal,376
+Richard K Morgan,377
+Klaus-Jürgen Wrede,378
+Martin H. Samuel,379
+Thomas J. Mosbø,380
+Dan Smith,381
+Frank Sobyak,382
+Peter Wichmann,383
+Jane Ruemmele,384
+Drakes Jarvis Walsh and Gluck Ltd.,385
+Dean Essig,386
+Fred Buestchler,387
+Oliver Bolten,388
+William Sariego,389
+Kevin Barrett,390
+Don Wilson,391
+Werner Falkhof,392
+Martin Schlegel,393
+Bodo Formes,394
+Peter Eggert,395
+Nile Christian,396
+Whit Alexander,397
+Charles E. Inman,398
+Diane Doherty,399
+Dick Seitz,400
+Cathy Rondeau Dobosz,401
+Peter Forbes,402
+Anthony F. Buccini,403
+Hanno Girke,404
+Dan Verssen,405
+Pierre Jacquot,406
+Dimitry Davidoff,407
+Herbert Schützdeller,408
+Martin Ebel,409
+Larry Roznai,410
+Michel Matschoss,411
+Andreas Bartl,412
+Darren Loughlin,413
+A. Davis,414
+Jeff Pickering,415
+Frank Branham,416
+Thomas N. Shaw,417
+Alex Strang,418
+Max Michael,419
+Greg Benage,420
+Dayne T. Priester,421
+Zoran Pavlovic,422
+S. Schwab,423
+Tony Tullemans,424
+James D. Griffin,425
+Maurice Kanbar,426
+Nigel Cochrane,427
+Hagen Dorgathen,428
+Andrew McNeil,429
+Gunnar Kuhlencord,430
+Martin Davison,431
+Cordula Schau,432
+Carlo Monticolombi,433
+Johann Rüttinger,434
+Edith Schlichting,435
+Manfred Franz,436
+Maike Jacobsen,437
+Jürgen Herz,438
+Oliver Igelhaut,439
+Serge Laget,440
+Bruce Nash,441
+Glen Frank,442
+John Hill (I),443
+Dave Williams (II),444
+Mike McManaway,445
+Peter Neugebauer,446
+Anatol Holt,447
+Stefanie Rohner,448
+Bob Carlsen,449
+Funtasy Factory,450
+Chris Bayliss,451
+Jean-Louis Chantreau,452
+Michael Sohre,453
+Walter Kraul,454
+Claude Weber,455
+Kai Schanzl,456
+Zoltán Aczél,457
+Michael Ganor,458
+Heinz Taufer,459
+Martin Drewes,460
+A. Robert Moog,461
+Caveman,462
+Kurt Feyerabend,463
+Arne Schepke,464
+Michael Andersch,465
+H. Georg Rausch,466
+Geoffrey Mott-Smith,467
+Rüdiger Koltze,468
+Creede Lambard,469
+James Koplow,470
+Paul Bedford,471
+Edward Beck,472
+David McKenzie,473
+Tom Werneck,474
+D. J. Stamper,475
+Steve Jackson (II),476
+Martyn Oliver,477
+Bruce Nesmith,478
+Troy McNair,479
+Terence Peter Donnelly,480
+Robert E. Hollingsworth,481
+Harald Bilz,482
+Heribert Ramroth,483
+Theo Coster,484
+Gunter Baars,485
+Thomas Säckl Spiele,486
+Michael Blumöhr,487
+Martin Kess,488
+Coleman Charlton,489
+Maureen Hiron,490
+A. Trevor Pepperell,491
+Scott Angrave,492
+J. Paul Bruton,493
+Tzvika Harpaz,494
+Mark Derrick,495
+Greg Costikyan,496
+Jeff Tidball,497
+Manfred Ludwig,498
+Ralf P. Piecha,499
+Al Newman,500
+Grant Bullot,501
+Dr. A. M. Read,502
+Klaus Zoch,503
+Peter Lewe,504
+Richard Onanian,505
+Richard Lambert,506
+Ellsworth Boyd,507
+Volker Schäfer,508
+Otto Coffelt,509
+Gerry Tomlinson,510
+Justus van Oel,511
+Bruce Quade,512
+Michelle Duval,513
+Ken Johnson,514
+André François,515
+George S. Parker,516
+"Hazel ""Skip"" Bowman",517
+Antler Productions,518
+Perry Grant,519
+Design Associates,520
+Bill Cooke,521
+Anthony E. Pratt,522
+Tom Braunlich,523
+Ronald Hofstätter,524
+Boston Logical Society,525
+C. V. Gidlow,526
+Andrea Angiolino,527
+Lucien Geelhoed,528
+KniffDesign,529
+Ralf Burkert,530
+David G. D. Hecht,531
+Jürgen Kraul,532
+Gary Chalk,533
+Steven Mathers,534
+Gal Zuckerman,535
+Serge Cahu,536
+David R. Megarry,537
+Steve Zaccardi,538
+Norm W. Ackland,539
+Graeme Morris,540
+Peter Sarrett,541
+Arnd Beenen,542
+Walter E. Johnston IV,543
+Mike Cramer,544
+Mike Smith,545
+Peter A. Brett,546
+Bakhshetsyan Gurgen,547
+Gene Billingsley,548
+F. Murray,549
+Koichi Ooyama,550
+Michael Rüttinger,551
+Marius Mayer,552
+Don O'Brien,553
+Charles Darrow,554
+Frank Kohner,555
+Richard Cohen,556
+David G. Royffe,557
+Garrett J. Donner,558
+Alfred Leonardi,559
+Dee Pomerleau,560
+Robert Engle,561
+Robert G. Markham,562
+Greg Turner,563
+Henry Szwarce,564
+Robert Bradley,565
+John Edwards,566
+Earl Doherty,567
+Marvin Glass,568
+Seven Towns,569
+Magwood,570
+Mike Selinker,571
+Darrell Simmons,572
+Manlio Manzini,573
+Gary Cowley,574
+Dario De Toffoli,575
+Ferdinand Hein,576
+Robert Sun,577
+Stven Carlberg,578
+Jonathan Leistiko,579
+Jeremy Bushnell,580
+Jeffrey Breslow,581
+Mike Elliott,582
+Ken Fisher,583
+George Vasilakos,584
+Keith Poulter,585
+James Cooke Brown,586
+Geoffrey Greene,587
+Harry Rowland,588
+William L. Banks,589
+Scott Abbott,590
+John LaBelle,591
+Sandy Beram,592
+Brian Thomson,593
+Chuck Wilhelm,594
+Lord Catfish,595
+Albert A. Nofi,596
+David S. Neft,597
+Geoffrey Hayes,598
+Fritz Gruber,599
+Horst Alexander Renz,600
+Bertell Ollman,601
+Ken Hodkinson,602
+Richard Berthold,603
+Claus A. Harttung,604
+Elliot Rudell,605
+Jim Barnes,606
+Jon Healy,607
+Bryan Winter,608
+Luke Peterschmidt,609
+Kai Haferkamp,610
+John Howarth,611
+Forest Brown,612
+William W. Connors,613
+Angelika Fassauer,614
+Bruce P. Dowrie,615
+Alfred Schnittger,616
+Scott Pardee,617
+Bruce Powell,618
+Paul J. Gruen,619
+Michael J. Matheny,620
+Robert Fyanes,621
+Bill Fawcett,622
+Charles S. Roberts,623
+Ross Maker,624
+Tony Curtis,625
+Steven D. Lidster,626
+Glenn Rahman,627
+Stephen G. Wilcox,628
+Michael Vonderheid,629
+Lynn Willis,630
+John H. Butterfield,631
+Joseph Reiser,632
+Tim Walsh,633
+Todd Johnson,634
+Paul Fasoldt,635
+Kevin Hendryx,636
+Larry V. Brom,637
+Jeff Hannes,638
+Wendell L. Hill,639
+Bill Slavicsek,640
+David C. Isby,641
+Arnold Hendrick,642
+Neal Sofge,643
+Andy Jones,644
+Lowell Haynes,645
+Ole Jensen,646
+Steve Ryan,647
+CyberZoo Interactive,648
+Carl Mayer,649
+Marco Donadoni,650
+Harley Sachs,651
+Jay Moriarty,652
+Oded Berman,653
+Alan Emrich,654
+Eric Lee Smith,655
+Gerard Christopher Klug,656
+Howard L. Walter,657
+Jon Southard,658
+Mark Rein•Hagen,659
+Dr. Cliff Andrew,660
+Bruce Whitefield,661
+Michael Ferch,662
+David G. Martin,663
+Joe Bisio,664
+B. Dennis Sustare,665
+Howard Barasch,666
+Rex A. Martin,667
+Howard Thompson,668
+Fred Schachter,669
+David Tennes,670
+Allan Tech,671
+Robert Corbett,672
+Sean Hayes,673
+Bruce Spitz,674
+Robert J. Ryer,675
+Olaf Helmer,676
+C. A. N. Neves,677
+A.B. Chr. Olsen,678
+Kent Robbins,679
+Edward Campbell,680
+Rick Smith,681
+Evan Friedman,682
+Frank Bourque,683
+Henry Makow,684
+Ralf Sandfuchs,685
+Markus Nikisch,686
+Joris Wiersinga,687
+Marion Dettelbach,688
+Graeme Davis,689
+Kathryn L. Connors,690
+Chuck Kennedy,691
+Rick Loomis,692
+Robert Borth Williams,693
+Kenneth Rahman,694
+John Olsen,695
+Tim Carleton,696
+Donald A. Dupont,697
+Philip H. Kopitske,698
+John Sutcliffe,699
+Travis Eberle,700
+Oliver Schaaf,701
+Anton Karger,702
+Tyler Sigman,703
+Joseph M. Balkoski,704
+Volko Ruhnke,705
+Michel Laclos,706
+Greg David Craft,707
+Elaine Henninger,708
+Valen Brost,709
+Erik Karlsson,710
+Anders Jeppsson,711
+J. Stephen Peek,712
+Nils Gulliksson,713
+Marco Silles,714
+Werner Fuchs,715
+Christian Raffeiner,716
+Johan Anglemark,717
+Victor Lucas,718
+Jan Jangö,719
+Stan Strickland,720
+George T. Henne Jr.,721
+Bernd Kienitz,722
+Van Overbay,723
+Vlaada Chvátil,724
+Marc F. Houde,725
+Alan Parr,726
+Shawn Metcalf,727
+Jeff Alexander,728
+John Harrington,729
+Jim Albea,730
+Michael Marra,731
+Kris Vezner,732
+Shawn F. Carnes,733
+Robert J. C. Harper,734
+C. Henry Schulte,735
+Vergil Siegl,736
+Peter Grosse,737
+Philip Shoptaugh,738
+Jacques Johan Mogendorff,739
+Carlton Reinhard,740
+Richard Fast,741
+Fabrice Cayla,742
+Lloyd Krassner,743
+Paul Rohrbaugh,744
+Ralph Anspach,745
+Paul Bennett,746
+Karsten Adlung,747
+Patrick Inauen,748
+E. Duchatel,749
+Tore Bergh,750
+Fred Bates,751
+Julian Musgrave,752
+Fredrik Malmberg,753
+Mary Danby,754
+L. Hensley,755
+P. Janssens,756
+Steve Curtis (II),757
+Miles Copeland,758
+Ed Muccini,759
+Michel Lipman,760
+A. Abiri,761
+Thomas Pauli,762
+James C. Rimbold,763
+Kent Mitchell,764
+William Stephenson,765
+G. L. Lamborn,766
+R. Burns,767
+Laurence J. Peter,768
+Robert Doyle,769
+James Brunot,770
+Vernon Paul Rood,771
+Gilbert Lévy,772
+Alain John Fraser-Dackers,773
+Keith Havens,774
+Klaus Steputat,775
+Horst Kühlweih,776
+Nigel Andrews,777
+Hans Christian Hildenbrand,778
+Andreas Trieb,779
+Russell Godwin,780
+Eric M. Aldrich I,781
+Jack Barry,782
+Alan Charles,783
+Mark Eliot,784
+Edward Schifman,785
+William T. Powers,786
+Teruo Matsumoto,787
+Jeff Boucher-Zamzo,788
+Scott Haring,789
+Ted Leavitt,790
+Paul Lidberg,791
+Robert Evans,792
+Andreas Steiner,793
+Walter Johnson,794
+Rik van Even,795
+Bruce S. Maxwell,796
+James H. McQuaid,797
+Björn Hölle,798
+Clark Browning,799
+Hermann Wernhard,800
+Wilf K. Backhaus,801
+Christian Moore,802
+John Danovich,803
+Graeme Levin,804
+David Dyer,805
+Marc W. Miller,806
+Craig Tomarkin,807
+Michael E. Moore,808
+Daan F. Oudolf,809
+Mike Nielsen,810
+Walter Zamkauskas,811
+Michael Stern,812
+Ian Trout,813
+Ray Frigard,814
+Chuck Kallenbach,815
+Drew Bittner,816
+Keith Parkinson,817
+Mike Tinney,818
+Ian Hense,819
+Ron Kent,820
+J. David Barnhart,821
+Jim Rowan,822
+Bob Connor,823
+Tadashi Ehara,824
+John Califf III,825
+Robert C. Magee,826
+William Ferguson III,827
+Andy Chambers,828
+Takumi Akabane,829
+Keith Gross,830
+Danny Brittain,831
+George Hope Verney,832
+Claude Soucie,833
+Rudolf Ross,834
+Harold Vanderbilt,835
+Joe Nikisch,836
+Jürgen Hagedorn,837
+Robert Taylor,838
+Bryce Knorr,839
+Allen Varney,840
+Rob Anderson,841
+John H. Geiger,842
+Francis K. Lalumiere,843
+Todd Kurtzer,844
+Tom Moldvay,845
+Steve Marsh (I),846
+Michael Price,847
+Philip A. Shreffler,848
+Rod Powell,849
+Merle Robbins,850
+L. Ross Babcock III,851
+Bernd Brunnhofer,852
+Prunella Diddlehoop,853
+Harald Germer,854
+Graham Lipscomb,855
+Dana Lombardy,856
+Marco Maggi,857
+Tuppy Owens,858
+Jeff Barber,859
+Edwin S. Lowe,860
+Jack B. Slimp Jr.,861
+Larry Pinsky,862
+Hal Richman,863
+Robert J. Kuntz,864
+William Janson Roche,865
+James Trunzo,866
+D. Hoth,867
+Thierry Denoual,868
+Darrell Tuttle,869
+Jake Thornton,870
+Harry W. First,871
+Brian L. Knipple,872
+Rob Angel,873
+Marc Gascoigne,874
+Paul Cockburn,875
+W. Jeromin,876
+Eugene H. Munger,877
+Vance von Borries,878
+Alan Davies,879
+Edna Hill Maples,880
+Malcolm Goldsmith,881
+Peter Ryhiner,882
+Jo Hartwig,883
+Ingeborg Held-Scherer,884
+Martin Osteroth,885
+Len A. Ranko Associates,886
+David Drakes,887
+Thomas Sturdevant,888
+Werner Schöppner,889
+Brenda Turner,890
+Elizabeth G. Sanderson,891
+Jonathan C. Hauff,892
+J. W. Faulk,893
+James N. Vail,894
+Jean M. Smith,895
+Jean-René Vernes,896
+Ken Whitman,897
+Dominique Tellier,898
+Theora Design,899
+Christiane Knepel,900
+Marco Fantini,901
+R. Wayne Schmittberger,902
+Gerhard Schittenhelm,903
+Mike Young,904
+Doug Reuter,905
+Paul Brown,906
+William A. Strauss,907
+Diana Carlston,908
+John W. Mollett,909
+Mordecai Meirowitz,910
+Sir John Suckling,911
+Ken Evoy,912
+Mike Suchcicki,913
+Grzegorz Rejchtman,914
+Paul T. Haskell Jr.,915
+Murray Heasman,916
+Anthony Taylor,917
+Clifford Von Wickler,918
+H. Bernett,919
+Christophe Boelinger,920
+Larry Balsamo,921
+Bruce Biskup,922
+Joshua Howard,923
+Douglas Niles,924
+William Julius Champion Jr.,925
+Donald Saxman,926
+Leslie Scott,927
+Bernard Tavitian,928
+Keith Meyers,929
+Ken R. Kessler,930
+James Wallis,931
+Todd Breitenstein,932
+Stephen Tassie,933
+Masahiro Yamazaki,934
+Philip Reed,935
+Jürgen Strohm,936
+Théophile Monnier,937
+David Brin,938
+Allen Hammack,939
+O. Fairgagnetr,940
+Sébastien Sjoholm,941
+Ed Pegg Jr.,942
+John Haley,943
+François Lajuzan,944
+Andreas Steding,945
+Mary Kay Beavers,946
+Bill Jemas,947
+Tony Welman,948
+Diane Schwartzberg Mayer,949
+Marco Aschwanden,950
+Glenn E. Kidd,951
+Al Pare,952
+Harald Riehle,953
+Raymond Edwards,954
+Georges Gil,955
+Till Meyer,956
+Joachim Goemann,957
+Redmond A. Simonsen,958
+David James Ritchie,959
+Sven Kübler,960
+Didier Jacobée,961
+Frank Brandt,962
+Jeremy Elmore,963
+Gregory W. Ellis,964
+Philip Slater,965
+Jim Doherty,966
+Jim Bousman,967
+Ken Garland and Associates,968
+Mike Hayes,969
+Craig Clark Williamson,970
+Reinhard Pichler,971
+David Moffat,972
+Hermann Friedl,973
+Josh Friel,974
+Bill Payne,975
+Craig Browne (I),976
+Hermance Edan,977
+Harry Gibson,978
+Walter Lee,979
+Anders Fager,980
+Lothar Hannappel,981
+Oliver Deiser,982
+Albrecht Werstein,983
+Willi Sonderling,984
+Dan Layman,985
+Stephen C. Jackson,986
+Dave Clark (I),987
+Ran Ackels,988
+Erik Wilson,989
+Dr. Schneiderbanger,990
+Dan Sullivan,991
+Julian Courtland-Smith,992
+John Yianni,993
+Marco Pecota,994
+Henning Poehl,995
+Rudolph W. Heinze,996
+Tony Boydell,997
+Armand Jammot,998
+Mark Hegman,999
+Jim Griffin,1000
+Ian Bailey,1001
+W. Faloney,1002
+Bruce Alsip,1003
+K. Corner,1004
+Véronique Debroise,1005
+Herman O'Brien,1006
+J. R. R. Hering,1007
+Glenn Drover,1008
+Ned Strongin,1009
+James R. Becker,1010
+Andrea Meyer,1011
+Dick de Rijk,1012
+T. Hostetler,1013
+Allen Bower,1014
+David A. Fox,1015
+Jack Lawson,1016
+Roger Nord,1017
+Bud Daunhauer,1018
+Brian Hansen,1019
+Jim Deacove,1020
+Fred Chatham,1021
+Kerry Anderson,1022
+Christian Freeling,1023
+Jim Dietz,1024
+Tim Schutz,1025
+Howard Wexler,1026
+Andy Merritt,1027
+Rick Britton,1028
+Jean Carrières,1029
+Rob Mosca,1030
+Olaf Olsen,1031
+Steven Barsky,1032
+Rainer Kohler,1033
+Uwe Schildmeier,1034
+Chad Irby,1035
+W. Remme,1036
+John W. Fuseler,1037
+Austin Bay,1038
+Knut-Michael Wolf,1039
+David Wells,1040
+Mary Louise Dyer,1041
+Darrell Hardy,1042
+Damon Saddler,1043
+Joan Moravick,1044
+Sara Finch,1045
+Eric Poses,1046
+Fritz Bronner,1047
+James C. Spiring,1048
+Mike White,1049
+François Robillard,1050
+Dr. Bronia Grycz,1051
+Paddy Griffith,1052
+Patrick Chan,1053
+Terry Martin Rose,1054
+Ed Carter (III),1055
+Brian Edward Reeves,1056
+C. C. Stoll,1057
+Billy Barry,1058
+Claude Debetaz,1059
+Anton Dresden,1060
+Jim Lundberg,1061
+Mike Agrelius,1062
+Michael Bennighof,1063
+Mark Berger,1064
+Ralf Menzel,1065
+Brandon Freels,1066
+David M. Weber,1067
+David W. Crump,1068
+Sebastian Quigley,1069
+Henry Carey,1070
+Roger N. Twinn,1071
+John R. Hopler,1072
+Kevin Zucker,1073
+Reuben Klamer,1074
+Grzegorz Traczykowski,1075
+Steven Stroh,1076
+Edward H Freedman,1077
+Brian Blume,1078
+Jürgen Heel,1079
+Manfred Schuling,1080
+Fritz Pang,1081
+Max Gerchambeau,1082
+Pepe Pineda,1083
+Haim Shafir,1084
+C. Lowe,1085
+Harry Rubin,1086
+Keith Budden,1087
+Robert C. Lloyd,1088
+Terry Miller Associates,1089
+Charles Fogarty,1090
+Larry Levy,1091
+Keiji Kariya,1092
+Paul Randles,1093
+David Ray,1094
+Jon Dunkelman,1095
+Gavin Thorpe,1096
+Jody Porter,1097
+Brian Foster,1098
+Marco Fuini,1099
+Dr. Jacek Filek,1100
+Oliver Cockell,1101
+A. W. Compton,1102
+Michael Dinacola,1103
+Joseph Schlichter,1104
+Gregg Steven Blasingame,1105
+Royce Mathew,1106
+Ed Buffman,1107
+David English,1108
+Nicholas Slope,1109
+John Lacey,1110
+R. Vance Buck,1111
+John Desch,1112
+John C. Luecke,1113
+David McElhannon,1114
+Robert R. Johnson,1115
+Roger Tuckerman,1116
+Greg Lam,1117
+Murray J. Gould,1118
+Steve Thompson,1119
+Ken S. Slaker,1120
+Allen Shipps,1121
+Luke Weisman Miratrix,1122
+Howard R. Garis,1123
+Chris Pender,1124
+L. L. Brainwashed,1125
+Geoffrey Bull,1126
+Lee Yih,1127
+Joe Angiolillo,1128
+Friedhelm Adam,1129
+Igor Polouchine,1130
+Cory Loewen,1131
+Chris Lawson,1132
+Tom Nissel,1133
+Wolfgang Großkopf,1134
+Games Talk,1135
+Herbert Biella,1136
+Volker Schwägerl,1137
+Daniel Kast,1138
+Charlie Brooks,1139
+Bruce Hatherley,1140
+Brian Woodward,1141
+Don Hawthorne,1142
+P. M.,1143
+Raymond Haysman,1144
+Marcus D'Amelio,1145
+Peter Jacobi,1146
+Dirk Clemens,1147
+Isaac Asimov,1148
+Robert S. Reinish,1149
+Zoltan Bartok,1150
+Helmut Walch,1151
+H. Fries,1152
+Tanner Carson,1153
+Brigitte Ditt,1154
+Ethan Nathan Allen,1155
+Jim Hind,1156
+Lisa Ekensteen Ogut,1157
+Wayland Grace,1158
+Philip S. Kosnett,1159
+Raul Bermudez,1160
+Dr. Herbert Otto Emanuel Laszlo,1161
+Charlie Potter,1162
+Uli Geissler,1163
+Jeremy Shaw,1164
+Ted Adams,1165
+Thierry Chapeau,1166
+Gerhard Wieser,1167
+Andrej Wiatkin,1168
+J. W. Patterson,1169
+William L. Roach,1170
+Seth Carus,1171
+Dirk Kias,1172
+Jacques Thiriat,1173
+Thomas Cauët,1174
+Suzanne Goldberg,1175
+Anthony G. Harmsworth,1176
+Rick Bowes,1177
+Steve Fairnie,1178
+James M. Ward,1179
+Nick Karp,1180
+Craig Douglas,1181
+Brian Taylor,1182
+The Baywatch Production Company,1183
+Three Wishes Ltd,1184
+Robert Hain,1185
+Phillippe Aucagos,1186
+Benjamin M. Cedarberg,1187
+Jonathan K. Self,1188
+Frédéric Bey,1189
+Gary Tallman,1190
+Josh Lytle,1191
+Giovanni Maselli,1192
+Dirk Hanneforth,1193
+Kyra Moritz,1194
+Michael K. Lorrigan,1195
+Patti Rockburn,1196
+Michael Kuby,1197
+Thomas Wevers,1198
+Bob Kalinowski,1199
+Jan Kristian Haugland,1200
+John Ashby,1201
+Clarke Rubicon,1202
+Premysl Chmelar,1203
+Darrell Hayhurst,1204
+Rich Koehler,1205
+Matthew J. Costello,1206
+Adrian Inauen,1207
+Emil Galli,1208
+Dov Karpati,1209
+Fréderic Moyersoen,1210
+John Schettler,1211
+Uwe Freyschmidt,1212
+Gary Grady,1213
+Tom McNamara,1214
+Danny Kishon,1215
+Georgios Georgotas,1216
+Duilio Carpitella,1217
+Robert Peeples,1218
+Scott A. Mednick,1219
+Robert Bowie Johnson Jr.,1220
+Geni Wyss,1221
+Wagstaff & Roy Creative Consultants,1222
+Karsten Engelmann,1223
+Bob Ray,1224
+Ben Hull,1225
+Mark Miklos,1226
+Heinz Wittenberg,1227
+Marc Davis,1228
+Layman E. Allen,1229
+David Shreeve,1230
+D. Glynn,1231
+Brett Clements,1232
+Steve Knight,1233
+Ray Braithwaite,1234
+K. S. (Tony) Ahluwalia,1235
+Gustav Levay,1236
+Valéry Fourcade,1237
+Monte Cook,1238
+Steve Dunne,1239
+Bill Ingram,1240
+Paul Freeman,1241
+Bob Champer,1242
+Steve Lortz,1243
+Rodney Mudge,1244
+Antonio Lupica,1245
+Simone Peruzzi,1246
+Jose Garcia (I),1247
+Tom Dowd,1248
+Alessandro Gatti,1249
+Brad Geagley,1250
+Dieter Gebhardt,1251
+Charlie Catino,1252
+Gerardo Iula,1253
+Mark Harmon,1254
+Giacomo Mearelli,1255
+Lionel Adalbert Bagration Felix Kieseritzky,1256
+Detlef Wendt,1257
+Don Perrin,1258
+Glenn Alpaugh,1259
+Roberto Di Meglio,1260
+Frank Nestel,1261
+Leonardo Dolfi,1262
+John Gray,1263
+Werner Böhme,1264
+Jack Mitchell,1265
+David Matalon,1266
+William F. (Red) Frissell,1267
+David Marshall,1268
+Don Green (II),1269
+François Bachelart,1270
+Paul Murphy,1271
+E. Bruce Hollands,1272
+Arthur Levitt Jr.,1273
+Mark A. Campbell,1274
+Harry O. Todd,1275
+David M. Rea,1276
+Colin Keizer,1277
+Phil R. Chase,1278
+Alessio Cavatore,1279
+F. M. Drysdale,1280
+Burke Pullman,1281
+Peter Andersen (I),1282
+Peter Corless,1283
+Deborah Boss,1284
+Dwight Bender,1285
+Avital,1286
+Ed Rinehart,1287
+Christophe Berg,1288
+Henry Scott,1289
+J. D. Webster,1290
+Perry Moore,1291
+William Kendrick,1292
+Franz Bayer,1293
+Mark Jacobs,1294
+Raphael Adley,1295
+Tim Bean,1296
+Javier Romero,1297
+John Harshman,1298
+David M. Niecikowski,1299
+Terry Hall,1300
+Richard Barr,1301
+Greg Stolze,1302
+Nick Schuessler,1303
+Lou Zocchi,1304
+Peter Pallat,1305
+R. A. Nadeau,1306
+Leslie Dixon,1307
+Uncle Rez,1308
+Greg Myers,1309
+H. Heller,1310
+Brad Hessel,1311
+Michael C. McDaniel,1312
+Michael Scott Kurtick,1313
+Markus Welbourne,1314
+W. G. Armintrout,1315
+Howard E. Paine,1316
+J. Michael Hemphill,1317
+Brian Yu,1318
+Bruce Whitehill,1319
+Adrian McGrath,1320
+Jeffrey Neil Bellinger,1321
+Bruce Harlick,1322
+James Nelson,1323
+Randy Cox (I),1324
+Christopher D. Cordry,1325
+Richard Rosen,1326
+James M. Day,1327
+Gary C. Morgan,1328
+Kris Oprisko,1329
+Gary Gygax,1330
+Peter Adolph,1331
+Susanne Kummer,1332
+A. Eddie Goldfarb,1333
+Stuart K. Tucker,1334
+Mario Seabra,1335
+Marie Miller Lowell,1336
+Olivier Mercier,1337
+Duccio Vitale,1338
+Jeffrey W. Berndt,1339
+Chris McDonough,1340
+Robert N. Glass,1341
+Jim Kondrick,1342
+Trevor Blake,1343
+Bob Edes,1344
+Stephan Beal,1345
+Walter O'Hara,1346
+Vincent Miranda,1347
+Philip Gilbert,1348
+Régis Bonnessée,1349
+Denys Fisher,1350
+Charles U. Deaton,1351
+Craig O'Brien,1352
+Christiane Adams,1353
+Mikko Koivusalo,1354
+Steven Poelzing,1355
+Mark Metroka,1356
+Edi Birsan,1357
+Dan Troyka,1358
+Jorge Gomez Arrausi,1359
+Dave Leonard,1360
+Doug Borresen,1361
+Raymond Lau,1362
+Frank Bustamante,1363
+Mike Hummel,1364
+Scot Hunt,1365
+David Hewitt,1366
+Dave Long (I),1367
+Dean Bass,1368
+Michael Stackpole,1369
+R. H. Sears,1370
+G. Christopher King,1371
+Mazzocchi & Farquhar,1372
+Jordan Weisman,1373
+Howard Anderson,1374
+Wunji Lau,1375
+Keith A. Johannsen,1376
+Jon M. Tuffley,1377
+David F. Tepool,1378
+Helmut Dressler,1379
+Lou Coatney,1380
+Joyce Arthur,1381
+J. L. Boler,1382
+Mark Hauser,1383
+Mark Schildberg,1384
+Amanda Birkinshaw,1385
+Matthew Norburn,1386
+Gail M. Peck,1387
+Ginichiro Suzuki,1388
+Heinrich Glumpler,1389
+Matt Ryan (I),1390
+Sam Lewis,1391
+John Wallis (II),1392
+Thomas Housley,1393
+Emiliano Sciarra,1394
+Don Cornelson,1395
+Jean Malherbe,1396
+Raven C. S. McCracken,1397
+Karl Hiesterman,1398
+Stéphane Bonnelalbay,1399
+Matthew Baldwin,1400
+Ralf E. Kahlert,1401
+Chuck Sawyer,1402
+Vicky Mayfield,1403
+Ray Tapio,1404
+Jacques Deul,1405
+Richard Fenwick,1406
+Ryan Parfitt,1407
+Kentaro Kawashima,1408
+Gary Edwards,1409
+Theo Kermanidis,1410
+Jay A. Nelson,1411
+Jack Radey,1412
+Mike Carr,1413
+Peter Bertram,1414
+Daniel Girard,1415
+Stefan Ljunqvist,1416
+Benjamin Corliss,1417
+James Stewart,1418
+Ute Labode,1419
+Fred DaMert,1420
+Allan Cowan,1421
+David A. Powell,1422
+Louis Powell,1423
+Chris Clark (I),1424
+Daniel Lewis,1425
+Hank Atkins,1426
+Dave Cook (II),1427
+Dick Rustin,1428
+Rodolphe Charpentier,1429
+Mark Setteducati,1430
+Truman Henard Jr.,1431
+Philippe Thibaut,1432
+B. Miksch,1433
+John Myler,1434
+Piet Hein,1435
+Ray Freeman,1436
+Mildred Zeigler,1437
+Barbara Cunningham Shillito,1438
+Arne Lauwers,1439
+Gary M. Berlino,1440
+Don Lloyd,1441
+Scott Holmgren,1442
+Chris Ruffle,1443
+Roger Damon,1444
+Bill Sabram,1445
+Don Alexander,1446
+Big Bocca,1447
+Walter Bernard,1448
+James J. Corbett,1449
+Garry Stevens,1450
+Ann Stambler,1451
+David Shaw (I),1452
+Blake Smith,1453
+Mark C. MacKinnon,1454
+Tom Oleson,1455
+Jeff Siadek,1456
+Thane Morgan,1457
+Joan Wendland,1458
+Ea Ea,1459
+James LaFond,1460
+M. J. Bemel,1461
+Ian Young,1462
+Erik James Olsrud,1463
+Brian Train,1464
+Bryan Ansell,1465
+Bob Read,1466
+Anthony P. LeBoutillier,1467
+Tom Drake,1468
+Stephen B. Patrick,1469
+Ed Beach,1470
+Pete Bell,1471
+Mike Markowitz,1472
+Stephanie Starr,1473
+Robert Johannessen,1474
+John Davidson,1475
+Timothy B. Brown,1476
+Syndi Kercher,1477
+Ralph Braun,1478
+Thomas R Newton,1479
+Stephen Newberg,1480
+Larry Ray Sims,1481
+Thomas Condon,1482
+Mike Joslyn,1483
+Ralf Lehmkuhl,1484
+Ulf Siebert,1485
+Michael Lasher,1486
+Gary Gillette,1487
+Marshall T. Rose,1488
+Ed Wimble,1489
+Ernst Franke,1490
+Rik Fontana,1491
+Martin Anderson,1492
+Glenn Williams,1493
+D. Wayne Hackett,1494
+H. J. Geesink,1495
+Chris Perello,1496
+Derek Gould,1497
+William Koff,1498
+Jörg Spiegelhalter,1499
+Bruno Cathala,1500
+Bill Tolany,1501
+David Ferris,1502
+Ric Heise,1503
+Nigel Roberts,1504
+Stuart John Bernard,1505
+David Bush,1506
+Jeffrey D. Liebmann,1507
+Kevin Brusky,1508
+Jay Titel,1509
+Rob Beyma,1510
+Dennis Bishop,1511
+Alexander S. Berg,1512
+Christopher Cummins,1513
+William Schaper,1514
+Ty Bomba,1515
+Uwe Schewe,1516
+Daniel Park,1517
+Mike Alford,1518
+Howard Kamentsky,1519
+Jeff Eamer,1520
+Alan Teck,1521
+Tadd Callies,1522
+Carol Wiseley,1523
+Roy Goodman,1524
+Gardner F. Fox,1525
+William Gemmill,1526
+Eric Martin (I),1527
+Oriol Comas i Coma,1528
+Markleford Friedman,1529
+Tamara Jannink,1530
+Anja Menon,1531
+Jens Rademaker,1532
+Rob Land,1533
+John Makell,1534
+Peter Roizen,1535
+Mike Nystul,1536
+Ray D. Smith,1537
+M. Morgantini,1538
+Mike Ferguson,1539
+Alfons Rubbens,1540
+Brian Armstrong,1541
+Peter-Paul Joopen,1542
+Ben Louw,1543
+Paul K. Guillow,1544
+Tony Lee,1545
+Roger Price,1546
+Edgar Burns,1547
+Darryl D. Esakof,1548
+Paul Dechene,1549
+Johannes Tranelis,1550
+Harvey Grinsell,1551
+Joachim Haack,1552
+Kermit E. Heartsong,1553
+Eugen Wyss,1554
+Ed Evans,1555
+Trevor Truran,1556
+Ehud Fridgut,1557
+Ron Toelke,1558
+Margalith Akavya,1559
+Charles E. Gaenslen,1560
+Edward Shaw,1561
+Patrick Scott (I),1562
+Riff Conner,1563
+Jaime Poniachik,1564
+Frédéric Guerrier,1565
+Kip Allen,1566
+Emil Ruzicka Jr.,1567
+Morgan Fitzgerald,1568
+Timbre Poste,1569
+Ken Adami,1570
+G. E. N. Tinley,1571
+I. Loffre,1572
+Peter Sumpter,1573
+Bertram Kaes,1574
+Art Kaplan,1575
+T. J. Testa,1576
+Jean-Jacques Petit,1577
+John W. Gutschow,1578
+Steven Schend,1579
+Uri Hirshfeld,1580
+Gerd Krämer,1581
+Jay Turley,1582
+Michael Flynn,1583
+Andy Harney,1584
+"Leonhard ""Lonny"" Orgler",1585
+Christopher Anthony,1586
+Aamir Syed,1587
+Giovanni Ingellis,1588
+Thomas Zarbock,1589
+Which Sisters,1590
+Keith Gohl,1591
+Jens-Peter Schliemann,1592
+John Blaska,1593
+Nick Scott,1594
+Chris Hunt,1595
+David B. Pritchard,1596
+Peter Ventura,1597
+Andrew Lawson,1598
+Bill Boren,1599
+Shane Lacy Hensley,1600
+Tyler Kenney,1601
+Lynette R. F. Cowper,1602
+Colin Bruce,1603
+Raymond Speer,1604
+William Cardwell,1605
+Paul Sclafani,1606
+Paul Kaster,1607
+Phil Kendall,1608
+Bob Birmley,1609
+Peter Schutze,1610
+Johann Aumaitre,1611
+Lauri E. Hulse,1612
+Scott B. Bizar,1613
+R. Dawson Smith,1614
+Robert J. McCredie,1615
+Michael Scott Smith,1616
+Mike McVey,1617
+Jonathan Bjork,1618
+Joe Sengir,1619
+Jamie Swise,1620
+Ryan S. Johnson,1621
+Martin Edwards,1622
+Cindy Vincent,1623
+Joseph Assheton Fincher,1624
+Geoff McQueen,1625
+Robert R. Poole,1626
+Michael Mills,1627
+Brent Nosworthy,1628
+R. E. Falco,1629
+Jonathan Iwamasa,1630
+Bruce Costello,1631
+David Mair,1632
+James Griffin,1633
+Stanley Hopkins,1634
+Michael Gewalt,1635
+Bracha Ungar Klein,1636
+Bryan Kowalski,1637
+Craig Kinzer,1638
+Donald Miller,1639
+Neal Shusterman,1640
+René Wanner,1641
+Donal Carlston,1642
+Jordan R. Pine,1643
+Bob Stuart,1644
+Peggy Brown,1645
+Mario Fischel Ph.D.,1646
+Merv Griffin,1647
+Joe Keller,1648
+Laurence Blackwell,1649
+Barry Levine,1650
+Andrew S. Berton,1651
+Don Bone,1652
+Allen D. Eldridge,1653
+Sam Kjellman,1654
+Frank Davis,1655
+Gary Gatchel,1656
+Patrick Casey,1657
+Sjaak Griffioen,1658
+Helmut Huber,1659
+Dan Bress,1660
+F. M. Noonan,1661
+Raphaël Berland,1662
+J. David Ford,1663
+Shirl Soloman,1664
+Bruce Glassco,1665
+Ananda Gupta,1666
+Richard Launius,1667
+Kevin Wilson,1668
+William Attia,1669
+Chad Jensen,1670
+Michał Oracz,1671
+Corey Konieczka,1672
+Yasutaka Ikeda,1673
+Mac Gerdts,1674
+Matt Calkins,1675
+Kasper Aagaard,1676
+Stefan Feld,1677
+Robert Vaughn,1678
+Andrea Chiarvesio,1679
+Christian Leonhard,1680
+Malcolm Braff,1681
+Peter Prinz,1682
+Carl de Visser,1683
+Anthony J. Gallela,1684
+Steve Finn,1685
+Donald X. Vaccarino,1686
+Michael Adams,1687
+Croc,1688
+Antoine Bauza,1689
+Jean-Louis Roubira,1690
+Xavier Georges,1691
+Christian Marcussen,1692
+Don Eskridge,1693
+Vital Lacerda,1694
+Bruce Allen,1695
+Daniel Clark (I),1696
+Tory Niemann,1697
+Jay Cormier,1698
+Sébastien Pauchon,1699
+Adam Poots,1700
+Clay Blankenship,1701
+Colby Dauch,1702
+Acchittocca,1703
+Gabriele Mari,1704
+Brandon Tibbetts,1705
+Carl Chudyk,1706
+Matthias Cramer,1707
+John Fiorillo,1708
+Touko Tahkokallio,1709
+Sébastien Dujardin,1710
+Nate French,1711
+Cody Miller,1712
+Jim Krohn,1713
+Jay Little,1714
+Hervé Marly,1715
+Nuno Bizarro Sentieiro,1716
+James Hata,1717
+Vladimír Suchý,1718
+Kevin Lanzing,1719
+Bryan Pope,1720
+Christopher Badell,1721
+Inka Brand,1722
+Peter Lee,1723
+Jeff Grossman,1724
+Kristian Amundsen Østby,1725
+Raphaël Guiton,1726
+Andreas Steiger,1727
+Brian Mayer,1728
+Jens Drögemüller,1729
+Hisashi Hayashi,1730
+Joanna Kijanka,1731
+Sebastian Bleasdale,1732
+D. Brad Talton Jr.,1733
+Ted Alspach,1734
+Jerry Hawthorne,1735
+Paolo Mori,1736
+Rustan Håkansson,1737
+Simone Luciani,1738
+Jacques Bariot,1739
+Michael Menzel,1740
+Jamey Stegmaier,1741
+Aaron Dill,1742
+Matt Eklund,1743
+Beau Beckett,1744
+Devin Low,1745
+Seiji Kanai,1746
+Rikki Tahta,1747
+Wei-Hwa Huang,1748
+Phil Walker-Harding,1749
+Chris Dupuis,1750
+Jun Sasaki,1751
+Sandy Petersen,1752
+Cédrick Chaboussit,1753
+Dan Cassar,1754
+Tim Fowers,1755
+James Kniffen,1756
+Eric Zimmerman,1757
+Etienne Espreman,1758
+Helmut Ohley,1759
+Trey Chambers,1760
+Peggy Chassenet,1761
+Ben Cichoski,1762
+Jason C. Hill,1763
+Michael Keller (II),1764
+Robert Dougherty,1765
+Marc André,1766
+Jake Staines,1767
+Brent Beck,1768
+Jonathan Gilmour-Long,1769
+Steffen Bogen,1770
+Ignacy Trzewiczek,1771
+Stefan Risthaus,1772
+Nikki Valens,1773
+Thiago Aranha,1774
+Dominic Crapuchettes,1775
+Christian Martinez,1776
+Alexander Pfister,1777
+Tobey Ho,1778
+Shadi Torbey,1779
+Alex Hague,1780
+Philip duBarry,1781
+Sérgio Halaban,1782
+Kota Nakayama (中山 宏太),1783
+Christophe Raimbault,1784
+Frédéric Henry,1785
+Shimpei Sato,1786
+Brett Sobol,1787
+Matúš Kotry,1788
+R. Eric Reuss,1789
+Richard Amann,1790
+Mark K. Swanson,1791
+Scott Almes,1792
+Matthew Dunstan,1793
+Justin Kemppainen,1794
+Mikkel Bertelsen,1795
+Adam Kwapiński,1796
+Isaac Vega,1797
+Jacob Fryxelius,1798
+Keith Matejka,1799
+Clayton Helme,1800
+Shem Phillips,1801
+Isaias Vallejo,1802
+Seth Jaffee,1803
+Simone Romano,1804
+Fabien Riffaud,1805
+Ole Steiness,1806
+Andreas Pelikan,1807
+Ryan Laukat,1808
+Isaac Childres,1809
+Hermann Luttmann,1810
+Samuel Bailey,1811
+François Gandon,1812
+Koota Yamada,1813
+Ludovic Roudy,1814
+Hervé Rigal,1815
+Nicolas Normandon,1816
+Nicolas Robert,1817
+Stefano Castelli,1818
+Frank Brooks,1819
+Oleksandr Nevskiy,1820
+Lukas Litzsinger,1821
+Virginio Gigli,1822
+Alex Davy,1823
+Dávid Turczi,1824
+Benoit Vogt,1825
+Chris Taylor (I),1826
+Mike Boxleiter,1827
+Ron Gonzalo García,1828
+Manuel Rozoy,1829
+Jenny Iglesias,1830
+Josh J. Carlson,1831
+Tim Puls,1832
+John D. Clair,1833
+Gord!,1834
+Jesús Torres Castro,1835
+Sean Fletcher,1836
+Ira Fay,1837
+Asger Harding Granerud,1838
+Adrian Adamescu,1839
+James A. Wilson,1840
+Paul Dennen,1841
+TauCeti Deichmann,1842
+Flaminia Brasini,1843
+Tim Pinder,1844
+Chris Cantrell,1845
+Emerson Matsuuchi,1846
+Kasper Lapp,1847
+Kara Centell-Dunk,1848
+James M. Hewitt,1849
+Alice Carroll,1850
+Juma Al-JouJou,1851
+Joseph Z Chen,1852
+Nate Chatellier,1853
+Gernot Köpke,1854
+Evan Derrick,1855
+Hjalmar Hach,1856
+Kevin Bishop,1857
+Joshua Buergel,1858
+Jakub Łapot,1859
+Kai Starck,1860
+Gavan Brown,1861
+Thomas Dagenais-Lespérance,1862
+Isra C.,1863
+Tim Eisner,1864
+Daniele Tascini,1865
+Dan Hallagan,1866
+Hervé Lemaître,1867
+Nick Bentley,1868
+Dane Beltrami,1869
+Benoit Turpin,1870
+Adam Carlson,1871
+S J Macdonald,1872
+Cole Wehrle,1873
+David Cicurel,1874
+Marco Montanaro,1875
+Steven Medway,1876
+Ryan Lopez DeVinaspre,1877
+Marc Paquien,1878
+Marcin Wełnicki,1879
+Gary Arant,1880
+Wolfgang Warsch,1881
+Andy Clautice,1882
+Ben Pinchback,1883
+Ivan Lashin,1884
+Hal Duncan,1885
+Jon Perry,1886
+Galen Ciscell,1887
+Tido Lorenz,1888
+Trevor Benjamin,1889
+Tommaso Battista,1890
+Steven Aramini,1891
+Jamie Jolly,1892
+Tim Burrell-Saward,1893
+Ryan Courtney,1894
+Annick Lobet,1895
+Konstantinos Kokkinis,1896
+Matthew O'Malley,1897
+Ryan Lambert,1898
+Michal Mikeš,1899
+Jordy Adan,1900
+Krzysztof Piskorski,1901
+Peter McPherson,1902
+Mathieu Casnin,1903
+Elizabeth Hargrave,1904
+Henry Audubon,1905
+Gavin Birnbaum,1906
+Benjamin Schwer,1907
+Nathan I. Hajek,1908
+Andreas Odendahl,1909
+Luke Laurie,1910
+Frédéric Guérard,1911
+Aaron Donogh,1912
+Maikel Cheney,1913
+Patrick Leder,1914
+Molly Johnson,1915
+Aristide Bruyant,1916
+Frank West,1917
+Prospero Hall,1918
+Kevin Russ,1919
+Ivan Tuzovsky,1920
+Thomas Sing,1921
+Paul Salomon,1922
+Michał Gołąb Gołębiowski,1923
+Michael Boggs,1924
+Jeff Chin,1925
+Tom Mattson,1926
+Kei Kajino (梶野 桂),1927
+Kamil 'Sanex' Cieśla,1928
+Chris Handy (I),1929
+Dave Beck,1930
+Randy Flynn,1931
+Grant Rodiek,1932
+Mattox Shuler,1933
+Peter Rustemeyer,1934
+Aurélien Picolet,1935
+Scott Caputo,1936
+Mr. Bistro,1937
+Roberta Taylor,1938
+Bobby Hill,1939
+Stan Kordonskiy,1940
+Fabio Lopiano,1941
+Tomáš Uhlíř,1942
+Paul Abrahams,1943
+Joshua Van Laningham,1944
+Elwen,1945
+Klemens Kalicki,1946
+Alex Olteanu,1947
+Maxime Rambourg,1948
+Dennis K. Chan,1949
+Brian Lewis,1950
+Nigel Buckle,1951
+Marcus Carleson,1952
+Johannes Sich,1953
+Kasper Kjær Christiansen,1954
+Peer Sylvester,1955
+Vangelis Bagiartakis,1956
+Germán P. Millán,1957
+Andrzej Betkiewicz,1958
+Noah Cohen,1959
+Aske Christiansen,1960
+Unai Rubio,1961
+T. C. Petty III,1962
+Sydney Engelstein,1963
+Daniel Piechnick,1964
+Laskas,1965
+François Romain,1966
+Nick Brachmann,1967
+Łukasz Woźniak,1968
+Helge Meissner,1969
+Luís Brueh,1970
+Wilhelm Su,1971
+Manny Vega,1972
+Gary Dworetsky,1973
+Alexis Allard,1974
+Tony Fanchi,1975
+Dave Chalker,1976
+Mathias Wigge,1977
+Dimitri Perrier,1978
+Muneyuki Yokouchi (横内宗幸),1979
+Gerard Ascensi,1980
+Maxime Tardif,1981
+宮野 華也 (Kaya Miyano),1982
+Charlie Bink,1983
+Ross Arnold,1984
+Fabien Gridel,1985
+Jules Messaud,1986
+Viktor Kobilke,1987
+Ian Brody,1988
+Zé Mendes,1989
+Josh Wood,1990
+Jamie Bloom,1991
+Michael Palm,1992
+Alexandar Ortloff-Tang,1993
+Luc Rémond,1994
+Caleb Grace,1995
+Thomas Dupont,1996
+Jason Hager,1997
+Helge Ostertag,1998
+Dani Garcia,1999
+Eric Hong,2000
+Ondřej Bystroň,2001
+Johannes Goupy,2002
+Jim Cartwright,2003
+Kosch,2004
+Ralph Bienert,2005
+Connie Vogelmann,2006
+Johan Benvenuto,2007
+Grégory Grard,2008
+Tomáš Holek,2009
+Bryan Bornmueller,2010

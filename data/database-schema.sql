@@ -160,3 +160,10 @@ CREATE TABLE minplaytime_to_name(
 minplaytime_to_nameId int,
 nameId int);
 \copy minplaytime_to_name FROM 'minplaytime_to_name.csv' DELIMITER ',' CSV NULL AS 'NULL'
+
+CREATE TABLE mechanics(
+mechanics text,
+id int NOT NULL
+);
+\copy mechanic FROM 'mechanic.csv' DELIMITER ',' CSV NULL AS 'NULL'
+
