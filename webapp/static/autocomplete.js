@@ -1,9 +1,10 @@
-// Fetch board game names from the backend and initialize autocomplete
-fetch('/api/game_names')
-  .then(response => response.json())
-  .then(boardGames => {
-    autocomplete(document.getElementById("myInput"), boardGames);
-  });
+document.addEventListener("DOMContentLoaded", function() {
+  fetch('/api/game_names')
+    .then(response => response.json())
+    .then(boardGames => {
+      autocomplete(document.getElementById("myInput"), boardGames);
+    });
+});
 
 // adapted from W3Schools autocomplete function
 // https://www.w3schools.com/howto/howto_js_autocomplete.asp
@@ -30,6 +31,8 @@ function autocomplete(inp, arr) {
           b.addEventListener("click", function(e) {
               inp.value = this.getElementsByTagName("input")[0].value;
               closeAllLists();
+              // Redirect to the search results page for the selected name
+              window.location.href = "/search_results?q=" + encodeURIComponent(inp.value);
           });
           a.appendChild(b);
         }
@@ -45,10 +48,11 @@ function autocomplete(inp, arr) {
         currentFocus--;
         addActive(x);
       } else if (e.keyCode == 13) {
-        e.preventDefault();
         if (currentFocus > -1) {
+          e.preventDefault(); // Only prevent default if selecting an autocomplete item
           if (x) x[currentFocus].click();
         }
+        // Otherwise, allow form to submit normally
       }
   });
   function addActive(x) {

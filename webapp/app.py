@@ -2,9 +2,25 @@ import argparse
 import flask
 import api
 import sys
+import config
+import psycopg2
 
 
 app = flask.Flask(__name__)
+
+def get_connection():
+    try:
+        return psycopg2.connect(
+            database=config.database,
+            user=config.user,
+            password=config.password,
+            host=getattr(config, 'host', 'localhost'),
+            port=getattr(config, 'port', 5432)
+        )
+    except Exception as e:
+        print(e, file=sys.stderr)
+        exit()
+
 @app.route('/')
 @app.route('/home')
 def home():
@@ -29,8 +45,9 @@ def returnName(searchTerm):
     return api.getNames(searchTerm)
 
 @app.route('/search')
-def land():
-    return flask.render_template('mainSearchPage.html')
+def search():
+    query = flask.request.args.get('q', '').strip()
+    return flask.render_template('search.html', query=query)
 
 @app.route('/games')
 def returnGames():
@@ -62,7 +79,7 @@ def search_games():
     query = flask.request.args.get('q', '').strip()
     out = []
     try:
-        connection = api.get_connection()
+        connection = get_connection()
         cursor = connection.cursor()
         if query.lower() == "all":
             cursor.execute(
