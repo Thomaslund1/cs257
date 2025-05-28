@@ -5,7 +5,11 @@ fetch('/api/game_names')
     autocomplete(document.getElementById("myInput"), boardGames);
   });
 
-// W3Schools autocomplete function
+// adapted from W3Schools autocomplete function
+// https://www.w3schools.com/howto/howto_js_autocomplete.asp
+// Autocomplete function to suggest board game names
+// based on user input in the input field with id "myInput"
+// and the provided array of board game names. 
 function autocomplete(inp, arr) {
   let currentFocus;
   inp.addEventListener("input", function(e) {
