@@ -28,19 +28,14 @@ Sources:
             <a href="recommender">Recommender</a>
         </div>
         
-        <!-- Search Bar -->
-        <div class="navbar-icons">
-            <a href="#"><i class="fas fa-search"></i></a>
-            <a href="#"><i class="fas fa-user"></i></a>
-            <a href="#"><i class="fas fa-cog"></i></a>
-        </div>
         <!-- Search Form -->                
         <form action="/search_results" class="search-container" autocomplete="off" style="position: relative; width: 300px;">
             <input id="myInput" type="text" placeholder="Search games..." name="q" style="width: 100%;">
             <button type="submit"><i class="fas fa-search"></i></button>
             <!-- The autocomplete dropdown will be injected here by JS -->
+             <img src="{{ url_for('static', filename='search.svg') }}" class="search-svg-right" width="30px" height="30px" alt="Search">
         </form>
-        <img src="{{ url_for('static', filename='search.svg') }}" class="search-svg-right" width="30px" height="30px" alt="Search">
+        
     </nav>
 
     <!-- 
@@ -60,8 +55,7 @@ Sources:
         <p>Explore thousands of games across all categories</p>
         
         <div class="buttons-container">
-            <button class="button primary-button">Explore Games</button>
-            <button class="button secondary-button">Explore Users</button>
+            <button class="button primary-button" href="search">Explore Games</button>
         </div>
     </div>
     <script>

@@ -57,7 +57,7 @@ body {
 
 .search-svg-right {
   position: absolute;
-  right: 30px;
+  right: 10px;
   top: 50%;
   transform: translateY(-50%);
   z-index: 10;
