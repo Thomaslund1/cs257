@@ -10,6 +10,10 @@ app = flask.Flask(__name__)
 def home():
     return flask.render_template('index.html')
 
+@app.route('/api/game_names')
+def game_names():
+    return api.game_names()
+
 @app.route('/api/mechanics')
 def returnMechanics():
     return api.getAllMechanics()

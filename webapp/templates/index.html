@@ -13,6 +13,9 @@ Sources:
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BoardGameDB</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <script src="{{ url_for('static', filename='searchbar.js') }}"></script>
+    <script src="{{ url_for('static', filename='autocomplete.js') }}"></script>
+    
 </head>
 <body>
     <!-- Navigation Bar -->
@@ -26,9 +29,19 @@ Sources:
             <a href="recommender">Recommender</a>
         </div>
         
-        <form action="#" class="search-container">
-            <input type="text" placeholder="Search games..." name="search">
-            <button type="submit"><i class="fas fa-search"></i></button>
+        <!-- Search Bar -->
+        <div class="navbar-icons">
+            <a href="#"><i class="fas fa-search"></i></a>
+            <a href="#"><i class="fas fa-user"></i></a>
+            <a href="#"><i class="fas fa-cog"></i></a>
+        </div>
+        <!-- Search Form -->                
+        <form autocomplete="off" class="search-container" action="/action_page.php">
+            <div class="autocomplete" style="width:300px;">
+            <input id="myInput" type="text" placeholder="Search games..." name="games">
+            <button type="submit" class="search-button"><i class="fas fa-search"></i></button>
+        </div>
+            
         </form>
     </nav>
 
@@ -56,6 +69,14 @@ Sources:
     <script>
         document.body.style.overflowY = 'hidden'; // Hides vertical scrollbar
         document.body.style.overflowX = 'hidden'; // Hides horizontal scrollbar
+
+        document.addEventListener("DOMContentLoaded", function() {
+          fetch('/api/game_names')
+            .then(response => response.json())
+            .then(boardGames => {
+              autocomplete(document.getElementById("myInput"), boardGames);
+            });
+        });
     </script>
 </body>
 </html>

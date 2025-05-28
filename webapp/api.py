@@ -223,5 +223,20 @@ def search_games():
     return Flask.jsonify(results=out)
 
 
+@app.route('/api/game_names')
+def game_names():
+    out = []
+    try:
+        connection = get_connection()
+        cursor = connection.cursor()
+        cursor.execute("SELECT name FROM name ORDER BY name ASC;")
+        for row in cursor:
+            out.append(row[0])
+        connection.close()
+    except Exception as e:
+        print(e, file=sys.stderr)
+    return jsonify(out)
+
+
 def getFromArgs(args):
     return
