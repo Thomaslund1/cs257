@@ -16,20 +16,9 @@
         </div>
     </nav>
 
-    <h1>{{ game.name if game else "Game Not Found" }}</h1>
-    {% if game %}
-    <table>
-        <tbody>
-        {% for key, value in game.items() %}
-            <tr>
-                <th>{{ key }}</th>
-                <td>{{ value }}</td>
-            </tr>
-        {% endfor %}
-        </tbody>
-    </table>
-    {% else %}
-    <p>No data found for this game.</p>
-    {% endif %}
+    <h1>Game Recommender</h1>
+    <div>
+        <p>Use the form below to get game recommendations based on your preferences.</p>
+    </div>
 </body>
 </html>
