@@ -68,7 +68,7 @@ def returnGame():
 
 @app.route('/recommender')
 def returnRecommender():
-    return flask.render_template('topGames.html')
+    return flask.render_template('recommender.html')
 
 @app.route('/users')
 def returnUsers():
