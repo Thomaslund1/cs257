@@ -31,8 +31,8 @@ function autocomplete(inp, arr) {
           b.addEventListener("click", function(e) {
               inp.value = this.getElementsByTagName("input")[0].value;
               closeAllLists();
-              // Redirect to the search results page for the selected name
-              window.location.href = "/search_results?q=" + encodeURIComponent(inp.value);
+              // Redirect to the game page for the selected name
+              window.location.href = "/game/" + encodeURIComponent(inp.value);
           });
           a.appendChild(b);
         }
@@ -51,6 +51,10 @@ function autocomplete(inp, arr) {
         if (currentFocus > -1) {
           e.preventDefault(); // Only prevent default if selecting an autocomplete item
           if (x) x[currentFocus].click();
+        } else if (x && x.length > 0) {
+          // If no suggestion is highlighted, select the first one
+          e.preventDefault();
+          x[0].click();
         }
         // Otherwise, allow form to submit normally
       }

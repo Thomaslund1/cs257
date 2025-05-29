@@ -114,6 +114,24 @@ def search_results():
     query = flask.request.args.get('q', '').strip()
     return flask.render_template('search_results.html', query=query)
 
+@app.route('/game/<game_name>')
+def game_detail(game_name):
+    # Fetch game data from the database using the name
+    connection = api.get_connection()
+    cursor = connection.cursor()
+    cursor.execute(
+        "SELECT * FROM game WHERE name = %s LIMIT 1;", (game_name,)
+    )
+    row = cursor.fetchone()
+    connection.close()
+    if row:
+        # Adjust the keys to match your table columns
+        columns = [desc[0] for desc in cursor.description]
+        game_data = dict(zip(columns, row))
+        return flask.render_template('game.html', game=game_data)
+    else:
+        return flask.render_template('game.html', game=None)
+
 if __name__ == '__main__':
     parser = argparse.ArgumentParser('A sample Flask application/API')
     parser.add_argument('host', help='the host on which this application is running')

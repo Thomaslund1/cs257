@@ -9,21 +9,37 @@
 <body>
     <!-- Navigation Bar -->
     <nav class="navbar">
-        <a href="#" class="navbar-brand">BoardGameDB</a>
-        
         <div class="navbar-links">
-            <a href="home" class="active">Home</a>
-            <a href="games">Games</a>
+            <a href="/home" class="active">Home</a>
+            <a href="search">Games</a>
             <a href="users">Users</a>
-            <a href="recommender" class="active">Recommender</a> 
+            <a href="recommender">Recommender</a>
         </div>
         
-        <form action="#" class="search-container">
-            <input type="text" placeholder="Search games..." name="search">
+        <!-- Search Form -->                
+        <form action="/search_results" class="search-container" autocomplete="off" style="position: relative; width: 300px;">
+            <input id="myInput" type="text" placeholder="Search games..." name="q" style="width: 100%;">
             <button type="submit"><i class="fas fa-search"></i></button>
+            <!-- The autocomplete dropdown will be injected here by JS -->
+             <img src="{{ url_for('static', filename='search.svg') }}" class="search-svg-right" width="30px" height="30px" alt="Search">
         </form>
+        
     </nav>
 
-    
+    <h1>{{ game.name if game else "Game Not Found" }}</h1>
+    {% if game %}
+    <table>
+        <tbody>
+        {% for key, value in game.items() %}
+            <tr>
+                <th>{{ key }}</th>
+                <td>{{ value }}</td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+    {% else %}
+    <p>No data found for this game.</p>
+    {% endif %}
 </body>
 </html>
