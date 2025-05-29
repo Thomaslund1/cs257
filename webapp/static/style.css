@@ -117,6 +117,60 @@ body {
   color: #ff6b35;
 }
 
+.search-container {
+  margin-left: auto; /* pushes search bar to the far right */
+  position: relative;
+}
+
+/* Search Container2 
+  --Game Inputs on recommender*/
+.search-container2 {
+  display: flex;
+  align-items: left;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50px;
+  padding: 0.4rem 0.8rem;
+  width: 240px;
+  transition: all 0.3s ease;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.search-container2:focus-within {
+  background-color: rgba(255, 255, 255, 0.15);
+  border-color: rgba(255, 255, 255, 0.2);
+  width: 280px;
+}
+
+.search-container2 input {
+  background: transparent;
+  border: none;
+  color: white;
+  padding: 0.3rem 0.5rem;
+  font-size: 0.9rem;
+  width: 100%;
+  outline: none;
+}
+
+.search-container2 input::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.search-container2 button {
+  background: transparent;
+  border: none;
+  color: rgba(255, 255, 255, 0.6);
+  cursor: pointer;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: color 0.2s ease;
+}
+
+.search-container2 button:hover {
+  color: #ff6b35;
+}
+
 /* Autocomplete Styles */
 .autocomplete {
   position: relative;
