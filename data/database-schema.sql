@@ -165,5 +165,5 @@ CREATE TABLE mechanics(
 mechanics text,
 id int NOT NULL
 );
-\copy mechanics FROM 'mechanic.csv' DELIMITER ',' CSV NULL AS 'NULL'
+\copy mechanics FROM 'mechanics.csv' DELIMITER ',' CSV NULL AS 'NULL'
 

@@ -68,16 +68,23 @@ for i in range(len(headers)):
     if i == game_id_index or i == mechanics_index:
         continue
 
+    idsNames = {}
+    for j in range(len(dat[1])):
+        if dat[1][j] not in idsNames:
+            idsNames[dat[1][j]] = {'id': len(idsNames)}
+
     ids = {}
     idsToNames = []
-
     for j in range(len(dat[i])):
-        attr_value = dat[i][j]
-        if attr_value not in ids:
-            ids[attr_value] = len(ids)
-        idsToNames.append([ids[attr_value], dat[game_id_index][j]])
+        if dat[i][j] not in ids:
+            ids[dat[i][j]] = {'id': len(ids)}
+        idsToNames.append([ids[dat[i][j]]['id'], idsNames[dat[1][j]]['id']])
 
-    newIds = [[k, ids[k]] for k in ids]
+
+    newIds = []
+    for k in ids.keys():
+        # Switched: [id, data] instead of [data, id]
+        newIds.append([k,ids[k]['id']])
 
     if newIds:
         with open(f"./{headers[i]}.csv", 'w', encoding='utf-8', newline='') as f:
