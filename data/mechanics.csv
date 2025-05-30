@@ -1,0 +1,195 @@
+Alliances,0
+Area Majority / Influence,1
+Auction / Bidding,2
+Dice Rolling,3
+Hand Management,4
+Simultaneous Action Selection,5
+Trick-taking,6
+Hexagon Grid,7
+Once-Per-Game Abilities,8
+Set Collection,9
+Tile Placement,10
+Action Points,11
+Investment,12
+Market,13
+Square Grid,14
+Stock Holding,15
+Victory Points as a Resource,16
+Enclosure,17
+Pattern Building,18
+Modular Board,19
+Network and Route Building,20
+Open Drafting,21
+Point to Point Movement,22
+Programmed Movement,23
+Turn Order: Progressive,24
+Multi-Use Cards,25
+Negotiation,26
+Trading,27
+Auction: Once Around,28
+Closed Economy Auction,29
+Constrained Bidding,30
+Hidden Victory Points,31
+Push Your Luck,32
+Chaining,33
+Income,34
+Race,35
+Random Production,36
+Take That,37
+Variable Set-up,38
+Roll / Spin and Move,39
+Variable Player Powers,40
+Action Queue,41
+Bias,42
+Grid Movement,43
+Lose a Turn,44
+Scenario / Mission / Campaign Game,45
+Voting,46
+Real-Time,47
+Events,48
+Paper-and-Pencil,49
+Player Elimination,50
+Role Playing,51
+Movement Points,52
+Simulation,53
+Variable Phase Order,54
+Zone of Control,55
+Area Movement,56
+Commodity Speculation,57
+Cooperative Game,58
+Deduction,59
+Rock-Paper-Scissors,60
+Sudden Death Ending,61
+Connections,62
+Force Commitment,63
+Highest-Lowest Scoring,64
+Betting and Bluffing,65
+Memory,66
+Melding and Splaying,67
+Ordering,68
+Score-and-Reset Game,69
+Turn Order: Stat-Based,70
+Kill Steal,71
+Layering,72
+Map Addition,73
+Secret Unit Deployment,74
+Increase Value of Unchosen Resources,75
+Static Capture,76
+Ratio / Combat Results Table,77
+Team-Based Game,78
+Campaign / Battle Card Driven,79
+Tech Trees / Tech Tracks,80
+Auction: Dutch,81
+Player Judge,82
+Chit-Pull System,83
+Three Dimensional Movement,84
+Card Play Conflict Resolution,85
+Action Drafting,86
+Interrupts,87
+Selection Order Bid,88
+Turn Order: Auction,89
+Minimap Resolution,90
+Stat Check Resolution,91
+Action Timer,92
+Pick-up and Deliver,93
+Auction: English,94
+Auction: Sealed Bid,95
+Auction: Turn Order Until Pass,96
+Map Deformation,97
+Bingo,98
+Crayon Rail System,99
+Multiple Maps,100
+Hot Potato,101
+Hidden Roles,102
+Flicking,103
+Bids As Wagers,104
+Tug of War,105
+Pattern Movement,106
+Different Dice Movement,107
+Pattern Recognition,108
+Move Through Deck,109
+End Game Bonuses,110
+Ladder Climbing,111
+Predictive Bid,112
+Auction: Multiple Lot,113
+Contracts,114
+Track Movement,115
+Solo / Solitaire Game,116
+Line of Sight,117
+Critical Hits and Failures,118
+Bribery,119
+Tags,120
+Area-Impulse,121
+Stacking and Balancing,122
+Worker Placement,123
+Measurement Movement,124
+Spelling,125
+Map Reduction,126
+Resource to Move,127
+Mancala,128
+Ownership,129
+Delayed Purchase,130
+Hidden Movement,131
+Line Drawing,132
+Loans,133
+Closed Drafting,134
+Deck Construction,135
+Turn Order: Role Order,136
+Prisoner's Dilemma,137
+Movement Template,138
+Slide / Push,139
+Auction: Dexterity,140
+Targeted Clues,141
+Command Cards,142
+Turn Order: Claim Action,143
+Grid Coverage,144
+Pieces as Map,145
+Relative Movement,146
+Action / Event,147
+Die Icon Resolution,148
+Turn Order: Random,149
+Elapsed Real Time Ending,150
+Advantage Token,151
+Different Worker Types,152
+Narrative Choice / Paragraph,153
+Storytelling,154
+Catch the Leader,155
+Acting,156
+Singing,157
+Roles with Asymmetric Information,158
+Traitor Game,159
+Moving Multiple Units,160
+Speed Matching,161
+Semi-Cooperative Game,162
+Matching,163
+Neighbor Scope,164
+I Cut,165
+You Choose,166
+Impulse Movement,167
+Communication Limits,168
+Cube Tower,169
+Re-rolling and Locking,170
+Questions and Answers,171
+Deck,172
+Bag,173
+and Pool Building,174
+Single Loser Game,175
+Drawing,176
+Induction,177
+Physical Removal,178
+Follow,179
+Turn Order: Time Track,180
+Finale Ending,181
+Legacy Game,182
+Auction: Fixed Placement,183
+Turn Order: Pass Order,184
+Order Counters,185
+King of the Hill,186
+Rondel,187
+Worker Placement with Dice Workers,188
+Automatic Resource Growth,189
+Action Retrieval,190
+Auction: Dutch Priority,191
+Passed Action Token,192
+Resource Queue,193
+Auction Compensation,194
