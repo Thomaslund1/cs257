@@ -21,7 +21,7 @@ def get_connection():
         exit()
 
 def getAllMechanics():
-    query = 'SELECT id, mechanics FROM mechanics ORDER BY mechanics'
+    query = 'SELECT id, mechanics FROM mechanics'
     connection = get_connection()
     cursor = connection.cursor()
     cursor.execute(query)
@@ -96,12 +96,22 @@ def queryGamesNames(header,searchTerm):
 
 
 def queryGames(params):
+    #Buckle up, this is as much cursed SQL as I could cobble together in a few short weeks
+    """
+    A function that creates and executes the final SQL command for data retreival 
+    @param params(lol) : dict 
+          - The list of search terms and their field from the url
+    @returns out
+          - A list of games output from the search function
+    """
     out = []
     joins = ["name"]
     wheres = []
     values = []
 
-    # --- PLAYERS FILTER (using minplayers and maxplayers) ---
+    # a few search terms are 'special' because they need to be searched for differently
+    #Here plays is an int that needs to be within min and max of each game that gets returned
+    #is this the most efficent term to start with? almost certainly not
     if 'plays' in params:
         min_plays = params.get('minPlays', 0)
         max_plays = params.get('maxPlays', 10000)
@@ -112,6 +122,7 @@ def queryGames(params):
             "maxplayers AS maxplayers_table",
             "maxplayers_to_name AS maxplayers_map"
         ])
+        #I made all my dts as text so we have to clean that up quick
         wheres.extend([
             "CAST(minplayers_table.minplayers AS INTEGER) >= %s",
             "CAST(maxplayers_table.maxplayers AS INTEGER) <= %s",
@@ -122,7 +133,7 @@ def queryGames(params):
         ])
         values.extend([min_plays, max_plays])
 
-    # --- AGE FILTER ---
+    #similarly minimum player age needs to be less than the age given
     if 'age' in params:
         joins.append("age AS age_table")
         joins.append("age_to_name AS age_map")
@@ -133,7 +144,7 @@ def queryGames(params):
         ])
         values.append(params['age'])
 
-    # --- PLAYTIME FILTER ---
+   #Time should also be less
     if 'time' in params:
         joins.append("minplaytime AS minplaytime_table")
         joins.append("minplaytime_to_name AS minplaytime_map")
@@ -145,7 +156,8 @@ def queryGames(params):
         ])
         values.append(params['time'])
 
-    # --- MECHANICS FILTER (handle before looping params to avoid duplication) ---
+    #mechanics are fun... 
+    #They get pulled from a special sql dt 
     mechanics_ids = params.get('mechanics', [])
     mechanics_count = len(mechanics_ids)
     if mechanics_count > 0:
@@ -154,16 +166,20 @@ def queryGames(params):
         wheres.append(f"mechanics_map.mechanics_to_nameid IN ({','.join(['%s'] * mechanics_count)})")
         values.extend(mechanics_ids)
 
-    # --- OTHER PARAMS FILTER ---
+    #10/10 sql sanitizaton
     valid_headers = [
         'artist', 'designer', 'maxplayers', 'minplayers', 'minplaytime',
         'name', 'complexity', 'age', 'maxplaytime', 'mechanics'
     ]
+    #ignore these in the loop
     special_keys = ['plays', 'age', 'time', 'mechanics']
 
+    #with the paramater.id, paramater_to_names, and names.id we have 
+    #to do some schenanigans to make the search work
+    #I present schenanigans:
     for i, (header, searchTerm) in enumerate(params.items()):
         if header in special_keys:
-            continue  # already handled or special
+            continue  
 
         if header not in valid_headers:
             return None  # invalid key
@@ -179,7 +195,7 @@ def queryGames(params):
         joins.append(f"{header} AS {alias}")
         joins.append(f"{header}_to_name AS {map_alias}")
 
-        # Text search with ILIKE, exact match for others
+        
         if header in ['artist', 'designer']:
             wheres.append(f"{alias}.{header} ILIKE %s")
             values.append(f"%{searchTerm}%")
@@ -190,13 +206,13 @@ def queryGames(params):
         wheres.append(f"{alias}.id = {map_alias}.{header}_to_nameid")
         wheres.append(f"name.id = {map_alias}.nameid")
 
-    # --- FINAL QUERY BUILD ---
+   
     query = f"SELECT DISTINCT name.name FROM {', '.join(joins)}"
     if wheres:
         query += f" WHERE {' AND '.join(wheres)}"
     query += ";"
 
-    # --- EXECUTE ---
+    # Run the query
     try:
         print("QUERY:", query)
         print("VALUES:", values)
