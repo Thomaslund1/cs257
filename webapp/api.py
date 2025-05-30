@@ -48,99 +48,6 @@ def getId(id):
         out = 'No results found'
     return jsonify({'name': out})
 
-def queryGames(params):
-    out = []
-    joins = ["name"]
-    wheres = []
-    values = []
-
-    # Handle special 'plays' case (which involves min and max)
-    if 'plays' in params:
-        min_plays = params.get('minPlays', 0)
-        max_plays = params.get('maxPlays', 10000)
-
-        joins.extend([
-            "minplays AS minplays_table",
-            "minplays_to_name AS minplays_map",
-            "maxplays AS maxplays_table",
-            "maxplays_to_name AS maxplays_map"
-        ])
-        wheres.extend([
-            "minplays_table.value >= %s",
-            "maxplays_table.value <= %s",
-            "minplays_table.id = minplays_map.minplays_to_nameId",
-            "maxplays_table.id = maxplays_map.maxplays_to_nameId",
-            "name.id = minplays_map.nameid",
-            "name.id = maxplays_map.nameid"
-        ])
-        values.extend([min_plays, max_plays])
-
-    # Handle minage (age filter)
-    if 'age' in params:
-        joins.append("minage AS minage_table")
-        joins.append("minage_to_name AS minage_map")
-        wheres.extend([
-            "minage_table.value <= %s",
-            "minage_table.id = minage_map.minage_to_nameId",
-            "name.id = minage_map.nameid"
-        ])
-        values.append(params['age'])
-
-    # Handle time (playtime filter)
-    if 'time' in params:
-        joins.append("minplaytime AS minplaytime_table")
-        joins.append("minplaytime_to_name AS minplaytime_map")
-        wheres.extend([
-            "minplaytime_table.value <= %s",
-            "minplaytime_table.id = minplaytime_map.minplaytime_to_nameId",
-            "name.id = minplaytime_map.nameid"
-        ])
-        values.append(params['time'])
-
-    # Headers to include (excluding special keys)
-    valid_headers = ['artist', 'designer', 'maxplayers', 'minplayers', 'minplaytime',
-                     'name', 'complexity', 'minage', 'maxplaytime', 'mechanics']
-    special_keys = ['plays', 'age', 'time']
-
-    for i, (header, searchTerm) in enumerate(params.items()):
-        if header in special_keys:
-            continue  # already processed
-        if header not in valid_headers:
-            return None  # invalid key
-
-        alias = f"{header}_{i}"
-        joins.append(f"{header} AS {alias}")
-        joins.append(f"{header}_to_name AS {alias}_map")
-
-        # Filter
-        wheres.append(f"{alias}.{header} ILIKE %s")
-        values.append(f"%{searchTerm}%")
-
-        # Join conditions
-        wheres.append(f"{alias}.id = {alias}_map.{header}_to_nameId")
-        wheres.append(f"name.id = {alias}_map.nameid")
-
-    # Build query
-    query = f"SELECT DISTINCT name.name FROM {', '.join(joins)}"
-    if wheres:
-        query += f" WHERE {' AND '.join(wheres)}"
-    query += ";"
-
-    # Execute
-    try:
-        connection = get_connection()
-        cursor = connection.cursor()
-        cursor.execute(query, values)
-        out = [row[0] for row in cursor]
-        connection.close()
-    except Exception as e:
-        print(e, file=sys.stderr)
-        return None
-
-    return out
-
-
-
 
 def getNames(searchTerm='%'):
     out = []
@@ -187,55 +94,119 @@ def queryGamesNames(header,searchTerm):
         out = 'No results found'
     return jsonify({'name': out})
 
-@app.route('/api/search_games')
-def search_games():
-    query = Flask.request.args.get('q', '').strip()
+
+def queryGames(params):
     out = []
-    try:
-        connection = get_connection()
-        cursor = connection.cursor()
-        if query.lower() == "all":
-            cursor.execute(
-                "SELECT id, name, yearpublished, average, playingtime, age, minplayers, maxplayers, designer FROM game ORDER BY average DESC LIMIT 100"
-            )
-        elif len(query) >= 3:
-            cursor.execute(
-                "SELECT id, name, yearpublished, average, playingtime, age, minplayers, maxplayers, designer FROM game WHERE name ILIKE %s ORDER BY average DESC LIMIT 10",
-                (f"%{query}%",)
-            )
+    joins = ["name"]
+    wheres = []
+    values = []
+
+    # --- PLAYERS FILTER (using minplayers and maxplayers) ---
+    if 'plays' in params:
+        min_plays = params.get('minPlays', 0)
+        max_plays = params.get('maxPlays', 10000)
+
+        joins.extend([
+            "minplayers AS minplayers_table",
+            "minplayers_to_name AS minplayers_map",
+            "maxplayers AS maxplayers_table",
+            "maxplayers_to_name AS maxplayers_map"
+        ])
+        wheres.extend([
+            "CAST(minplayers_table.minplayers AS INTEGER) >= %s",
+            "CAST(maxplayers_table.maxplayers AS INTEGER) <= %s",
+            "minplayers_table.id = minplayers_map.minplayers_to_nameid",
+            "maxplayers_table.id = maxplayers_map.maxplayers_to_nameid",
+            "name.id = minplayers_map.nameid",
+            "name.id = maxplayers_map.nameid"
+        ])
+
+
+        values.extend([min_plays, max_plays])
+
+    # --- AGE FILTER ---
+    if 'age' in params:
+        joins.append("age AS age_table")
+        joins.append("age_to_name AS age_map")
+        wheres.extend([
+            "CAST(age_table.age AS INTEGER) <= %s",
+            "age_table.id = age_map.age_to_nameid",
+            "name.id = age_map.nameid"
+        ])
+        values.append(params['age'])
+
+    # --- PLAYTIME FILTER ---
+    if 'time' in params:
+        joins.append("minplaytime AS minplaytime_table")
+        joins.append("minplaytime_to_name AS minplaytime_map")
+        wheres.extend([
+            "CAST(minplaytime_table.minplaytime AS INTEGER) <= %s",
+            "CAST(minplaytime_table.minplaytime AS INTEGER) > 0",  # exclude zero min times
+            "minplaytime_table.id = minplaytime_map.minplaytime_to_nameid",
+            "name.id = minplaytime_map.nameid"
+        ])
+
+
+        values.append(params['time'])
+
+
+    # --- VALID PARAM-TO-TABLE FILTERS ---
+    valid_headers = [
+        'artist', 'designer', 'maxplayers', 'minplayers', 'minplaytime',
+        'name', 'complexity', 'age', 'maxplaytime', 'mechanics'
+    ]
+    special_keys = ['plays', 'age', 'time']
+
+    for i, (header, searchTerm) in enumerate(params.items()):
+        if header == 'name':
+            # Direct filter on name.name (no join)
+            wheres.append("name.name ILIKE %s")
+            values.append(f"%{searchTerm}%")
+            continue
+        if header in special_keys:
+            continue
+        if header not in valid_headers:
+            return None  # Invalid key
+
+        alias = f"{header}_{i}"
+        map_alias = f"{alias}_map"
+
+        joins.append(f"{header} AS {alias}")
+        joins.append(f"{header}_to_name AS {map_alias}")
+
+        # Use ILIKE for text-based fields, exact match for numeric
+        if header in ['artist', 'designer', 'name', 'mechanics']:
+            wheres.append(f"{alias}.{header} ILIKE %s")
+            values.append(f"%{searchTerm}%")
         else:
-            return Flask.jsonify(results=[])
-        for row in cursor.fetchall():
-            out.append({
-                "id": row[0],
-                "name": row[1],
-                "yearpublished": row[2],
-                "average": row[3],
-                "playingtime": row[4],
-                "age": row[5],
-                "minplayers": row[6],
-                "maxplayers": row[7],
-                "designer": row[8]
-            })
-        connection.close()
-    except Exception as e:
-        print(e, file=sys.stderr)
-    return Flask.jsonify(results=out)
+            wheres.append(f"{alias}.{header} = %s")
+            values.append(searchTerm)
 
+        # Join logic
+        wheres.append(f"{alias}.id = {map_alias}.{header}id")
+        wheres.append(f"name.id = {map_alias}.nameid")
 
-@app.route('/api/game_names')
-def game_names():
-    out = []
+    # --- FINAL QUERY BUILD ---
+    query = f"SELECT DISTINCT name.name FROM {', '.join(joins)}"
+    if wheres:
+        query += f" WHERE {' AND '.join(wheres)}"
+    query += ";"
+
+    # --- EXECUTE ---
     try:
+        print("QUERY:", query)
+        print("VALUES:", values)
         connection = get_connection()
         cursor = connection.cursor()
-        cursor.execute("SELECT name FROM name ORDER BY name ASC;")
-        for row in cursor:
-            out.append(row[0])
+        cursor.execute(query, values)
+        out = [row[0] for row in cursor]
         connection.close()
     except Exception as e:
         print(e, file=sys.stderr)
-    return jsonify(out)
+        return None
+
+    return out
+
 
 
 def getFromArgs(args):

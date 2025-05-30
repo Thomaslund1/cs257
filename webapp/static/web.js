@@ -33,11 +33,11 @@ function onSearch(event) {
         let numPlays = document.getElementById('numPlays').value;
         if (numPlays) params.push('plays=' + encodeURIComponent(numPlays));
 
-        let complexity = document.getElementById('complexity').value;
-        if (complexity) params.push('complexity=' + encodeURIComponent(complexity));
+        let name = document.getElementById('name').value;
+        if (name) params.push('name=' + encodeURIComponent(name));
 
-        let minAge = document.getElementById('minAge').value;
-        if (minAge) params.push('age=' + encodeURIComponent(minAge));
+        let age = document.getElementById('minAge').value;
+        if (age) params.push('age=' + encodeURIComponent(age));
 
         let time = document.getElementById('time').value;
         if (time) params.push('time=' + encodeURIComponent(time));
