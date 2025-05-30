@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const urlParams = new URLSearchParams(window.location.search);
     const query = urlParams.get('q');
     const resultsTable = document.getElementById('results_table');
-
+    console.log(query)
     if (!query || query.length < 3) {
         resultsTable.innerHTML = '<tr><td colspan="7">Please enter at least 3 characters.</td></tr>';
         return;

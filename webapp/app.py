@@ -35,10 +35,7 @@ def returnMechanics():
     mechanics = api.getAllMechanics()
     return flask.jsonify([{"id": m_id, "name": m_name} for m_id, m_name in mechanics])
 
-@app.route('/api/<paramater>/<searchTerm>')
-@app.route('/api/<paramater>')
-def funt(paramater,searchTerm='%'):
-    return api.queryGames(paramater,searchTerm)
+
 
 @app.route('/api/name/<searchTerm>')
 @app.route('/api/name/')
@@ -108,6 +105,7 @@ def search_games():
         connection.close()
     except Exception as e:
         print(e, file=sys.stderr)
+    print(out)
     return flask.jsonify(results=out)
 
 @app.route('/search_results')
