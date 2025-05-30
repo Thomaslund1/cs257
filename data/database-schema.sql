@@ -167,6 +167,11 @@ id int NOT NULL
 );
 \copy mechanics FROM 'mechanics.csv' DELIMITER ',' CSV NULL AS 'NULL'
 
+CREATE TABLE mechanics_to_name(
+mechanics_to_nameId int,
+nameId int);
+\copy mechanics_to_name FROM 'mechanic_to_name.csv' DELIMITER ',' CSV NULL AS 'NULL'
+
 CREATE TABLE age(
 age text,
 id int NOT NULL

@@ -120,8 +120,6 @@ def queryGames(params):
             "name.id = minplayers_map.nameid",
             "name.id = maxplayers_map.nameid"
         ])
-
-
         values.extend([min_plays, max_plays])
 
     # --- AGE FILTER ---
@@ -141,32 +139,39 @@ def queryGames(params):
         joins.append("minplaytime_to_name AS minplaytime_map")
         wheres.extend([
             "CAST(minplaytime_table.minplaytime AS INTEGER) <= %s",
-            "CAST(minplaytime_table.minplaytime AS INTEGER) > 0",  # exclude zero min times
+            "CAST(minplaytime_table.minplaytime AS INTEGER) > 0",
             "minplaytime_table.id = minplaytime_map.minplaytime_to_nameid",
             "name.id = minplaytime_map.nameid"
         ])
-
-
         values.append(params['time'])
 
+    # --- MECHANICS FILTER (handle before looping params to avoid duplication) ---
+    mechanics_ids = params.get('mechanics', [])
+    mechanics_count = len(mechanics_ids)
+    if mechanics_count > 0:
+        joins.append("mechanics_to_name AS mechanics_map")
+        wheres.append("mechanics_map.nameid = name.id")
+        wheres.append(f"mechanics_map.mechanics_to_nameid IN ({','.join(['%s'] * mechanics_count)})")
+        values.extend(mechanics_ids)
 
-    # --- VALID PARAM-TO-TABLE FILTERS ---
+    # --- OTHER PARAMS FILTER ---
     valid_headers = [
         'artist', 'designer', 'maxplayers', 'minplayers', 'minplaytime',
         'name', 'complexity', 'age', 'maxplaytime', 'mechanics'
     ]
-    special_keys = ['plays', 'age', 'time']
+    special_keys = ['plays', 'age', 'time', 'mechanics']
 
     for i, (header, searchTerm) in enumerate(params.items()):
+        if header in special_keys:
+            continue  # already handled or special
+
+        if header not in valid_headers:
+            return None  # invalid key
+
         if header == 'name':
-            # Direct filter on name.name (no join)
             wheres.append("name.name ILIKE %s")
             values.append(f"%{searchTerm}%")
             continue
-        if header in special_keys:
-            continue
-        if header not in valid_headers:
-            return None  # Invalid key
 
         alias = f"{header}_{i}"
         map_alias = f"{alias}_map"
@@ -174,16 +179,15 @@ def queryGames(params):
         joins.append(f"{header} AS {alias}")
         joins.append(f"{header}_to_name AS {map_alias}")
 
-        # Use ILIKE for text-based fields, exact match for numeric
-        if header in ['artist', 'designer', 'name', 'mechanics']:
+        # Text search with ILIKE, exact match for others
+        if header in ['artist', 'designer']:
             wheres.append(f"{alias}.{header} ILIKE %s")
             values.append(f"%{searchTerm}%")
         else:
             wheres.append(f"{alias}.{header} = %s")
             values.append(searchTerm)
 
-        # Join logic
-        wheres.append(f"{alias}.id = {map_alias}.{header}id")
+        wheres.append(f"{alias}.id = {map_alias}.{header}_to_nameid")
         wheres.append(f"name.id = {map_alias}.nameid")
 
     # --- FINAL QUERY BUILD ---
@@ -206,6 +210,7 @@ def queryGames(params):
         return None
 
     return out
+
 
 
 
