@@ -219,6 +219,12 @@ function MultiselectDropdown(options){
   });
 }
 
-window.addEventListener('load',()=>{
+
+async function initMultiselect() {
+  await populateMechanicsDropdown();
   MultiselectDropdown(window.MultiselectDropdownOptions);
+}
+
+window.addEventListener('load', () => {
+  initMultiselect();
 });

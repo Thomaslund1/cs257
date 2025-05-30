@@ -1,28 +1,24 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Search Results - BoardGameDB</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
-    <script type="module" src="{{ url_for('static', filename='search_results.js') }}"></script>
-</head>
+    <meta charset="utf-8">
+    <title>Search Board Games</title>
+     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+     <script src="{{ url_for('static', filename='results.js') }}"></script>
+    </head>
 <body>
-    <!-- Navigation Bar -->
-    <nav class="navbar">
-        <div class="navbar-links">
-            <a href="/home">Home</a>
-            <a href="/search">Games</a>
-            <a href="/users">Users</a>
-            <a href="/recommender">Recommender</a>
-        </div>
-    </nav>
-
-    <div class="container">
-        <h1>Search Results for "{{ query }}"</h1>
-        <p>Type "ALL" for all board games</p>
-        <div id="search-results-container">
-            <table id="results_table" class="results-table"></table>
-        </div>
+    <div>
+        <h1>Search Results</h1>
+    </div>
+    <hr>
+    <div class="centerText">
+        <ul class="scroll">
+            {{ listBody|safe }}
+        </ul>
+    </div>
+    <hr>
+    <div class="centerText">
+        <a href="/search">
+            <button>Return</button>
+        </a>
     </div>
 </body>
-</html>

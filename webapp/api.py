@@ -21,14 +21,14 @@ def get_connection():
         exit()
 
 def getAllMechanics():
-    query = 'SELECT DISTINCT mechanics FROM mechanics'
+    query = 'SELECT id, mechanics FROM mechanics ORDER BY mechanics'
     connection = get_connection()
     cursor = connection.cursor()
     cursor.execute(query)
-    out = []
-    for i in cursor:
-        out.append(i)
-    return out
+
+    # Return a list of (id, name) tuples
+    return [(row[0], row[1]) for row in cursor]
+
 
 def getId(id):
     out = []

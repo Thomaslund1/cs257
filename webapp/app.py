@@ -32,7 +32,8 @@ def game_names():
 
 @app.route('/api/mechanics')
 def returnMechanics():
-    return api.getAllMechanics()
+    mechanics = api.getAllMechanics()
+    return flask.jsonify([{"id": m_id, "name": m_name} for m_id, m_name in mechanics])
 
 @app.route('/api/<paramater>/<searchTerm>')
 @app.route('/api/<paramater>')
