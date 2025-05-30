@@ -21,7 +21,7 @@ def get_connection():
         exit()
 
 def getAllMechanics():
-    query = 'SELECT DISTINCT * FROM mechanics.mechanics'
+    query = 'SELECT DISTINCT mechanics FROM mechanics'
     connection = get_connection()
     cursor = connection.cursor()
     cursor.execute(query)
