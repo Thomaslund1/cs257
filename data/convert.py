@@ -10,52 +10,74 @@ def grabDat(fileLoc):
     with open(fileLoc, newline='', encoding='utf8') as data:
         reader = csv.reader(data)
         headers = next(reader, [])
-        print(headers)  # Check headers
-        for i in reader:
-            subl = []
-            for j in i:
-                if j == '':
-                    j = 0  # Replace empty cells with 0
-                subl.append(j)
-            out.append(subl)
-        # Transpose data (you can use zip instead of np.array)
+        for row in reader:
+            cleaned_row = [cell if cell != '' else '0' for cell in row]
+            out.append(cleaned_row)
         out = list(zip(*out))  # Transpose rows and columns
     return out, headers
 
 dat, headers = grabDat(filePath)
 
-# Writing the transposed data back to a CSV
+# Write transposed data back to CSV
 with open(outPath, 'w', encoding='utf-8', newline='') as f:
     writer = csv.writer(f)
-    writer.writerows(dat)  # Writing transposed data (columns as rows)
+    writer.writerows(dat)
 
-# Example: Create IDs for a specific column (e.g., i=1)
-i = 1
-idsNames = {}
-for j in range(len(dat[i])):
-    if(dat[i][j] not in idsNames):
-        idsNames[dat[i][j]] = {'id': len(idsNames)}
+# ------------------------------
+# Mechanics-specific splitting
+# ------------------------------
+mechanics_index = headers.index("mechanic")  # Index of the mechanics column
+game_id_index = 1  # Assuming ID column is at index 1
 
-newIds = [[k, idsNames[k]['id']] for k in idsNames]
+mechanics_map = {}         # {mechanic_name: id}
+game_to_mechanics = []     # [(mechanic_id, game_id)]
 
-# Writing the newIds to a CSV
-with open(f"./{headers[i]}.csv", 'w', encoding='utf-8', newline='') as f:
+for game_idx in range(len(dat[mechanics_index])):
+    mechanics_raw = dat[mechanics_index][game_idx]
+    game_id = dat[game_id_index][game_idx]
+
+    # Skip if no mechanics
+    if not mechanics_raw or mechanics_raw.strip() == '0':
+        continue
+
+    # Split by comma, strip whitespace
+    mechanic_list = [m.strip() for m in mechanics_raw.split(',') if m.strip()]
+    
+    for mech in mechanic_list:
+        if mech not in mechanics_map:
+            mechanics_map[mech] = len(mechanics_map)  # assign new ID
+
+        mechanic_id = mechanics_map[mech]
+        game_to_mechanics.append([mechanic_id, game_id])
+
+# Write mechanics table: [mechanic_name, mechanic_id]
+with open("mechanics.csv", 'w', encoding='utf-8', newline='') as f:
     writer = csv.writer(f)
-    writer.writerows(newIds)
+    for mech, mid in mechanics_map.items():
+        writer.writerow([mech, mid])
 
-# Process additional headers
+# Write mapping table: [mechanic_id, game_id]
+with open("mechanics_to_game.csv", 'w', encoding='utf-8', newline='') as f:
+    writer = csv.writer(f)
+    writer.writerows(game_to_mechanics)
+
+# ------------------------------
+# Process other headers as before (skip mechanics column)
+# ------------------------------
 for i in range(len(headers)):
-    if i == 1:  # Skip index 1
+    if i == game_id_index or i == mechanics_index:
         continue
 
     ids = {}
     idsToNames = []
-    for j in range(len(dat[i])):
-        if(dat[i][j] not in ids):
-            ids[dat[i][j]] = {'id': len(ids)}
-        idsToNames.append([ids[dat[i][j]]['id'], idsNames[dat[1][j]]['id']])
 
-    newIds = [[k, ids[k]['id']] for k in ids]
+    for j in range(len(dat[i])):
+        attr_value = dat[i][j]
+        if attr_value not in ids:
+            ids[attr_value] = len(ids)
+        idsToNames.append([ids[attr_value], dat[game_id_index][j]])
+
+    newIds = [[k, ids[k]] for k in ids]
 
     if newIds:
         with open(f"./{headers[i]}.csv", 'w', encoding='utf-8', newline='') as f:
@@ -67,10 +89,9 @@ for i in range(len(headers)):
             writer = csv.writer(g)
             writer.writerows(idsToNames)
 
-# Reading daterTab.txt correctly
-dater = []
+# Optionally, load daterTab.txt (no changes needed here)
 with open('./daterTab.txt', 'r') as f:
-    dater = [line.strip() for line in f]  # Strip newline characters
+    dater = [line.strip() for line in f]
 
 # Print headers for debugging
 for header in headers:

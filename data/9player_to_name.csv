@@ -1,5474 +1,5474 @@
-0,0
-0,1
-0,2
-0,3
-0,4
-0,5
-0,6
-0,7
-0,8
-0,9
-0,10
-0,11
-0,12
-0,13
-0,14
-0,15
-0,16
-0,17
-0,18
-0,19
-0,20
-1,21
-0,22
-0,23
-0,24
-0,25
-0,26
-0,27
-0,28
-0,29
-0,30
-0,31
-0,32
-0,33
-0,34
-0,35
-0,36
-0,37
-0,38
-0,39
-0,40
-0,41
-0,42
-0,43
-0,44
-0,45
-0,46
-0,47
-2,48
-0,49
-0,50
-0,51
-0,52
-0,53
-0,54
-0,55
-0,56
-0,57
-0,58
-0,59
-0,60
-0,61
-0,62
-0,63
-0,64
-0,65
-0,66
-0,67
-0,68
-0,69
-2,70
-0,71
-0,72
-0,73
-0,74
-0,75
-0,76
-0,77
-0,78
-0,79
-0,80
-0,81
-0,82
-0,83
-0,84
-0,85
-0,86
-0,87
-0,88
-0,89
-0,90
-0,91
-0,92
-0,93
-0,94
-0,95
-0,96
-0,97
-0,98
-0,99
-0,100
-0,101
-0,102
-0,103
-0,104
-0,105
-0,106
-0,107
-0,108
-0,109
-0,110
-0,111
-0,112
-0,113
-0,114
-0,115
-0,116
-0,117
-0,118
-0,119
-0,120
-0,121
-0,122
-0,123
-0,124
-0,125
-0,126
-0,127
-2,128
-1,129
-0,130
-0,131
-0,132
-0,133
-0,134
-0,135
-0,136
-0,137
-0,138
-0,139
-0,140
-0,141
-0,142
-0,143
-0,144
-0,145
-0,146
-0,147
-0,148
-0,149
-0,150
-0,151
-0,152
-0,153
-0,154
-0,155
-0,156
-0,157
-0,158
-2,159
-0,160
-0,161
-0,162
-0,163
-0,164
-0,165
-0,166
-0,167
-0,168
-0,169
-0,170
-0,171
-0,172
-0,173
-0,174
-0,175
-1,176
-0,177
-0,178
-0,179
-0,180
-0,181
-0,182
-0,183
-0,184
-0,185
-0,186
-0,187
-2,188
-0,189
-0,190
-0,191
-1,192
-0,193
-0,194
-0,195
-0,196
-0,197
-0,198
-0,199
-0,200
-0,201
-0,202
-0,203
-0,204
-0,205
-0,206
-0,207
-0,208
-0,209
-0,210
-0,211
-0,212
-0,213
-0,214
-0,215
-0,216
-0,217
-0,218
-0,219
-2,220
-0,221
-0,222
-0,223
-0,224
-0,225
-0,226
-0,227
-0,228
-0,229
-0,230
-0,231
-0,232
-0,233
-0,234
-0,235
-0,236
-0,237
-0,238
-0,239
-0,240
-0,241
-0,242
-0,243
-0,244
-0,245
-0,246
-0,247
-0,248
-0,249
-0,250
-0,251
-0,252
-0,253
-0,254
-0,255
-0,256
-0,257
-0,258
-0,259
-0,260
-0,261
-0,262
-0,263
-0,264
-0,265
-0,266
-0,267
-0,268
-0,269
-0,270
-0,271
-0,272
-1,273
-0,274
-0,275
-0,276
-0,277
-0,278
-0,279
-0,280
-0,281
-0,282
-0,283
-0,284
-0,285
-0,286
-0,287
-0,288
-0,289
-0,290
-0,291
-0,292
-0,293
-0,294
-0,295
-0,296
-0,297
-0,298
-0,299
-0,300
-0,301
-0,302
-0,303
-0,304
-0,305
-0,306
-0,307
-0,308
-0,309
-0,310
-0,311
-0,312
-0,313
-0,314
-0,315
-0,316
-0,317
-0,318
-0,319
-0,320
-0,321
-0,322
-0,323
-0,324
-0,325
-0,326
-0,327
-0,328
-0,329
-0,330
-0,331
-0,332
-1,333
-0,334
-0,335
-0,336
-0,337
-0,338
-0,339
-0,340
-0,341
-0,342
-0,343
-0,344
-0,345
-0,346
-0,347
-0,348
-0,349
-0,350
-0,351
-0,352
-0,353
-0,354
-0,355
-0,356
-0,357
-0,358
-0,359
-0,360
-0,361
-0,362
-0,363
-0,364
-0,365
-0,366
-0,367
-0,368
-0,369
-0,370
-0,371
-0,372
-0,373
-0,374
-0,375
-0,376
-0,377
-0,378
-0,379
-0,380
-0,381
-0,382
-0,383
-0,384
-0,385
-0,386
-2,387
-0,388
-0,389
-0,390
-0,391
-0,392
-0,393
-0,394
-0,395
-0,396
-0,397
-0,398
-0,399
-0,400
-0,401
-0,402
-0,403
-0,404
-0,405
-0,406
-0,407
-0,408
-0,409
-0,410
-0,411
-0,412
-0,413
-0,414
-0,415
-0,416
-0,417
-0,418
-0,419
-0,420
-0,421
-0,422
-0,423
-0,424
-0,425
-0,426
-0,427
-0,428
-0,429
-0,430
-0,431
-0,432
-0,433
-0,434
-0,435
-0,436
-0,437
-0,438
-0,439
-0,440
-0,441
-0,442
-0,443
-0,444
-0,445
-0,446
-0,447
-0,448
-0,449
-0,450
-0,451
-0,452
-0,453
-0,454
-0,455
-0,456
-0,457
-0,458
-0,459
-0,460
-0,461
-0,462
-0,463
-0,464
-0,465
-0,466
-0,467
-0,468
-0,469
-0,470
-0,471
-0,472
-0,473
-0,474
-0,475
-0,476
-0,477
-0,478
-0,479
-0,480
-0,481
-0,482
-0,483
-0,484
-0,485
-2,486
-2,487
-2,488
-0,489
-0,490
-1,491
-0,492
-0,493
-0,494
-0,495
-0,496
-0,497
-0,498
-0,499
-0,500
-0,501
-0,502
-0,503
-0,504
-0,505
-0,506
-0,507
-0,508
-1,509
-0,510
-0,511
-0,512
-0,513
-0,514
-0,515
-0,516
-0,517
-1,518
-0,519
-0,520
-0,521
-0,522
-0,523
-0,524
-0,525
-0,526
-0,527
-0,528
-0,529
-0,530
-0,531
-0,532
-0,533
-0,534
-0,535
-0,536
-0,537
-0,538
-0,539
-0,540
-0,541
-0,542
-0,543
-0,544
-0,545
-0,546
-0,547
-0,548
-0,549
-0,550
-0,551
-0,552
-0,553
-0,554
-0,555
-0,556
-1,557
-0,558
-0,559
-0,560
-0,561
-0,562
-0,563
-0,564
-0,565
-0,566
-0,567
-0,568
-0,569
-0,570
-0,571
-3,572
-0,573
-0,574
-2,575
-0,576
-0,577
-0,578
-0,579
-0,580
-0,581
-0,582
-2,583
-0,584
-0,585
-0,586
-0,587
-0,588
-0,589
-0,590
-0,591
-0,592
-0,593
-0,594
-0,595
-0,596
-0,597
-0,598
-0,599
-0,600
-0,601
-0,602
-0,603
-0,604
-0,605
-0,606
-0,114
-0,607
-0,608
-0,609
-0,610
-0,611
-0,612
-0,613
-1,614
-0,615
-0,616
-0,617
-0,618
-0,619
-0,620
-0,621
-0,622
-0,623
-0,624
-0,625
-0,626
-0,627
-0,628
-0,629
-0,630
-0,631
-0,632
-0,633
-0,634
-0,635
-0,636
-0,637
-0,638
-0,639
-0,640
-0,641
-0,642
-0,643
-0,644
-0,645
-0,646
-0,647
-0,648
-0,649
-0,650
-0,651
-1,652
-0,653
-1,654
-1,655
-0,656
-0,657
-0,658
-0,659
-0,660
-0,661
-1,662
-0,663
-0,664
-0,665
-0,666
-0,667
-0,668
-0,669
-0,670
-0,671
-0,672
-0,673
-0,674
-0,675
-0,676
-0,677
-0,678
-0,679
-0,680
-1,681
-0,682
-0,683
-0,684
-0,685
-0,686
-0,687
-0,688
-0,689
-0,690
-0,691
-0,692
-3,693
-0,694
-0,695
-0,696
-0,697
-1,698
-0,699
-0,700
-0,701
-0,702
-0,703
-0,704
-0,705
-0,706
-0,707
-0,708
-0,709
-0,710
-0,711
-0,712
-0,713
-0,714
-0,715
-0,716
-0,717
-0,718
-0,719
-0,720
-0,721
-0,722
-0,723
-0,724
-0,725
-0,726
-0,727
-0,728
-0,729
-0,730
-0,731
-0,732
-0,733
-0,734
-0,735
-0,736
-0,737
-0,738
-0,739
-1,740
-0,741
-0,742
-0,743
-0,744
-0,745
-0,746
-0,747
-0,748
-0,749
-0,750
-0,751
-0,752
-0,753
-0,754
-0,755
-0,756
-0,757
-0,758
-0,759
-0,27
-0,760
-1,761
-0,762
-0,763
-0,764
-0,765
-0,766
-0,767
-0,768
-0,769
-0,770
-0,771
-0,772
-0,773
-0,774
-0,775
-0,776
-1,777
-0,778
-0,779
-0,780
-0,781
-1,782
-2,783
-0,784
-0,785
-0,786
-0,787
-1,788
-0,789
-0,790
-0,791
-0,792
-0,793
-0,794
-0,795
-0,796
-0,797
-1,798
-0,799
-0,800
-0,801
-0,802
-0,803
-0,804
-0,805
-0,806
-0,807
-0,808
-2,809
-0,810
-2,811
-0,812
-0,813
-0,814
-0,815
-0,816
-0,817
-0,818
-0,819
-0,820
-0,821
-0,822
-0,823
-0,824
-0,825
-0,826
-0,827
-0,828
-0,829
-0,830
-0,831
-0,832
-0,833
-0,834
-0,835
-0,836
-0,837
-0,838
-1,839
-0,840
-0,841
-0,842
-0,843
-0,844
-0,845
-0,846
-0,847
-0,848
-0,849
-0,850
-0,851
-0,852
-0,853
-0,854
-0,855
-0,856
-1,857
-0,858
-0,859
-0,860
-0,861
-0,862
-0,863
-0,864
-0,865
-0,866
-0,867
-0,868
-0,869
-1,870
-0,871
-0,872
-0,873
-0,874
-0,875
-0,876
-0,877
-0,878
-0,879
-0,880
-0,881
-0,882
-0,883
-0,884
-0,885
-0,886
-0,887
-0,888
-0,889
-1,890
-0,891
-0,892
-0,893
-0,894
-0,895
-0,896
-0,897
-0,898
-0,899
-0,900
-0,901
-0,902
-0,903
-0,904
-0,905
-0,906
-0,907
-0,908
-0,909
-0,910
-0,911
-0,912
-0,913
-0,914
-0,915
-0,916
-0,917
-0,918
-0,919
-0,920
-0,921
-0,922
-0,923
-0,924
-0,925
-0,926
-0,927
-0,928
-0,929
-0,930
-0,931
-0,932
-0,933
-0,934
-0,935
-0,936
-0,937
-0,938
-0,939
-0,940
-0,941
-0,942
-0,943
-0,944
-0,945
-0,946
-0,947
-1,948
-0,949
-0,950
-0,951
-0,952
-0,953
-0,954
-0,955
-0,956
-0,957
-2,958
-0,959
-1,960
-0,961
-0,962
-0,963
-0,964
-0,965
-0,966
-0,967
-0,968
-0,969
-0,970
-0,971
-0,972
-0,973
-0,974
-0,975
-0,976
-0,977
-0,978
-0,979
-0,980
-0,981
-0,982
-0,983
-0,984
-0,985
-0,986
-0,987
-0,988
-0,989
-0,990
-0,991
-0,992
-0,993
-0,994
-0,995
-0,996
-0,997
-0,998
-0,999
-0,1000
-0,1001
-0,1002
-0,1003
-0,1004
-0,1005
-0,1006
-0,1007
-0,1008
-0,1009
-0,1010
-0,1011
-0,1012
-0,1013
-0,1014
-0,1015
-0,1016
-0,1017
-0,1018
-0,1019
-0,1020
-0,1021
-0,1022
-0,1023
-0,1024
-0,1025
-0,1026
-0,1027
-0,1028
-0,1029
-1,1030
-0,1031
-0,1032
-0,1033
-0,1034
-0,1035
-0,1036
-0,1037
-0,1038
-0,1039
-0,1040
-0,1041
-0,1042
-0,1043
-0,1044
-0,1045
-0,1046
-3,1047
-0,1048
-0,1049
-0,1050
-0,1051
-0,1052
-0,1053
-0,1054
-0,1055
-0,1056
-0,1057
-0,1058
-0,1059
-0,1060
-0,1061
-0,1062
-0,1063
-0,1064
-0,1065
-0,1066
-0,1067
-0,1068
-0,1069
-0,1070
-0,1071
-0,1072
-0,1073
-0,1074
-0,1075
-0,1076
-0,1077
-0,1078
-0,1079
-0,1080
-0,1081
-0,1082
-0,1083
-0,1084
-0,1085
-0,1086
-0,1087
-0,1088
-0,1089
-0,1090
-0,1091
-0,1092
-0,1093
-0,1094
-0,552
-0,1095
-0,1096
-0,1097
-0,1098
-0,1099
-0,1100
-0,1101
-1,1102
-0,1103
-0,1104
-0,1105
-0,1106
-0,1107
-0,1108
-0,1109
-0,1110
-0,1111
-0,1112
-0,1113
-0,1114
-0,1115
-0,1116
-0,1117
-0,1118
-0,1119
-0,1120
-0,1121
-0,1122
-0,1123
-0,1124
-0,1125
-0,1126
-0,1127
-0,1128
-0,1129
-0,1130
-0,1131
-0,1132
-0,1133
-0,1134
-0,1135
-0,1136
-0,1137
-0,1138
-0,1139
-0,1140
-0,1141
-0,1142
-0,1143
-0,1144
-0,1145
-0,1146
-0,1147
-0,1148
-0,1149
-0,1150
-0,1151
-0,1152
-0,1153
-0,1154
-0,1155
-0,1156
-0,1157
-0,1158
-0,1159
-0,1160
-0,1161
-1,1162
-0,1163
-0,1164
-0,1165
-0,1166
-0,1167
-0,1168
-0,1169
-0,1170
-0,1171
-0,1172
-0,1173
-0,1174
-0,1175
-0,1176
-0,1177
-0,1178
-0,1179
-0,1180
-0,1181
-0,1182
-0,1183
-0,1184
-0,1185
-0,1186
-0,1187
-0,1188
-0,1189
-0,1190
-0,1191
-0,1192
-0,1193
-0,1194
-0,1195
-0,1196
-0,1197
-0,1198
-0,1199
-0,1200
-0,1201
-0,1202
-0,1203
-0,1204
-0,1205
-0,1206
-0,1207
-0,1208
-0,1209
-0,1210
-0,1211
-0,1212
-0,1213
-0,1214
-0,1215
-0,1216
-0,1217
-1,1218
-0,1219
-0,1220
-0,1221
-0,1222
-0,1223
-0,1224
-0,1225
-0,1226
-0,1227
-0,1228
-0,1229
-0,1230
-0,1231
-0,1232
-0,1233
-0,1234
-0,1235
-0,1236
-0,1237
-0,1238
-0,1239
-0,1240
-0,1241
-0,1242
-0,1243
-0,1244
-0,1245
-0,1246
-0,1247
-0,1248
-0,1249
-0,1250
-0,1251
-0,1252
-0,1253
-0,1254
-0,1255
-0,1256
-0,1257
-0,1258
-0,1259
-0,1260
-0,1261
-0,1262
-0,1263
-0,1264
-1,1265
-0,1266
-0,1267
-0,1268
-0,1269
-0,1270
-0,1271
-0,1272
-0,1273
-0,1274
-0,1275
-0,1276
-1,1277
-0,1278
-0,1279
-0,1280
-0,1281
-0,1282
-0,1283
-0,1284
-0,1285
-1,1286
-0,1287
-0,1288
-0,1289
-0,1290
-0,1291
-0,1292
-0,1293
-0,1294
-0,1295
-0,1296
-0,1297
-0,1298
-0,1299
-0,1300
-0,1301
-0,1302
-0,1303
-0,1304
-0,1305
-0,1306
-0,1307
-0,1308
-0,1309
-2,1310
-0,1311
-0,1312
-1,1313
-0,1314
-0,1315
-0,1316
-0,1317
-0,1318
-0,1319
-0,1320
-0,1321
-1,1322
-0,1323
-0,1324
-1,1325
-0,1326
-0,1327
-0,1328
-0,1329
-0,1330
-0,1331
-0,1332
-0,1333
-0,1334
-0,1335
-0,1336
-0,1337
-0,1338
-0,1339
-0,1340
-0,1341
-0,1342
-0,1343
-0,1344
-0,1345
-0,1346
-0,1347
-0,1348
-0,1349
-0,1350
-0,1351
-0,1352
-0,1353
-0,1354
-1,1355
-0,1356
-0,1357
-0,1358
-0,1359
-0,1360
-0,1361
-0,1362
-0,1363
-0,1364
-0,1365
-0,1366
-0,1367
-0,1368
-0,1369
-0,1370
-1,1371
-1,1372
-0,1373
-0,1374
-0,1375
-0,1376
-0,1377
-0,1378
-0,1379
-0,1380
-0,1381
-0,1382
-0,1383
-0,1384
-0,1385
-0,1386
-0,1387
-0,1388
-0,1389
-0,1390
-0,1391
-0,1392
-0,1393
-0,1394
-0,1395
-0,1396
-0,1397
-1,1398
-0,1399
-0,1400
-0,1401
-1,1402
-0,1403
-0,1404
-0,1405
-0,1406
-0,1407
-0,1408
-0,1409
-0,1410
-0,1411
-0,1412
-0,1413
-0,1414
-0,1415
-0,1416
-0,1417
-0,1418
-0,1419
-0,1420
-0,1421
-0,1422
-0,1423
-0,1424
-0,1425
-0,1426
-0,968
-0,1427
-0,1428
-0,1429
-0,1430
-0,1431
-0,1432
-0,1433
-0,1434
-0,1435
-0,1436
-0,1437
-0,1438
-0,1439
-0,1440
-0,1441
-0,1442
-0,1443
-0,1444
-0,1445
-0,1446
-0,1447
-0,1448
-0,1449
-0,1450
-0,1451
-0,1452
-0,1453
-0,1454
-0,1455
-0,1456
-0,1457
-0,1458
-0,1459
-0,1460
-1,1461
-0,1462
-0,1463
-0,1464
-0,1465
-0,1466
-0,1467
-0,1468
-0,1469
-0,1470
-0,1471
-0,1472
-0,1473
-0,1474
-0,1475
-0,1476
-0,1477
-0,1478
-3,1479
-0,1480
-0,1481
-0,1482
-0,1483
-0,1484
-0,1485
-0,1486
-0,1487
-0,1488
-0,1489
-0,262
-3,1490
-0,1491
-0,1492
-0,1493
-0,1494
-0,1495
-0,1496
-0,1497
-0,1498
-1,1499
-0,1500
-0,1501
-0,1502
-0,1503
-0,1504
-0,1505
-0,1506
-0,1507
-0,1508
-0,1509
-0,1510
-0,1511
-0,1512
-0,1513
-0,1514
-0,1515
-0,1516
-0,1517
-0,1518
-0,1519
-0,1520
-0,1521
-0,1522
-0,1523
-0,1524
-0,1525
-0,1526
-0,1527
-0,1528
-0,1529
-0,1530
-1,1531
-1,1532
-0,1533
-0,1534
-0,1535
-0,1536
-0,1537
-0,1538
-0,1539
-0,1540
-0,1541
-0,1542
-0,1543
-0,1544
-0,1545
-0,1546
-0,1547
-0,1548
-0,1549
-0,1550
-0,1551
-0,1552
-1,1553
-0,1554
-0,1555
-0,1556
-0,1557
-0,1558
-0,1559
-0,1560
-0,1561
-0,1562
-0,1563
-0,1564
-0,1565
-0,1566
-0,1567
-0,1568
-0,1569
-0,1570
-0,1571
-0,1572
-0,1573
-0,1574
-0,1575
-0,1576
-0,1577
-0,1578
-0,1579
-0,1580
-0,1581
-0,1582
-1,1583
-0,1584
-0,1585
-0,1586
-0,1587
-0,1588
-0,1589
-0,1590
-0,1591
-0,1592
-0,1593
-0,1594
-0,1595
-0,1596
-0,1597
-0,1598
-0,1599
-0,1600
-0,1601
-0,1602
-1,1603
-0,1604
-0,1605
-0,1606
-0,1607
-0,1608
-0,1609
-0,1610
-0,1611
-0,1612
-0,1613
-0,1614
-0,1615
-0,1616
-0,1617
-0,1618
-0,1619
-0,1620
-0,1621
-0,1622
-0,1623
-0,1624
-0,1625
-0,1626
-0,1627
-0,1628
-0,1629
-1,1630
-0,1631
-0,1632
-0,1633
-0,1634
-0,1635
-0,1636
-0,1637
-0,1638
-0,1639
-0,1640
-0,1641
-0,1642
-0,1643
-0,1644
-0,1645
-0,1646
-0,1647
-0,1648
-0,1649
-0,1650
-0,1651
-0,1652
-0,1653
-0,1654
-0,1655
-0,1656
-0,1657
-1,1658
-0,1659
-0,1660
-0,1661
-0,1662
-0,1663
-0,1664
-0,1665
-0,1666
-0,1667
-0,1668
-0,1669
-0,1670
-0,1671
-0,1672
-0,1673
-0,1674
-0,1675
-0,1676
-0,1677
-0,1678
-0,1679
-2,1680
-0,1681
-0,1682
-0,1683
-0,1684
-0,1685
-0,1686
-0,1687
-0,1688
-0,1689
-2,1690
-0,1691
-0,1692
-0,1693
-0,1694
-0,1695
-0,1696
-0,1697
-0,1698
-0,1699
-0,1700
-0,1701
-0,1702
-0,1703
-0,1704
-0,1705
-0,1706
-0,1707
-0,1708
-0,1709
-0,1710
-0,1711
-0,1712
-0,127
-0,1713
-0,1714
-0,1715
-0,1716
-0,1717
-0,1718
-0,1719
-0,1720
-0,1721
-0,1722
-0,1723
-0,1724
-0,1725
-1,1726
-0,1727
-0,1728
-0,1729
-0,1730
-0,1731
-0,1732
-1,1733
-0,1734
-0,1735
-0,1736
-0,1737
-1,1738
-0,1739
-0,1740
-0,1741
-0,1742
-0,1743
-0,1744
-0,1745
-0,1746
-0,1747
-0,1748
-0,1749
-0,1750
-0,1751
-0,1752
-0,1753
-1,1754
-0,1755
-0,1756
-0,1757
-0,1758
-0,1759
-0,1760
-0,1761
-0,1762
-0,1763
-0,1764
-1,1765
-0,1766
-0,1767
-0,1768
-0,1769
-0,1770
-0,1771
-0,1772
-0,1773
-0,1774
-0,1775
-0,1776
-0,1777
-0,1778
-0,1779
-0,1780
-0,1781
-0,1782
-0,1783
-0,1784
-0,1785
-0,1786
-0,1787
-0,1788
-0,970
-0,1789
-0,1790
-0,1791
-0,1792
-0,1793
-0,1794
-0,1795
-0,1796
-0,1797
-0,1798
-0,1799
-1,1800
-0,1801
-0,1802
-0,1803
-0,1804
-0,1805
-0,1806
-0,1807
-0,1808
-0,1809
-0,1810
-0,1811
-0,1812
-1,1813
-0,1814
-0,1815
-0,1816
-0,1817
-0,1818
-0,1819
-0,1820
-0,1821
-0,1822
-0,1823
-0,1824
-0,1825
-0,1826
-0,1827
-0,1828
-0,1829
-0,1830
-0,1831
-0,1832
-0,1833
-0,1834
+0,Die Macher
+0,Dragonmaster
+0,Samurai
+0,Tal der Könige
+0,Acquire
+0,Mare Mediterraneum
+0,Cathedral
+0,Lords of Creation
+0,El Caballero
+0,Elfenland
+0,Bohnanza
+0,Ra
+0,CATAN
+0,Basari
+0,Cosmic Encounter
+0,MarraCash
+0,Button Men
+0,RoboRally
+0,Wacky Wacky West
+0,Full Metal Planète
+0,Gateway to the Stars
+1,Magic Realm
+0,Divine Right
+0,Twilight Imperium
+0,Battlemist
+0,Age of Renaissance
+0,Supremacy: The Game of the Superpowers
+0,Illuminati
+0,Terrain Vague
+0,Dark Tower
+0,Dark World
+0,Buffalo Chess
+0,Arkham Horror
+0,Federation & Empire
+0,Dragon Masters
+0,Runes
+0,Darkover
+0,Borderlands
+0,Can't Stop
+0,Tigris & Euphrates
+0,Airlines
+0,David & Goliath
+0,Perudo
+0,Medici
+0,Chinatown
+0,Krieg und Frieden
+0,Mamma Mia!
+0,Lost Cities
+2,Ricochet Robots
+0,Mighty Empires
+0,Brauerei
+0,Tikal
+0,Sophie's World
+0,Schoko & Co.
+0,Kings & Things
+0,Giganten
+0,Vinci
+0,Fossil
+0,Curse of the Mummy's Tomb
+0,Samurai: Game of Politics and Warfare in Feudal Japan
+0,Joan of Arc
+0,The Garden Game
+0,Löwenherz
+0,Conquest
+0,Successors: The Battles for Alexander's Empire (First/Second Edition)
+0,Bollox
+0,Big City
+0,Civilization
+0,Verräter
+0,Show Manager
+2,Apples to Apples
+0,Falling
+0,Air Baron
+0,"EastFront: The War in Russia, 1941-45"
+0,"WestFront: The War in Europe, 1943-45"
+0,MedFront: War in North Africa 1940-43
+0,VolgaFront: East of EastFront 1942-43
+0,"EuroFront: War in Europe, 1939-45"
+0,Bobby Lee: The Civil War in Virginia 1861-1865
+0,Sam Grant: The Civil War in the West 1862-1864
+0,Rommel in the Desert
+0,Quebec 1759
+0,Victory: World War II
+0,Torres
+0,Blue vs. Gray
+0,Star Wars: Episode 1 - Clash of the Lightsabers
+0,Paths of Glory
+0,El Grande
+0,Union Pacific
+0,Igel Ärgern
+0,Broadsides & Boarding Parties
+0,Conquest of the Empire
+0,Axis & Allies
+0,Fortress America
+0,Detroit-Cleveland Grand Prix
+0,Klunker
+0,Titan
+0,Extrablatt
+0,Colossal Arena
+0,Mystery Rummy: Jack the Ripper
+0,Peaceful Resistance
+0,TAMSK
+0,Wettstreit der Baumeister
+0,Auf Achse
+0,Rheinländer
+0,Condottiere
+0,"Plotters, Inc."
+0,Ransom
+0,I'm the Boss!
+0,Guillotine
+0,Ta Yü
+0,Modern Art
+0,Cosmolancer
+0,Hoity Toity
+0,Dune
+0,Quo Vadis?
+0,Green Thumb Cards
+0,Primordial Soup
+0,Money!
+0,The Really Nasty Horse Racing Game
+0,Princess Ryan's Star Marines
+0,Take it Easy!
+0,Iron Dragon
+0,Caesar & Cleopatra
+0,Frischfleisch
+0,Cape Horn
+0,Kontor
+0,Robin Hood
+2,Pass the Bomb
+1,Hoax
+0,Pit
+0,Andromeda
+0,Vino
+0,Wortelboer
+0,Elfenwizards
+0,Metropolis
+0,Trading Titans
+0,Crude: The Oil Game
+0,Die Glücksritter
+0,PitchCar
+0,Piratenbillard
+0,Mü & More
+0,Take 5!
+0,Union vs. Central
+0,Was sticht?
+0,Wildlife Adventure
+0,Eurorails
+0,Elfengold
+0,The Awful Green Things From Outer Space
+0,Balderdash
+0,"Before I Kill You, Mister Spy..."
+0,Black Box
+0,Black Death
+0,Dicke Kartoffeln
+0,Empire Builder
+0,En Garde
+0,Family Business
+0,Chess
+0,For Sale
+2,Formula Dé
+0,T-Rex
+0,What the Heck?
+0,Give Me the Brain!
+0,Advanced Civilization
+0,Mole Hill
+0,Nuba
+0,Pool Position
+0,Risk
+0,Hungry
+0,Stonehenge
+0,Devil Bunny Needs a Ham
+0,Split
+0,Go
+0,Die Siedler von Nürnberg
+0,Dolce Vita
+0,Nicht die Bohne!
+1,Fill or Bust
+0,Groo: The Game
+0,NASCAR Champions
+0,Kremlin
+0,HellRail: Second Perdition
+0,Buried Treasure
+0,Manhattan
+0,Entdecker
+0,The Rose King
+0,Targui
+0,Skworms
+0,Stephenson's Rocket
+2,Jalape-NO!
+0,Twitch
+0,Ex & Hopp
+0,Don Pepe
+1,Times to Remember
+0,Café International
+0,Tichu
+0,Atlanteon
+0,A la carte
+0,High-Bid
+0,Volle Hütte
+0,High Society
+0,Ikusa
+0,Space Beans
+0,Expeditions: Around the World
+0,History of the World
+0,Icehouse
+0,Isi
+0,Knightmare Chess
+0,Lunch Money
+0,King of the Elves
+0,Merchant of Venus
+0,Geronimo
+0,Serenissima
+0,Hannibal: Rome vs. Carthage
+0,Blackbeard
+0,Wooden Ships & Iron Men
+0,"Wagram: The Peace of Vienna, 5-6 July 1809"
+0,Britannia
+0,Age of Exploration
+0,Junta
+0,Advanced Squad Leader
+2,Circus Maximus
+0,Politika
+0,Gloria Picktoria
+0,Blood Royale
+0,Lifeboats
+0,Colonial Diplomacy
+0,The Battle of Borodino: Napoleon in Russia 1812
+0,Empires in Arms
+0,"Jena-Auerstadt: The Battle for Prussia, 14 October 1806"
+0,Mississippi Queen
+0,Kill Doctor Lucky
+0,Fluxx
+0,Atlantic Storm
+0,Starship Troopers: Prepare For Battle!
+0,Olympia 2000 (v. Chr.)
+0,Manitou
+0,Enemy in Sight
+0,Intrigue
+0,Tycoon
+0,Cheops
+0,Svea Rike
+0,It's Mine!
+0,Downtown
+0,Africa 1880
+0,Guerilla
+0,Extinction
+0,"La Guerre de l'Empereur: The Emperor's War, 1805-1815"
+0,Res Publica
+0,Catan Card Game
+0,The Very Clever Pipe Game
+0,Neue Spiele im alten Rom
+0,Ostindiska kompaniet
+0,Vikingatid
+0,Advanced Third Reich
+0,Lords of the Sierra Madre (Second Edition)
+0,Monsters Ravage America
+0,Machiavelli
+0,Bazaar
+0,Rossyïa 1917
+0,Chariot Lords
+0,Gold Digger
+0,Courtisans of Versailles
+0,Attacke
+0,Bamboleo
+0,Keydom
+0,Europa 1945-2030
+0,Medieval Merchant
+0,Stadens nyckel
+0,Lang lebe der König!
+0,De Bellis Antiquitatis: Quick Play Wargame Rules with Army Lists for Ancient and Medieval Battles
+0,Tutankhamen
+0,Campanile
+0,Forum Romanum
+1,Koalition
+0,Evergreen
+0,Der Fliegende Holländer
+0,Die Siedler von Catan: Historische Szenarien
+0,Candidate
+0,Santa Fe
+0,Arabana-Ikibiti
+0,Wizard's Quest
+0,Time Agent
+0,Landlord!
+0,Big Boss
+0,Highlanders
+0,Bagh Chal
+0,Chase
+0,The Mob
+0,Looney Leo
+0,Top It
+0,Scrabble
+0,The Mole in the Hole
+0,Tonga Bonga
+0,Anno 1452
+0,Ponte Vecchio
+0,CATAN: Seafarers
+0,Loopin' Louie
+0,Damn the Torpedoes!
+0,Russian Front
+0,Block Mania
+0,Vernissage
+0,Waterworks
+0,Advance to Boardwalk
+0,Breakthru
+0,Jumpin
+0,Circus Flohcati
+0,Bargain Hunter
+0,Quiddler
+0,Frank's Zoo
+0,Hong Kong
+0,Twins
+0,Classic Art
+0,Prairie Railroads
+0,Fishy
+0,Merchants of the Middle Ages
+0,Halunken & Spelunken
+0,Hattrick
+0,Trumpet
+0,Inkognito: The Card Game
+0,Stick 'Em
+0,Das letzte Paradies
+0,Ab die Post!
+0,Excape
+0,Bucket Brigade
+0,Quests of the Round Table
+0,Hare & Tortoise
+0,Elefantenparade
+0,Cat Blues
+0,Samarkand
+0,Tricks
+0,Viva Pamplona!
+0,Overthrone
+0,Relationship Tightrope
+1,5ive Straight
+0,El Grande: König & Intrigant
+0,Mystery Rummy: Murders in the Rue Morgue
+0,Schotten Totten
+0,Wrott & Swindlers
+0,Colorado County
+0,6 Billion
+0,DruidenWalzer
+0,Neighbors
+0,Lancashire Railways
+0,Express
+0,Polarity
+0,X Pasch
+0,Heimlich & Co.
+0,Turf Horse Racing
+0,TurfMaster
+0,Pirateer
+0,Corruption
+0,Finale
+0,Die Mauer
+0,Ocean
+0,Brawl
+0,Dinosaurs of the Lost World
+0,Kahuna
+0,Der dreizehnte Holzwurm
+0,Diskwars
+0,Wildlife Safari
+0,Tom Clancy's Politika
+0,Shanghai
+0,Gold Connection
+0,Elk Fest
+0,Worm Up!
+0,Meteo
+0,Zoon
+0,Dschungel
+0,D'raf
+0,Yukon Company
+0,Die Erben von Hoax
+0,Around the World in 80 Days
+0,Espresso
+0,A to Z
+0,Edison & Co.
+0,Rail Baron
+0,1830: Railways & Robber Barons
 0,1835
-0,1836
-0,1837
-0,1838
-0,1839
-0,1840
-0,1440
-0,1841
-0,1842
-0,1843
-0,147
-0,1844
-0,1845
-0,1846
-0,1847
-2,1848
-0,1849
-0,1850
-0,1851
-0,1852
+0,1856: Railroading in Upper Canada from 1856
+0,1870: Railroading Across the Trans Mississippi from 1870
+0,Thunder's Edge
+0,The Battle of the Bulge
+0,Grass
+0,Galopp Royal
+0,Magalon
+0,Asterix: Das Kartenspiel
+0,Alhambra: The Card Game
+2,Take 5
+0,Shark
+0,Yucata'
+0,Canyon
+0,Master Labyrinth
+0,Scotland Yard
+0,Zoff in Buffalo
+0,Filthy Rich
+0,Um Reifenbreite
+0,Code 777
+0,Escape from the Hidden Castle
+0,Die Osterinsel
+0,Avalanche
+0,The Great Balloon Race
+0,Octi
+0,Beutelschneider
+0,Mummy Rummy
+0,Bohnanza: La Isla Bohnitâ
+0,Tante Tarantel
+0,Am Fuß des Kilimandscharo
+0,Jumbo Grand Prix
+0,Sherlock Holmes: The Card Game
+0,Ausgebremst
+0,Railway Rivals
+0,Freibeuter
+0,Esels-Rennen
+0,Magic: The Gathering
+0,Billabong
+0,Zankapfel
+0,Inkognito
+0,Bohnanza Erweiterungs-Set
+0,Dump
+0,In Teufels Küche
+0,Road to the White House
+0,Totem
+0,DungeonQuest
+0,Olé!
+0,Cold War
+0,Taj Mahal
+0,Mr. President
+0,The Broadway Game
+0,Citadels
+0,Bambuti
+0,Age of Arguments
+0,Carolus Magnus
+0,Sky Runner
+0,Diplomacy
+0,Stratego Legends
+0,Galloping Pigs
+0,Barnyard Buddies
+0,Power
+0,Stake Your Claim
+0,Pacal
+0,Warangel
+0,Web of Power
+0,Aladdin's Dragons
+0,Ave Caesar
+0,Time Pirates
+0,Dilemma
+0,Vampire
+0,Sufferin' Spirits
+0,Arbos
+0,MARK
+0,Dschungelrennen
+0,Bretonenboule
+0,Through the Desert
+0,Die Verbotene Stadt
+0,Goldener Drache
+0,The Big Cheese
+0,Cartel
+0,Blue Max
+0,The Reef
+0,Eschnapur
+0,Silverton
+0,Holiday!
+0,WarChest
+0,True Colors
+0,6-Tage Rennen
+0,Shark Bait
+0,Cat vs. Mouse
+0,Mush
+0,Axis & Allies: Europe
+0,Crokinole
+0,Desperados
+0,Pisa
+0,Abalone
+0,GIPF
+0,ZÈRTZ
+0,Charlemagne
+0,Entenrallye
+0,Merchants of Amsterdam
+0,Labyrinth: The Card Game
+0,N.Y. Chase
+0,Power Barons
+0,Visionary
+0,Ice Blocks
+0,Manager
+0,Dampfross
+0,Sisimizi
+2,Das Motorsportspiel
+2,Animocrazy
+2,Kaleidos
+0,Flohzirkus
+0,Buck Rogers: Battle for the 25th Century Game
+1,Aerodrome
+0,Barbarossa
+0,Battle Cry
+0,Bus
+0,Chez Geek
+0,La Città
+0,The Princes of Florence
+0,7 Safari
+0,Laguna
+0,Der weiße Lotus
+0,Metro
+0,Flußpiraten
+0,Silberzwerg
+0,Doolittle & Waite
+0,Die Seidenstraße
+0,Port Royal
+0,Wongar
+0,Quartier Latin
+1,Rage
+0,Maestro
+0,Terrain Game
+0,Papua
+0,Battle Cattle
+0,Grand Prix
+0,Devil Take the Hindmost
+0,Das Kollier
+0,Illuminati: Y2K
+1,Parts Unknown
+0,Protzen
+0,Field of Fire
+0,Tile Chess
+0,Kampf um Rom
+0,The El Grande Expansions
+0,Kardinal
+0,Up Front
+0,Sumera
+0,Wiz-War
+0,Mille Bornes
+0,Spades
+0,Favoriten
+0,Sleuth
+0,Escape from Elba
+0,Trolley Car
+0,El Grande: Grandissimo
+0,Stack 21
+0,Die Weinhändler
+0,Take Two
+0,Animal Poker
+0,Putsch
+0,Verrat!
+0,Banana Republic
+0,Pico 2
+0,Honor of the Samurai
+0,Siesta
+0,Ferkelei
+0,Knights of the Rainbow
+0,Ironman Football
+0,Kippit
+0,Overboard
+0,Rubik's Race
+0,Double Decker
+0,What's That on My Head?
+0,Alles Futsch
+0,MLB Showdown
+0,The Bottle Imp
+0,We the People
+1,25 Words or Less
+0,Change!
+0,Swashbuckler: A Game of Swordplay and Derring-do
+0,Quoridor
+0,Business
+0,War and Peace
+0,Royal Tank Corps
+0,Q-Turn
+0,Double Quick
+0,Daytona 500
+0,Cloud 9
+0,Elixir
+0,River Dragons
+0,Formula Motor Racing
+0,Blindside
+3,The Stock Car Championship Racing Card Game
+0,Hera and Zeus
+0,American Megafauna
+2,Oodles
+0,Deadlands: Doomtown Range Wars
+0,Shipwrecked
+0,Bosworth
+0,Pirate's Plunder
+0,Mystick Domination
+0,Vox Populi
+0,Thieves of Bagdad
+2,Fairy Meat
+0,Zero Down
+0,X-Net
+0,Shit!
+0,Castle
+0,Münchhausen
+0,Riffifi
+0,Where's Bob's Hat?
+0,Siege
+0,Shift
+0,Quackshot
+0,Stump
+0,Refugium
+0,Sternenhimmel
+0,Plague & Pestilence
+0,Starship Troopers
+0,Bull Run: The First Major Battle of the American Civil War
+0,Star Traders
+0,J.U.M.P. Into the Unknown
+0,4th Dimension
+0,Ninja Wars
+0,Would You Rather...?
+0,X-it!
+0,Minion Hunter
+0,Dune
+0,Quarto
+0,Timeline
+0,Monopoly: The Card Game
+0,Marrakesh
+0,Dr. Jekyll & Mr. Hyde
+0,Cabale
+0,Manchu: The Taiping Rebellion - 1852-1868
+1,Dubble Kross
+0,Singapore
+0,Timbuktu
+0,Wizard Kings
+0,Fibonacci
+0,The Big Idea
+0,Conspiracy
+0,Gother Than Thou
+0,HeroQuest
+0,Battle Masters
+0,A House Divided: War Between the States 1861-65
+0,Wabbit Wampage
+0,Roman Civil War
+0,Montgolfière
+0,Caesar in Gallia: Conquest on the Ancient Frontier
+0,Frederick the Great: The Campaigns of The Soldier King 1756-1759
+0,When Tigers Fight
+0,Holy War: Afghanistan
+0,Dragons of Glory
+0,Snit's Revenge!
+0,Elfenroads
+0,Blood Bowl (Third Edition)
+0,Nuclear War
+0,Talisman
+0,Escape from Colditz
+0,Pizza Party
+0,Galaxy: The Dark Ages
+0,Tyranno Ex
+0,Fast Food Franchise
+0,Oregon Trail
+0,Over the Edge
+0,The Uncanny X-Men Alert Adventure Game
+0,Chill: Black Morn Manor
+0,Triple Threat Baseball!
+0,Chinese Civil War: 1946-1949
+0,The Sun Never Sets: Three Campaigns of the British Empire
+0,Breakout: Normandy
+0,Escape from New York
+1,Don't Make Me Laugh
+0,Don't Make Me Laugh Jr.
+1,Strange But True?
+1,Hollywood's Reel Schpeel
+0,San Francisco
+0,Matheeno
+0,Ultimate Soccer of America
+0,Rio Grande:  The Battle of Valverde
+0,Trajan
+0,Germania
+1,Wicked Words
+0,War of Resistance
+0,"The Game of France, 1940: German Blitzkrieg in the West"
+0,Bitter Woods: The Battle of the Bulge
+0,Trax
+0,Dutch Mountains
+0,Shocks & Scares
+0,Minos
+0,Maul of America
+0,Panzerkrieg: von Manstein & HeeresGruppe Süd
+0,Domain
+0,Thunder at Cassino
+0,Black Vienna
+0,Lunatix Loop
+0,Balmy Balloonists
+0,Turning Point: Stalingrad
+0,Battle Line
+0,The Great Brain Robbery
+0,Formula C Minus
+1,Mad Gab
+0,Space Walk
+0,Regatta
+0,Keywood
+0,Keytown
+0,Star Trek Red Alert!
+0,Loot
+0,Kings and Castles
+0,Ausbrecher AG
+0,Beim Zeus!
+0,Buddel Bande
+0,Die Tafelrunde
+3,Remmi Demmi
+0,Auction America: The Trivia Game for Any Collector
+0,Big Battle
+0,Tabloid Teasers
+0,"Win, Place & Show"
+1,Letter Head
+0,Discretion
+0,Dog Eat Dog
+0,Maxi Bour$e
+0,Palermo
+0,Tales of the Arabian Nights
+0,Focus
+0,Terra Turrium
+0,Löwendynastie
+0,Megiddo
+0,Yahtzee Deluxe Poker
+0,Foil
+0,Dragonlance
+0,Shanghai Trader
+0,Flucht aus Mangrovia
+0,Ace of Aces: Handy Rotary Series
+0,The Hills Rise Wild!
+0,Camlyn's Destiny
+0,Crimean War Battles
+0,Taipei: China Invades
+0,Dragonhunt
+0,Thunder Road
+0,Buffy the Vampire Slayer: The Game
+0,West Riding
+0,Pipeline: The Oil Game
+0,Amoeba
+0,Rummikub
+0,Goosebumps: Terror in the Graveyard Game
+0,Aquarius
+0,Chrononauts
+0,2038: Tycoons of the Asteroid Belt
+0,Quacksalbe
+0,Axiom
+0,La Trel
+0,Carcassonne
+0,The Lord of the Rings
+0,Hijara
+0,Screaming Eagles
+0,Cartagena
+0,Attila
+0,Wizards
+0,Battle of the Bands
+1,FIB-OR-NOT?
+0,Schrille Stille
+0,For the People
+0,Chronology
+0,Election
+0,New England Railways
+0,Corsairs
+0,Razzia
+0,Circus Minimus
+0,Mausoleum
+0,Feudal
+0,Tip Tap
+0,Golf Masters
+0,Pop Belly
+0,...und tschüss!
+0,Doge
+0,Java
+0,"New York, New York"
+0,Titanic: Der Mythos
+0,Blindes Huhn
+0,Illuminati
+0,Scotland the Brave
+1,Weapons & Warriors:  Castle Combat Set
+0,Mage Knight
+0,Landslide
+0,"Lie, Cheat & Steal"
+0,Morisi
+0,Atlantis
+0,Bongo!
+0,Empires of the Ancient World
+0,Fire
+0,M
+0,Offline
+0,Pythago
+0,Roads & Boats
+0,Tennis Masters
+0,Troia
+0,Wyatt Earp
+1,Tacara
+0,Derby
+0,Ivanhoe
+0,Way Out West
+0,Der Garten des Sonnenkönigs
+1,Real Action Stockcar Championship
+2,Cranium
+0,Ad Mania
+0,Smuggle
+0,LifeLinks
+0,APBA Pro Baseball
+1,Stir Crazy
+0,Dear Abby
+0,Initial Reaction
+0,Movie Mania
+0,City
+0,Meuterer
+0,Hamster Roll
+0,Nightmare Productions
+0,Vagabondo
+0,Abilene
+1,Beheaded
+0,Tally Ho!
+0,Saturn
+0,Kunst Stücke
+0,Empires of the Middle Ages
+0,Pacific Victory: War in the Pacific 1941-45
+0,High Bohn
+0,Battle Platform Antilles
+0,Mystery of the Abbey
+0,Pete the Pirate
+0,Rack-O
+2,Ultimate Outburst
+0,Breakaway Rider
+2,Werewolf
+0,CATAN: Cities & Knights
+0,Lift Off
+0,Gerüchteküche
+0,The Great Dalmuti
+0,Böse Buben
+0,Corner
+0,Top Race
+0,New Orleans Big Band
+0,Die Kette von Saba
+0,Australian Rails
+0,The Fury of Dracula
+0,1825 Unit 1
+0,Enchanted Forest
+0,Star Wars: The Queen's Gambit
+0,Karawane
+0,Turbo Taxi
+0,Snail's Pace
+0,Ligretto
+0,Mag·Blast
+0,Nametrain
+0,Rolazone
+0,Trivia for Dummies
+0,Dao
+0,Twixt
+0,Four Dragons
+0,Football Strategy
+0,Pony Express
+1,Super Giant Monster Showdown
+0,Azteca
+0,PanzerZug
+0,Orcz
+0,Luftschiff
+0,Grapple
+0,ZOKI
+0,Contango
+0,The Gardens of the Alhambra
+0,Kapitän Wackelpudding
+0,Ben Hurt
+0,Kommissar X
+0,Seven Deadly Sins
+0,The Keep
+0,The Powerpuff Girls: Saving the World Before Bedtime
+0,Al Cabohne
+0,Amoeba Wars
+0,Tangoes
+1,Name Burst
+0,Corner the Market
+0,Babel
+0,Kingmaker
+0,Zapp Zerapp
+0,1848
+0,90 Grad
+0,Alcazar
+0,An den Ufern des Nils
+0,Auf Trab im Sulkydrom
+0,Svea Rike: Batalj
+0,Canaletto
+0,Panda Monium
+1,Corona
+0,Vendetta
+0,Cosmic Eidex
+0,Das Regeln Wir Schon!
+0,Der Feuersalamander
+0,Der Tiger ist los
+0,Die Erbraffer
+0,Die Hanse
+0,Die Schlangen von Delhi
+0,Diver
+0,Dream Team
+0,Die Magier
+0,Energie Poker
+0,Fief 2
+0,Finger weg von Mona Lisa
+0,Finito
+0,Fresh Fish
+0,Galaxis
+0,Le Gang des Traction-Avant
+0,Canyon: Grand Canyon
+1,Harun
+0,Himalaya
+0,Konzern
+0,Kraut & Rüben
+0,Lieber bairisch sterben
+0,TV Wars
+0,B-17: Queen of the Skies
+0,"Xenophon: 10,000 Against Persia"
+0,Squad Leader
+0,Speculation
+0,Deadlands: Doomtown
+0,Tantrix
+0,San Marco
+0,Dragon's Gold
+0,Pitstop
+0,Gunslinger
+0,Malawi
+0,Max.X
+0,MeM
+0,Momo
+0,Mutternland
+0,Orbit
+0,Pacific Northwest Rails
+0,Paule Panik
+0,Piratenpoker
+0,Pow Wow
+0,Rockets
+0,Sansibar
+0,Schraumen
+0,Vigo
+0,Zargos
+0,Ordino
+0,Head Quarter
+0,Shadows in the Forest
+0,Aztec
+0,Wat'n dat!?
+0,Der Schatz der Inka
+0,Big Bang
+0,Captain Future
+0,Baubylon
+0,Tokami
+0,Evolution
+0,Die Schlacht der Dinosaurier
+0,Invers
+0,Hexenjagd
+0,Das Gold der Maya
+0,Kaminett
+0,Der Schatz der Erdgeister
+0,Matschig
+0,Luftschlösser
+0,Feuer und Wasser
+0,YoYo
+0,Explosiv
+0,Die Goldene Eins
+0,Jolly Roger
+0,Assassin
+0,Mystery on the Nile
+0,Four Real
+1,Don't Give Up Your Day Job!
+0,Judge Dredd
+0,Downspin
+0,Check the Ripper
+0,Flying Carpet
+0,Kiezkönig
+0,Titus
+0,Nyet!
+0,Last Minute
+0,Kathai
+2,Taboo
+0,Botany Bay
+1,Poker
+0,Oh Hell!
+0,You're Bluffing!
+0,Silver Mine
+0,Dry Gulch
+0,Big Shot
+0,Car Wars: The Card Game
+0,Encounters
+0,Archimedes
+0,Halali
+0,Top Secret
+0,Organized Crime
+0,Road Warrior
+0,Quest For Power
+0,Domain: The Warlock's Challenge
+0,Die Siedler von Catan: Das Buch zum Spielen
+0,Army of Darkness
+0,Fantastische Ballonreise
+0,Ballonrennen
+0,Pass the Gas
+0,Sabotage
+0,Warrior Knights
+0,The Warlock of Firetop Mountain
+0,City of Chaos
+0,Shadowlord!
+0,Outrage! Steal the Crown Jewels
+0,Eagle Kingdoms
+0,Dragon Strike
+0,Lionheart
+0,"Money, Power, Respect"
+0,The Mystic Wood
+0,Nuts! To You
+0,Capitol
+0,Bram Stoker's Dracula: The Board Game
+0,Save Doctor Lucky
+0,Rus': Rise of Russia 200 BC - AD1584
+0,Evo
+0,Boom Town
+0,Perquackey
+0,Burp
+0,"Ciao, Ciao..."
+0,Delfino
+0,Dow Jones
+0,Flower Power
+0,Geisterstunde
+0,Trick 'r Treat
+0,Ricochet
+0,Lucky Five
+0,Millionenspiel
+0,Minister
+0,Movies and Money
+0,Die Ritter von der Haselnuss
+0,Sphinx
+0,Tendix
+0,Turmbau zu Babylon
+0,Tschau Knacki
+0,Walkabout
+0,Zug nach Westen
+0,Casablanca
+0,C'est la Vie
+0,The Fellowship of the Ring
+0,Chaos Marauders
+0,The King's War: The First English Civil War 1642-1646
+0,Continuo
+0,Card Caper
+0,Nanuuk!
+0,The Bottom Line
+0,Speed Circuit
+0,Cloudbusters
+0,Blink
+1,SET
+0,Hocus Focus
+0,Sagarian
+0,"Game, Set, Match!"
+0,The Sorcerer's Cave
+0,Witch Trial
+0,RallySport Board Game
+0,Luxor
+0,Venture
+0,Big Deal
+0,1851: Kentucky & Tennessee
+0,Pax Britannica: The Colonial Era 1880 to the Great War
+0,Cults Across America
+0,Race Through Space
+0,Nuclear Proliferation
+0,Nuclear Escalation
+0,Kommando
+3,Monkey Memory
+0,Mystery Garden
+0,The Secret Labyrinth
+0,Junior Labyrinth
+0,Labyrinth
+0,Looping
+0,Crossed Wires
+0,Fat Cats
+0,Gods
+0,Quest
+0,Babuschka
+0,Stonewall
+0,Maneuver
+0,Bandu
+0,Saludos Amigos!
+0,Facts in Five
+0,Once Upon a Time: The Storytelling Card Game
+0,Yellowstone
+0,So ein Zirkus
+0,Autoscooter
+0,Schlangennest
+0,"Right Turn, Left Turn"
+0,BattleGrid
+0,Cut and Run
+0,Split Second
+0,Meander
+0,Isis & Osiris
+0,Insecta
+0,Gangland!
+0,Hacker II: The Dark Side
+0,Safari Jack
+0,Hacker
+0,New World
+0,Pyramidis
+0,Limits
+0,Crack the Case
+0,Vegas
+0,Star Wars Episode I: Customizable Card Game
+0,Starbase Jeff
+0,Phase 10
+0,Pivot
+0,Rook
+0,Medina
+0,Axis & Allies: Pacific
+0,Knights
+0,Der Schattendieb
+0,Mystery Rummy: Jekyll & Hyde
+0,Polar Dare!
+0,What's That on My Head?
+0,Skip-Bo
+0,Star Wars Customizable Card Game
+0,Volltreffer
+0,Cue Me!
+0,221B Baker Street: The Master Detective Game
+0,Fish & Chips
+0,Dutch InterCity
+1,Jitters
+0,All The King's Men
+0,Shifti
+0,Input
+0,Octet
+0,Boggle
+0,Clue
+0,Pente
+0,Trivial Pursuit: Star Wars Classic Trilogy Collector's Edition
+0,Monopoly: Star Wars
+0,Trivial Pursuit: Genus IV
+0,Im Zeichen des Kreuzes
+0,Netrunner
+0,Cosmic Wimpout
+0,The Squirrel Game
+0,Credo!: the Game of Dueling Dogmas
+0,Ulysses
+0,Krakatoa
+0,Haunted Castle
+0,Confusion
+0,Die Magier von Pangea
+0,Auf Achse: Das Kartenspiel
+0,Nur Peanuts!
+0,1826: Railroading in France and Belgium from 1826
+0,Warhamster Rally
+0,Africa
+0,Plem Plem
+0,Auf falscher Fährte
+0,Blackrock Castle
+0,Magic Hill
+0,The Dog's Meow
+0,Catch the Match
+0,Chip-Chip Hurra!
+0,Cry Havoc
+0,Café International: Das Kartenspiel
+0,Wild Pirates
+0,MacGregor
+0,Contra
+0,Hyle
+0,Savannah Café
+0,Showdown Yahtzee
+0,Ancient Empires
+0,Boom-O
+0,Entdecker: Exploring New Horizons
+0,Gnadenlos!
+0,Eden
+0,Kuba
+0,Volldampf
+0,Dungeon!
+0,Doubloon Lagoon
+0,Crib Wars
+0,Mad Monks and Relics
+0,Genoa
+0,Crazy Race
+0,Simple GBoH
+0,Web of Gold
+0,"Atlantic, Chicago and Pacific Rails"
+0,Das Amulett
+0,Legend of Heroes
+0,Bali
+1,Time's Up!
+0,Zaubercocktail
+0,Willy Waschbär
+0,Hexen Rennen
+0,Play to Become a Millionaire
+0,Field Command
+0,Die Siedler von Catan: Historische Szenarien II
+0,Wit's End
+0,Pillage & Plunder
+0,Olix
+0,Grand National Derby
+0,Tuf
+0,Earthdefenders
+0,The Classic Dungeon
+0,Mustangs
+0,Rise of the Luftwaffe
+0,Midway
+0,Guadalcanal
+0,Serengeti
+0,Danger
+0,Odysseus
+0,Ebbe & Flut
+0,Jockey
+0,Pokémon Master Trainer
+0,Winner's Circle
+0,Pool Party
+0,Abenteuer im Wichtelwald
+0,Aber Hallo!
+0,Alarm
+0,Alaska
+0,Alles klar?
+0,Alles oder Nichts
+0,Auf Kurs
+0,Aura Poku
+0,Banking
+0,Basta!
+0,Ben Hur
+0,Crash Pilot
+0,Chicago
+0,Columbus
+0,Crash!
+0,Neolithibum
+0,Turn the Tide
+0,Strand-Cup
+0,Adventurer: A Game of Man to Man Brawling in the Far Future
+0,Monopoly
+0,Alcatraz
+0,Gammarauders
+0,Spawn: The Game
+0,Trouble
+0,"Fugger, Welser, Medici"
+0,Trendy
+0,Attack Sub
+0,Decathlon
+0,Rat Splatter
+0,Meridian
+1,Alibi
+0,Pylos
+0,Monopoly Express
+0,Lost Worlds
+0,Wadjet
+0,Storm over Arnhem
+0,Book of Lists Game
+0,Raid on St. Nazaire
+0,Lord of the Rings: The Search
+0,GRO: Battle for the Petri Dish
+0,Image
+0,Caesar: Epic Battle of Alesia
+0,War at Sea (Second Edition)
+0,Breakout!
+0,Der grosse Gallier
+0,Dealer's Choice
+0,4000 A.D.
+0,Billionaire
+0,Trust Me
+0,Scre-e-ech!
+0,Penguin Pile-Up
+0,Dinoquest
+0,Turtles
+0,Victory in the Pacific
+0,Alpha Blitz
+0,SPQR
+0,Canasta Caliente
+0,Cheater
+0,1841: Railways in Northern Italy
+0,Freight Train
+0,Kings Cribbage
+0,Jagd der Vampire
+0,Dimenticato
+0,Mhing
+0,Pain Doctors: The Game of Recreational Surgery
+0,RYB
+0,Rocketball
+0,"Run, Hamster, Run!"
+0,Peep War
+0,Sharp Shooters
+0,Earthquake
+0,Crazy Rummy
+0,Girl Genius: The Works
+0,Duo
+0,Wizard
+0,Rebel Rails
+0,Abduction
+1,Anybody's Guess
+0,Venezia
+0,Gangsters
+0,Five Crowns
+0,Barbarians: 70 BC - 260 AD
+0,Ohio
+0,Careers
+0,Entrepreneur
+0,Days of Decision II
+0,VI Caesars
+0,Towers of Wyoming
+0,Imperator
+1,Blind Ignorance
+0,Ubi
+0,Clue: The Great Museum Caper
+0,Domingo
+0,Plunder
+0,"Another Day, Another Dollar: Horror"
+0,Trailer Park Gods
+0,Deadwood Studios USA
+0,The Cigar Game
+1,Outpost
+0,Manic Minelayers
 0,1853
-0,1854
-0,1855
-0,1856
-0,1857
-1,1858
-0,1859
-0,1860
-0,1861
-0,1862
-0,1863
-0,1864
-0,1865
-1,1866
-0,1867
-0,1868
-0,1869
-0,1870
-0,1871
-0,1872
-0,1873
-0,1874
-0,1875
-0,1876
-0,1877
-0,1878
-0,1879
-0,1880
-0,509
-0,1881
-0,1882
-0,1883
-0,1884
-0,1885
-0,1886
-0,1887
-0,1888
-0,1889
-0,1890
-0,1891
-0,1892
-0,1893
-0,1083
-0,1894
-0,1895
-0,1896
-0,1897
-0,1898
+0,Bohnanza Erweiterungs-Set (Revised Edition)
+0,Stash
+0,Imperium Romanum II
+0,Dino Hunt
+0,Paydirt
+0,World in Flames
+0,Zocken
+0,Masterpiece
+0,Hotel
+0,Mid-East Peace
+0,Bakschisch
+0,Conquistador: The Age of Exploration - 1495-1600
+0,Isis
+0,Broadside
+0,Dogfight
+0,Class Struggle
+0,Outdoor Survival
+0,Hexagony
+0,The Republic of Rome
+0,Yali
+0,Upwords
+2,USAC Auto Racing
+0,Ani-Mayhem
+0,Executive Decision
+1,Kult
+0,Monad
+0,Supremacy: Warlords and Pirates of the Neutral Zones
+0,Get Out
+0,Pharao
+0,Fight City
+0,Dixie: Bull Run
+0,PitchCar: Extension 1
+0,Bitin' Off Hedz
+1,Chief Herman's Holiday Fun Pack
+0,Ramses
+0,Dark Age: Feudal Lords
+1,Ritter ohne Furcht und Tadel
+0,Supremacy: Resource Deck Two
+0,Ghost Chase
+0,Jump!
+0,Formula 1
+0,Lord of the Fries
+0,C&O/B&O
+0,Het 1845 Spel
+0,Amro-Dam
+0,BattleTech
+0,Block Mania: Mega-Mania
+0,Calamity!
+0,Dragon Quest
+0,Beyond Balderdash
+0,Flowerpower
+0,Worlds of Heroes & Tyrants
+0,Janus
+0,Libero
+0,Password
+0,Chebache
+0,Sub Search
+0,Illuminati: New World Order
+0,Judge 'n' Jury
+0,Total Attack!! Soccer
+0,Dungeon Dice
+0,Tenjo
+0,Space Empires
+0,Rogue Trooper
+0,Wabbit's Wevenge
+0,Hero: A Game of Adventure in the Catacombs
+1,Clue Master Detective
+0,Rise and Decline of the Third Reich
+0,Avanté
+0,Mississippi Queen: The Black Rose
+0,Simply Cosmic
+0,Stockers!
+0,Space Crusade
+0,RoboRally: Armed and Dangerous
+0,Sirocco
+0,Sanctuary: Thieves World
+0,Situation 4
+0,Banzai
+0,Tactics II
+0,Gettysburg
+0,Gettysburg (125th Anniversary Edition)
+0,Source of the Nile
+1,RoadKill
+1,Wrasslin'
+0,Legends of Robin Hood
+0,London Cabbie Game
+0,Sicily: Triumph and Folly
+0,"Barbarossa: Army Group Center, 1941"
+0,"Burma: The Campaign in Northern Burma, 1944"
+0,The Hobbit Adventure Boardgame
+0,Bauernschlau
+0,Star Fleet Battles
+0,Stocks & Bonds
+0,Ploy
+0,ChessMage: Deck of the Myriad Shards
+0,Down with the King
+0,Federation Space
+0,Tension
+0,Nevo
+0,Streetcar
+0,Olympica
+0,StarGate: The Final Space Battle for Galactic Freedom
+0,Russian Roulette
+0,Ivy Towers
+0,The Royal Game of Ur
+0,Cortez
+0,The Mad Magazine Game
+0,Ambush!: Purple Heart
+0,Ambush!: Move Out!
+1,Blurt!
+0,Ambush!
+0,Creature Features
+0,The Worlds of Boris Vallejo
+1,Bullwinkle and Rocky Role Playing Party Game
+0,Ambush!: Silver Star
+0,Ghost Castle
+0,Remember the Alamo!
+0,Icebergs
+0,French Foreign Legion
+0,The Roaring 20's
+0,Decline and Fall of the Roman Empire
+0,Mutant Chronicles: Siege of the Citadel
+0,Strata 5
+0,Space Station Zemo
+0,Quest of the Magic Ring
+0,Pokémon Jr. Adventure Game: Pokémon Emergency!
+0,Krull
+0,XXXenophile
+0,Elric
+0,Air War: Modern Tactical Air Combat
+0,Galileo
+0,Barbarian Prince
+0,Shapeshifters
+0,Spies!
+0,Warhammer Quest
+0,Demonlord
+0,The Quest of the Philosopher's Stone
+0,Situation 7
+0,Archimedes
+0,Archie Bunker's Card Game
+0,Blockbusters
+0,Bounty
+0,Romeo und Julia
+0,Tipp-Kick
+0,War of 1812
+0,Maul of America: Chopping Maul
+0,Spammers
+0,Kan-U-Go
+0,Colonisator: The Twelve Planets' War
+0,The Lord of the Rings Adventure Game
+0,Vertigo
+0,Escape from the Casbah
+0,Coup
+0,Double Crossing
+0,Drinkers Wild
+0,Smokers Wild
+0,Space Pigs
+0,Police State
+0,Beat Detroit
+0,The Cattlemen
+0,Balance of Power
+0,"Napoléon: The Waterloo Campaign, 1815"
+0,Clue: Dungeons & Dragons
+0,Heisse Öfen
+0,Airport
+0,Battle Hymn
+0,Battle Hymn: Leatherneck
+0,Modern Naval Battles
+0,Mosby's Raiders: Guerilla Warfare in the Civil War
+0,Modern Naval Battles II: The Campaign Game
+0,Modern Naval Battles III
+0,Open Fire: Solitaire Tank Combat in WWII
+0,Ultimate Golf
+1,Naval War
+0,Illuminati: Brainwash
+0,Blood Bowl: DeathZone
+0,Knightmare Chess 2
+0,"The Peloponnesian War, 431-404 BC"
+0,Carrier: The Southwest Pacific Campaign - 1942-1943
+0,Elements
+0,Tokyo Express: The Guadalcanal Naval Campaign - 1942
+0,The Challenge
+0,Hot Property!
+0,Intern
+0,Kremlin: Revolution
+0,Spy vs Spy
+0,Red Empire
+0,Star Commander
+0,War of the Networks
+0,Unexploded Cow
+0,Whodunit
+3,Spoons
+0,Gladiator
+0,Little Round Top: The South's Best Chance at Gettysburg
+0,The Legend of Robin Hood
+0,Hundred Days Battles
+0,X-Men: Under Siege
+0,Star Smuggler
+0,Outpost Gamma
+0,Toscana
+0,Klondike
+0,Kula Kula
+0,Attacke
+3,Slapshot
+0,UFO: Game of Close Encounters
+0,Spices of the World
+0,Stellar Conquest
+0,Trireme: Tactical Game of Ancient Naval Warfare 494 BC-370 AD
+0,The Siege of Jerusalem (Third Edition)
+0,Richthofen's War: The Air War 1916-1918
+0,Showbiz
+0,Maharaja
+1,Moonstar
+0,Od
+0,Knights of the Air
+0,"Freedom in the Galaxy: The Star Rebellions, 5764 AD"
+0,Foreign Exchange
+0,Dark Emperor
+0,Dragon Pass
+0,Business Strategy
+0,Caesar's Legions
+0,Alpha Omega
+0,Bureaucracy
+0,A Nightmare on Elm Street: The Game
+0,Alexander the Great
+0,Summit
+0,"Mouse, Mouse!  Get Outta My House"
+0,Wide World
+0,Trap the Cap
+0,Tintin
+0,Bei Nacht und Nebel
+0,Iago
+0,Epicus
+0,Evade
+0,Talisman: The Adventure
+0,Talisman: Expansion Set
+0,Castle of Magic
+0,Talisman Dragons
+0,Talisman: City
+0,The Talisman: Dungeon
+0,Talisman: Timescape
+0,Monster Mash
+0,Heroes for Dungeonquest
+0,Dungeonquest: Catacombs
+1,Eyewitness Newsreel Challenge: A VCR Game
+1,A Question of Scruples
+0,Alien Hotshots
+0,Knots
+0,Jumanji
+0,Haps
+0,Im Märchenwald
+0,Kiek
+0,Fette Kühe
+0,Gossip
+0,Yacht Race
+0,Advanced Heroquest
+0,Advanced Heroquest: Terror in the Dark
+0,Fury of the Clansmen
+0,HeroQuest: Return of the Witch Lord
+0,HeroQuest: Kellar's Keep
+0,HeroQuest: Barbarian Quest Pack
+0,HeroQuest: Elf Quest Pack
+0,HeroQuest: Against the Ogre Horde
+0,HeroQuest: Wizards of Morcar
+0,Fireball Island
+0,HeroQuest: Adventure Design Kit
+1,Aliens
+0,Cosmic Coasters
+0,Asteroid
+0,Dawn of the Dead
+0,Sale of the Century
+0,Password Plus
+0,Divine Right: Scarlet Empire
+0,Dark World: Village of Fear
+0,Dark World: Dragon's Gate
+0,Berserker
+0,Knights of Camelot
+0,The Warlord Game
+0,Ancients
+0,The Creature That Ate Sheboygan
+0,Dark Cults
+0,King's Bounty
+0,Og
+0,Pentacle
+0,Phart!  The Dispersing
+0,Raiders and Traders: The Heroic Age of Greece
+0,Rollout: The Game of the Risk-Takers
+0,Space Race
+0,Star Viking
+0,VI Against Rome
+0,Risk: Édition Napoléon
+0,Risk Édition Napoléon: Extension Empire Ottoman
+0,Pampas Railroads
+0,Pay Day
+0,Battle Dice
+0,Warlord: Saga of the Storm
+1,Mythos
+0,Clean Sweep
+0,Zwickern
+0,Zopp
+0,Inklings
+0,The Piggyback Brigade
+0,Shrimpin'
+0,Witch Hunt
+0,Rally!
+0,Night of the Ill-Tempered Squirrel
+0,Chalet
+0,Dilbert: Corporate Shuffle
+0,Spanish Main
+0,Mississippi
+0,Devil Bunny Hates the Earth
+0,Icehouse: Black Ice
+0,Proton
+0,Z-G
+0,Grant Takes Command
+0,Wilderness War
+1,1829
+0,Trump: The Game
+0,Whatzit?
+0,Chainsaw Warrior
+0,Doomsday Cult 2000
+0,Risk 2210 A.D.
+0,Nippon Rails
+0,North American Rails
+0,Spree!
+0,The Willow Game
+0,Chill Out!
+0,Scrutineyes
+0,Solarquest
+0,Word Yahtzee
+0,"The Who, What or Where Game"
+0,Odd Ball
+0,Hurricane
+0,Battle of Britain
+0,Zocker
+0,Zock
+0,Würfel-Duell
+0,Wörtersee
+0,Wind City
+0,Mythrole: Merchants
+0,Insikt
+0,Hägar ruft zum Beutefest
+0,Foqus
+1,Hedbanz for Adults!
+0,Geni 2000
+0,Time War: A Game of Time Travel and Conflict
+0,Diamond City
+0,Doomtrooper
+0,Dragon Dice
+0,Dragonfire
+0,Avalon
+0,Tatort Titanic
+0,Expedition Robinson
+0,Astrotime
+0,Brainstorm
+0,Curse of the Idol
+0,Conquistador
+0,Jägersro
+0,Gold Train
+0,Dark Side
+0,Hurricane: The Game of the Tropics
+0,Babylon 5 Component Game System: Core Sets
+0,Isolation
+0,Pig Pile
+0,Moonshot the Game
+0,Arena: Morituri te salutant
+0,Armour Quest: Quæstro
+0,Atmosfear: The Harbingers
+0,Blazing Camels
+0,Cataphract
+0,Fireside Football
+1,How Much for the Camel?
+0,Legend of the Five Rings
+0,Office Politics
+0,Plateau
+0,Portal
+0,Traffic Lights
+0,War Galley: Naval Warfare in the Ancient World
+0,Salamis
+0,The American Dream Game
+0,The Starfarers of Catan
+0,Friesematenten
+0,13 Dead End Drive
+0,Maul of America: Raid on the Mall
+0,Star Fleet Battle Force
+0,Mad Scientist
+0,Robert Ludlum's Game of Counter Espionage
+0,Babylon 5 Component Game System: Reinforcements Pack #1
+0,International Movie Maker
+0,G.O.O.T.M.U.
+0,Nomadi
+0,Venice Connection
+0,Hollywood for Sale
+2,World Cup Tournament Football
+0,Transsib
+0,Im 7. Himmel
+0,Middle-earth
+0,Shuttles
+0,Stratego
+0,REM
+0,D-Day (3rd Edition)
+0,The Business Game
+0,Sovereign of the Seas
+2,MindTrap
+0,Maloney's Inheritance
+0,Krystal
+0,Munchkin
+0,Dark Continent
+0,Bushido Denied: The Battles of Bataan and Corregidor
+0,Anti-Monopoly III: Washington-Moskau
+0,Anti-Monopoly
+0,Anti-Monopoly II
+0,Key to the Kingdom
+0,Up & Down
+0,Puls
+0,Paparazzo
+0,Lao Pengh
+0,XXL
+0,Kismet
+0,Sindbad
+0,Sjörövarön
+0,Foppen
+0,This Game is Bonkers!
+0,Mogelei
+0,Ultimatum
+0,Ali Baba
+0,Robin Hood
+0,Pratmakarna
+0,Okänd planet
+0,The Mysteries of Peking
+0,Online
+0,Long Short
+0,Mystic War
+0,Kalahen
+0,Star Wars: Episod I - Kampen om Naboo
+0,Game of Dracula
+0,The Game of Nations
+0,Myst
+0,Last Word
+0,5 Alive
+1,Tribond
+0,Risk 'n' Roll 2000
+0,Campaign
+0,Mertwig's Maze
+0,RoboRally: Radioactive
+0,RoboRally: Grand Prix
+0,RoboRally: Crash and Burn
+1,Point Of Law
+0,Oh-Wah-Ree
+0,Bump
+0,Game of the Year
+0,Outburst Junior
+1,Das GROSSE und das kleine A
+0,Stamp
+0,Beutezug
+0,Tor
+0,Rasant
+0,Da Capo!
+0,Gold am Yukon
+0,Schwarzmarkt
+0,Black Spy
+0,Frontier-6
+0,Material World
+0,Overturn
+0,Spy Alley
+0,Emperor of China
+0,Outlaw Trail: The Western Game
+0,The Peter Principle Game
+1,The Great Canadian Pie
+0,Ace of Aces: Jet Eagles
+0,Stop Thief
+0,Troke
+0,Distant Seas: The Merchant Marine Game
+0,"Excuses, Excuses"
+0,Face Off
+0,Zargo's Lords: Magic Duels for World Power
+0,Tutankhamen's Revenge
+0,Utmaningen
+0,True or False
+1,Trivial Pursuit: Family Edition
+0,Magical Maze
+0,Spectrangle
+0,Titanic: The Board Game
+0,Primordial Soup: Freshly Spiced
+0,Jati
+0,Votum
+0,Verflixt und Zugesperrt
+0,Tweedledum: The New Adventures with Alice in Wonderland
+0,Top Banana
+0,Titanic
+0,Till Eulenspiegel
+0,Thrill
+0,Das Magische Hexagon
+0,The Gothic Game
+0,Tempo
+0,Tango
+0,Talking Stones
+0,Steinbeisser
+0,Spirit
+0,Frag
+0,Um Kopf und Kragen
+0,Der Schatz des Pharaos
+0,Sokrates
+0,Top Secret
+0,"Twinkle, Twinkle, Little Star"
+0,Starship Command
+0,Now You See It
+0,Reporter
+0,Eye Guess
+0,The Joker's Wild
+0,Time: The Game
+0,Triology
+0,Skirrid
+0,Barrier
+0,Trippples
+1,They're at the Post
+0,Shogun
+0,"Non-Violent, Politically-Correct War"
+0,Nomad
+0,Blue Stones
+0,Up the Creek
+0,Starships
+0,Target
+0,Life & Death & An American Chainsaw
+0,Pico
+0,The New Dungeon: Miniatures and Game Supplement
+0,Interaction
+0,Courier
+1,Starship Command II
+0,Civilization: West Extension Map
+0,Airline
+0,Probe
+0,A Line in the Sand
+0,Deal Me In
+0,The Great Khan Game
+0,Neues aus dem Wichtelwald
+0,Shogi
+0,"Teufel, Teufel!"
+0,Double
+0,Der Herr der Wichtel
+0,Büro Crazy
+0,Panzer Command: The Gateway to Stalingrad
+0,Sixth Fleet: Modern Naval Combat in the Mediterranean
+0,Murphy
+0,Restaurant
+0,Gulf Strike
+0,Hell's Highway: Operation Market Garden
+0,"Aegean Strike: Land, Air, and Sea Combat in the Eastern Mediterranean"
+0,NATO: The Next War in Europe
+0,Central America
+0,The Civil War 1861-1865
+0,Shell Shock!
+0,Checkers
+0,Sherlock Holmes: The Game of the Great Detective
+0,Elfer raus!
+0,Magic Dance
+0,Coup
+0,Das Letzte Kamel
+0,Stalingrad Pocket: The Wehrmacht's Greatest Disaster
+0,Legions of Steel
+0,Elfengold
+0,Mahjong
+0,4 First Games
+0,Waldmeister
+0,Caprice
+2,Middle Sea: Empires of the Feudal Age
+0,Heresy
+0,Online: Internet Card Game
+0,Myth Fortunes
+0,Orbit War
+0,Project CIA: The Secret Formula
+0,Project KGB: The Double Agent
+0,Speculate
+0,Sopwith
+0,Imperium: 3rd Millennium
+1,The Guru's Famous Baseball Game
+0,Starlord
+0,The Game of Good Cooking
+0,No Bluff!
+0,Nix für Ungut!
+0,"Duck, Duck, Bruce"
+0,Free Parking
+0,Cartino
+1,Scoop the Cash
+0,Illya Kuryakin
+0,221B Baker St.: Sherlock Holmes & the Time Machine
+0,Looney Tunes Trading Card Game
+0,The Sword and the Stars
+0,Vampire: The Eternal Struggle
+0,Shadowrun: The Trading Card Game
+0,Total Depth
+0,Amazons
+0,Overpower
+0,Warlords
+0,Crossbows and Catapults
+0,Young Jedi: Collectible Card Game
+0,Wildstorms
+0,Guardians
+0,Rage
+0,Rage (Second Edition)
+0,On the Edge
+0,Pachisi
+0,Quest for the Grail
+0,Crisis: Sinai 1973
+0,The X-Files Collectible Card Game
+0,Eldorado
+0,Time Vectors
+0,GRYB Game System
+0,UNO Hearts
+0,Ebola Monkey Hunt
+0,Domination
+0,Warlock
+0,Vegas
+0,Huzzah!
+0,Renfield
+0,London's Burning
+0,Stomp!
+0,Dingus
+0,Grav Armor
+0,Thunderbolt/Apache Leader
+0,Agent of Change
+1,Arch Rival
+0,Riddle of the Ring
+0,Finger-Flick Sports: Baseball
+0,Kimbo
+0,Robots!
+0,Tyranid Attack
+0,"Warhammer 40,000 (Third Edition)"
+0,Space Hulk
+0,Square Off
+0,Pokémon Trading Card Game
+0,Wyvern
+0,Jackpot Payoff
+0,Hitler's War
+0,Arcadia: The Wyld Hunt
+0,Bladder
+0,Stealth Chess
+0,4 Player Chess
+0,Coup d'État
+0,Willi Wacker
+0,Willi
+0,Schickeria
+0,Römer
+0,Musketeers
+0,Flagship: Prometheus Unchained
+0,Bridge
+0,Knallbonbon
+0,Ritter Kunibert's 12er Stich
+0,Dino
+0,Drachenlachen
+0,Hexenstich
+0,Pfusch
+0,Star Trek: The Card Game
+0,Hyano
+0,Rivets
+0,Food Fight
+0,Chitin: I
+0,Globbo!
+0,Out of Context
+0,Kensington
+0,Ergo
+0,Thinking Man's Golf
+0,Falsche FuFFziger
+0,Redemption
+0,Swahili
+0,Suppenkasper
+1,Kill Doctor Lucky: Craigdarroch
+0,The Lost World Jurassic Park Game
+0,Jurassic Park Game
+0,Land Grab
+0,The LogiQuad Game System
+0,Klondike
+0,The Last Spike
+0,Proteus
+0,eBay Electronic Talking Auction Game
+0,Revolt on Antares
+0,Saga
+0,They've Invaded Pleasantville
+0,Vampyre
+0,Columbus
+0,Forte
+0,Ion Glory
+0,Clobber!
+0,Top That!
+1,UNO
+1,Circus Imperium
+1,Bamboozle
+0,Greyhounds
+0,The Flea Market Game
+0,War of the Ring
+0,Spiel
+0,Ayanu
+0,Watch
+0,Wu Hsing
+0,Colliding Circles
+0,Chez Dork
+0,Ido
+0,Streets of Stalingrad
+0,Flying Circus
+0,PanzerBlitz
+0,4X4
+0,Mad Magazine Card Game
+0,Sex Maniacs
+0,Creatures & Cultists
+1,Yahtzee
+1,Zero!: The Rise and Fall of The Imperial Japanese Air Force Dec 1941 - June 1942
+0,Leverage
+0,The Sinking of the Titanic
+0,Midway
+0,Strat-O-Matic Baseball
+0,King of the Tabletop
+0,Touring
+0,Title Bout
+0,Kartenschach
+0,The Magnificent Race
+0,Weekend in Vegas
+1,The Stock Market Game
+0,Afrika Korps
+0,Blood and Iron
+0,Battles of Trenton and Princeton
+1,Mythology: A Game of Adventure in the Age of Heros
+0,Crusades II
+1,Isaac Asimov's Super Quiz
+0,Ultimate Stratego
+0,Gobblet
+0,Space: The Game
+0,Lost Patrol
+0,Oil Power
+0,Borderlands
+0,Creeper
+0,Aggravation
+0,Hopfen & Malz
+0,Airlines
+0,Lose Your Shirt
+0,Transformation
+0,Marco Polo
+2,Pictionary
+0,Blood Bowl Companion
+0,Flip
+0,Fight!
+0,Dark Future
+0,Blood Bowl Star Players
+0,"Elves, Dwarfs & Dungeonbowl"
+0,Blood Bowl (Second Edition)
+0,Good & Bad Ghosts
+0,Rubicon
+0,Heiße Karten
+0,Flinch
+0,Astérix et les Romains
+0,Bermuda Triangle
+0,U.S. Patent No. 1
+0,"Kasserine: Rommel's Battle for Tunisia, 1943"
+1,Lords of the Renaissance
+0,Invasion Sicily
+0,The New Dungeon!
+0,Bill Oddie's Great Bird Race Game
+0,Blast-Off!
+0,Knock Out
+0,Murder Mystery Party: Revenge in Rome
+0,Bewitched
+0,Greyhawk Adventures: Wars
+0,Atlantis: Pathways of the Deep
+0,Noah's Ark
+0,Cash
+0,Wild Life
+0,Ringgeister
+0,Off to the Tower
+0,Saratoga: 1777 - Burgoyne vs Gates
+0,X-Bugs
+0,Mückenstich
+0,Scrabble Junior
+0,Trade
+0,Worldbeater
+0,Letres
+0,Malefiz
+0,Last Frontier: The Vesuvius Incident
+0,Monotony
+0,Pirate and Traveler
+0,Starunner
+0,Energy Quest
+0,Medical Monopoly
+1,Spill and Spell
+0,Hacker
+0,Square Mile
+0,Rome & Carthage
+0,S.P.I.V.'s
+0,Droids
+0,Starship Catan
+0,HellRail: Third Perdition
+0,Confrontation
+0,Mystery Mansion
+0,Electronic Talking Mystery Mansion
+0,Titicaca
+0,Groo: The Game - Expansion Set
+0,DVONN
+0,Lotus
+0,Inspector Higgins
+0,Eureka
+0,Mbogo
+0,Treasure Quest
+0,Muscat
+0,Scan
+0,Last Frontier: The Artifact
+0,Scrabble Sentence Cube Game
+0,Nizza
+0,Schatztaucher
+0,Sekt oder Selters
+0,U.F.O.s
+0,Tower of the Wizard King
+0,Orient Express
+0,Black Monday
+0,Sunset Blvd.
+0,Quinto
+0,Haunted Wood
+0,Battlecars
+0,Fiasko
+0,Cows Can't Dance (But They Like to Be Asked!)
+0,Extra!
+0,Goal!
+0,Vendetta
+0,Yukk!
+1,Sequence
+0,The Wreck of the B.S.M. Pandora
+0,Kommissar
+0,Drachenfels
+2,Guesstures
+0,Gridiron Fantasy Football
+0,Scattergories
+0,Sea-Fleet
+0,Blue Line Hockey
+0,Safe Return Doubtful
+0,Sold! The Antique Dealer Game
+0,Chinese Checkers
+0,Huggermugger
+0,Dark Nebula
+0,Othello
+0,Race to Riches
+0,Risky Strategy
+0,Mastermind
+0,Xiangqi
+1,Dominoes
+0,Thoughtwave
+0,Ur: 1830 BC
+0,Backgammon
+0,Cribbage
+0,Senet
+0,The Brotherhood
+0,Globetrotters
+0,Ghoulash
+0,Go Wild!
+0,Sorcerer King
+0,Bezique
+0,Whosit?
+0,Sorry!
+0,Digimon Digital Monsters
+0,Duell
+0,Kanaloa
+0,Mount Everest
+0,Wordthief
+0,The High Kings of Tara
+0,Charge it!
+0,Rainbows
+0,Test Drive
+0,The Great American Auction Card Game
+0,Tell Me: The Grand Quiz Game
+0,Bismarck
+0,Boogey Man
+0,Battleship
+0,Hit the Beach
+0,Skirmish
+0,Battle-Cry
+0,Barnabas Collins Dark Shadows Game
+0,Phlounder
+0,Bargain Hunter
+0,Halloween Party
+1,Reminiscing: The Game For People Over Thirty
+0,"Murder, She Wrote"
+0,The Barons of Fyn
+0,"LNL: Laplace, Newton & Lagrange"
+0,Queen Victoria's Navy
+0,The Way
+0,Bones
+0,Tiles
+0,MotorChamp
+0,Carrier Strike!
+0,Chaseback
+0,Chopper Strike
+0,World War II: European Theater of Operations
+0,Kalah
+0,Lord of the Rings: Friends & Foes
+0,Deuce
+0,Slasher Flick
+0,Jenga
+0,Blokus
+0,India Rails
+0,The Hobbit: The Defeat of Smaug
+0,Torpedo Run!
+0,Battle Cattle: The Card Game
+0,Roads & Boats: Planes & Trains
+0,House of Horrors
+0,Scavenger Hunt
+0,Swords & Sorcery: Quest and Conquest in the Age of Magic
+0,Not Necessarily Rum
+0,Freeze Frame!
+0,Zillionaire
+0,Zero Zap
+0,Wildcatter
+2,The Extraordinary Adventures of Baron Munchausen
+0,Zombies!!!
+0,Grave Robbers from Outer Space
+0,Winkeladvokat
+0,Götterdämmerung
+0,Frag: Death Match
+0,Industrial Waste
+0,Kippour 1973
+0,Quirks
+0,Candidate
+0,Tribes
+0,Zaxxon
+0,Viking Gods
+0,Explore Europe
+0,Game of the States
+0,Flipop
+0,Why
+0,Casanova
+0,Chaos Tiles
+0,The Chicago Way
+0,Doctor Faust
+0,The Grand Alchemist
+0,Hispania
+0,Boggle Bowl
+0,Saloon
+0,Goldrush-City
+0,1-2-3 Go!
+0,Equate
+0,Express Chess
+0,Global Chess
+0,Global Survival
+1,Godsfire
+0,Massai
+0,Himmel und Hölle
+0,Liberté
+0,Caverns Deep
+0,Dark Heaven Apocalypse
+1,Playboss
+0,Sherlock Holmes Consulting Detective: The Thames Murders & Other Cases
+0,Charmed: The Book of Shadows
+0,Colony
+0,Skyline
+0,Pirate Island
+0,Man O' War
+0,Ulcers
+0,Quicksand
+0,Gammarauders: Revenge of the Factoids
+0,Renegade Legion: Interceptor
+0,Nexus
+1,General Hospital
+0,Jingo
+0,StarForce 'Alpha Centauri': Interstellar Conflict in the 25th Century
+0,Fort Worth Scene
+0,Rules of the Road
+0,Attack Force
+0,Good Guys 'n Bad Guys
+0,Flat Top
+0,Maelstrom: The Coming of Chaos
+0,Valley Of The Four Winds
+0,New York
+0,Kupferkessel Co.
+0,Stargate SG-1: La Vengeance d'Apophis
+0,Valley of the Mammoths
+0,Vabanque
+0,Draco & Co
+0,Viceroys
+0,Urland
+0,Beest
+0,Cosmic Cows
+0,Gargon
+0,Pompeji
+0,Contigo
+0,Elixir
+0,Emperor's Challenge
+1,Loopino
+0,Top Hats
+0,Snarf Quest
+0,Fire On The Suns: Tactical Command Fleet Book 1
+0,Fire On The Suns: Tactical Command!
+0,Bali
+0,Auf Fotosafari in Ombagassa
+0,Vom Kap bis Kairo
+0,Zündstoff
+0,Castle Risk
+0,Comeback
+0,Blockade
+0,Pollyanna
+0,Samurai & Katana
+0,Hot Dog
+0,Die Erbtante
+0,Who Stole Ed's Pants?
+0,Monsterjagd
+0,Pick Picknic
+0,Atlantic Star
+0,Mutabohn
+0,Quicksand
+1,"Rivers, Roads & Rails"
+0,Classic Warlord
+0,Samarkand: Isfahan
+0,Kampf um Rom: Das Kartenspiel
+0,Face-it
+0,Phase 10 Dice
+0,Arctic Front: Battle for Norway
+0,Persian Gulf: Battle for the Middle East
+0,Kismet
+2,Catch Phrase!
+0,18GA
+0,Code Name: Sector
+0,Trivial Pursuit: Game Show
+0,Cross of Iron: A Squad Leader Gamette
+0,Winhard
+0,Temptation Poker
+0,Carcassonne: The River
+1,Director's Cut
+1,Pass the Pigs
+0,Quadragammon
+0,Moon Dragon
+0,Villa Paletti
+0,Jurassic Park III: Island Survival Game
+0,Tank Battle
+0,Valkenburg Castle
+0,Gods
+0,Solitaire for Two
+0,The Lord of the Rings Trading Card Game
+0,Compatibility
+0,Tri-Tactics
+0,Dover Patrol
+0,Totopoly
+0,King Oil
+0,Das Störrische Muli
+0,Kardinal & König: Das Kartenspiel
+0,The HellGame
+0,18AL
+0,Intruder
+1,Babble-On
+0,Janus
+0,Knack den Code-X
+0,Westwärts
+0,Welt der Winde
+0,Schwimmer in der Wüste
+0,Claim
+0,Kontor: Das Exportlager
+0,Das Hornberger Schiessen
+0,Das Pferd von Troja
+0,Das Phantom
+0,Poisson d'Avril
+0,Der Kleine Riese Kasimir
+0,Ramses II
+0,Die Bombe
+0,Die Chinesische Mauer
+0,DOG
+0,Quo Vadis
+0,Finance and Fortune
+0,My Brain Is Bleeding
+0,Rome At War I: Hannibal at Bay
+0,"Clash of Giants: Campaigns of Tannenberg and the Marne, 1914"
+0,Panzer Leader: Game of Tactical Warfare on the Western Front
+1,Babylon 5 Collectible Card Game
+0,"Barbarian, Kingdom & Empire"
+0,Frontrunner
+0,Target: Libya
+0,Who Framed Roger Rabbit?
+0,Prize Property
+0,MediCumLaude
+0,Talk Show
+0,Spider Wars
+0,Infection
+0,Power Grid
+0,Wise and Otherwise
+0,Survive: Escape from Atlantis!
+0,Snap
+0,Hive
+0,Inferno
+0,Auweier
+0,Integralis: Die große Keilerei in der Buchbinderei
+0,Die VampirConnection
+0,Bid It Right: The Price is Right Card Game
+0,Small Soldiers Big Battle Game
+0,Super Giant Monster Showdown: Destroy Tokyo Tower
+0,Super Giant Monster Showdown: Cybernetic Attachments
+0,Push Over
+0,Russian Civil War 1918-1922
+0,A Mighty Fortress
+2,What Were You Thinking?
+0,Picture Picture
+0,Frog Juice
+0,Web of Power: The Vatican
+0,Cheeeese Please
+0,Der Herr der Ringe: Die Gefährten - Das Kartenspiel
+0,Hesketh's Legacy
+0,Coppertwaddle
+0,Demo Derby: Saturday Night at the Track
+0,Commercial Crazies
+0,Voyage of the B.S.M. Pandora
+0,Mouse Trap
+0,Stock Ticker
+0,Countdown
+0,Join us Together
+0,Acronym
+0,Baseball Card All Star Game
+0,Battlestar Galactica
+0,British Rails
+0,James Clavell's Shogun
+0,Lancer
+0,Black Beauty Downs
+0,Bottle Topps
+0,Donnerwetter
+0,Weatherslam
+0,Palenque
+0,Spice Navigator
+0,FrachtExpress
+0,Fire Team
+0,Rauchzeichen
+0,Schuss und Tor
+0,Renaissance Traders
+0,"Another Day, Another Dollar: Kung Fu"
+0,New Tactical Games with Dice and Cards
+1,Blazing Aces!: A Fistful of Family Card Games
+0,Attack of the Mutants!
+0,Alibi
+0,The Beastlord
+0,Quivive
+0,Buntbär & Co.
+0,Samarcanda: The Marvellous Adventures of Marco Polo
+0,James Clavell's Noble House
+0,"Another Day, Another Dollar: Space"
+0,"Another Day, Another Dollar: Musicals"
+0,Suzerain
+0,Der Herr der Ringe: Die Gefährten
+0,War! Age of Imperialism
+0,Connect Four
+0,Shooting Stars: A Tactical Game of Fighter Combat in Space
+0,Wembley
+0,Booze Cruise
+0,Dippi Totale
+0,Apache: A Game of the Old West
+0,Star Wars: Escape From The Death Star
+0,Crazy Clock Game
+0,The Generals
+0,Quadwrangle
+0,Upthrust
+0,Pole Position
+0,Stimmvieh
+0,Hossa!
+0,Hossa! Seefahrer-Erweiterung
+0,The Lonely Mountain
+0,The Gnumies
+0,More Cosmic Encounter
+0,Jumbo Jet
+0,Chez Geek 3: Block Party
+0,Wings: World War One Plane to Plane Combat 1916-1918
+0,Starfall
+0,SHOC
+0,WaveLength
+0,Asteroid Pirates: A Game of Ship to Ship Combat in the Asteroid Belts
+0,Airplay
+0,"Thirty Years War: Europe in Agony, 1618-1648"
+0,The American Civil War
+0,Imaginiff
+0,Lawrence of Arabia: The British Offensive - September-October 1918
+0,Combat Cards
+0,Demon's Run
+0,Clintonopoly!
+1,New America
+0,Alien Contact: Extraterrestrial Empires in Conflict
+0,Marine: 2002 - A Game of the First Lunar War
+0,Bridgette
+0,Havannah
+0,Knights of the Dinner Table: Orcs at the Gates
+0,Knights of the Dinner Table: Orcs - The Reckoning
+0,Alpha Playing Cards
+0,Touché
+0,Ein Arsch kommt selten allein
+0,Too Many Cooks
+0,Jeopardy!
+0,Snail's Pace Race
+0,Combo
+0,Stay Alive
+0,Maginor
+0,Mutant Chess
+0,Knights of the Dinner Table: HACK!
+0,The Battle of Five Armies
+0,Heavy Gear Fighter
+0,Safari
+0,Gondor: The Siege of Minas Tirith
+0,Sauron
+0,Tarock
+0,My Word!
+0,Vantage
+0,Thieves in the Wood
+0,Plague!
+0,Game of Goose
+0,First to Reverse
+0,Duck Pond
+0,Regentropfenspiel
+0,Baby Bird Game
+0,Coco Crazy
+0,The Hamsters
+0,Spinball
+0,Car Wars
+0,Quickely Dice
+0,Chez Geek 2: Slack Attack
+0,The Ironclads: Expansion Kit
+0,Arabian Nightmare: The Kuwait War
+0,The Ironclads: A Tactical Level Game of Naval Combat in the American Civil War 1861-1865
+0,Goldraub in London
+0,War in Europe
+0,Ave
+0,200 Jahre Montgolfieren
+0,Caravansérail
+0,U-Boat
+0,CATAN: 5-6 Player Expansion
+0,The Russian Campaign
+0,Star Force Terra #1: Contact!
+0,Checkpoint: Danger!
+0,Blind Justice
+0,Platoon
+1,Scrabble Duplicate Crossword Game
+2,Rapid Recall
+0,Chutes à gogo
+0,Crossfire
+0,Delta V
+1,UNO Attack!
+1,Trivial Pursuit: Genus 5
+0,Astromagie
+1,UNO Stacko
+0,Uräus
+0,Finish Lines
+0,Sixteen Thirty Something
+0,Jackpot Yahtzee
+0,Seneti
+0,Karnak
+0,Theben
+0,Talon
+0,Meander
+0,Great Western Railway Game
+0,Wanted!
+0,Dragonlance Mage Stones
+0,Ant Wars
+0,Loaded Questions
+0,Fair Play
+0,Heuchel und Meuchel
+0,Tennis
+0,TransAmerica
+0,Ketch Up
+0,Throneworld
+0,Star Fist
+0,Supremacy: The Unconventional Forces
+0,Supremacy: High-Tech Edge for Strategic Forces
+0,Supremacy: High-Tech Edge for Conventional Forces
+0,Supremacy: Fortuna
+0,Supremacy: Boomers - Ballistic Missile Subs
+0,Supremacy: Mega Map
+0,Supremacy: Mega Supremacy - Challenge of the New World Order
+0,Liftoff!
+0,Exploration
+1,Stare!
+0,BrewMaster: The Craft Beer Game
+2,Jungle Jam
+0,Mathable
+0,Destiny
+0,Piecepack
+0,Aquitaine: Strategy and the Medieval War Ride
+0,Mr. Bunny's Internet Startup Game
+0,The Great Downhill Ski Game
+0,Automania: The Game of the Motor Giants
+0,Kersplatt!
+0,The London Game
+0,The Baton Races of Yaz
+0,Eye
+0,Column
+0,The Fishing Game
+0,Kookaburra Game
+0,Terrace
+0,Siege
+0,Pentagonal
+0,Patton in Flames
+0,Mage Knight Dungeons
+0,ThinkBlot
+0,Encore
+1,Abstracts
+0,Panzer Grenadier
+0,The Book of Classic Board Games
+0,Pathfinder
+0,C.V.: A Game of the Battle of Midway
+0,The Yeti Slalom
+0,Starfire II
+0,Golem
+0,Supremacy: Main Battle Tanks
+0,Starfire
+0,Starfire III: Empires
+0,Imperial Starfire
+0,Starfire: New Empires
+0,Nanofictionary
+0,Strike It Rich
+0,In Pursuit
+0,Collect
+0,The Stock Exchange Game
+0,Philately
+0,GolfMania
+0,Twilight Imperium: Armada
+0,The Hunt for Red October
+0,John Prados' Third Reich
+0,"Pancho Villa, Dead or Alive!"
+0,Jurassic Park III: The Spinosaurus Chase Game
+0,James Clavell's Tai-Pan
+0,Power Lunch
+0,Point-Blank
+0,Hounds and Jackals: Game of the Pharaohs
+0,Supremacy: Neutron Bombs and Killer Satellites
+0,Supremacy: The Middle Powers
+0,Catan Card Game: Expansion Set
+0,File 13
+0,Age of Chivalry
+0,The Last Crusade
+1,Search for the Emperor's Treasure
+0,Highway to the Kremlin: Napoleon's March on Moscow
+0,The Game of Life
+1,Chairs
+0,Listen Up!
+0,Mr. Ree!:  The Fireside Detective
+0,The Dukes of Hazzard Game
+0,The Goonies
+0,Slasher: The Final Cut
+0,Monopoly: The .com Edition
+0,"The Game of Hoboken, New Jersey"
+0,New York in a Box
+0,Hnefatafl
+0,Ringside
+0,Square Dance
+0,Tashkent Domino
+0,Dice Run
+0,Diceland
+0,Zatre
+0,Fjord
+0,A Dog's Life
+0,Romance of the Three Kingdoms Card Game
+0,Admirals
+0,Lepanto
+0,Halli Galli
+0,Teufel nochmal!
+0,Pipeline
+0,Broker
+0,Kuh & Kompagnon
+0,Dune: Spice Harvest
+0,Dune: The Duel
+0,Morecambe & Wise Game
+1,Trivial Pursuit: Genus Edition
+1,Trivial Pursuit: Genus II
+0,Supremacy: Colonial Legions and Merchant Marine
+0,Mexica
+0,Dirty Minds: The Game of Naughty Clues
+0,Trivial Pursuit: The 1980's
+0,Let's Buy Hollywood
+0,Scrabble Word Rummy
+0,Camden
+0,Confusion: Espionage and Deception in the Cold War
+0,Inner Circle
+0,Stockmarket
+0,Underwriter
+0,Kendo
+0,Craonne
+0,Middleman
+0,Ka-Ching!
+0,Squatter
+0,Kojak Detective Game
+0,Fantasy Business
+0,Scoop
+0,Origins of World War II
+1,Men Against Fire
+0,Headlines
+0,Stratego 4
+0,Bionicle Adventure Game: Quest For Makuta
+0,The Simpsons Trivia Game
+1,Breaking Away
+0,Task Force
+0,Head to Head Golf
+0,Save Doctor Lucky on Moon Base Copernicus
+0,Train Raider
+0,Web and Starship
+0,Pirate's Cove
+0,Sticks & Stones
+0,Instinct
+0,Balanx
+0,Mandala
+0,Rythmo
+0,Carcassonne: Expansion 1 - Inns & Cathedrals
+0,Guderian's Blitzkrieg: The Drive on Moscow
+0,Sniper!
+0,Dodge City
+0,Soldier Kings: The Seven Years War Worldwide
+0,Reds! The Russian Civil War 1918-1921
+0,Gobbos' Banquet
+0,1806: Rossbach Avenged
+0,The Godfather Game
+0,Circuit
+0,Crash Tackle Rugby Board Game
+0,UNO Dice
+0,Chess for Three
+0,Pin Point
+0,Noteability
+0,Wicketz
+2,King of the Mountain
+0,Supermoney
+0,Group Therapy
+0,HiQue
+0,Claim
+0,"Stand & Die: The Battle of Borodino, 1941"
+0,Framed!
+0,The A-Team: B.A. Lends a Hand in the Race for the Formula
+0,Showdown Poker
+0,Monopoly: Looney Tunes
+0,Origins
+1,Clue VCR Mystery Game
+1,VCR 221B Baker Street
+0,Realm
+0,Questique
+1,The Book of Medieval Wargames
+0,Battle of Britain
+0,By Jove
+0,Sheffield Shares
+0,Baggage Claim
+0,Flightplan: The Airline Game
+0,Bus Boss
+0,Cluedo: Super Sleuth
+0,The Last Days of the Grande Armee: The Four Days of Waterloo
+0,Kung Fu 2100
+0,Escape from Altassar
+0,Rhombo Continuo
+0,Swordquest
+0,Star Trek: Starship Tactical Combat Simulator
+0,Panzergruppe Guderian
+0,Survival / The Barbarian
+0,TurfMaster Course Collection 1
+0,Air Assault on Crete / Invasion of Malta: 1942
+0,Pentantastar
+0,"Red Sun/Red Star: The Nomonhan Campaign, 1939"
+0,Rails Through the Rockies
+0,Trivial Pursuit: Millennium Edition
+0,Blood on the Tigris
+0,"Napoleon at Bay: Defend the Gates of Paris, 1814"
+0,How to Host a Murder: The Last Train from Paris
+1,Sim City: The Card Game
+0,Bonaparte in Italy
+0,Sideshow: The Campaign for German East Africa 1914-1918
+0,Counterstrike
+0,Warp 6
+0,Schaumermal
+0,Rebound
+0,Detour!
+0,Samurai: Warfare in the 16th Century Japan
+0,Pyramis
+1,March Madness
+0,CribbGolf
+0,Monopoly: Stock Exchange
+0,Zone X
+0,James Clavell's Shogun Card Game
+0,Komme Gleich
+0,Triangle Game
+0,Red Parachutes: Soviet Airborne Assault Across the Dnepr
+0,Blood Bowl
+0,Necromunda
+0,Just Wait
+0,Uncle Wiggily
+0,Hamlet!
+0,Puerto Rico
+0,The Game of Real Life
+0,Knockabout
+1,Dollars and Dibble
+0,RSVP: Vertical Crossword Game
+0,Rubik's Flip
+0,Deception
+0,Submarine
+0,Buccaneer
+0,Gang of Four
+0,The Omega Virus
+0,Catan: Das Kartenspiel
+0,Dallas
+0,Bounty Hunter: Shootout at the Saloon
+0,Doctor Who: The Game of Time & Space
+0,The Great Game of Britain
+0,Spritfresser
+0,Croak!
+0,Patch Worlds
+0,Star Trek: The Adventure Game
+0,Ascension at Firepeak
+0,1849: The Game of Sicilian Railways
+0,Verdict
+0,Gettysburg
+0,Backpacks and Blisters
+0,Der Berg ruft
+0,Banque Fatale
+0,Pitagoras
+0,Chamäleon
+0,Bronco Ranch
+0,Drei Chinesen mit dem Kontrabass
+0,Mömmen
+0,Goblin
+0,Starmada X
+0,Dragon Rage
+0,Daumen Drauf
+1,And They're Off!
+0,Empire: Triumphs and Humilations for Power
+0,Poleconomy
+0,Battlebikes
+0,Peasantry
+0,Desert War
+0,Haste Worte?
+0,Demono
+0,Succession
+0,Doctor Who Collectible Card Game
+0,Trüffeln Schnüffeln
+0,7th Sea Collectible Card Game
+0,Auf + Zu
+0,Age of Empires: Expandable Card Game
+0,Clippers
+0,1876: Trinidad
 0,1899
-0,1900
-0,1901
-1,1902
-0,1903
-0,1904
-0,1905
-0,1906
-0,1907
-0,1908
-0,1909
-0,1910
-0,1911
-0,1912
-0,1913
+1,Isaac Asimov presents Super Quiz II
+0,Isaac Asimov presents Super Quiz III
+0,Captain Park's Imaginary Polar Expedition
+0,The Card Game for Lovers
+0,GLE'X
+0,Z-Chess
+0,Anno Domini: Erfindungen
+0,Cairo
+0,Goldland
+0,Sixmix
+0,The Bucket King
+0,Willow
+0,High Hand
+0,Paroli
+0,El Grande: Grossinquisitor und Kolonien
+0,Mandarin
+0,La Strada
+0,Lost Valley of the Dinosaurs
+0,Taktvoll
+0,Star Fighter
+0,Star Wars: Starfighter Battle Book
+0,Fantasy Conflict
+0,Nautilus
+0,Lumberjack
+0,The Warriors of Batak
+0,All-Star Baseball
+1,The Home Stretch
+0,Zahltag
+0,Holy War
+0,Port Stanley: Battle for the Falklands
+0,Invasion of the Air-eaters
+0,Doom of the Eldar
+0,Rigatoni Intriganti
+0,Euro
+1,The Whole Brain Game
+0,Alexander's Generals: The Diadochian Wars 323-281 B.C.
+0,Horus Heresy (1993)
+0,Princess of Power Game
+0,Herself the Elf: Elf-Fun Game
+0,The World of Wall Street
+0,Titan Strike! Battle for the Moon of Saturn
+0,The ElfQuest Boardgame
+1,Quickit
+0,Battle for Armageddon
+0,Action Test
+0,Soundbytes
+0,Farkle
+0,Vanished!
+0,Car Wars (Fifth Edition)
+0,Travellers' Tour Through the United States
+0,The Famous Monarchs of England Card Game
+0,Clue Jr. Travel Game
+0,Bionicle: Quest For The Masks CCG
+0,BAS-KET
+0,Quixo
+0,Juwelenzauber
+0,Oxford: Cambridge Boat Race
+0,Dots
+0,Hydra
+0,Denkste!
+0,Kopf oder Knopf
+0,Hecht im Karpfenteich
+0,Ruslan and Liudmila
+0,Lord of the Rings: The Confrontation
+0,RAF
+0,Contack
+0,PRO-GRIDIRON
+0,Da geht was ab im Morgenland
+0,Respond!
+0,Dragonland
+1,Pennant Race
+0,Hekla
+0,UFO
+0,Pagoda
+0,Avalon Hill Game Company's Game of Trivia
+0,Smart
+0,The Three Stooges Trivia Game
+0,The Arab-Israeli Wars: Tank Battles in the Mideast
+0,Demonworld
+0,Lost World
+0,Nieznaika on the Moon
+0,Wizard of Oz's Emerald Town
+0,Sherlock Holmes Consulting Detective: Adventures by Gaslight
+0,Sherlock Holmes Consulting Detective: The Mansion Murders
+0,Sherlock Holmes Consulting Detective: The Queen's Park Affair
+0,Bowl Bound
+0,Sushi-Jalapeńo War
+0,Pueblo
+0,"The Game of Medici: Arms, Loves and Betrayals in XVth Century Europe"
+0,Tyros
+0,Die Sieben Weisen
+0,Fraggle Rock
+0,Ballast
+0,Dschunke
+0,WildLife
+0,Against the Reich
+0,Rally: Risk and Evaluation on All Roads in the Worlds
+0,Nessie Hunt
+0,Victory at Sea
+0,Jack The Ripper
+0,Clash of the Gladiators
+0,Wooly Wars
+0,Hype
+0,Cerberus: The Proxima Centauri Campaign
+0,Albion: Land of Faerie
+0,Planet Busters
+0,Citadel of Blood
+0,Rescue from the Hive
+0,Runngus' Game
+0,Barbarian Kings
+0,Beziehungskisten
+1,Perpetual Notion
+0,Carrott's Canny Captions
+0,Cash Flow
+0,King Tut
+0,Baywatch: The Game
+0,Alien Encounter
+0,Hoodwinked
+0,Gaukelspiel
+0,Little League Lunatics
+0,The Powerpuff Girls: Villains at Large Game
+0,Ukraine '43: The Soviet Summer Offensive Against Army Group South
+0,Crisis: A Twisted Laugh at Life
+0,NUTS! The Battle of the Bulge Card Game
+0,Alien Autopsy
+0,Pizarro & Co.
+0,Bunker Poker
+0,Clue: The Card Game
+0,Lamarckian Poker
+0,Battlesuit
+0,Great Walls
+0,Cat Attack
+0,Imperator
+0,Skittles
+0,Save Our Bureaucrats
+0,Capital Punishment
+0,Magi-Nation Duel
+0,Miss Universe
+0,Gulliver's Travel
+0,Web of Power: The Duel
+0,Kontor: 3 & 4 player expansion
+0,Star Wars: Epic Duels
+0,Star Wars: Jedi Unleashed
+0,Holocaust
+0,Vier auf einen Streich
+0,Odyssee
+0,Der Blaumilch-Kanal
+2,Maskenball Venezia
+0,Osiris
+0,Bloody Mary
+0,König Artus Tafelrunde
+0,Dumm gelaufen!
+0,Athos
+0,Plan-Cheroli
+0,Grabsch
+0,Schleck und weg!!
+0,In Dubio Pro Reo
+0,Die Druiden
+0,Denkste!?
+0,Machu Picchu
+0,Ostindien Company
+0,Im Rampenlicht
+0,Anticipation
+0,Hack Attack
+0,Wallenstein
+0,Air Cav
+0,Irono Ofubi
+0,Challenge the Zodiac
+0,1776: The Game of the American Revolutionary War
+0,Traverse
+0,Lügenbeutel
+0,Die LeuchtturmArchitekten
+0,Prussia's Glory: The Battles of Frederick the Great
+0,Royal Hearts
+0,Heave Ho!
+0,Neutreeko
+0,The Game of Life: A Jedi's Path
+0,Die Pyramiden des Jaguar
+0,Soccerboss
+0,Slapstick
+0,Railroader
+0,Chartbuster
+0,Frag: Fire Zone
+0,The Scotch Whisky Game
+0,Hans Dampf
+1,Peloton
+0,Die Perlen der Scheherazade
+1,Karmas
+0,Illegal
+0,Ganoven Jagd
+0,Hol's der Teufel
+0,Double Down
+0,Nimm's Leich!
+0,Diceland: Deep White Sea
+0,Hard Vacuum
+0,Burn Rate
+0,Soccerama
+0,Go For Broke
+0,Lone Wolf and Cub Game
+0,Admiral on Deck
+0,Sea-Life
+1,Solo
+0,Santa Fe Rails
+0,Die Safeknacker
+0,Schaska
+1,Wer ist der Täter?
+0,Gouda! Gouda! Cat Attack
+0,WW2: Barbarossa to Berlin
+0,Tide of Fortune
+0,Junk Yard
+0,Musketeers
+0,Wie Hund und Katz!
+0,Affenraffen
+0,Anagrams
+0,Lexicon
+0,Fast Freddy's Hong Kong Dice Game
+0,Tripjat
+0,Gumshoe
+0,Das Zeitungsspiel
+0,Trödeln
+0,John Carter: Warlord of Mars
+0,Connections
+0,September
+0,Zamix
+0,San Gimignano
+0,Scrabble Crossword Cubes Game
+0,"Kaos, The Game"
+0,The Company War
+0,20 Questions
+0,The Inventors
+0,The Amazing Spider-Man Game
+0,ReBoot Mainframe Game
+0,Chancer: The Game
+0,Sharpe's Attack
+0,Mahé
+0,Kerrunch
+0,Stratego: Star Wars
+0,Snowboard
+0,Bill: Le jeu
+0,Castle Lords
+1,Friends
+1,Loft Story
+0,Outlaw & Posse
+0,Public Assistance
+0,Monopoly: The Simpsons
+0,Cross Over
+0,Chiamo!
+0,Kooky Kalooki
+0,Eye of Horus
+0,SeaNochle
+0,Undercover
+0,Modigliani
+0,Rise and Fall
+0,The Legend of Landlock
+0,Tin Soldiers
+0,Lines of Action
+0,Key Whiz
+0,This Accursed Civil War
+0,The Napoleonic Wars
+0,Halleluja
+0,Drive on Paris
+0,Brandywine
+0,Saratoga
+0,"Yom Kippur: The Battle for the Sinai, October, 1973"
+0,The Mystic Wood Extension Kit
+0,Fallschirmjaeger: The Airborne Assault on Fortress Holland
+0,Tribulation
+0,Danger Guy
+0,Star Trek: The Game
+1,Tip the Cows!
+0,StreetSoccer
+0,Fantasy
+0,Equations
+0,Skunk
+0,Give Us A Clue
+0,Blockhead!
+0,Save The World
+0,The Party Game
+0,The Three Stooges Card Game
+0,The Idiot Box
+0,PSI
+0,ESP
+0,Golden Deuce
+0,Zwergen Ziehen
+0,Schatzsucher
+0,Gogol
+0,Shendao
+0,HeroClix
+0,Quip Qubes
+0,Marino
+0,Politrics
+0,Royal Comette
+1,Playing Shakespeare
+0,Game Spice: Monopoly Expansion (fan expansion for Monopoly)
+0,The Game of Maze
+0,Hazard
+0,The Dickens Game
+0,Coffee!
+0,Emerald
+0,The Zodiac Game
+0,Ludus Romanus
+0,Runestone
+0,The Hieroglyphs Game
+0,Tabula
+0,The Celtic Game
+0,Major Battles and Campaigns of General George S. Patton
+0,Kaubojai
+0,OrkoMondo
+0,Savana
+0,Wizard
+0,Melee
+0,Black Hole
+0,WarpWar
+0,Star Quest
+0,Panzer Pranks
+0,China Topf
+1,Le Mans
+0,Plagio
+0,RisiKard!
+0,Sandsplatters
+0,Shadowfist
+0,Shadowrun: DMZ Downtown Militarized Zone
+0,Killer Instinct
+0,Nemesis
+0,Past Lives
+0,Pinocchio
+0,Armada
+0,Anno Domini
+0,Bataclan
+0,BattleTech TCG
+0,C-23
+0,Derby
+0,Dragon Ball: Alla ricerca delle Sette Sfere
+0,Dragon Storm
+0,Ferrari F1
+0,Gran Gol
+0,Harry Potter Trading Card Game
+0,Il gioco del campionato
+0,Il gioco della Formula Uno
+0,3-D Chess
+0,Schmuggler an Bord
+0,Fantasy
+0,Star of the Guardians
+0,Star Quest
+0,Super Deck!
+0,Super Pippo
+0,D3 Time Warriors
+0,By Golly!
+0,Hold Everything!
+0,Alfreds Other Game
+0,Battle of the Sexes
+0,The Christmas Game
+0,Doorways to Adventure
+0,Electronic Stratego
+1,Game of Knowledge
+0,"Men Are from Mars, Women Are from Venus"
+0,Option
+0,Tornado Rex
+0,Napoleon in Europe
+0,Millionary
+0,U.E.F.A.
+0,Your America
+1,LCR
+0,Decision At Kasserine: Rommel's Last Chance
+0,Geeks: The Convention
+2,Act One
+0,Iliad: The Most Renowned War Legend
+0,Priceless
+0,Vampire Hunter
+0,Stars On Stripes Football Game
+0,The Return of the Stainless Steel Rat
+0,Damocles Mission
+1,Arena of Death: Heroic Combat in the Fantasy World of DragonQuest
+0,Star Trader
+0,Nightmare House
+0,1-2-3 OY!
+0,A-B-C OY!
+0,Gnome Tribes
+0,Largo Winch
+0,Tic Tac Chec
+0,Noble Celts
+0,XIII: Le Complot
+0,Spider-Man
+0,Antagon
+1,Trivial Pursuit Mini Pack: Flicks
+0,The Mage's Triangle
+0,Survival of the Witless
+0,Assault on Hoth: The Empire Strikes Back
+0,Superpower
+0,Stock Market Specialist
+0,Infinity
+3,Close Action: The Age of Fighting Sail Vol. 1
+0,Rich Uncle
+0,Stick Around
+0,Mime Smashing
+0,Steppe
+0,Quizzard
+0,Ice War
+0,Ram Speed: Naval Warfare in the Bronze Age
+0,Theophrastus
+0,The Lord of the Rings: The Fellowship of the Ring
+0,Programmer's Nightmare
+0,Mordheim: City of the Damned
+0,Thinking Man's Football
+0,Roller Coaster Tycoon
+0,Stage II
+0,Robin Hood
+0,Chicken Cha Cha Cha
+0,Spitfire: Tactical Aerial Combat in Europe 1939-42
+0,Invasion: America - Death Throes of the Superpower
+0,Napoleon at Waterloo
+0,Tank! Armored Combat in the 20th Century
+0,The Plot to Assassinate Hitler
+0,Operation Olympic: The Invasion of Japan 1 November 1945
+0,Terrible Swift Sword: Battle of Gettysburg Game
+0,BattleBots: Kickbot Arena
+0,Numero
+0,Zock!
+0,"Lion of the North: The Dawn of Modern Warfare, 1631-1632"
+0,Rennfieber
+0,Zon Ahl
+0,World War 3: 1976-1984
+0,Sorcerer: The Game of Magical Conflict
+0,Sherlock
+0,Schicksack
+0,Mind Mover 3
+0,Beast Wars Transformers Mutating Card Game
+0,Campaign Trail: The Game of Presidential Elections
+1,Cribb Derby
+0,Konradin oder Interregnum
+0,Star Wars: Star Warriors
+0,Star Wars: Battle for Endor
+0,Squint
+0,Take 4
+0,Strat-O-Matic Hockey
+0,Tracks to Telluride
+0,Link
+0,Fifth Frontier War
+0,MegaNation
+0,Kriegspiel
+0,The Normandy Campaign
+0,Mamba
+0,The Third World War: Battle for Germany
+0,Shakespeare
+0,Dauntless
+0,Air Force
+0,Crescendo of Doom: A Squad Leader Gamette
+0,Word Power
+0,Backgammon 4
+0,Pro Football Fantasm
+0,Air Superiority
+0,Air Strike
+0,"Agincourt: The Triumph of Archery over Armor, 1415"
+1,BattleTech: Battleforce
+0,Operation Pegasus
+0,The World at War
+0,Chain Reaction
+0,TrainSport: Austria
+0,eBay: The Card Game
+0,Survivor
+0,Drakon Expansion 1
+0,DeathMaze: Heroic Adventure in the Corridors of Doom
+0,Demons: The Game of Evil Spirits
+0,Chaostle
+0,Freche Frösche
+0,Start Your Own Riot!
+0,Dragon War
+0,Flinke Flitzer
+0,Foodie Forest
+0,Sid Meier's Civilization: The Boardgame
+0,Iberos: Overlords of the Ancient Peninsula
+0,Trivial Pursuit: Country Music
+0,SongBurst 50's & 60's Edition
+0,Triplanetary
+0,Ultra Vilelence: Module 1
+0,Strange New Worlds
+0,Spy Ring
+0,Grand Imperialism
+0,Assault on Mt. Everest
+0,Spellmaker
+0,Elemental
+0,History of the Second World War: Part 1 - Hitler Turns Against Russia
+0,Luftwaffe: The Game of Aerial Combat Over Germany 1943-45
+0,Boomerang
+0,Wheeler Dealer
+0,Power Play
+0,The Twilight War
+0,Zombies!!! 2: Zombie Corps(e)
+0,NFL Franchise
+0,Uncle Rez's Pets
+0,Squares: The Civil War Battle Game
+0,The Settlers of Canaan
+0,Score Four
+0,Redemption: City of Bondage
+0,Cube Farm
+0,"Rock, Scissors, Paper"
+0,Imperium: Empires in Conflict - Worlds in the Balance
+0,BattleFleet Mars: Space Combat in the 21st Century
+0,"Outreach: The Conquest of the Galaxy, 3000AD"
+0,Grand Mastermind
+0,Sumo Arena
+0,Raider!: A Tactical Game of Commerce Raiding in WWII
+0,Star Fleet Battle Manual
+0,Tribbles Customizable Card Game
+0,Moon Base Clavius
+0,Battlewagon
+0,Dwarves
+0,Hot Spot
+0,Fast Attack Boats: A Game of the Arab-Israeli Naval War 1973
+0,Neck and Neck: A Game of Horse Racing
+0,Global Pursuit
+0,Ultimatum: A Game of Nuclear Confrontation
+0,Commando Actions: A Game of Tactical Level Combat in World War II
+0,Ramparts
+0,Superiority: A Game of the Invasion of Europe in the Near Future
+0,Zulu Attack
+0,Go For The Green
+0,Dragons: The Classic Game
+0,Hammer of the Scots
+0,Yu-Gi-Oh Millennium Game
+1,Picture Pursuit
+0,The Perry Mason Game
+1,Think Alike
+1,Quick Quiz?
+0,Harvest of Death: The Second Day at Gettysburg
+0,Firepower
+0,Empires at War
+0,Great Medieval Battles: Four Battles from the Middle Ages
+0,Championship Baseball
+1,Channel Surfing
+1,The Couch Potato Game
+0,Clontarf
+0,Killer Bunnies and the Quest for the Magic Carrot
+0,Monster Island
+0,Smear
+0,Topple
+0,Authentic Demolition Derby
+0,Robo Battle Pigs
+0,Contraband
+0,Batik
+0,Red Storm Rising
+0,Nuke: The Last Game on Earth
+0,Smog
+0,MBT
+0,Flight Leader
+0,Tac Air
+0,Shenanigans Game
+0,Belly Bumper
+0,Gregory Horror Show
+0,Tractics
+0,Rasslefest
+0,Hex Nut
+0,British Square
+0,Subbuteo
+0,Odd Bodz
+0,Got Milk?
+0,Peanut Butter & Jelly Card Game
+0,1809: Napoleon's Danube Campaign
+0,Qwitch
+0,Carla Cat
+0,Ker Plunk
+0,Statis Pro Baseball
+2,Stock Market Guru
+0,Talisman (Third Edition): Dragon's Tower
+0,Talisman (Third Edition): City of Adventure
+0,Biker Mice from Mars: Take Back the City
+0,Talisman (Third Edition): Dungeon of Doom
+0,Gooey Louie
+0,Operation
+0,Access Denied
+0,Bot
+0,Dr. Seuss Trivia Game
+0,"According to ""Professor"" Hoyle... Pocket Trivia"
+0,The Game of Law School
+0,The Pollination Game
+0,Going Nutz
+0,Bioviva
+0,Star Trek Trivia Game
+0,Cooks Tours: European Travel Game
+0,Captivation
+0,Sumo!
+0,Story
+0,Palazzo Paletti
+0,Nascar Speedway Challenge
+0,Estanciero
+0,The West Point Story
+0,One World Dominion
+0,Croisades
+0,Twin Rotor Combine
+0,Triopoly
+0,Make Your Own Opoly
+0,Trinity: Battleground
+0,WarpQuest
+0,Mister Diamond
+0,Dueltrack: A Car Wars Deluxe Supplement
+0,Babylon 5 Wars
+0,Second Front
+0,Cross Up
+0,Caramba
+0,Palabra
+0,Mystick Companion
+0,Challenge of the Lion Lord
+0,Insectica
+0,Let's Go Racing
+0,Cannae
+0,Fridericus Rex
+0,Kolonial Afrika
+0,Parthenon
+0,Ponton
+1,Royal Ascot
+0,Die Schätze des Ali Baba
+0,Trapper-Company
+0,Via Mala
+3,The American Goldrush 1849
+0,Actium
+0,Aeronautika
+0,Greek Fire
+0,Countermoves Generic Microgame Engine
+0,Pig Pong
+0,Legend of Zagor
+0,No Mans Land
+0,Trial by Pylon
+0,Grade Up to Elite Cow
+0,Golfwinks
+1,Bowling Bunnies
+0,Himalaya
+0,When Darkness Comes
+0,Arena
+0,Counter Space: The CGME Space Opera Gameworld
+0,Slamwich
+0,Domino Dice
+1,UNO: Star Trek
+0,Smokejumpers
+0,Harvey Smith's Show Jumping
+0,Gusher
+0,Evil Genius
+0,"Breakout & Pursuit: The Battle for France, 1944"
+0,Chutzpah
+0,Desert War: Tactical Warfare in North Africa
+0,"World War II: European Theater of Operations, 1939-45"
+0,Tip the Ship
+0,Maharadscha
+2,Alias
+0,Lord of the Rings: Sauron
+0,Star Fleet Missions
+0,Chobolo
+0,Heroes of Asfar
+0,Scandal
+1,Heroes of Asfar: The College of Magi
+0,Breakthrough
+0,Unlur
+0,Creature Castle
+0,Locomotive Werks
+0,Trainsport: Switzerland
+0,Doctor Who: Battle for the Universe
+0,Search for Poseidon's Gold
+0,Takeover: The Stock Market Game
+0,Turbo
+0,Legend of the Burning Sands
+0,Rat-a-Tat Cat
+0,Firestorm
+0,UNO Dominos
+0,RIFTS Collectible Card Game
+0,Echelons of Fire
+0,Wing Commander
+0,Tomb Raider Collectible Card Game
+0,Pez
+0,Yahtzee Jr.
+0,Ghostly Galleon
+0,Racing Challenge
+0,Ultimate Combat!
+0,Red Zone
+1,Galactic Empires
+0,Dune CCG
+0,Star Trek Customizable Card Game
+0,Warhammer Quest: Lair of the Orc Lord
+0,Minion Nation
+0,Crimson Skies
+0,Chainstore
+0,Warhammer Quest: Catacombs of Terror
+0,War of Masters
+0,Wordsearch
+0,ITC
+0,007 James Bond: Live and Let Die
+1,Mechwarrior: Dark Age
+0,Wheel of Intoxication
+1,The Hammer of Thor: The Game of Norse Mythology
+0,7 Ages
+0,Factories
+0,Ultimate Mastermind
+0,Fimbulvetr: Winter of Winters
+0,"What's Up, Doc?"
+1,The Last Starfighter: Tunnel Chase
+0,The Last Starfighter: Duel In Space
+0,4th Reich: Puremen vs. the Mutants for Control of the World
+0,Mana Burn
+0,Gold Digger
+0,Nine Men's Morris
+0,Stock Market Game
+0,Mock My Words
+0,Ali Baba
+0,Lightning Strike
+0,Slag!: Combat on the High Frontier
+0,Star Blazers Fleet Battle System
+0,Full Thrust
+0,Brilliant Lances
+0,Silent Death
+0,Struggle For The Throne: Star Trek III
+0,Glebdo
+0,Rule the Hand
+0,Sturm Nach Osten
+1,Gender Bender
+1,Nuclear Escape
+0,Le Chat Noir
+0,Stop Secret
+0,The Dark Crystal Card Game
+0,Richard Scarry's Busytown Poles & Ladders Game
+0,Dr. Seuss Green Eggs and Ham Game
+0,Pirate's Treasure
+0,Harry Potter: Diagon Alley Board Game
+0,Roundhouse
+0,Contiquences
+0,Tron: Assault on MCP Game
+0,Splat!
+0,Won Over
+0,How to Host a Murder: Roman Ruins
+0,The Dark Crystal Game
+0,Raiders of the Lost Ark Game
+0,Chute-5
+0,Monster Maker
+0,Street Illegal
+0,Monster Maker 2: Dragonbuster
+0,Magic Master
+0,Smart Mouth
+0,Elefant Hunt
+0,Gangsters: The Game of Disorganized Crime
+0,Magus!
+0,Beyond Competition
+0,Spark
+0,The Sorcerer's Cave Extension Kit
+0,Mare Nostrum
+0,Interplay
+0,Indiana Jones from Raiders of the Lost Ark
+1,Bowling Dice
+0,The Art of Siege
+0,The Siege of Constantinople: The End of the Middles Ages 1453 A.D.
+0,Games of Art
+0,Beyond Words
+0,Calculate!
+0,Beyond Solitaire
+0,Dragonriders of Pern
+2,Hard Vacuum: Science Gone Mad
+0,Munchkin 2: Unnatural Axe
+0,The Honeymooners Game
+0,Forbidden Bridge
+0,Pyramid
+0,Cannibal Pygmies in the Jungle of Doom
+0,Jolly Roger: Treasure Islands
+0,Octrix
+0,Quad Checkers
+0,Assembly Line
+0,Baseball Strategy
+0,BANG!
+0,Four-Letter Frenzy
+0,Bioscopy
+0,Songburst: 70's & 80's Edition
+0,Royal Steeple Chase
+0,Tochtli
+0,Prospecting
+0,Sum-Up
+0,Tryce
+0,Crypt: The Pharaoh's Curse
+0,Snapshot
+0,The Succession Wars
+0,Battlefleet Gothic
+0,Demonwand
+0,Lost Worlds Adventure Set I: In the Ruins of the Ancients
+0,BattleTech Science Fiction Combat Book Game: SHD-2H Shadow Hawk
+0,RuneSword: Bith - Female Cleric
+0,Catan: Portable Edition
+0,Footmania
+0,Karl May-Spiel
+1,Corporation
+0,Strong Stuff!
+0,Cassa Grande
+0,Wabanti
+0,Die Drei
+0,Sabotage
+0,Tahiti
+0,Crisis: Korea 1995
+0,Battle for Germany
+0,The VANITPL8 Game
+0,Life As A Blackman
+0,Remote Possibilities
+0,Fact or Crap
+0,The Fall of Castle Bondi
+0,Advanced Tobruk: Tank Battles in North Africa 1940-43
+0,Necromancer
+0,Blackmail
+0,W.A.C.K.O.
+0,Sudden Death!
+0,Round Four
+0,Fortune
+0,Diabolo
+0,Scan
+0,Space Marine
+0,Renegades:  Eldar and Chaos Armies for Space Marine
+0,Dark Lore
+0,Harry Potter and the Sorcerer's Stone Quidditch Card Game
+0,Gundam M.S.War Trading Card Game
+0,P.O.W. Rescue
+0,Diplomacy: Federation Variant
+0,Cobra: Game of the Normandy Breakout
+0,Breitenfeld
+0,Bodyguard Overlord
+0,Jerusalem! Tactical Game of the 1948 War
+0,"Army Group Center: June 22-28, 1941"
+0,"A Bold Stroke: The Soviet Liberation of Kiev, 1943"
+2,Dawn Patrol: Role Playing Game of WW I Air Combat
+0,MacArthur's Return: Leyte 1944
+0,"""Scratch One Flat Top!"""
+0,Charlemagne: Dark Ages in Europe
+0,Pentagon Games
+0,Race For Tunis
+0,"Road to Richmond: The Peninsular Campaign, May-July, 1862"
+0,Diceball!
+0,Frag Deadlands
+0,Ronin: Duels
+0,Lankhmar
+0,Udder Madness
+0,Breacan
+0,Le Tour du Monde en 80 Jours
+1,Take Five
+0,Metis
+0,Jungle
+0,Battlewagon Salvo
+0,Rosetta
+0,Triazzle
+0,Man Bites Dog
+0,Anzio Beachhead
+0,"Raid! Commando Operations, in the 20th Century"
+0,Skip-Bo Dice
+0,The California Raisins Board Game
+0,Tri-Ominos
+0,Go to the Head of the Class
+0,Dweebs Geeks & Weirdos
+0,Garfield Kids' Card Game
+0,World 7
+0,Across 5 Aprils
+0,"War of the States: Gettysburg, 1863"
+0,Hammer's Slammers
+0,Fortress Europa
+1,"Bulls, Bears and Billionaires"
+0,Star Wars: Trading Card Game
+0,Lemmings in Space
+0,Index Pro Football 2002
+0,The Anyville Horror
+0,1776: The Birth Of A Nation
+0,Chaos Progenitus
+0,Undead
+0,Tiles
+0,Swap!
+0,Three Eyed Jack
+0,Scrabble Up
+0,Crime Busters
+0,Pre-Fix
+0,Railroad Dynasty
+0,Rats!
+0,Don't You Forget It
+0,Tri-Virsity
+0,Double Talk
+0,¡Knock-on-Word!
+0,Malarky Card Game
+0,König Laurin
+0,Management Material (General Office Edition)
+0,Who Wants to Be a Millionaire
+0,Wild: Rummy Edition
+0,What's My Word?
+0,Regency
+0,Nick at Nite Classic TV Trivia Game
+0,Can't Stop the Turtles
+0,Hi-Spot
+0,The Alamo
+0,Leningrad
+0,"Napoleon at Bay: The Campaign in France, 1814"
+0,1812: The Campaign of Napoleon in Russia
+0,2nd Fleet: Modern Naval Combat in the North Atlantic
+0,Adeptus Titanicus
+0,wordXchange
+0,Exit
+0,Slip Disc
+0,Star Munchkin
+0,Nodwick: The Card Game
+0,Raise the Roof
+0,Age of Steam
+0,Keythedral
+0,Starfarers of Catan: 5-6 Player Expansion
+0,CATAN: Cities & Knights - 5-6 Player Extension
+0,Europa Universalis
+0,CATAN: Seafarers - 5-6 Player Extension
+0,Sssnake
+0,The Wheel of Time Collectible Card Game
+0,Moderne Zeiten
+0,Hang in There!
+0,Big Bucks Baseball
+0,X-Men Trading Card Game
+0,Hex
+0,Tigers in the Mist: Ardennes Offensive
+0,Ipswich
+0,Gamblers Golf
+0,Capitol Rummy
+0,Ruffhouse
+0,Slide 5
+0,Challenge Yahtzee
+0,King's Court
+0,Road to the Rhine
+0,Electronic Battleship
+0,Gambler
+0,Austro-Prussian War
+0,"The Punic Wars: Rome vs Carthage, 264-146 B.C."
+0,Dixie: The Second War Between the States
+0,Arne
+0,Snapshot
+0,Supremacy: Field Marshall's Handbook
+0,Word Checkers
+0,Across the Continent
+0,In The Dark
+0,Man O' War: Plague Fleet
+0,Man O' War: Sea of Blood
+0,Shadow Wars
+0,Fire in Mississippi
+0,Madame Guillotine
+0,Rommel's Panzers
+0,Topple
+0,Spy Web
+0,Pen the Pig
+0,Guess Who?
+0,Victory in Europe
+0,"Arcola: The Battle for Italy, 1796"
+0,Spellbinder
+0,Mehen
+0,Barrel of Monkeys
+0,Bakari
+0,Black & White: The Adventures in Dairy Farming
+0,Scooby-Doo! Expandable Card Game
+0,Wizard in Training Trading Card Game
+0,Yu-Gi-Oh! Trading Card Game
+0,Carmel Proper
+0,Endangered Species
+0,Hail to the Chief
+1,Word Quest
+0,Prime Time
+0,Henry VIII: Intrigue in the Tudor Court
+0,Doghouse
+0,Horse Show
+0,Quest for the Faysylwood
+0,Sell Out by National Lampoon
+0,Spare Time Bowling
+0,James Clavell's Whirlwind
+0,Insurgency
+0,Blitzkrieg
+0,Deathtrap Dungeon: Card Game
+0,Cardcaptors Trading Card Game
+0,Sailor Moon CCG
+0,Veracruz: U.S. Invasion of Mexico 1847
+0,Anzio: The Struggle for Italy - 1943-1945
+0,Lifeboat
+0,Diskwars: Legend of the Five Rings
+0,Armies of Arcana
+0,ShowBiz Shuffle
+0,Kaliko
+0,Pizza Wars Imperium
+0,Tri-Trac
+0,HexiMeros
+0,Double Dog Dare
+0,Gigantic
+0,B.S.: The Game of Being Sneaky
+0,The Politicians Game
+0,Chameleon
+0,"Gangsters, Gun Molls, & G-Men"
+0,Star Wars: Episode I - Battle for Naboo 3-D Action Game
+0,The Battle of Seattle
+0,Bogart
+0,Warhammer: The Mass Combat Fantasy Roleplaying Game (1st Edition)
+0,War of the Sky Cities
+0,Conquest of North America
+0,War of the Ring: The Game of Middle Earth
+0,Fantasy Forest
+0,Mercenary
+0,Bloody Mary:  Further Intrigue in the Tudor Court
+0,Mesopotamia:  Birth of Civilisation
+0,"Black Wednesday: The Battle of Krasni Bor, 10-11 Feb 1943"
+0,GD '40
+0,GD '41
+0,Tunisia
+0,On to Richmond!
+0,Roads to Gettysburg
+0,"Kharkov: The Soviet Spring Offensive, 1942"
+0,"The Kaiser's Battle: The German Offensive, March 1918"
+0,Monza
+0,Stonewall's Last Battle: The Chancellorsville Campaign
+0,Stonewall Jackson's Way
+0,Here Come the Rebels
+2,Mao
+0,Stonewall in the Valley
+0,One-Page Bulge
+0,Boxum
+0,Alexandros
+0,O Zoo le Mio
+0,Goal
+0,Biras
+0,Quest for the Dragonlords
+0,War Between The States 1861-1865
+0,Borderline: Europe/Middle East Edition
+0,Borderline: USA Edition
+0,Stratosphere
+0,"Victory at Midway: Turning Point of the Pacific War, June 1942"
+0,Successors: Clash of the Generals 323 - 310 BC
+0,1918: Storm in the West
+0,Spellfire
+0,Napoleon's Last Battles
+0,Xenophon: March of the Ten Thousand 401 - 400 BC
+0,SS Panzer: Bloodbath at Kursk
+0,Holiday USA
+0,Hougoumont: Rock of Waterloo
+0,Fulda Gap: The First Battle of the Next War
+0,"Dreadnought: Surface Combat in the Battleship Era, 1906-45"
+0,"El Alamein: Battles in North Africa, 1942"
+0,18 Wheeler
+0,Korea: The Mobile War 1950-51
+0,Combined Arms: Combat Operations in the 20th Century
+0,Soldiers: Tactical Combat in 1914-15
+0,Foxbat & Phantom: Tactical Aerial Combat in the 1970's
+0,Man of War
+0,Highway to the Reich: Operation Market-Garden 17-26 September 1944
+0,Asteroid Zero-Four
+0,Checkpoint Omega
+0,Boarding Party
+0,City States of Arklyrell
+0,Trias
+0,Mad Nooks
+0,Globopolis
+0,The Big Red One: The Game of the First Infantry Division at the Battle of the Bulge
+0,"Iwo Jima: Valor of Arms, 19 Feb. - 25 March 1945"
+0,Ney vs. Wellington: The Battle of Quatre Bras
+0,Mäuse-Rallye
+0,Elephant's Trunk
+0,Totaler Krieg! World War II in Europe
+0,The Trojan War: The Game of Gods & Heroes
+0,Odyssey: The Gods Clash
+1,"Odysseus: Role Play for the Homeric Age, Legendry & Mythology"
+0,Tales of Ulysse
+0,Troja
+0,Odysseus
+0,Iliad: The Siege of Troy
+0,Troy
+0,Jaunty Jalopies
+0,Razzle
+0,Superman III
+0,The Far Seas
+0,Artifact
+0,Punk sucht Lady
+0,Temple of the Beastmen
+0,Orbit
+0,Pea Ridge: The Gettysburg of the West March 7-8 1862
+0,Across the Potomac
+1,Heroes of Olympus
+0,Battle Over Britain
+0,Flux
+0,Starleader: Assault! - A Futuristic Man-To-Man Combat Game
+0,Freeloader
+0,Greed
+0,Forma
+1,Dice Quest
+0,Chattanooga
+0,A Game of Thrones Collectible Card Game
+0,Onslaught
+0,"Panzer: A Tactical Game of Armored Combat on the Eastern Front, 1941-1945"
+1,"88: A Tactical Game of Armored Combat on the North African Front, 1940-1942"
+0,Pickett's Charge: A Game of the Battle of Gettysburg
+0,"Armor: A Tactical Game of Armored Combat in Western Europe, 1944-1945"
+0,The Sword and the Flame
+0,The Great Redoubt: A Game of the Battle of Borodino - 1812
+0,The Thin Red Line: A Game of the Battle of Waterloo
+0,"Murfreesboro: A Game of the Battle of Stones River December 31, 1862"
+0,Battles & Leaders: A Game of Tactical Level Combat in the American Civil War 1861-1865
+0,Dallas: A Game of the Ewing Family
+0,Beachhead: A Game of Island Invasions in the South Pacific 1942-1944
+0,Battle: The Game of Strategy
+0,The Barbarians: Games of the Fall of Rome and the Mongol Invasion of Europe
+0,The Fall of South Vietnam: A Game of Combat in South Vietnam - 1973-1975
+0,Slang
+0,"Ostkrieg: Armoured Warfare on the East Front, 1944-45"
+0,The Shakespeare Game
+0,Pracoro Dice Battle
+0,Sting
+0,Hexentrio
+0,Worlds of Heroes & Tyrants Card Expansion #1: Frozen in Time
+0,"Belter: Mining the Asteroids, 2076"
+0,Mayday
+0,"Cannes: Stars, Scripts and Screens"
+0,Zeppelin
+0,The Air-Eaters Strike Back!
+0,Resistoly
+0,VOC! Founding the Dutch East Indies Company
+0,Risk: The Lord of the Rings
+0,Conflict
+0,Virus & Co
+0,War & Sheep
+0,Tony & Tino
+0,Drake & Drake
+0,Kanaloa
+0,Quads
+1,Dibs
+0,Rip-Off
+0,Chart Wars
+0,Kata-Kiuchi: The Raid on Lord Kira's House
+0,Cromwell's Victory: The Battle of Marston Moor
+0,Dragon Hordes
+0,Twilight Imperium: Second Edition - Hope's End
+0,Space Waste
+0,Combots
+0,Market Madness
+0,"Screaming Eagles in Holland: The 101st Airborne Division's Defense of Hell's Highway, 22-23 September, 1944"
+0,Semper Fi!
+0,Beer: The  Card Game
+0,"Cedar Mountain: Prelude to Bull Run, August 9, 1862"
+0,Thunder's Edge: Demon Canyon
+0,HoverTank 3
+0,Jutland: Duel of the Dreadnoughts
+0,Battlemist: The Sails of War
+0,Global Summit: The Peace Game
+0,Fightball
+0,Vector 3: Tactical Space Combat in Three Dimensions
+0,Dark Horizon: Escape
+0,Therapy
+0,Monkeys on the Moon
+0,"Aspern-Essling: Napoleon on the Danube, 1809"
+0,The Guns of August
+0,1914: Glory's End
+0,Attack in the Ardennes: The Battle of the Bulge
+0,"Champion Hill: May 16th, 1863 - The Road to Vicksburg"
+0,Seven Pines
+0,"Gaines Mill: The Battles of the Seven Days, June 1862, Volume 1"
+0,Dark Victory: The Battle of the Alamo
+0,"Remember the Maine! The Spanish-American War, 1898"
+0,Nero: Legacy of a Despot
+0,In their Quiet Fields II
+0,Das Zahnputzspiel
+0,Fische Fluppen Frikadellen
+0,Last Man Standing
+1,Froop!
+0,Operation Felix
+0,Crosstrack
+0,Krone & Schwert
+0,Kings in the Corner
+0,Ladybohn
+0,Cootie
+0,Bug-Eyed Monsters
+0,"Dillinger: The Mid-West Crime Wave, 1931-1934"
+0,Back to Iraq
+0,Go For It!
+0,Oskar
+0,Im Schatten des Sonnenkönigs
+1,A Gamut of Games
+0,Fanorona
+0,"Rome: Imperium, Circus Maximus, Hannibal vs Rome"
+0,Carcassonne: Hunters and Gatherers
+0,Magefire
+0,Dragonstar Rising
+0,Elevator Eddie
+0,The Settlers of the Stone Age
+0,Bean Trader
+0,Odin's Ravens
+0,Legend of the Lost Dutchman
+0,Overlords
+0,Canal Grande
+0,Bayon
+0,Rumors: An Adult Conversation Game
+0,Gold!
+0,The Big Deal
+0,Mini Archimedes
+0,Don't Miss the Boat!
+0,Cyborg: The Ultimate Adventure
+0,Yu-Gi-Oh! Hexors Collectible Battle Tile Game
+0,Barn Buzzin' Goofy
+0,Citadel
+0,Warlocks & Warriors
+0,Star Trek III
+0,Empire 1
+0,Worlds of Heroes & Tyrants: Hell Card Expansion #3 - The Maze
+0,Worlds of Heroes & Tyrants Card Expansion #2: Secrets of The Cataclysm
+0,Worlds of Heroes & Tyrants: Hell
+0,Worlds of Heroes & Tyrants: Hell Card Expansion #2 - Anger Management
+0,Worlds of Heroes & Tyrants: Hell Card Expansion #1 - Alone
+0,Ad Acta
+0,snip
+1,Cranium: Hoopla
+0,Waterloo: Napoleon's Last Battle
+0,Adeptus Titanicus II
+2,Super Cluedo Challenge
+0,Die Flößerei
+0,Prisma
+0,Chess Race
+0,Burgenland
+0,Acrobats
+0,The Poll Game
+0,Pirate Inc.
+0,Cityfight: Modern Combat in the Urban Environment
+0,Gaudí
+0,This Hallowed Ground
+0,Roll and Score Tic Tac Dice
+0,PornStar
+0,Oraklos
+0,Am Rande des Gletschers
+0,Sambesi
+0,Delphi
+0,Navigation
+0,Plus One
+0,The Battle of Monmouth
+0,The Road to Vicksburg: The Battle of Champion Hill
+0,When Darkness Comes: The Horror Within
+0,When Darkness Comes: Hell Unleashed
+0,Statis Pro Basketball
+0,Statis Pro Football
+0,"The Great Invasion: The Gettysburg Campaign June 24 - July 3, 1863"
+0,1862
+0,Green Ghost
+1,Chauvinist Pigs
+0,FS Chess Football: A Thinking Fan's Game
+0,WildWords
+0,Xanth
+0,Fist of Dragonstones
+0,Arnhem Bridge
+0,Pompeii: The Last Days
+0,Dice Deck
+0,Unexpected Treasures
+0,Hot Potato
+0,Station Manager
+0,Ratrace
+0,Trial of the Century
+0,Winchester
+0,The Buntu Circus
+0,Maremba
+0,Hotel Life
+0,Dragonslayer
+0,Silk Road
+0,Scarab Lords
+0,Cave Troll
+0,Trivial Pursuit: 20th Anniversary Edition
+0,Kayanak
+0,Phase Line Smash
+0,Fill 'er Up!
+0,Horse Sense
+0,Monster Mash I
+0,Eskimemo
+0,Banana Republic
+0,Like Lions They Fought
+0,Weed Wars: On Higher Ground
+0,König der Maulwürfel
+0,Grand Prix: F1
+0,Tarot
+0,"Lindy, the New Flying Game"
+0,The Lindy Flying Game
+0,Warchon
+0,Funny Bones
+0,Johnny Reb III: Regimental Grand Tactical American Civil War Miniatures Rules
+0,Armchair Golf
+0,Früchtchen
+0,Hand Drauf!
+0,Zap!
+0,Boundary
+0,Ragnarok: The Twilight of the Gods
+0,Run Hippy! Run! The Boardgame
+0,Sauerbaum
+0,Yum
+0,Tour Mala!s
+0,K-Tel Superstar Game: The Original Rock 'n Roll Music Game
+0,The Ladybug's Costume Party
+0,Loser
+0,Waldesfrust
+0,Articulation
+0,Coolympics
+0,Notable Quotables
+0,Election Day
+0,Hellas
+0,Life is Money
+0,Mein Lieber Biber
+0,Thud
+0,Dice Kwon Do
+0,Rays of Light
+0,The White Flame
+0,Gamer Tycoon
+0,Baston
+0,Golden Goal
+0,The Voyage of the Mayflower
+0,el Juego de las Diez Pistas
+0,Personality Game
+0,Indiana Jones and the Temple of Doom
+0,Crusade: Lawrence Welk's All-Star ACS Kit
+0,Upper Hand
+0,Cradle of Civilization
+0,The Cities Game
+0,Dinosaur Hunters!
+0,Timestream: The Remnant
+2,1000 Blank White Cards
+0,Quick Cross
+0,Zorro
+0,Attribute
+0,Phalanx
+0,Das Blaue Amulett
+0,Patton's Best
+0,Take Off!
+0,Ginny-O
+0,Fast 111's
+1,Carrera de Mente
+0,Mogul
+0,Gorilla
+0,Blue & Gray: Four American Civil War Battles
+0,The Old Pacific
+0,Ripley's Believe It or Not!
+0,Racko Plus
+1,Insight
+0,Wordsters
+0,Solar Space Maze
+0,Megachess
+0,E$tabli$hment
+0,Slang Teasers
+0,Saqqara
+0,Dealing with Murder: Fatal Error
+0,Hollywood Squares
+0,UNO Wild Tiles
+0,Pirates des Caraïbes
+0,Who Is Going to Do the Dishes?
+0,Corporate Pursuit
+0,The Game of Ancient Kingdoms
+0,Pinochle
+0,James Bond 007 Le Jeu
+0,Seaside Frolics
+0,Bärenspiel
+0,Roller Coaster Hippo
+0,Money! Money! Money!
+0,The Love Boat World Cruise Game
+0,Duo-Bridge
+0,Criss-Cross
+0,Campaign Politiks
+0,Blooming Gardens
+0,Guet-Apens
+0,Fortune Seeker
+0,Ein Nilpferd kommt selten allein
+0,Blood Wars
+0,Word Rummikub
+0,Shades of Thought
+0,Der Sport-Vagabund
+0,Word Maze
+0,Juggler's Jam
+0,Chez Greek
+0,Sucking Vacuum
+0,Omnigon
+0,MM-peli
+0,Tzuris
+0,Lord of the Rings: The Duel
+0,Haithabu
+0,Go Surf
+0,1854
+0,The Touch
+0,Arimaa
+0,Mercanauts
+0,Networking
+0,The Prestel New York Architecture Game
+0,Cloak & Dagger
+0,"The Fast Carriers: Air-Sea Operations, 1941-77"
+0,Electronic Arcade Mania
+0,Millennium: The Era of Invasion
+0,Thistle
+0,Ultra-Warrior
+0,Ice Cube
+0,A Racing Game!
+0,Fire on the Suns: Tactical Command (2nd Edition)
+0,Die Monstermacher
+3,Stop
+0,Warhammer Warriors: Kal Jerico
+0,1 on 1 Adventure Gamebooks: Castle Arcania
+0,Clans
+0,Max
+0,Spellcast
+0,Rolled Bones
+0,Life on the Farm Board Game
+0,Sports Illustrated Baseball
+0,Fire and Ice
+0,Dragon Epic
+0,Bommerz over da Sulphur River
+0,Cleric's Revenge
+0,Tower Siege
+0,Across the Board
+0,Stalingrad
+0,Drug Attack
+0,Egomania
+1,Rigamarole
+0,Battle of the Halji
+0,The Classified Encyclopedia of Chess Variants
+0,Replay Baseball
+0,ConTrack: Switzerland & Austria
+0,Moods
+0,Decimal Shopping
+1,You Said It
+0,Scouting Trails
+0,Challenge Bridge
+0,Fields of Honor: The American War for Independence
+0,Eagles: Waterloo
+0,Lost Treasure
+0,Harry Potter Dicers Game
+2,Proclaim!
+0,INWO SubGenius
+0,Run For President
+0,Assault on Sevastapol
+0,"Knights of Justice: The Siege of Malta, 1565"
+0,Rush for Glory
+0,Lee Invades the North
+0,Star Trek III: The Search For Spock
+0,Starship Duel II
+0,"Baton Rouge: Street Fighting in the Louisiana Capital, August 5, 1862"
+0,Prochorovka: Armor at Kursk
+0,Market Mania
+0,Piedestal
+0,War at Sea 2
+0,Willie's White House
+0,Angola
+0,Parallelslalom
+0,Obsidian Lords
+0,Meistertrick
+0,White Lady
+0,Friends Trivia Game
+0,Weapons & Warriors: Lashout Launcher Set
+0,Outwit
+0,The Fall of France
+0,Pro Tennis
+0,King of the Hill
+0,The Rifleman Game
+0,Aux Sabords!
+0,The Game of Real Estate
+0,An Evening of Murder: Beyond the Grave
+0,An Evening of Murder: Terminal Espionage
+0,An Evening of Murder: Breaking Point
+0,An Evening of Murder: Forever Friends
+0,An Evening of Murder: Dead of Winter
+0,An Evening of Murder: Resort to Murder
+0,An Evening of Murder: Winner Take All
+0,The DragonLords
+0,Conflix!
+0,Cosmic Encounter: Expansion Set #1
+0,Cosmic Encounter: Expansion Set #2
+0,Cosmic Encounter: Expansion Set #3
+0,Cosmic Encounter: Expansion Set #4
+0,Cosmic Encounter: Expansion Set #5
+0,Cosmic Encounter: Expansion Set #6
+0,Cosmic Encounter: Expansion Set #7
+0,Cosmic Encounter: Expansion Set #8
+0,Cosmic Encounter: Expansion Set #9
+0,The Lord of the Rings: The Fellowship of the Ring
+0,By Force Of Arms
+0,To Forge a Nation
+0,An Evening of Murder: Fatal Reunion
+0,War Of The Ages
+0,Legends Of Football
+0,An Evening of Murder: Last Kiss
+0,An Evening of Murder: The Tangled Web
+0,Space Warrior
+0,I.C.B.M.
+0,Translyvania
+0,Where There's A Will
+0,Armor Supremacy
+0,Numble
+0,Dead Stop!
+0,"Run Silent, Run Deep"
+0,Warmachine
+0,The Ultimate Trivia Game Presented by Newsweek
+0,Life of the Party: Mystery of the Mislaid Egg
+0,Battlecards: World Conflict - Western European Campaign: Starter Set
+0,Dungeons & Dragons Computer Labyrinth Game
+0,Life of the Party: Who Stole the Stars?
+0,Life of the Party: Rockin' Late at the Prom of '58
+0,Life of the Party: Passion Cabana in Havana
+0,"Life of the Party: Where There's a Will, There's a Murder"
+0,Life of the Party: The Coffeehouse Murder
+0,An Evening of Murder: The Eternal Cruise
+0,King's Gate
+0,Tyrannosaurus Wrecks
+0,Count Down
+0,Beyond the Stars
+0,3-Ring Circus Card Game
+0,Lifts & Runs
+1,The War to End All Wars: Box Set Edition
+0,Life of the Party: Murder in Paradise
+0,Life of the Party: Who Killed Roger Ellington?
+0,An Evening of Murder: Flight 013
+0,Casino Yahtzee
+0,As the World Turns
+0,Fu Manchu's Hidden Hoard
+0,Murder on the Orient Express
+0,Great War at Sea: The Mediterranean
+0,Star Trek: The Next Generation Collectible Dice Game
+0,Tightline
+0,Simon de Montfort
+0,March on Rome
+0,Breaking into Valhalla
+0,Blood & Steel Expansion
+0,The Game of Blast
+0,Grand Slam Baseball
+0,Sinaí
+0,Easy Money
+0,Der Herr der Ringe: Die Zwei Türme - das Kartenspiel
+0,Electronic Talking Battleship
+0,Mysteries by Vincent: White Flag Over the Seven Seas
+0,Test Match
+0,Mysteries by Vincent: Case of the Wirst Case Scenario
+0,Captain Caveman and the Teen Angels Game
+0,Quad-Ominos
+0,Trivial Pursuit: Genus III
+0,Trivial Pursuit: Volume II
+0,Duplicate Ad-Lib Crossword Cubes
+0,Tiddledy Winks
+0,Glib
+0,Soldier King
+0,Insecta: Rainforest
+0,Insecta: Trilobite
+0,Guinness Game of World Records
+0,LIFE Remembers
+0,Dicemaster: Cities of Doom
+0,Dicemaster: Wilds of Doom
+0,Dicemaster: Doom Cubes
+0,Holy Roman Empire
+0,An Evening of Murder: Love & Marriage
+0,Mysteries by Vincent: Rocky Mountain Mayhem
+0,Mysteries by Vincent: Murder on the Millennium
+0,Mysteries by Vincent: A Perfectly Perilous Pageant
+0,Fighter-Bomber: The Game of Mustangs and Messerschmitts
+0,The Bill
+0,BattleBoard
+0,Diadem
+0,Rules of the Game
+0,Kamakura
+0,Rubout
+1,The Campaign for North Africa: The Desert War 1940-43
+1,Xactika
+3,Treasure Hunt
+0,Empire
+0,Mysteries by Vincent: A Very Domestic Demise
+0,Mysteries by Vincent: Boogie Woogie Bungle Up
+0,Mysteries by Vincent: High Noon on the Silver Spittoon
+0,Mysteries by Vincent: Hard Drive Homicide
+0,Mysteries by Vincent: Lynched in Lucre Valley
+0,Mysteries by Vincent: Murder in Montana
+0,Mysteries by Vincent: Women Only - Pushing up the Daisies
+0,Mysteries by Vincent: Women Only - Bump-off at the Beauty Shop
+0,Mysteries by Vincent: Women Only - High Tea at the Liberty Library
+0,The Daisy Diamond Detective Series: Episode #1 - Mystery of the Missing Necklace
+0,The Daisy Diamond Detective Series: Episode #2 - The Time Machine Mystery
+0,The Daisy Diamond Detective Series: Episode #3 - The Mystery of the Haunted Mansion
+0,NFL Strategy
+0,Allenby's Blitzkrieg
+0,Hamel 1918
+0,Judge for Yourself
+0,Pusan Perimeter
+0,Blitzkrieg Stalled: Arras
+0,Blitzkrieg Checked: Gembloux
+0,"Blitzkrieg Unleashed: The Battle of Sedan - May 13-14, 1940"
+0,Berlin '85: The Enemy at the Gates
+0,Morgan's Rifles
+0,Monster Derby
+0,Give Me Liberty
+0,Star Wars: Escape from Death Star Game
+0,Pantheon: The War of the Gods
+0,Blue & Gray II: Four Civil War Battles
+1,The Charade Game
+0,Civil War Game 1863
+0,Armada: The War With Spain 1585-1604
+2,Tripoley
+0,7th Fleet: Modern Naval Combat in the Far East
+0,Crazy Race
+0,Memory Bank
+0,Friends & Fortunes
+0,Pass It On
+0,Keep Quiet Reword
+0,An Evening of Murder: Rodeo Roundup
+0,Cookie Fu
+2,Outburst!
+1,Scene It?: The DVD Movie Game
+0,Park and Shop
+0,How to Host a Murder: The Tragical Mystery Tour
+0,How to Host a Murder: Maiming of the Shrew
+0,How to Host a Murder: Saturday Night Cleaver
+0,Tiers-Mondopoly
+0,How to Host a Murder: The Duke's Descent
+0,How to Host a Murder: The Wall Street Scandal
+0,"How to Host a Murder: The Good, The Bad & The Guilty"
+0,How to Host a Murder: The Chicago Caper
+0,How to Host a Murder: The Class of '54
+0,How to Host a Murder: Hoo Hung Woo
+0,How to Host a Murder: The Watersdown Affair
+0,How to Host a Murder: Grapes of Frath
+0,"How to Host a Murder: Archaeologically Speaking, It's the Pits"
+0,War to the Death
+2,Personal Preference
+1,Proverbial Wisdom
+0,Salamanca
+0,"The Legend Begins: North Africa, 1940-42"
+0,Chicken Out
+0,Catchword
+0,The Smurf Card Game
+0,Don't Break the Ice
+0,Dizzy Dizzy Dinosaur
+0,Fangface
+1,Big Picture Game
+0,Dragon Strike
+0,The Real Ghostbusters Game
+1,Three For All!
+0,Chicken Run: The Chicken Pot Pie Game
+0,Bulls and Bears
+0,Shake Up
+0,Cap the Hat
+0,Richie Rich
+0,Inspector Gadget Game
+0,The Price Is Right
+0,Columbo Detective Game
+0,Wicket The Ewok
+0,The M.U.S.C.L.E. Mega-Match Game
+0,Pronto
+0,PAC-MAN Game
+0,Ms. PAC-MAN Game
+0,Fun City Game
+0,Wheel of Fortune
+0,Wacky Wizard Game
+0,G.I. Joe Adventure Board Game
+0,Beatlemania Trivia
+0,"Great War at Sea: 1898, The Spanish American War"
+0,Great War at Sea 2: The North & Baltic Seas
+0,"Great War at Sea: 1904-1905, The Russo-Japanese War"
+0,Great War at Sea: U.S. Navy Plan Black
+0,Great War at Sea: U.S. Navy Plan Orange
+0,Great War at Sea: U.S. Navy Plan Red
+0,5th Fleet: Modern Naval Combat in the Indian Ocean
+0,"3rd Fleet: Modern Naval Combat in the North Pacific, Caribbean, and Atlantic Oceans"
+0,Clever Endeavor
+0,NogginNosh
+0,Survivor: The Australian Outback Card Game
+1,Clay to Win
+0,Big Business
+0,Clue: 50th Anniversary Edition
+0,Top 40 Trivia
+0,Survivor Trading Card Game
+0,Bruce Jenner Decathlon Game
+0,Moovit
+0,The Tick: Hip Deep in Evil!
+0,Battling Tops
+0,Test of Arms
+2,Formula Dé Circuits 19 & 20: Suzuka & Melbourne
+1,Formula Dé Circuits 17 & 18: Buenos-Aires & Barcelona
+1,Formula Dé Circuits 13 & 14: Montreal & Long Beach
+1,Formula Dé Circuits 11 & 12: Watkins Glen & Silverstone
+1,Formula Dé Circuits 9 & 10: Estoril & Interlagos
+1,Formula Dé Circuits 5 & 6: Kyalami & Ferrari Autodromo
+2,Formula Dé Circuits 3 & 4: Zandvoort 2 & SPA-Francorchamps
+1,Formula Dé Circuits 31 & 32: Zhuhai & Sepang
+2,Formula Dé Circuits 27 - 30: USA Track Pack #2
+1,Formula Dé Circuits 23 - 26: USA Track Pack #1
+1,Formula Dé Circuit 33: 10th Anniversary
+1,Play It By Ear
+1,Play It By Ear: Volume 2
+0,Road Block
+0,PAC-MAN Card Game
+0,"Trivial Pursuit: TV Edition - 4,800 Questions and Answers"
+0,1313 Dead End Drive
+2,Formula Dé Circuits 7 & 8: Magny-Cours & Monza
+1,Formula Dé Circuits 21 & 22: Budapest & Nürburgring
+1,Formula Dé Circuits 15 & 16: Hockenheim & Zeltweg
+0,Timberland
+0,Ardennes
+0,"Crusader: The 8th Army's Winter Victory, Nov-Dec 1941"
+0,Gazala
+0,Sunda to Sahul
 0,1914
-0,1915
-0,1916
-0,1917
-0,1918
-0,1919
-0,1920
-0,1921
-0,1922
-0,1923
-0,1924
-0,1925
-0,1926
-0,1927
-0,1928
-0,1929
-0,1930
-0,1931
-0,1932
-0,1933
-0,1934
-0,1935
-0,1936
-0,1937
-0,1938
-0,1939
-0,1940
-0,1941
-0,1942
-0,1943
-0,1944
-0,1945
-0,1946
-1,1947
-0,1948
-0,1949
-0,1950
-0,1951
-0,1488
-0,1952
-0,1953
-0,1954
-0,1955
-0,1956
-0,1957
-0,1958
-0,1201
-0,1959
-0,1960
-0,1961
-0,1962
-1,1963
-1,1964
-1,1965
-0,1966
-0,1967
-0,1968
-0,1969
-0,1970
-0,1971
-0,1972
-0,1973
-0,1974
-0,1975
-0,1976
-0,1977
-0,1978
-0,1979
-0,1980
-0,1981
-0,1982
-1,1983
-1,1984
-0,1985
-0,1986
-0,1178
-0,1987
-0,1988
-0,1989
-0,1990
-0,1991
-0,1992
-0,1993
-1,1994
-0,1995
-0,1996
-0,1997
-1,1998
-0,1999
-1,2000
-0,2001
-0,2002
-0,2003
-0,2004
-0,2005
-0,37
-0,2006
-0,2007
-0,2008
-0,40
-0,2009
-0,2010
-0,2011
-2,2012
-0,2013
-0,2014
-0,2015
-0,2016
-0,2017
-0,2018
-0,2019
-0,2020
-0,2021
-0,2022
-0,2023
-0,2024
-0,2025
-0,2026
-0,2027
-1,2028
-0,2029
-0,2030
-0,2031
-0,2032
-0,2033
-0,2034
-0,2035
-0,2036
-0,2037
-0,2038
-0,2039
-0,2040
-0,2041
-0,2042
-0,2043
-0,2044
-0,2045
-0,2046
-0,2047
-0,2048
-0,2049
-0,2050
-0,2051
-0,2052
-0,2053
-0,2054
-0,2055
-0,2056
-1,2057
-0,1078
-0,2058
-0,2059
-0,2060
-0,2061
-0,2062
-0,2063
-0,2064
-0,2065
-0,2066
-0,2067
-0,2068
-0,2069
-0,2070
-0,2071
-0,2072
-0,2073
-0,2074
-0,2075
-0,2076
-0,2077
-0,2078
-0,2079
-0,2080
-0,2081
-0,2082
-0,2083
-0,2084
-0,2085
-0,2086
-0,2087
-0,2088
-0,2089
-0,2090
-0,2091
-0,2092
-0,2093
-0,871
-0,2094
-1,2095
-0,2096
-0,2097
-0,2098
-2,2099
-0,2100
-0,2101
-0,2102
-0,2103
-0,2104
-0,2105
-0,2106
-0,2107
-0,2108
-0,2109
-0,2110
-0,2111
-0,2112
-0,2113
-1,2114
-0,2115
-0,2116
-0,2117
-0,2118
-0,2119
-0,2120
-0,2121
-0,2122
-0,2123
-0,2124
-0,2125
-0,2126
-0,2127
-0,2128
-0,2129
-0,2130
-0,2131
-0,2132
-0,2133
-0,2134
-0,2135
-0,2136
-0,2137
-0,2138
-0,2139
-0,2140
-0,2141
-0,2142
-0,2143
-0,2144
-0,2145
-0,2146
-0,306
-0,2147
-1,2148
-0,2149
-0,2150
-0,2151
-0,2152
-0,2153
-0,2154
-0,2155
-0,2156
-0,2157
-0,2158
-0,2159
-0,2160
-0,2161
-0,2162
-0,2163
-0,2164
-0,2165
-0,2166
-0,2167
-0,2168
-0,2169
-0,2170
-0,2171
-0,2172
-0,2173
-0,2174
-0,2175
-0,2176
-0,2177
-0,2178
-0,2179
-2,2180
-0,2181
-0,2182
-0,2183
-0,2184
-0,2185
-0,2186
-0,2187
-0,2188
-0,277
-0,2189
-0,2190
-0,2191
-0,2192
-0,2193
-0,2194
-0,2195
-0,2196
-0,2197
-0,2198
-0,2199
-0,2200
-0,2201
-0,2202
-0,2203
-0,2204
-0,2205
-0,2206
-0,2207
-0,2208
-0,2209
-1,2210
-0,2211
-0,2212
-0,2213
-0,2214
-0,2215
-1,2216
-0,2217
-0,2218
-0,2219
-0,2220
-0,2221
-0,2222
-0,2223
-0,2224
-0,2225
-0,2226
-0,2227
-1,2228
-0,2229
-0,2230
-0,2231
-0,2232
-0,2233
-0,2234
-0,2235
-0,2236
-0,2237
-0,2238
-0,2239
-0,2240
-0,2241
-0,2242
-0,2243
-0,2244
-0,2245
-0,2246
-0,2247
-0,2248
-0,2249
-0,2250
-0,568
-0,2251
-1,2252
-0,2253
-0,2254
-0,2255
-0,2256
-0,1161
-0,2257
-0,2258
-0,2259
-0,2260
-0,2261
-0,2262
-0,2263
-0,2264
-0,2265
-0,2266
-0,2267
-0,2268
-0,2269
-0,2270
-0,2271
-0,2224
-1,2272
-0,2273
-0,2274
-0,2275
-0,2276
-0,2277
-0,2278
-0,2279
-0,1705
-2,2280
-0,2281
-0,2282
-0,2283
-0,2284
-0,2285
-0,2286
-0,2287
-1,2288
-1,2289
-0,2290
-0,2291
-0,2292
-0,2293
-0,2294
-0,2295
-0,1055
-0,2296
-0,2297
-0,2298
-0,2299
-0,2300
-0,2301
-0,2302
-0,2303
-0,2304
-0,2305
-0,2306
-0,2307
-1,2308
-0,1341
-0,2309
-0,2310
-0,2311
-0,2312
-0,2313
-0,2314
-0,2315
-0,2316
-0,2317
-0,2318
-0,2319
-0,2320
-0,2321
-0,2322
-0,2323
-0,2324
-0,2325
-0,2326
-0,2327
-0,2328
-0,2329
-1,2330
-0,2331
-0,2332
-0,2333
-0,2334
-0,2335
-0,2336
-0,2337
-0,2338
-0,2339
-0,2340
-0,2341
-0,2342
-0,2343
-0,2344
-0,2345
-0,2346
-0,2347
-0,2348
-0,2349
-0,2350
-0,2351
-0,2352
-0,2353
-0,2354
-0,2355
-2,2356
-0,2357
-0,2358
-0,2359
-0,2360
-0,2361
-0,2362
-0,2363
-0,2364
-0,2365
-0,2366
-0,2367
-0,2368
-0,2369
-0,2370
-0,2371
-0,2372
-0,2373
-0,2374
-0,2375
-0,2376
-0,2377
-0,2378
-0,2379
-0,2380
-0,2381
-0,2382
-0,2383
-0,2384
-0,2385
-0,2386
-0,2387
-0,2388
-0,2389
-1,2390
-0,2391
-0,1218
-0,2392
-0,2393
-0,2394
-0,2395
-0,2396
-0,2397
-0,2398
-0,2399
-0,2400
-0,2401
-0,2402
-0,2403
-0,2404
-0,2405
-0,2406
-0,2407
-0,2408
-0,2409
-0,2410
-0,2411
-0,2412
-0,2413
-0,2414
-0,2415
-0,2416
-0,2417
-0,2418
-0,2419
-0,2420
-0,2421
-0,2422
-0,2423
-0,2424
-0,2425
-0,2426
-0,2427
-0,2428
-0,2429
-0,2430
-0,2431
-0,2432
-0,2433
-0,2434
-1,2435
-0,2436
-0,2437
-0,2438
-0,2439
-0,2440
-0,2441
-0,2442
-0,2443
-0,2444
-0,2445
-0,2446
-0,2447
-0,2448
-0,2449
-0,2450
-0,2451
-0,2452
-0,2453
-0,2454
-0,2455
-0,2456
-0,2457
-0,2458
-0,2459
-0,2460
-0,2461
-0,2462
-0,2463
-0,2464
-0,2465
-0,2466
-0,2467
-0,2468
-0,2469
-0,2470
-0,2471
-0,2472
-0,2473
-0,2474
-0,2475
-0,2476
-0,2477
-0,2478
-0,2479
-0,2480
-0,2481
-0,2482
-0,2483
-0,2484
-0,2485
-0,2486
-0,2487
-0,2488
-1,2489
-2,2490
-0,2491
-0,2492
-0,2493
-1,2494
-1,2495
-0,2496
-1,2497
-0,2498
-0,2499
-0,2500
-0,2501
-0,2502
-0,2503
-0,2504
-0,2505
-0,1072
-0,2506
-0,2507
-0,2508
-0,2509
-0,2510
-0,2511
-0,2512
-0,2513
-0,2514
-0,2515
-0,2516
-0,2517
-0,2518
-0,2519
-0,2520
-0,2521
-0,2522
-0,2523
-0,2524
-0,2525
-0,2526
-1,2527
-0,2528
-2,2529
-0,2530
-0,2531
-0,2532
-0,2533
-0,2534
-0,2535
-0,2536
-0,2537
-0,2538
-0,2539
-0,2540
-0,2541
-0,2542
-0,2543
-0,2544
-0,591
-0,2545
-0,2546
-0,2547
-0,2548
-0,2549
-1,2550
-0,2551
-0,2552
-0,2553
-0,2554
-0,2555
-0,2556
-0,2557
-0,2558
-0,2559
-0,2560
-0,2561
-0,2562
-0,2563
-0,2564
-0,2565
-0,2566
-0,2567
-0,2568
-0,2569
-0,2570
-0,2571
-0,2572
-0,2573
-0,2574
-0,2575
-0,2576
-0,2577
-0,2578
-0,2579
-0,2580
-0,2581
-0,2582
-0,2583
-0,2584
-1,2585
-0,2586
-0,2587
-1,2588
-0,2589
-0,2590
-0,2591
-0,2592
-0,2593
-0,2594
-0,2595
-0,2596
-0,2597
-0,2598
-0,2599
-0,2600
-0,2601
-0,2602
-0,2603
-0,2604
-0,2605
-0,2606
-0,2607
-0,2608
-0,2609
-0,2610
-0,2611
-0,2612
-0,2613
-0,2614
-0,2615
-0,2616
-1,2617
-1,2618
-0,2619
-0,2620
-0,2621
-0,2622
-0,2623
-0,2624
-0,2625
-0,2626
-0,2627
-0,2628
-0,2629
-0,2630
-0,2631
-0,2632
-0,2633
-0,2634
-0,2635
-0,2636
-0,2637
-0,2638
-1,2639
-0,2640
-0,2641
-0,2642
-0,2643
-1,2644
-0,2645
-0,2646
-0,2647
-0,2648
-0,2649
-0,2650
-0,2651
-0,2652
-0,2653
-0,2654
-0,2655
-0,2656
-0,2657
-0,2658
-0,2659
-0,2660
-0,2661
-0,2662
-0,2663
-0,2664
-0,2665
-0,2666
-0,2667
-0,2668
-0,2669
-0,2670
-0,2671
-2,2672
-0,2673
-0,2674
-0,2675
-0,2313
-0,2676
-0,2677
-0,2678
-0,2679
-0,2680
-0,2681
-1,2682
-1,2683
-0,2684
-0,2685
-1,2686
-0,1620
-0,2687
-0,2688
-0,2689
-0,2690
-0,2691
-0,2692
-0,2693
-0,2694
-0,2695
-0,2696
-0,2697
-0,2698
-0,2699
-0,2700
-0,2701
-0,2702
-0,2703
-0,2704
-0,2705
-0,2706
-0,2707
-0,2708
-0,2709
-1,2710
-0,2711
-0,2712
-0,2713
-0,2714
-0,2715
-0,2716
-0,2717
-0,2718
-0,2719
-1,2720
-0,2721
-0,2722
-0,2723
-0,2724
-0,2725
-0,2726
-0,2727
-0,2728
-0,2729
-0,2730
-0,2731
-0,2732
-0,2733
-0,2734
-0,2735
-1,2736
-0,2737
-0,2738
-0,2739
-0,2740
-0,2741
-0,2742
-0,2743
-0,2744
-0,2745
-0,2746
-0,2747
-0,2748
-0,2749
-0,2750
-0,2751
-0,2752
-0,2753
-0,2754
-0,2755
-0,1368
-0,2756
-0,2757
-0,2758
-0,2759
-0,2760
-0,2761
-0,2762
-0,2763
-0,2764
-0,2765
-0,2766
-0,2767
-1,2768
-0,2769
-0,2770
-0,2771
-0,2772
-0,2773
-0,2774
-0,2775
-0,2776
-0,2777
-0,2778
-0,2779
-0,2780
-0,2781
-0,2782
-0,2783
-0,2784
-1,2785
-0,2786
-0,2787
-0,2788
-0,2789
-0,2790
-0,2791
-0,2792
-0,2793
-0,2794
-0,2795
-0,2796
-0,2797
-0,2798
-0,2799
-0,2800
-0,2801
-0,2802
-0,2803
-0,2804
-0,2805
-0,2806
-0,2807
-0,2808
-0,2809
-0,2810
-1,2811
-0,2812
-0,2813
-0,2814
-0,2815
-0,2816
-0,2817
-0,2818
-1,2819
-0,2820
-0,2821
-0,2822
-0,2823
-0,2824
-0,2825
-0,2826
-1,2827
-0,2828
-0,2829
-0,2830
-0,2831
-0,2832
-0,2833
-0,2834
-0,2835
-0,2836
-0,2837
-0,2838
-0,2839
-0,2840
-0,2841
-0,2842
-0,2843
-0,2844
-0,2845
-0,2846
-0,2847
-0,2848
-0,2849
-0,2850
-0,2851
-0,2852
-0,2853
-0,2854
-1,2855
-0,2856
-0,2857
-0,2858
-0,2859
-0,2860
-0,2861
-0,2862
-0,2863
-0,2864
-0,2865
-0,2866
-0,2867
-0,2868
-0,2869
-0,2870
-0,2871
-0,2872
-0,2873
-0,2874
-0,2875
-0,2876
-0,2877
-0,2878
-0,2879
-0,2880
-0,2881
-0,2882
-0,2883
-0,2884
-0,2885
-0,2886
-0,2887
-0,2888
-0,2889
-0,2890
-0,2891
-0,2892
-0,2893
-0,2894
-0,2895
-1,2896
-0,2897
-0,2898
-0,2899
-0,2900
-0,2901
-0,2902
-0,2903
-0,2904
-0,2905
-0,2906
-0,2907
-0,2908
-0,2909
-0,2910
-0,2911
-0,2912
-0,2913
-0,2914
-0,2915
-0,2916
-0,1276
-0,2917
-0,2918
-0,2919
-0,2920
-0,2921
-0,2922
-0,2923
-0,2924
-0,2925
-0,2926
-0,2927
-0,2928
-0,2929
-0,2930
-2,2931
-0,2932
-0,2933
-0,2934
-0,2935
-0,2936
-0,2937
-0,2938
-0,2939
-0,2940
-0,2941
-0,2942
-0,2943
-0,2944
-0,2945
-0,2946
-0,2947
-0,2948
-0,2949
-0,2950
-0,2951
-0,2952
-0,2953
-0,2954
-0,2955
-0,2956
-0,2957
-0,2958
-0,2959
-0,2960
-0,2961
-0,2962
-0,2963
-0,2964
-0,2965
-0,2966
-0,2967
-0,2968
-1,2969
-0,2970
-1,2971
-0,2972
-0,2973
-0,2974
-0,2975
-0,2976
-0,2977
-0,2978
-0,2979
-0,2980
-0,2981
-0,2982
-0,2983
-0,2984
-1,2985
-0,2986
-0,2987
-0,2988
-1,2989
-0,2990
-0,2991
-0,2992
-0,2993
-0,1924
-0,2994
-0,2995
-0,2996
-0,2997
-0,2998
-0,2999
-0,3000
-0,3001
-0,3002
-0,3003
-0,3004
-0,3005
-0,3006
-0,3007
-0,3008
-0,3009
-0,3010
-0,3011
-0,3012
-0,3013
-0,3014
-0,3015
-0,3016
-0,3017
-0,3018
-0,3019
-0,3020
-0,3021
-0,3022
-1,3023
-1,3024
-0,3025
-0,3026
-0,3027
-0,3028
-0,3029
-0,3030
-0,3031
-0,3032
-0,3033
-0,3034
-0,3035
-0,3036
-0,3037
-0,3038
-0,3039
-0,3040
-0,3041
-0,3042
-0,3043
-0,3044
-0,3045
-0,3046
-0,3047
-0,3048
-0,3049
-0,3050
-0,3051
-1,3052
-0,3053
-0,3054
-0,3055
-0,3056
-0,3057
-0,3058
-0,3059
-0,3060
-0,3061
-0,3062
-0,3063
-0,3064
-0,3065
-0,3066
-0,3067
-0,3068
-0,3069
-0,3070
-0,3071
-0,3072
-0,3073
-0,3074
-1,3075
-0,3076
-0,3077
-0,3078
-0,3079
-0,3080
-0,3081
-0,3082
-0,3083
-0,3084
-0,3085
-0,3086
-0,3087
-0,3088
-0,3089
-0,3090
-0,3091
-0,1262
-0,3092
-0,3093
-0,3094
-0,3095
-0,3096
-0,3097
-1,3098
-0,3099
-0,3100
-0,3101
-0,3102
-0,3103
-0,3104
-0,3105
-0,3106
-0,3107
-0,3108
-0,3109
-0,3110
-0,3111
-0,3112
-0,778
-0,3113
-0,3114
-0,3115
-0,3116
-0,3117
-0,3118
-0,3119
-0,3120
-0,3121
-0,3054
-0,3122
-0,3095
-0,3123
-0,3124
-0,3125
-0,3126
-0,3127
-0,3128
-0,3129
-0,3130
-0,3131
-0,3132
-1,3133
-0,3134
-0,3135
-0,3136
-0,3137
-0,3138
-0,3139
-0,3140
-1,3141
-0,3142
-0,3143
-2,3144
-0,3145
-0,3146
-0,3147
-0,3148
-0,3149
-0,3150
-1,3151
-0,3152
-0,3153
-0,3154
-0,3155
-0,3156
-0,3157
-0,3158
-0,3159
-0,3160
-0,3161
-0,3162
-1,3163
-0,3164
-0,3165
-0,3166
-0,3167
-0,3168
-0,3169
-3,3170
-0,3171
-0,3172
-0,3173
-0,3174
-0,3175
-0,3176
-0,3177
-0,3178
-0,3179
-0,3180
-0,3181
-0,3182
-0,3183
-0,3184
-0,127
-0,3185
-0,3186
-0,3187
-0,3188
-0,3189
-0,3190
-0,3191
-0,3192
-0,3193
-0,3194
-0,3195
-0,3196
-0,3197
-0,3198
-0,3199
-0,3200
-0,3201
-0,3202
-0,3203
-0,3204
-0,3205
-1,3206
-0,3207
-0,3208
-0,3209
-0,3210
-0,3211
-0,3212
-0,3213
-0,3214
-0,3215
-0,3216
-0,3217
-0,3218
-0,3219
-0,3220
-0,3221
-0,3222
-0,3223
-0,3224
-0,3225
-0,3226
-0,3227
-0,3228
-0,3229
-0,3230
-1,3231
-0,3232
-0,3233
-0,3234
-0,3235
-0,3236
-0,3237
-0,3238
-0,3239
-0,3240
-0,3241
-0,3242
-0,3243
-0,3244
-0,3245
-0,3246
-0,3247
-0,3248
-0,3249
-0,3250
-0,3251
-0,3252
-0,3253
-0,3254
-0,3255
-0,3256
-0,3257
-0,3258
-0,3259
-0,3260
-0,3261
-0,3262
-0,3263
-0,3264
-0,3265
-0,3266
-0,3267
-0,3268
-0,3269
-0,3270
-0,3271
-0,3272
-0,3273
-0,3274
-0,3275
-0,3276
-0,3277
-0,3278
-0,3279
-0,3280
-0,3281
-0,3282
-0,3283
-0,3284
-0,3285
-0,3286
-0,3287
-0,3288
-0,3289
-0,3290
-0,3291
-0,3292
-0,3293
-0,3294
-0,3295
-0,3296
-0,3297
-1,3298
-0,3299
-1,3300
-1,3301
-0,3302
-0,3303
-0,3304
-0,3305
-0,3306
-1,3307
-1,3308
-0,3309
-0,3310
-0,3311
-0,3312
-0,3313
-0,3314
-0,3315
-0,3316
-0,3317
-0,3318
-0,3319
-0,3320
-0,3321
-0,3322
-0,3323
-0,3324
-0,3325
-0,3326
-0,3327
-0,3328
-0,3329
-0,3330
-0,3331
-0,3332
-0,3333
-0,3334
-0,3335
-0,3336
-0,3337
-0,3338
-0,3339
-2,3340
-0,3341
-0,3342
-0,3343
-0,3344
-0,3345
-0,3346
-0,3347
-0,3348
-0,3349
-0,3350
-0,3351
-0,3352
-0,3353
-0,3354
-0,3355
-0,3356
-0,3357
-0,3358
-0,3359
-0,3360
-0,3361
-0,3362
-0,3363
-0,3364
-0,3365
-0,3366
-0,3367
-0,3368
-0,3369
-0,3370
-0,3371
-0,3372
-0,3373
-0,3374
-0,3375
-0,3376
-0,3377
-0,3378
-0,3379
-0,3380
-0,3381
-0,3382
-0,3383
-0,3384
-0,3385
-0,3386
-1,3387
-0,3388
-0,3389
-0,3390
-3,3391
-0,3392
-0,3393
-0,3394
-0,3395
-0,3396
-0,3397
-0,3398
-0,3399
-0,3400
-0,3401
-1,3402
-0,891
-0,3403
-0,3404
-0,3405
-0,3406
-0,3407
-1,3408
-0,3409
-0,3410
-0,3411
-0,3412
-0,3413
-0,3414
-0,3415
-0,3416
-0,3417
-0,3418
-2,3419
-0,3420
-0,3421
-0,3422
-0,3423
-0,3424
-1,3425
-0,3426
-0,3427
-0,3428
-0,3429
-0,3430
-0,3431
-0,3432
-0,3433
-0,3434
-0,3435
-0,3436
-0,3437
-0,3438
-0,3439
-0,3440
-0,3441
-0,3442
-0,3443
-0,3444
-0,3445
-0,3446
-0,3447
-0,3448
-1,3449
-0,3450
-0,3451
-0,3452
-0,3453
-0,3454
-0,3455
-0,3456
-0,3457
-0,3458
-0,3459
-0,3460
-1,3461
-0,3462
-1,3463
-0,3464
-0,3465
-0,3466
-0,3467
-0,3468
-1,3469
-0,3470
-0,3471
-0,3472
-0,260
-0,3473
-0,3474
-0,3475
-0,1712
-0,3476
-0,3477
-0,3478
-0,3479
-0,3480
-0,3481
-0,3482
-0,3483
-0,3484
-0,3485
-1,3486
-1,3487
-0,3488
-0,3489
-0,3490
-0,3491
-0,3492
-0,3493
-0,3494
-0,3495
-0,3496
-0,3497
-0,3498
-0,3499
-0,3500
-0,3501
-0,3502
-0,3503
-0,3504
-0,3505
-0,3506
-0,3507
-0,3508
-0,3509
-0,3510
-0,3511
-0,3512
-0,3513
-0,3514
-0,3515
-0,3516
-0,3517
-1,3518
-0,3519
-0,3520
-0,3521
-0,3522
-0,3523
-0,3524
-0,3525
-2,3526
-0,3527
-0,3528
-0,3529
-0,3530
-0,3531
-0,3532
-0,3533
-0,3534
-0,3535
-0,3536
-0,3537
-0,3538
-0,3539
-0,3540
-0,3541
-0,3542
-0,3543
-0,3544
-0,3545
-0,3546
-0,3547
-0,3548
-0,3549
-0,3550
-0,3551
-0,3552
-0,3553
-0,3554
-0,3555
-0,3556
-1,3557
-0,3558
-0,3559
-0,3560
-0,3561
-0,980
-0,3562
-0,3563
-0,3564
-0,3565
-0,3566
-0,3567
-0,3568
-0,3569
-0,3570
-0,3571
-0,3572
-0,3573
-0,3574
-0,3575
-0,3576
-0,3577
-0,2076
-0,3578
-0,3579
-0,3580
-0,3581
-0,3582
-0,3583
-0,3584
-0,3585
-0,3586
-0,3587
-0,3588
-0,3589
-0,3590
-2,3591
-0,3592
-0,3593
-0,3594
-0,3595
-0,3596
-0,3597
-0,3598
-0,3599
-0,3600
-0,3601
-0,3602
-0,3603
-0,3604
-1,3605
-0,3606
-0,3607
-0,3608
-0,3609
-0,3610
-0,3611
-0,3612
-0,3613
-0,3614
-0,3615
-0,3616
-0,3617
-0,3618
-0,3619
-0,3620
-0,3621
-0,3622
-0,3623
-0,3624
-1,3625
-0,3626
-0,3627
-0,3628
-0,3629
-0,3630
-0,3631
-0,3632
-0,2155
-0,3633
-0,3634
-0,3635
-0,3636
-0,3637
-0,3638
-0,3639
-0,3640
-0,3641
-0,3642
-0,3643
-0,3644
-0,3645
-0,3646
-0,3647
-0,3648
-0,3649
-0,3650
-0,3651
-0,3652
-0,3653
-0,3654
-0,3655
-0,3656
-0,3657
-0,3658
-0,3659
-0,3660
-0,3661
-0,3662
-0,3663
-0,3664
-0,3665
-0,3666
-0,3667
-0,3668
-0,3669
-0,3670
-0,3671
-0,3672
-0,3673
-0,3674
-0,3675
-0,3676
-0,3677
-0,3678
-0,3679
-0,3680
-0,3681
-0,3682
-0,3683
-0,3684
-0,3685
-0,3686
-0,3687
-0,3688
-0,3689
-0,3690
-0,3691
-0,3692
-0,3693
-0,3547
-0,3694
-0,3695
-0,3696
-0,3697
-0,3698
-0,3699
-0,3700
-0,3701
-0,3702
-0,3703
-0,3313
-0,3704
-0,3705
-0,3706
-0,3707
-0,3708
-0,3709
-0,3710
-0,3711
-0,3712
-0,3713
-0,3714
-0,3715
-0,3716
-0,3717
-0,3718
-0,3719
-1,3720
-0,3721
-0,3722
-0,3723
-0,3724
-0,3725
-0,3726
-0,3727
-0,3728
-0,3729
-0,3730
-0,3731
-0,3732
-0,3733
-0,3734
-0,3735
-0,3736
-0,3737
-0,3738
-0,3739
-0,3740
-0,3741
-0,3742
-0,3743
-0,3744
-0,3745
-0,3746
-0,3747
-0,3748
-0,3749
-0,3750
-0,3751
-0,3752
-0,3753
-0,3754
-0,3755
-0,3756
-0,3757
-0,3758
-0,3759
-0,3760
-0,3761
-0,3762
-0,3763
-0,3764
-0,3765
-0,3766
-0,3767
-0,3768
-0,3769
-0,3770
-0,3771
-0,3772
-2,3773
-0,3774
-0,3775
-0,3776
-0,3777
-0,3778
-0,3779
-0,3780
-0,3781
-0,3782
-0,3783
-0,3784
-0,3785
-0,3786
-0,3787
-0,3788
-0,3789
-0,3790
-0,3791
-0,3792
-0,3793
-0,3794
-0,3795
-0,3796
-0,3797
-0,3798
-0,3799
-0,3800
-0,3801
-0,3802
-0,3803
-0,3804
-0,3805
-0,3806
-0,3807
-0,3808
-0,3809
-0,3810
-0,3811
-0,3812
-0,3813
-0,3814
-0,3815
-0,3816
-0,3817
-0,3818
-0,3819
-1,3820
-0,3821
-0,3822
-0,1182
-0,3823
-0,3824
-0,3825
-0,3826
-0,3827
-0,3828
-0,3829
-0,3830
-0,3831
-0,911
-0,3832
-0,3833
-1,3834
-0,3835
-0,3836
-0,3837
-0,3838
-0,3839
-0,3840
-1,3841
-0,3842
-0,3843
-0,3844
-0,3845
-1,3846
-0,3847
-0,3848
-0,3849
-0,3850
-0,3851
-0,3852
-0,3853
-0,3854
-0,3855
-0,3856
-0,3857
-0,3858
-0,3859
-0,3860
-0,3861
-0,3862
-0,3863
-0,3864
-0,3865
-0,3866
-0,3867
-0,3868
-0,3869
-0,3870
-0,3871
-0,3872
-0,3873
-0,3874
-0,3875
-0,3876
-0,3877
-0,3878
-0,2130
-0,3879
-1,3880
-0,3881
-0,3882
-0,3883
-0,3884
-0,3885
-0,3886
-0,3887
-0,3888
-0,3889
-0,3890
-0,3891
-0,3892
-0,3893
-0,3894
-0,3895
-0,3896
-0,3897
-0,3898
-0,3899
-0,3900
-0,3901
-0,3902
-0,3903
-0,3904
-0,3905
-0,3906
-0,3907
-0,3908
-0,3909
-0,3910
-0,3911
-0,3912
-0,3913
-0,3914
-0,3915
-0,3916
-0,3917
-1,3918
-0,3919
-0,3920
-0,3921
-0,3922
-0,3923
-0,3924
-0,3925
-0,3926
-0,3927
-0,3928
-0,3929
-0,3930
-1,3931
-0,3932
-0,3933
-0,3934
-0,3935
-0,3936
-0,3937
-0,3938
-0,3939
-0,3940
-0,3941
-0,3942
-0,3943
-0,3944
-0,3945
-0,3946
-0,3947
-0,3948
-0,3949
-0,3950
-0,3951
-0,3952
-0,3953
-0,3954
-0,3955
-0,3956
-0,3957
-0,3958
-0,3959
-0,3960
-0,3961
-0,3962
-0,3963
-1,3964
-0,3965
-0,3966
-2,3967
-0,3968
-0,3969
-0,3970
-0,3971
-0,3972
-0,3973
-0,3974
-0,3975
-0,3976
-0,3977
-0,3978
-0,3979
-0,3980
-0,3981
-0,3982
-0,3983
-0,3984
-0,3985
-0,3986
-0,3987
-0,3988
-0,3989
-0,3990
-0,3991
-0,3992
-0,3993
-0,3994
-1,3995
-0,3996
-0,3997
-0,3998
-0,3999
-0,4000
-0,4001
-0,4002
-0,4003
-0,4004
-0,4005
-0,4006
-0,4007
-0,4008
-0,4009
-0,4010
-0,4011
-0,4012
-0,4013
-0,4014
-0,4015
-0,4016
-0,4017
-0,4018
-0,4019
-0,4020
-0,4021
-0,4022
-0,541
-0,4023
-0,4024
-0,4025
-0,4026
-0,4027
-0,4028
-0,4029
-0,4030
-0,4031
-0,4032
-0,4033
-0,4034
-0,4035
-0,4036
-0,4037
-0,4038
-0,4039
-0,4040
-0,4041
-0,4042
-0,4043
-0,4044
-0,4045
-0,4046
-0,4047
-0,4048
-0,4049
-0,4050
-0,4051
-0,4052
-0,4053
-0,4054
-0,4055
-0,4056
-0,4057
-0,4058
-0,4059
-0,4060
-0,4061
-0,4062
-0,4063
-0,4064
-0,4065
-0,4066
-0,4067
-0,4068
-0,4069
-0,4070
-2,4071
-0,4072
-0,4073
-0,4074
-0,4075
-0,4076
-0,4077
-0,4078
-0,4079
-0,4080
-1,4081
-0,4082
-0,4083
-0,4084
-0,4085
-0,4086
-0,4087
-1,4088
-0,4089
-0,4090
-0,4091
-0,4092
-0,4093
-0,4094
-0,4095
-0,4096
-0,4097
-0,4098
-0,4099
-0,4100
-0,4101
-0,4102
-0,4103
-0,4104
-0,4105
-0,4106
-0,4107
-0,4108
-0,4109
-0,4110
-0,4111
-0,4112
-0,4113
-0,4114
-0,4115
-0,4116
-0,4117
-0,4118
-0,4119
-0,4120
-0,4121
-0,4122
-0,4123
-0,4124
-0,4125
-0,4126
-0,4127
-0,4128
-0,4129
-0,4130
-0,4131
-0,4132
-0,4133
-0,4134
-0,4135
-0,4136
-0,4137
-0,4138
-0,4139
-0,4140
-0,4141
-0,4142
-0,4143
-0,4144
-0,4145
-3,4146
-0,4147
-0,4148
-0,4149
-0,4150
-0,4151
-0,4152
-0,4153
-0,4154
-0,4155
-0,4156
-0,4157
-0,4158
-0,4159
-0,4160
-0,4161
-0,4162
-0,4163
-1,4164
-0,4165
-0,4166
-0,4167
-0,4168
-0,4169
-0,4170
-1,4171
-0,4172
-0,4173
-0,4174
-0,4175
-0,4176
-0,4177
-2,4178
-0,4179
-0,4180
-0,4181
-0,4182
-0,4183
-0,4184
-0,4185
-0,4186
-0,4187
-0,4188
-0,4189
-0,4190
-0,4191
-0,4192
-0,4193
-0,4194
-0,4195
-0,4196
-0,4197
-0,4198
-0,4199
-0,4200
-0,4201
-0,4202
-0,4203
-0,4204
-0,4205
-0,4206
-0,4207
-0,4208
-0,4209
-0,4210
-0,4211
-0,4212
-0,4213
-0,4214
-0,4215
-0,4216
-0,4217
-0,4218
-0,4219
-0,4220
-0,4221
-0,4222
-0,4223
-0,4224
-0,3179
-0,4225
-0,4226
-0,4227
-0,4228
-0,4229
-0,4230
-0,4231
-0,4232
-0,4233
-0,4234
-0,4235
-0,4236
-0,4237
-0,4238
-0,4239
-0,4240
-0,4241
-0,4242
-0,4243
-0,4244
-0,4245
-0,4246
-0,4247
-0,4248
-0,4249
-0,4250
-0,4251
-0,4252
-0,4253
-0,4254
-0,4255
-0,4256
-1,4257
-0,4258
-0,4259
-0,4260
-0,4261
-0,4262
-0,4263
-0,4264
-0,4265
-0,4266
-0,4267
-0,4268
-0,4269
-0,4270
-0,4271
-0,4272
-0,4273
-0,4274
-0,4275
-0,4276
-0,4277
-0,4278
-0,4279
-0,4280
-0,4281
-0,4282
-0,4283
-0,4284
-0,4285
-0,4286
-0,4287
-0,4288
-0,4289
-0,4290
-0,4291
-0,4292
-0,4293
-0,4294
-0,4295
-0,4296
-0,4297
-0,4298
-0,4299
-0,4300
-0,4301
-0,4302
-0,4303
-0,4304
-0,4305
-0,4306
-0,4307
-1,4308
-1,4309
-3,4310
-0,4311
-0,4312
-0,4313
-0,4314
-0,4315
-0,4316
-0,4317
-0,4318
-0,4319
-0,4320
-0,4321
-0,4322
-0,4323
-0,4324
-0,4325
-0,4326
-0,4327
-0,4328
-0,4329
-0,4330
-0,4331
-0,4332
-0,4333
-0,4334
-0,4335
-0,4336
-0,4337
-0,4338
-1,4339
-0,4340
-0,4341
-2,4342
-0,4343
-0,1155
-0,4344
-0,4345
-0,4346
-0,4347
-0,4348
-0,4349
-2,4350
-1,4351
-0,4352
-0,4353
-0,4354
-0,4355
-0,4356
-0,4357
-0,4358
-0,4359
-0,4360
-0,4361
-0,4362
-0,4363
-0,4364
-0,4365
-0,4366
-2,4367
-1,4368
-0,4369
-0,4370
-0,4371
-0,4372
-0,4373
-0,4374
-0,4375
-0,4376
-1,4377
-0,987
-0,4378
-1,4379
-0,4380
-0,4381
-0,4382
-0,4383
-0,4384
-0,4385
-0,4386
-0,4387
-0,4388
-0,4389
-0,4390
-0,4391
-0,4392
-0,4393
-0,4394
-0,4395
-0,4396
-0,4397
-0,4398
-0,4399
-0,4400
-0,4401
-0,4402
-0,4403
-0,4404
-0,4405
-0,4406
-0,4407
-0,4408
-1,4409
-0,4410
-0,4411
-0,4412
-0,4413
-0,4414
-0,4415
-0,4416
-0,4417
-0,4418
-2,4419
-1,4420
-1,4421
-1,4422
-1,4423
-1,4424
-2,4425
-1,4426
-2,4427
-1,4428
-1,4429
-1,4430
-1,4431
-0,4432
-0,4433
-0,4434
-0,4435
-2,4436
-1,4437
-1,4438
-0,4439
-0,4440
-0,4441
-0,4442
-0,4443
-0,4444
-0,4445
-0,4446
-0,4447
-0,4448
-0,4449
-0,4450
-0,4451
-0,4452
-0,4453
-0,4454
-0,4455
-0,4456
-0,4457
-0,4458
-1,4459
-0,4460
-0,4461
-0,4462
-0,4463
-0,4464
-1,4465
-1,4466
-0,4467
-0,4468
-0,4469
-0,4470
-0,4471
-1,4472
-0,4473
-0,4474
-1,4475
-0,4476
-1,4477
-0,4478
-0,4479
-0,4480
-0,4481
-0,4482
-0,4483
-0,4484
-0,4485
-0,4486
-0,4487
-0,4488
-0,4489
-0,4490
-0,4491
-0,4492
-0,1968
-0,4493
-0,4494
-0,4495
-0,4496
-0,4497
-0,4498
-0,4499
-0,4500
-0,4501
-0,4502
-0,4503
-0,4504
-0,4505
-0,4506
-0,4507
-0,32
-0,4508
-0,4509
-0,4510
-0,4511
-0,4512
-0,2848
-0,4513
-0,4514
-0,4515
-0,4516
-0,4517
-0,1801
-0,4518
-0,4519
-0,4520
-0,4521
-0,4522
-0,4523
-0,4524
-0,4525
-0,4526
-0,4527
-0,4528
-0,4529
-0,4530
-0,4531
-0,4532
-0,4533
-0,4534
-0,4535
-0,4536
-0,4537
-0,4538
-0,4539
-0,4540
-0,4541
-0,4542
-0,4543
-0,4544
-0,4545
-0,4546
-0,4547
-0,4548
-0,4549
-0,4550
-0,4551
-0,4552
-0,4553
-0,4554
-0,4555
-0,4556
-0,4557
-0,4558
-0,4559
-0,703
-0,4560
-0,4561
-0,4562
-0,4563
-0,4564
-1,4565
-0,4566
-0,4567
-0,4568
-0,4569
-2,4570
-0,4571
-0,4572
-0,4573
-0,14
-0,4574
-0,4575
-0,4576
-0,4577
-0,4578
-0,4579
-0,4580
-0,4581
-0,4582
-0,4583
-2,4584
-0,4585
-0,4586
-0,4587
-0,4588
-0,4589
-0,4590
-0,4591
-0,4592
-0,4593
-0,4594
-0,4595
-0,4596
-0,4597
-0,4598
-0,4599
-0,4600
-0,4601
-0,4602
-0,4603
-0,4604
-0,4605
-0,4606
-0,4607
-0,4608
-0,4609
-0,4610
-0,4611
-0,4612
-0,4613
-0,4614
-0,4615
-0,4616
-0,4617
-0,4618
-0,4619
-0,4620
-0,4621
-0,4622
-0,4623
-0,4624
-0,4625
-0,4626
-0,4627
-0,4628
-0,4629
-0,4630
-0,4631
-0,4632
-0,4633
-0,4634
-0,4635
-0,4636
-0,4637
-0,4638
-0,4639
-0,4640
-0,4641
-0,4642
-0,4643
-0,4644
-0,4645
-0,4646
-0,4647
-0,4648
-0,4649
-2,4650
-0,4651
-0,4652
-0,4653
-0,4654
-0,4655
-0,4656
-0,4657
-0,4658
-0,4659
-0,4660
-0,4661
-0,4662
-0,4663
-0,4664
-0,4665
-0,660
-0,4666
-0,4667
-0,4668
-0,4669
-0,4670
-0,4671
-0,4672
-0,4673
-0,4674
-0,4675
-0,4676
-0,4677
-0,2733
-0,4678
-0,4679
-0,4680
-0,4681
-0,4682
-0,4683
-0,4684
-0,4685
-0,4686
-0,4687
-0,4688
-0,4689
-0,4690
-0,4691
-0,4692
-0,4693
-0,4694
-0,4695
-0,4696
-0,4697
-0,4698
-0,4699
-0,4700
-0,4701
-0,4702
-0,4703
-0,4704
-0,4705
-2,4706
-0,4707
-0,4708
-0,4709
-0,4710
-0,4711
-0,4712
-0,4713
-0,4714
-0,4715
-0,4716
-2,4717
-0,4718
-0,4719
-0,4720
-0,4721
-0,4722
-0,1440
-0,4723
-0,4724
-0,4725
-0,4726
-0,4727
-0,4728
-0,4729
-0,2453
-2,4730
-0,4731
-0,4732
-0,4733
-0,4734
-0,4735
-0,4736
-0,4737
-0,4738
-0,4739
-0,4740
-0,4741
-0,4742
-0,4743
-0,4744
-0,4745
-0,4746
-0,4747
-0,4748
-0,4749
-0,4750
-0,4751
-0,4752
-0,4753
-0,4754
-0,4755
-0,4756
-0,4757
-0,4758
-0,4759
-0,4760
-0,4761
-0,4762
-0,4763
-0,4764
-0,4765
-2,4766
-0,4767
-0,4768
-0,4769
-0,4770
-0,4771
-0,4772
-0,4773
-0,4774
-0,4775
-2,4776
-0,4777
-0,4778
-0,4779
-0,4780
-0,4781
-0,4782
-0,4783
-0,4784
-0,931
-0,4785
-0,4786
-0,4787
-0,506
-2,4788
-0,4789
-2,4790
-0,4791
-0,4792
-0,4793
-0,4794
-0,4795
-0,4796
-0,4797
-0,4798
-0,4799
-0,4800
-0,4801
-0,4802
-0,4803
-0,4804
-0,4805
-0,4806
-0,4807
-0,4808
-0,4809
-1,4810
-0,4811
-0,4812
-0,4813
-0,4814
-0,4815
-0,4816
-0,4817
-0,4818
-0,4819
-0,4820
-0,3105
-0,4821
-0,4822
-0,4823
-0,4824
-0,4825
-0,4826
-0,4827
-0,4828
-0,4829
-0,4830
-0,4831
-0,4832
-0,4833
-0,4834
-0,4835
-0,4836
-0,4837
-0,4838
-0,4839
-0,4840
-0,4841
-0,4842
-0,4843
-0,4844
-0,4845
-0,4846
-0,4847
-0,4848
-0,4849
-0,4850
-0,4851
-0,4852
-0,4853
-0,4854
-0,4855
-0,4856
-0,4857
-0,4858
-0,4859
-0,4860
-0,4861
-0,4862
-0,4863
-0,4864
-0,4865
-0,4866
-0,4867
-0,4868
-0,3221
-0,4869
-0,4870
-0,4871
-0,4872
-0,4873
-0,4874
-0,4875
-0,4876
-0,4877
-0,4878
-0,4879
-0,4880
-0,4881
-0,4882
-0,4883
-0,4884
-0,4885
-0,4886
-0,4887
-0,4888
-0,4889
-0,4890
-0,4891
-0,4892
-0,4893
-2,4894
-0,4895
-0,4896
-0,4897
-0,4898
-0,4899
-0,4900
-0,4901
-0,4902
-0,4903
-0,4904
-0,4905
-0,4906
-0,4907
-0,4908
-0,4909
-0,4910
-0,4911
-0,4912
-0,4913
-0,4914
-0,4915
-0,4916
-0,4917
-0,4918
-0,4919
-0,4920
-0,4921
-0,4922
-0,4923
-0,4924
-0,4925
-0,4926
-0,4927
-0,4928
-0,4929
-0,4930
-0,4931
-0,4932
-0,4933
-0,4934
-0,4935
-0,4936
-0,4937
-2,4938
-0,4939
-0,4940
-0,4941
-0,4942
-0,4943
-0,4944
-0,4945
-0,4946
-0,4947
-0,4948
-0,428
-0,4949
-0,4950
-0,4951
-0,4952
-0,4953
-0,4954
-0,4955
-0,4956
-0,4957
-0,4958
-0,4959
-0,4960
-0,4961
-0,4962
-0,4963
-0,4964
-0,4965
-0,4966
-0,4967
-0,4968
-0,4969
-0,4970
-0,4971
-0,4972
-0,4973
-0,4974
-0,4975
-0,4976
-0,4977
-0,4978
-0,4979
-0,4980
-0,4981
-0,4982
-0,4983
-0,4984
-0,4985
-0,4986
-0,4987
-0,4988
-0,4989
-0,4990
-0,4991
-0,4992
-0,4993
-0,4994
-0,4995
-0,4996
-0,4997
-0,4998
-0,4999
-0,5000
-0,5001
-0,5002
-0,5003
-0,5004
-0,5005
-0,5006
-0,5007
-1,5008
-0,5009
-0,5010
-0,5011
-0,5012
-0,5013
-0,5014
-0,5015
-0,5016
-0,5017
-0,5018
-0,5019
-0,5020
-0,5021
-0,5022
-0,5023
-0,5024
-0,5025
-2,5026
-0,5027
-0,5028
-0,5029
-0,5030
-0,5031
-0,5032
-0,5033
-0,5034
-0,5035
-0,5036
-3,5037
-0,5038
-0,5039
-0,5040
-0,5041
-0,5042
-0,5043
-0,5044
-0,5045
-0,5046
-0,5047
-0,5048
-0,5049
-0,5050
-0,5051
-0,5052
-0,5053
-0,5054
-0,5055
-0,5056
-0,5057
-0,5058
-0,5059
-0,5060
-0,5061
-0,5062
-0,5063
-0,5064
-0,5065
-0,5066
-0,5067
-0,5068
-0,5069
-0,5070
-0,5071
-0,5072
-0,5073
-0,5074
-0,5075
-0,5076
-0,5077
-0,5078
-0,5079
-0,5080
-0,5081
-0,5082
-0,5083
-0,5084
-0,5085
-0,2611
-0,5086
-0,5087
-0,5088
-0,5089
-0,5090
-0,5091
-0,5092
-0,5093
-0,5094
-0,5095
-0,5096
-0,5097
-0,5098
-0,5099
-0,5100
-0,5101
-2,5102
-0,5103
-0,5104
-0,5105
-0,5106
-1,5107
-0,5108
-0,5109
-0,2654
-0,5110
-0,5111
-0,5112
-0,5113
-0,5114
-0,5115
-0,5116
-0,5117
-0,5118
-0,5119
-0,5120
-0,5121
-0,5122
-0,5123
-0,5124
-0,5125
-0,5126
-0,5127
-0,5128
-0,5129
-0,5130
-0,5131
-0,5132
-0,4641
-0,5133
-0,5134
-3,5135
-0,5136
-0,5137
-0,5138
-0,5139
-0,5140
-0,5141
-0,5142
-0,5143
-0,5144
-0,5145
-0,5146
-0,5147
-0,4720
-0,5148
-0,5149
-0,5150
-0,5151
-0,5152
-0,5153
-0,5154
-0,5155
-0,5156
-0,5157
-0,5158
-0,5159
-0,114
-0,5160
-0,5161
-0,5162
-0,5163
-0,5164
-0,5165
-0,5166
-0,5167
-0,5168
-0,5169
-0,5170
-0,5171
-0,5172
-0,5173
-0,5174
-0,5175
-0,5176
-0,5177
-0,5178
-0,5179
-0,5180
-0,5181
-0,5182
-0,5183
-0,5184
-0,5185
-0,5186
-0,5187
-0,5188
-0,5189
-0,5190
-0,5191
-0,5192
-0,5193
-0,5194
-0,5195
-0,5196
-0,5197
-0,5198
-0,5199
-0,5200
-0,5201
-0,5202
-0,5203
-0,5204
-0,5205
-0,5206
-0,5207
-0,5208
-0,5209
-0,5210
-0,5211
-0,5212
-0,2557
-0,5213
-0,5214
-0,5215
-0,5216
-0,5217
-0,5218
-0,5219
-0,5220
-2,5221
-0,5222
-0,5223
-0,5224
-0,5225
-0,5226
-0,5227
-0,5228
-0,5229
-0,5230
-0,5231
-0,5232
-0,5233
-0,5234
-0,5235
-0,5236
-0,5237
-0,5238
-0,5239
-0,5240
-0,5241
-0,5242
-0,5243
-0,5244
-0,5245
-0,5246
-0,5247
-0,5248
-0,5249
-0,5250
-2,5251
-0,5252
-0,5253
-0,5254
-0,5255
-0,5256
-0,5257
-0,5258
-0,5259
-0,5260
-1,5261
-0,5262
-0,5263
-0,5264
-0,5265
-0,5266
-0,5267
-0,5268
-0,5269
-0,5270
-0,5271
-0,5272
-0,5273
-0,5274
-0,5275
-0,5276
-0,5277
-0,5278
-0,5279
-0,5280
-0,5281
-0,5282
-0,5283
-0,5284
-0,5285
-0,5286
-0,5287
-0,5288
-0,5289
-0,5290
-0,5291
-0,5292
-0,5293
-0,5294
-0,5295
-0,5296
-0,5297
-0,5298
-0,5299
-0,5300
-0,5301
-0,5302
-0,5303
-0,5304
-0,5305
-0,5306
-0,5307
-0,5308
-0,5309
-0,5310
-0,5311
-0,5312
-0,5313
-0,610
-0,5314
-0,5315
-0,5316
-0,5317
-0,5318
-0,5319
-0,5320
-0,5321
-0,5322
-0,5323
-0,5324
-0,5325
-0,5326
-0,5327
-0,5328
-0,5329
-2,5330
-0,5331
-0,5332
-0,5333
-0,5334
-0,5335
-0,5336
-0,5337
-0,5338
-0,5339
-0,5340
-0,5341
-0,5342
-0,5343
-0,5344
-0,5345
-0,5346
-0,5347
-0,5348
-0,5349
-0,5350
-0,5351
-0,5352
-0,5353
-0,5354
-0,5355
-0,5356
-0,5357
-0,5358
-0,5359
-0,5360
-0,5361
-0,5362
-0,5363
-0,5364
-0,5365
-0,5366
-0,5367
-0,5368
-0,5369
-0,5370
-0,5371
-0,5372
-0,5373
-0,5374
-0,5375
-0,5376
-0,5377
-0,5378
-0,5379
-0,5380
-0,5381
-0,5382
-0,5383
-0,5384
-0,5385
-0,5386
-0,5387
-0,5388
-0,5389
-0,5390
-0,5391
-0,5392
-0,5393
-0,5394
-0,5395
-0,5396
-0,5397
+0,Enemy Agent
+0,Close Assault: A Man-to-Man Game of Squad Tactics and Command - Europe 1939-1945
+0,Frag: PvP
+0,Jamie Swise Mystery Games: Murder by Proxy
+0,Rome at War II: Fading Legions
+0,Big Foot
+0,Manhunt
+0,Decision in France
+0,Viva España: A Game of the Spanish Civil War - 1936-1939
+0,Lost Gold
+0,Pay Cards!
+0,"Wellington's Victory: Battle of Waterloo Game - June 18th, 1815"
+0,Pick Two!
+0,Derby Days
+1,VOR: The Maelstrom
+0,Warzone (Second Edition)
+0,Blood Berets
+0,Cityscape
+0,Sensationen
+0,Der Herr der Ringe: Die Zwei Türme
+1,Jutland
+1,Warmaster
+0,Elementary Watson
+0,Meet the Presidents
+0,Equality
+0,Equate Advanced Tile Set
+0,Scandinavia
+1,Apples to Apples Kids
+0,Earth Satellite Game
+0,The Sting Game
+1,Consequential
+0,Dollars & Sense
+1,Quest for the Ideal Mate
+0,HellRail
+0,Desperado
+0,Jet World
+0,Tuf-abet
+0,Amun-Re
+0,Carcassonne: Expansion 2 - Traders & Builders
+0,Coloretto
+0,Alhambra
+0,A Game of Thrones
+0,Carcassonne: The Castle
+0,YINSH
+0,San Juan
+0,Ticket to Ride
+0,Goa: A New Expedition
+0,Saint Petersburg
+0,War of the Ring
+0,Struggle of Empires
+0,Ingenious
+0,Betrayal at House on the Hill
+0,Memoir '44
+0,Heroscape Master Set: Rise of the Valkyrie
+0,Twilight Struggle
+0,Twilight Imperium: Third Edition
+0,No Thanks!
+0,The Downfall of Pompeii
+0,Antiquity
+0,Commands & Colors: Ancients
+0,Ticket to Ride: Europe
+0,Shadows over Camelot
+0,Nexus Ops
+0,Blood Bowl: Living Rulebook
+0,Arkham Horror
+0,Railways of the World
+0,Descent: Journeys in the Dark
+0,Here I Stand
+0,1846: The Race for the Midwest
+0,Caylus
+0,Lord of the Rings: The Confrontation
+0,Memoir '44: Eastern Front
+0,Power Grid: France/Italy
+0,Indonesia
+0,Glory to Rome
+0,Lords of Vegas
+0,Shogun
+0,Combat Commander: Europe
+0,Arkham Horror: Dunwich Horror Expansion
+0,Neuroshima Hex
+0,Ticket to Ride: Märklin
+0,Mr. Jack
+0,Thurn and Taxis
+0,Age of Empires III: The Age of Discovery
+0,Twilight Imperium: Third Edition - Shattered Empire
+0,StarCraft: The Board Game
+0,Shikoku 1889
+0,Imperial
+0,Ticket to Ride: USA 1910
+0,The Pillars of the Earth
+0,Taluva
+0,Sekigahara: The Unification of Japan
+0,Power Grid: Benelux/Central Europe
+0,Merchants & Marauders
+0,BattleLore
+0,Notre Dame
+0,Through the Ages: A Story of Civilization
+0,Arkham Horror: The King in Yellow Expansion
+0,Kingsburg
+0,Vikings
+0,1960: The Making of the President
+0,Colosseum
+0,Steam
+0,Jamaica
+0,Race for the Galaxy
+0,Brass: Lancashire
+0,Power Grid: The New Power Plants - Set 1
+0,D-Day at Omaha Beach
+0,Cuba
+0,Pandemic
+0,Ticket to Ride: Switzerland
+0,Thebes
+0,Agricola
+0,Galaxy Trucker
+0,In the Year of the Dragon
+0,Ticket to Ride: Nordic Countries
+0,Wabash Cannonball
+0,TZAAR
+0,Endeavor
+0,Tales of the Arabian Nights
+0,Biblios
+0,Race for the Galaxy: The Gathering Storm
+0,Stone Age
+0,Le Havre
+0,Dominion
+1,Time's Up! Title Recall!
+0,Claustrophobia
+0,Ghost Stories
+0,Battlestar Galactica: The Board Game
+0,Power Grid: China/Korea
+2,Formula D
+0,Galaxy Trucker: The Big Expansion
+0,Space Alert
+0,Automobile
+0,Cosmic Encounter
+0,At the Gates of Loyang
+0,Kingsburg: To Forge a Realm
+0,Dixit
+0,Carson City
+0,Race for the Galaxy: Rebel vs Imperium
+0,Small World
+0,Clash of Cultures
+0,Arkham Horror: Innsmouth Horror Expansion
+0,Dominion: Intrigue
+0,Pandemic: On the Brink
+2,The Resistance
+0,Vinhos
+0,Tobago
+0,Gears of War: The Board Game
+0,Hansa Teutonica
+0,Agricola: Farmers of the Moor
+0,Chaos in the Old World
+0,Battlestar Galactica: The Board Game - Pegasus Expansion
+0,Friday
+0,Dungeon Lords
+0,Alhambra: Big Box
+0,Telestrations
+0,Alien Frontiers
+0,Belfort
+0,Dominion: Seaside
+0,Ticket to Ride: Europa 1912
+0,Jaipur
+0,Imperial 2030
+0,Space Hulk (Third Edition)
+0,Cyclades
+0,Dixit: Quest
+0,Macao
+0,Kingdom Death: Monster
+0,Small World: Grand Dames of Small World
+0,Small World: Cursed!
+0,Summoner Wars
+0,Egizia
+0,Runewars
+0,Letters from Whitechapel
+0,Cosmic Encounter: Cosmic Incursion
+0,Dominant Species
+0,Commands & Colors: Napoleonics
+0,"Labyrinth: The War on Terror, 2001 - ?"
+0,The Manhattan Project
+0,Innovation
+0,London
+0,Race for the Galaxy: The Brink of War
+0,Fresco
+0,Glen More
+0,Navegador
+0,Dominion: Prosperity
+0,7 Wonders
+0,Ascension: Deckbuilding Game
+0,Ora et Labora
+0,King of Tokyo
+0,Luna
+0,Takenoko
+0,Space Hulk: Death Angel - The Card Game
+0,Eclipse: New Dawn for the Galaxy
+0,Troyes
+0,Sid Meier's Civilization: The Board Game
+0,The Lord of the Rings: The Card Game
+0,A Few Acres of Snow
+0,Small World: Be Not Afraid...
+0,Xia: Legends of a Drift System
+0,Mansions of Madness
+0,Space Empires 4X
+0,The Castles of Burgundy
+0,Battlestar Galactica: The Board Game - Exodus Expansion
+0,Cosmic Encounter: Cosmic Conflict
+0,Blood Bowl: Team Manager - The Card Game
+0,Airlines Europe
+0,Dominion: Cornucopia
+0,Discworld: Ankh-Morpork
+0,Skull
+0,7 Wonders: Leaders
+2,Dixit: Odyssey
+0,Summoner Wars: Master Set
+0,Madeira
+0,Chaos in the Old World: The Horned Rat Expansion
+0,Twilight Imperium: Third Edition - Shards of the Throne
+0,Cyclades: Hades
+0,Mage Knight Board Game
+0,Lancaster
+0,Dungeon Petz
+0,Small World Underground
+0,Last Will
+0,Hanabi
+0,Elder Sign
+0,Flash Point: Fire Rescue
+0,Mage Wars Arena
+0,Sentinels of the Multiverse
+0,Trajan
+0,Caverna: The Cave Farmers
+0,A Game of Thrones: The Board Game (Second Edition)
+0,Star Wars: X-Wing Miniatures Game
+0,Village
+0,Descent: Journeys in the Dark (Second Edition)
+0,Dominion: Hinterlands
+0,Risk Legacy
+0,Archipelago
+0,Ticket to Ride Map Collection 1: Asia + Legendary Asia
+0,Ticket to Ride Map Collection 2: India & Switzerland
+0,Kingdom Builder
+0,Sid Meier's Civilization: The Board Game - Fame and Fortune
+0,Puerto Rico
+0,Seasons
+0,Kanban: Driver's Edition
+0,Lords of Waterdeep
+0,The Great Zimbabwe
+0,7 Wonders: Cities
+0,Cuba Libre
+0,Escape: The Curse of the Temple
+0,Zombicide
+0,War of the Ring: Second Edition
+0,Las Vegas
+0,Targi
+0,Snowdonia
+0,Freedom: The Underground Railroad
+0,Agricola: All Creatures Big and Small
+0,Terra Mystica
+0,Trains
+0,Robinson Crusoe: Adventures on the Cursed Island
+0,War of the Ring: Lords of Middle-earth
+0,Keyflower
+0,BattleCON: Devastation of Indines
+0,Suburbia
+0,Tokaido
+0,Concordia
+0,Mice and Mystics
+0,Android: Netrunner
+0,The Gallerist
+0,Dominion: Dark Ages
+0,Libertalia
+2,Eclipse: Rise of the Ancients
+0,Nations
+0,Tzolk'in: The Mayan Calendar
+0,Kemet
+0,Bora Bora
+0,King of Tokyo: Power Up!
+0,Legends of Andor
+0,Ginkgopolis
+0,Viticulture
+0,Spartacus: A Game of Blood and Treachery
+0,Pax Porfiriana
+2,The Resistance: Avalon
+0,1775: Rebellion
+0,Legendary: A Marvel Deck Building Game
+0,Love Letter
+0,Mage Knight Board Game: The Lost Legion Expansion
+0,Triumph & Tragedy: European Balance of Power 1936-1945
+0,Coup
+0,Churchill
+0,Roll for the Galaxy
+0,Pathfinder Adventure Card Game: Rise of the Runelords - Base Set
+0,Sushi Go!
+0,Euphoria: Build a Better Dystopia
+0,7 Wonders: Wonder Pack
+0,Lords of Waterdeep: Scoundrels of Skullport
+0,The Battle of Five Armies
+2,A Fake Artist Goes to New York
+0,Forbidden Desert
+0,Village: Inn
+0,Bruges
+0,Pandemic: In the Lab
+0,Dominion: Guilds
+0,Amerigo
+0,Elder Sign: Unseen Forces
+0,Legendary: A Marvel Deck Building Game - Dark City
+0,Firefly: The Game
+0,Cthulhu Wars
+0,Galaxy Trucker: Anniversary Edition
+0,Francis Drake
+0,Lewis & Clark: The Expedition
+0,Arboretum
+0,Paperback
+0,Battlestar Galactica: The Board Game - Daybreak Expansion
+0,Legendary: A Marvel Deck Building Game - Fantastic Four
+0,Escape Plan
+0,Tzolk'in: The Mayan Calendar - Tribes & Prophecies
+0,Quantum
+0,Glass Road
+0,Fire in the Lake
+0,Rococo
+0,Bruxelles 1893
+0,Russian Railroads
+0,Argent: The Consortium
+0,Suburbia Inc
+0,Eldritch Horror
+0,BattleLore: Second Edition
+0,T.I.M.E Stories
+0,Legendary Encounters: An Alien Deck Building Game
+0,Shadows of Brimstone: City of the Ancients
+0,La Granja
+0,Star Realms
+0,Viticulture: Tuscany
+2,One Night Ultimate Werewolf
+0,Splendor
+0,Maquis
+0,Istanbul
+0,Legendary: A Marvel Deck Building Game - Paint the Town Red
+0,Skull King
+0,Dead of Winter: A Crossroads Game
+0,Pandemic: The Cure
+0,Baseball Highlights: 2045
+0,Millennium Blades
+2,Telestrations: 12 Player Party Pack
+0,Camel Up
+0,Imperial Settlers
+0,Hive Pocket
+0,Nippon
+0,Arkwright
+0,Eldritch Horror: Forsaken Lore
+0,Arcadia Quest
+0,Castles of Mad King Ludwig
+0,Evolution
+0,Inis
+0,Power Grid Deluxe: Europe/North America
+0,Abyss
+0,Port Royal
+2,Deception: Murder in Hong Kong
+0,Onirim (Second Edition)
+2,Monikers
+0,Black Orchestra
+0,Five Tribes: The Djinns of Naqala
+0,Sheriff of Nottingham
+0,Hanamikoji
+0,Colt Express
+0,AquaSphere
+0,Fields of Arle
+0,Conan
+0,Ticket to Ride: 10th Anniversary
+0,Onitama
+0,Terra Mystica: Fire & Ice
+0,Lisboa
+0,Stockpile
+0,Pandemic Legacy: Season 1
+0,Alchemists
+0,Deus
+0,Spirit Island
+0,Trickerion: Legends of Illusion
+0,Legendary: A Marvel Deck Building Game - Guardians of the Galaxy
+1,One Night Ultimate Werewolf: Daybreak
+0,Patchwork
+0,Star Wars: Armada
+0,Feudum
+0,Tiny Epic Galaxies
+0,Elysium
+0,Star Wars: Imperial Assault
+0,Eldritch Horror: Mountains of Madness
+0,Orléans
+0,KLASK
+0,San Juan (Second Edition)
+0,Nemesis
+0,Ashes Reborn: Rise of the Phoenixborn
+0,Terraforming Mars
+0,Love Letter: Batman
+0,A Game of Thrones: The Card Game (Second Edition)
+0,Roll Player
+0,Middara: Unintentional Malum - Act 1
+0,Scythe
+0,Raiders of the North Sea
+0,Blood Rage
+0,Valeria: Card Kingdoms
+0,Crusaders: Thy Will Be Done
+0,Sword & Sorcery
+0,Captain Sonar
+0,Cacao
+0,The Voyages of Marco Polo
+0,The Grizzled
+0,El Grande Big Box
+0,Dominion: Adventures
+0,Burgle Bros.
+0,Champions of Midgard
+0,Broom Service
+0,Mombasa
+0,Istanbul: Mocha & Baksheesh
+0,Above and Below
+0,7 Wonders Duel
+0,Takenoko: Chibis
+0,Gloomhaven
+0,Blood Rage: 5th Player Expansion
+0,Mare Nostrum: Empires
+0,Dawn of the Zeds (Third Edition)
+0,Blood Rage: Mystics of Midgard
+0,Forbidden Stars
+0,Vinhos: Deluxe Edition
+0,Roll for the Galaxy: Ambition
+0,Food Chain Magnate
+0,Zombicide: Black Plague
+0,Quadropolis
+0,Isle of Skye: From Chieftain to King
+0,Five Tribes: The Artisans of Naqala
+0,The Manhattan Project: Energy Empire
+0,Mission: Red Planet (Second/Third Edition)
+0,Eldritch Horror: Strange Remnants
+0,Carson City: Big Box
+0,IKI
+0,Raptor
+0,A Feast for Odin
+0,Codenames
+0,The 7th Continent
+0,Shakespeare
+0,T.I.M.E Stories: The Marcy Case
+0,The Bloody Inn
+0,Potion Explosion
+0,Concordia: Salsa
+0,Fury of Dracula (Third/Fourth Edition)
+0,Mysterium
+0,Runebound (Third Edition)
+0,Russian Railroads: German Railroads
+0,Eldritch Horror: Under the Pyramids
+0,Through the Ages: A New Story of Civilization
+0,Ticket to Ride Map Collection 5: United Kingdom & Pennsylvania
+0,Evolution: Climate
+0,Star Realms: Colony Wars
+0,Grand Austria Hotel
+0,Karuba
+0,Viticulture Essential Edition
+0,Star Wars: X-Wing Miniatures Game - The Force Awakens Core Set
+0,Orléans: Invasion
+0,Oh My Goods!
+0,On Mars
+0,Bunny Kingdom
+0,Anachrony
+0,Mythic Battles: Pantheon
+0,Nemo's War (Second Edition)
+0,Star Wars: Rebellion
+2,Secret Hitler
+0,Awkward Guests: The Walton Case
+0,This War of Mine: The Board Game
+0,T.I.M.E Stories: A Prophecy of Dragons
+0,Tyrants of the Underdark
+0,Whitehall Mystery
+0,Aeon's End
+0,Imhotep
+0,Too Many Bones
+0,Reign of Cthulhu
+0,Sushi Go Party!
+0,51st State: Master Set
+0,Mysterium: Hidden Signs
+0,The Colonists
+0,Dominion: Empires
+0,Dead of Winter: The Long Night
+0,Junk Art
+0,Spirit Island: Branch & Claw
+0,The Oracle of Delphi
+0,Great Western Trail
+0,Viticulture: Moor Visitors Expansion
+0,Star Trek: Ascendancy
+0,Dice Forge
+0,Mystic Vale
+0,Santorini
+0,Near and Far
+0,The Godfather: Corleone's Empire
+0,Love Letter: Premium Edition
+0,Yokohama
+0,Charterstone
+0,Eldritch Horror: Signs of Carcosa
+0,Codenames: Pictures
+0,Iberia
+0,Pax Renaissance
+0,Hero Realms
+0,Harry Potter: Hogwarts Battle
+0,Xia: Embers of a Forsaken Star
+0,Flamme Rouge
+0,Sagrada
+0,Scythe: Invaders from Afar
+0,Everdell
+0,Agricola (Revised Edition)
+0,Clank!: A Deck-Building Adventure
+0,Viticulture: Tuscany Essential Edition
+2,Sidereal Confluence
+0,Ticket to Ride: Rails & Sails
+0,7 Wonders Duel: Pantheon
+0,Exit: The Game - The Abandoned Cabin
+0,Lorenzo il Magnifico
+0,Sherlock Holmes Consulting Detective: Jack the Ripper & West End Adventures
+0,Sub Terra
+0,Kingdomino
+0,Orléans: Trade & Intrigue
+0,Mansions of Madness: Second Edition
+0,Star Wars: Destiny
+0,Citadels
+0,Arkham Horror: The Card Game
+0,Rising Sun
+0,Imperial Struggle
+0,Ethnos
+0,First Class: All Aboard the Orient Express!
+0,Arkham Horror: The Card Game - The Dunwich Legacy: Expansion
+0,Mechs vs. Minions
+0,Dominion (Second Edition)
+0,Century: Spice Road
+0,Magic Maze
+0,Raiders of the North Sea: Hall of Heroes
+0,Raiders of the North Sea: Fields of Fame
+0,Mansions of Madness: Second Edition - Beyond the Threshold: Expansion
+0,Blood Bowl (2016 Edition)
+0,Roll Player: Monsters & Minions
+0,Unlock!: Escape Adventures
+0,Yamataï
+0,Downforce
+0,Thunderstone Quest
+0,Clans of Caledonia
+0,Fantastic Factories
+0,Dice Throne: Season One
+0,A Feast for Odin: The Norwegians
+0,The Quest for El Dorado
+0,Detective: City of Angels
+0,Clank!: Sunken Treasures
+0,Terraforming Mars: Hellas & Elysium
+0,Aeon's End: War Eternal
+0,Photosynthesis
+0,Anachrony: Exosuit Commander Pack
+0,Bärenpark
+0,Arydia: The Paths We Dare Tread
+0,Champions of Midgard: The Dark Mountains
+0,Champions of Midgard: Valhalla
+0,Gaia Project
+0,The Shipwreck Arcana
+0,Rajas of the Ganges
+0,Eldritch Horror: Cities in Ruin
+0,Pandemic Legacy: Season 2
+0,Dinosaur Island
+0,The Fox in the Forest
+0,Lords of Hellas
+0,Fantasy Realms
+0,Detective: A Modern Crime Board Game
+0,Scythe: The Wind Gambit
+0,Codenames: Duet
+0,Brass: Birmingham
+0,Rising Sun: Daimyo Box
+0,Zombicide: Green Horde
+0,Arkham Horror: The Card Game - The Path to Carcosa: Expansion
+0,Decrypto
+0,Exit: The Game - Dead Man on the Orient Express
+0,Star Wars: Rebellion - Rise of the Empire
+0,The Red Cathedral
+0,Heaven & Ale
+0,Wonderland's War
+0,Pulsar 2849
+0,Santa Maria
+0,Teotihuacan: City of Gods
+1,Flamme Rouge: Peloton
+0,Mansions of Madness: Second Edition - Streets of Arkham: Expansion
+0,Star Realms: Frontiers
+0,Azul
+0,Carcassonne Big Box 6
+0,AuZtralia
+0,Obsession
+0,Terraforming Mars: Venus Next
+0,Queendomino
+0,Spirit Island: Promo Pack 1
+0,Western Legends
+0,Oceans
+0,Century: Golem Edition
+0,Twilight Imperium: Fourth Edition
+0,Civilization: A New Dawn
+0,Stuffed Fables
+0,Clank! In! Space!: A Deck-Building Adventure
+0,Endeavor: Age of Sail
+2,Welcome To...
+0,Nusfjord
+0,Altiplano
+0,Too Many Bones: Undertow
+0,London (Second Edition)
+0,Architects of the West Kingdom
+0,Weather Machine
+0,Root
+0,Chronicles of Crime
+0,Black Rose Wars
+0,Betrayal Legacy
+3,Blood on the Clocktower
+0,Root: The Riverfolk Expansion
+0,Aeon's End: Legacy
+0,Mansions of Madness: Second Edition - Sanctum of Twilight: Expansion
+0,Scythe: The Rise of Fenris
+0,Space Base
+0,Treasure Island
+0,Aeon Trespass: Odyssey
+0,Yellow & Yangtze
+0,Shards of Infinity
+0,Sagrada: 5-6 Player Expansion
+0,Dice Throne: Season Two - Battle Chest
+0,Quacks
+0,That's Pretty Clever!
+0,Newton
+0,Clank!: The Mummy's Curse
+0,Coimbra
+0,Railroad Ink: Deep Blue Edition
+0,The King's Dilemma
+0,Great Western Trail: Rails to the North
+0,Carpe Diem
+0,Fleet: The Dice Game
+0,Gizmos
+0,Smartphone Inc.
+0,Cryptid
+0,Eclipse: Second Dawn for the Galaxy
+0,Terraforming Mars: Prelude
+0,7 Wonders: Armada
+0,"Air, Land, & Sea"
+0,Underwater Cities
+0,Atlantis Rising (Second Edition)
+0,Mage Knight: Ultimate Edition
+0,Viticulture: Visit from the Rhine Valley
+0,War Chest
+0,The Estates
+0,Gùgōng
+0,Istanbul: Big Box
+0,Barrage
+0,Sprawlopolis
+0,Oathsworn: Into the Deepwood
+0,Star Wars: X-Wing (Second Edition)
+0,Cthulhu: Death May Die
+0,Just One
+0,Trickerion: Collector's Edition
+0,Terraforming Mars: Colonies
+0,Mansions of Madness: Second Edition - Horrific Journeys: Expansion
+0,Sleeping Gods
+0,Azul: Stained Glass of Sintra
+0,Return to Dark Tower
+0,Pipeline
+0,Concordia Venus
+0,Zombie Kidz Evolution
+0,Pax Pamir: Second Edition
+0,Project: ELITE
+0,Arkham Horror (Third Edition)
+0,KeyForge: Call of the Archons
+0,Between Two Castles of Mad King Ludwig
+0,Blitzkrieg!: World War Two in 20 Minutes
+0,Planet Unknown
+0,Everdell: Pearlbrook
+0,Project L
+0,Fall of Rome
+0,Camel Up (Second Edition)
+0,Scythe: Encounters
+0,Cloudspire
+0,Blackout: Hong Kong
+2,Wavelength
+0,Res Arcana
+0,Spirit Island: Jagged Earth
+0,Dominant Species: Marine
+0,Barrage: The Leeghwater Project
+1,Cartographers
+0,Draftosaurus
+0,Tainted Grail: The Fall of Avalon
+0,Mandala
+0,Glen More II: Chronicles
+0,In the Hall of the Mountain King
+0,Tiny Towns
+0,Unlock!: Heroic Adventures
+0,Babylonia
+0,Wingspan
+0,Clank! Legacy: Acquisitions Incorporated
+0,PARKS
+0,Paladins of the West Kingdom
+0,QE
+0,Suburbia: Collector's Edition
+0,Undaunted: Normandy
+0,Hadara
+0,The Taverns of Tiefenthal
+0,Twice as Clever!
+0,The Quacks of Quedlinburg: The Herb Witches
+0,The Lord of the Rings: Journeys in Middle-Earth
+0,Cooper Island
+0,Aeon's End: The New Age
+0,Silver & Gold
+0,Imperial Settlers: Empires of the North
+0,Century: A New World
+0,Dwellings of Eldervale
+0,The Castles of Burgundy
+0,It's a Wonderful World
+0,Disney Villainous: Wicked to the Core
+3,Feed the Kraken
+0,Star Wars: Outer Rim
+0,Root: The Underworld Expansion
+0,Root: The Exiles and Partisans Deck
+0,Bloodborne: The Board Game
+0,Terraforming Mars: Turmoil
+0,Watergate
+0,"Unmatched: Battle of Legends, Volume One"
+0,Unmatched: Robin Hood vs. Bigfoot
+0,Point Salad
+0,Maracaibo
+0,Underwater Cities: New Discoveries
+0,Dead Reckoning
+0,Love Letter
+0,Final Girl
+0,Anachrony: Infinity Box
+0,"Obsession: Upstairs, Downstairs"
+0,The Search for Planet X
+0,Unlock!: Timeless Adventures
+0,Etherfields
+0,Through the Ages: New Leaders and Wonders
+0,The Isle of Cats
+0,Dice Throne Adventures
+0,High Frontier 4 All
+0,Horrified
+0,Calico
+0,Dune
+0,Aquatica
+0,The Magnificent
+0,Trails of Tucana
+0,Marco Polo II: In the Service of the Khan
+0,The Crew: The Quest for Planet Nine
+0,Foundations of Rome
+0,Kanban EV
+0,Nova Luna
+0,Mind MGMT: The Psychic Espionage “Game.”
+0,Honey Buzz
+0,Disney Villainous: Evil Comes Prepared
+0,Unmatched: Jurassic Park - InGen vs Raptors
+0,Destinies
+0,Architects of the West Kingdom: Age of Artisans
+0,Marvel Champions: The Card Game
+0,Ankh: Gods of Egypt
+0,The 7th Citadel
+0,Tapestry
+0,Hansa Teutonica: Big Box
+0,Zombicide: 2nd Edition
+0,Azul: Summer Pavilion
+0,Res Arcana: Lux et Tenebrae
+0,Everdell: Spirecrest
+0,Everdell: Bellfaire
+0,Marvel Champions: The Card Game - Captain America Hero Pack
+0,Canvas
+0,Undaunted: North Africa
+0,Wingspan: European Expansion
+0,Unsettled
+0,SCOUT
+0,Gloomhaven: Jaws of the Lion
+0,Oath
+0,Dice Throne: Season One ReRolled
+0,Three Sisters
+0,The Great Wall
+0,Nidavellir
+0,King of Tokyo: Dark Edition
+0,Splendor: Marvel
+0,Unmatched: Cobble & Fog
+0,Long Shot: The Dice Game
+0,My City
+0,Unmatched Game System
+0,Frosthaven
+0,Distilled
+0,Cascadia
+0,Rococo: Deluxe Edition
+0,Viscounts of the West Kingdom
+0,Warp's Edge
+0,Fort
+0,Tekhenu: Obelisk of the Sun
+0,Kemet: Blood and Sand
+0,Marvel United
+0,Cubitos
+0,Golem
+0,PARKS: Nightfall
+0,The Lord of the Rings: Journeys in Middle-earth - Shadowed Paths Expansion
+0,Clash of Cultures: Monumental Edition
+0,Chronicles of Crime: 1400
+0,Hallertau
+0,Paleo
+0,Wingspan: Oceania Expansion
+0,Marvel Champions: The Card Game - Doctor Strange Hero Pack
+2,Top Ten
+0,Whistle Mountain
+0,Raiders of Scythia
+0,Forgotten Waters
+0,Pan Am
+0,Creature Comforts
+0,Bonfire
+0,Hadrian's Wall
+0,Endless Winter: Paleoamericans
+0,Merv: The Heart of the Silk Road
+0,Marvel Champions: The Card Game - The Rise of Red Skull
+0,Under Falling Skies
+0,Railroad Ink Challenge: Lush Green Edition
+0,Regicide
+0,Bullet♥︎
+0,Final Girl: The Happy Trails Horror
+0,Pax Renaissance: 2nd Edition
+0,Praga Caput Regni
+0,7 Wonders Duel: Agora
+0,Root: The Vagabond Pack
+0,Nemesis: Lockdown
+0,Carnegie
+0,Anno 1800: The Board Game
+0,Terraforming Mars: Big Box
+0,Frostpunk: The Board Game
+0,Lost Ruins of Arnak
+0,Pandemic Legacy: Season 0
+0,Meadow
+0,Massive Darkness 2: Hellscape
+0,Tapestry: Plans and Ploys
+2,Cartographers Heroes
+0,Twilight Imperium: Fourth Edition - Prophecy of Kings
+0,7 Wonders (Second Edition)
+0,The LOOP
+0,Dune: Imperium
+0,Beyond the Sun
+0,Dinosaur Island: Rawr 'n Write
+0,Furnace
+0,Imperium: Legends
+0,Imperium: Classics
+1,HITSTER
+0,MicroMacro: Crime City
+0,Everdell: Collector's Edition
+0,Pagan: Fate of Roanoke
+0,The King Is Dead: Second Edition
+0,Hegemony: Lead Your Class to Victory
+0,Darwin's Journey
+0,Descent: Legends of the Dark
+0,Bitoku
+0,The Crew: Mission Deep Sea
+0,ISS Vanguard
+0,Unmatched: Little Red Riding Hood vs. Beowulf
+0,The Adventures of Robin Hood
+0,Living Forest
+0,Caper: Europe
+0,My Father's Work
+0,Terraforming Mars: Ares Expedition
+0,Radlands
+0,Unconscious Mind
+0,Mosaic: A Story of Civilization
+0,Ultimate Railroads
+0,So Clover!
+0,Ticket to Ride: Europe - 15th Anniversary
+0,Carcassonne: 20th Anniversary Edition
+0,Root: The Marauder Expansion
+0,The Witcher: Old World
+0,Everdell: Newleaf
+0,Everdell: The Complete Collection
+0,John Company: Second Edition
+0,Revive
+0,Summoner Wars (Second Edition)
+0,Keep the Heroes Out!
+0,Verdant
+0,For Northwood! A Solo Trick-Taking Game
+0,Daybreak
+0,"Unmatched: Battle of Legends, Volume Two"
+0,Marvel United: X-Men
+0,Galaxy Trucker (Second Edition)
+0,Tyrants of the Underdark: Board Game
+0,Flamecraft
+0,Voidfall
+0,Brian Boru: High King of Ireland
+0,MicroMacro: Crime City - Full House
+0,Caesar!: Seize Rome in 20 Minutes!
+0,Slay the Spire: The Board Game
+0,Welcome to the Moon
+0,Res Arcana: Perlae Imperii
+0,Unfathomable
+0,Great Western Trail: Second Edition
+0,Lost Ruins of Arnak: Expedition Leaders
+0,La Granja: Deluxe Master Set
+0,Dune: Imperium - Rise of Ix
+0,Thunder Road: Vendetta
+0,Marrakesh
+0,Ark Nova
+0,Boonlake
+0,Mindbug: First Contact
+0,Federation
+0,Cat in the Box: Deluxe Edition
+0,Mille Fiori
+0,7 Wonders: Architects
+0,Azul: Queen's Garden
+0,Star Wars: Outer Rim - Unfinished Business
+0,First Rat
+0,Marvel Dice Throne
+0,Lacrimosa
+0,The Lord of the Rings: The Card Game - Revised Core Set
+0,Earth
+0,Wayfarers of the South Tigris
+0,The Guild of Merchant Explorers
+2,Ready Set Bet
+0,Tiletum
+0,Trio
+0,Trekking Through History
+0,Next Station: London
+0,Legacy of Yu
+0,Woodcraft
+0,Libertalia: Winds of Galecrest
+0,The Elder Scrolls: Betrayal of the Second Era
+0,Turing Machine
+0,Akropolis
+0,Andromeda's Edge
+0,Skymines
+0,Arkham Horror: The Card Game (Revised Edition)
+0,Arcs
+0,Twilight Inscription
+0,War of the Ring: The Card Game
+0,Azul: Master Chocolatier
+0,The Castles of Burgundy: Special Edition
+0,Great Western Trail: Argentina
+0,Splendor Duel
+0,Spirit Island: Nature Incarnate
+0,World Wonders
+0,Clank!: Catacombs
+0,Heat: Pedal to the Metal
+0,Wingspan Asia
+0,Scholars of the South Tigris
+0,Dune: War for Arrakis
+0,Sea Salt & Paper
+0,Dune: Imperium - Immortality
+0,Horizons of Spirit Island
+0,Endeavor: Deep Sea
+0,Let's Go! To Japan
+0,Life of the Amazonia
+0,Ark Nova: Marine Worlds
+0,Beer & Bread
+0,Dorfromantik: The Board Game
+0,Star Wars: The Clone Wars
+0,The White Castle
+0,Sky Team
+0,Star Wars: The Deckbuilding Game
+0,Expeditions
+0,Knarr
+0,Great Western Trail: New Zealand
+0,Unmatched Adventures: Tales to Amaze
+0,Lost Ruins of Arnak: The Missing Expedition
+0,Age of Innovation
+0,Barcelona
+0,Fromage
+0,The Vale of Eternity
+0,Kutná Hora: The City of Silver
+0,Faraway
+0,Ezra and Nehemiah
+0,Star Wars: Unlimited
+0,Ticket to Ride Legacy: Legends of the West
+0,Forest Shuffle
+0,Nucleum
+0,Pirates of Maracaibo
+0,Dune: Imperium - Uprising
+0,Apiary
+0,Civolution
+0,Wyrmspan
+0,Bomb Busters
+0,Harmonies
+0,Castle Combo
+0,SETI: Search for Extraterrestrial Intelligence
+0,The Lord of the Rings: Duel for Middle-earth
+0,The Fellowship of the Ring: Trick-Taking Game

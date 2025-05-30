@@ -1,5474 +1,5474 @@
-0,0
-1,1
-2,2
-3,3
-4,4
-5,5
-6,6
-7,7
-8,8
-9,9
-9,10
-10,11
-3,12
-11,13
-12,14
-3,15
-13,16
-14,17
-0,18
-15,19
-16,20
-17,21
-18,22
-2,23
-2,24
-17,25
-19,26
-20,27
-15,28
-21,29
-22,30
-23,31
-24,32
-25,33
-26,34
-12,35
-12,36
-27,37
-28,38
-0,39
-29,40
-30,41
-31,42
-9,43
-10,44
-8,45
-29,46
-3,47
-0,48
-26,49
-32,50
-33,51
-3,52
-34,53
-26,54
-3,55
-35,56
-36,57
-26,58
-17,59
-37,60
-38,61
-36,62
-39,63
-17,64
-40,65
-36,66
-41,67
-42,68
-43,69
-44,70
-13,71
-17,72
-45,73
-45,74
-45,75
-45,76
-45,77
-45,78
-45,79
-45,80
-45,81
-45,82
-11,83
-46,84
-47,85
-46,86
-0,87
-9,88
-48,89
-49,90
-21,91
-50,92
-21,93
-51,94
-0,95
-17,96
-52,97
-17,98
-53,99
-54,100
-55,101
-5,102
-56,103
-57,104
-58,105
-30,106
-39,107
-59,108
-14,109
-60,110
-0,111
-0,112
-10,113
-17,114
-0,115
-61,116
-48,117
-62,118
-63,119
-17,120
-64,121
-51,122
-3,123
-65,124
-3,125
-8,126
-9,127
-66,128
-12,129
-39,130
-8,131
-36,132
-67,133
-68,134
-69,135
-70,136
-71,137
-34,138
-72,139
-29,140
-9,141
-8,142
-73,143
-52,144
-69,145
-51,146
-8,147
-74,148
-75,149
-13,150
-76,151
-77,152
-29,153
-51,154
-29,155
-78,156
-31,157
-59,158
-58,159
-0,160
-8,161
-13,162
-17,163
-79,164
-9,165
-11,166
-28,167
-80,168
-81,169
-13,170
-82,171
-31,172
-3,173
-0,174
-9,175
-29,176
-83,177
-21,178
-17,179
-84,180
-11,181
-0,182
-8,183
-85,184
-86,185
-28,186
-8,187
-11,188
-9,189
-11,190
-87,191
-88,192
-9,193
-89,194
-29,195
-90,196
-4,197
-91,198
-33,199
-21,200
-9,201
-9,202
-92,203
-93,204
-94,205
-95,206
-96,207
-9,208
-17,209
-17,210
-35,211
-17,212
-17,213
-17,214
-97,215
-17,216
-98,217
-99,218
-17,219
-17,220
-100,221
-8,222
-26,223
-101,224
-17,225
-102,226
-103,227
-97,228
-36,229
-13,230
-104,231
-17,232
-17,233
-0,234
-36,235
-17,236
-9,237
-86,238
-0,239
-79,240
-105,241
-29,242
-106,243
-17,244
-107,245
-108,246
-43,247
-3,248
-13,249
-109,250
-110,251
-111,252
-17,253
-112,254
-17,255
-17,256
-4,257
-113,258
-37,259
-0,260
-37,261
-114,262
-115,263
-116,264
-35,265
-36,266
-117,267
-11,268
-118,269
-9,270
-81,271
-3,272
-119,273
-36,274
-120,275
-8,276
-17,277
-68,278
-121,279
-17,280
-98,281
-65,282
-3,283
-86,284
-31,285
-122,286
-9,287
-39,288
-36,289
-123,290
-33,291
-124,292
-125,293
-70,294
-3,295
-21,296
-73,297
-17,298
-26,299
-126,300
-127,301
-128,302
-4,303
-4,304
-9,305
-43,306
-9,307
-48,308
-125,309
-9,310
-81,311
-129,312
-68,313
-130,314
-3,315
-9,316
-131,317
-29,318
-9,319
-3,320
-36,321
-9,322
-57,323
-132,324
-8,325
-69,326
-36,327
-29,328
-68,329
-11,330
-90,331
-91,332
-133,333
-0,334
-59,335
-91,336
-134,337
-34,338
-135,339
-3,340
-136,341
-73,342
-51,343
-137,344
-32,345
-138,346
-139,347
-140,348
-39,349
-96,350
-3,351
-39,352
-42,353
-13,354
-17,355
-3,356
-43,357
-9,358
-9,359
-141,360
-33,361
-34,362
-3,363
-142,364
-86,365
-9,366
-42,367
-143,368
-85,369
-144,370
-145,371
-9,372
-11,373
-36,374
-17,375
-17,376
-0,377
-51,378
-51,379
-2,380
-17,381
-123,382
-36,383
-33,384
-11,385
-43,386
-9,387
-146,388
-76,389
-29,390
-33,391
-33,392
-11,393
-14,394
-123,395
-147,396
-33,397
-81,398
-47,399
-28,400
-148,401
-149,402
-91,403
-9,404
-48,405
-0,406
-86,407
-150,408
-91,409
-151,410
-0,411
-48,412
-14,413
-9,414
-152,415
-153,416
-9,417
-154,418
-11,419
-51,420
-43,421
-76,422
-29,423
-97,424
-10,425
-4,426
-155,427
-0,428
-42,429
-156,430
-129,431
-79,432
-17,433
-92,434
-29,435
-8,436
-157,437
-91,438
-158,439
-159,440
-36,441
-0,442
-114,443
-125,444
-11,445
-36,446
-160,447
-161,448
-162,449
-69,450
-29,451
-3,452
-69,453
-11,454
-13,455
-163,456
-164,457
-3,458
-34,459
-51,460
-165,461
-166,462
-167,463
-168,464
-169,465
-169,466
-68,467
-92,468
-31,469
-39,470
-42,471
-123,472
-55,473
-55,474
-67,475
-170,476
-86,477
-33,478
-74,479
-21,480
-171,481
-132,482
-119,483
-76,484
-70,485
-172,486
-35,487
-173,488
-11,489
-18,490
-39,491
-76,492
-92,493
-174,494
-20,495
-3,496
-10,497
-9,498
-43,499
-126,500
-43,501
-170,502
-43,503
-175,504
-34,505
-43,506
-36,507
-176,508
-8,509
-117,510
-177,511
-178,512
-179,513
-180,514
-181,515
-34,516
-20,517
-13,518
-34,519
-39,520
-20,521
-182,522
-129,523
-183,524
-17,525
-184,526
-185,527
-127,528
-31,529
-170,530
-4,531
-13,532
-185,533
-0,534
-186,535
-125,536
-11,537
-187,538
-43,539
-188,540
-48,541
-48,542
-9,543
-36,544
-34,545
-11,546
-189,547
-148,548
-190,549
-123,550
-75,551
-91,552
-11,553
-14,554
-121,555
-17,556
-47,557
-13,558
-191,559
-192,560
-193,561
-17,562
-194,563
-104,564
-195,565
-21,566
-11,567
-114,568
-196,569
-197,570
-198,571
-199,572
-3,573
-200,574
-21,575
-2,576
-201,577
-76,578
-202,579
-203,580
-37,581
-37,582
-204,583
-205,584
-32,585
-42,586
-35,587
-29,588
-188,589
-125,590
-206,591
-207,592
-60,593
-21,594
-125,595
-36,596
-208,597
-17,598
-17,599
-209,600
-210,601
-39,602
-211,603
-76,604
-212,605
-213,606
-214,114
-192,607
-215,608
-115,609
-216,610
-121,611
-36,612
-217,613
-218,614
-18,615
-43,616
-45,617
-219,618
-220,619
-9,620
-221,621
-26,622
-222,623
-164,624
-223,625
-112,626
-58,627
-112,628
-17,629
-194,630
-112,631
-18,632
-18,633
-68,634
-26,635
-39,636
-26,637
-214,638
-128,639
-46,640
-17,641
-98,642
-224,643
-225,644
-226,645
-158,646
-144,647
-217,648
-112,649
-17,650
-18,651
-227,652
-227,653
-227,654
-228,655
-9,656
-229,657
-230,658
-112,659
-112,660
-112,661
-231,662
-232,663
-17,664
-17,665
-39,666
-94,667
-139,668
-233,669
-234,670
-17,671
-76,672
-17,673
-185,674
-235,675
-236,676
-17,677
-46,678
-13,679
-237,680
-238,681
-192,682
-4,683
-116,684
-116,685
-239,686
-123,687
-240,688
-241,689
-3,690
-36,691
-242,692
-36,693
-243,694
-244,695
-245,696
-4,697
-96,698
-246,699
-247,700
-248,701
-125,702
-249,703
-250,704
-3,705
-42,706
-251,707
-47,708
-4,709
-18,710
-97,711
-252,712
-253,713
-254,714
-255,715
-112,716
-112,717
-17,718
-256,719
-47,720
-73,721
-257,722
-258,723
-123,724
-256,725
-104,726
-104,727
-98,728
-259,729
-260,730
-91,731
-0,732
-2,733
-39,734
-47,735
-261,736
-8,737
-17,738
-262,739
-263,740
-264,741
-17,742
-265,743
-266,744
-59,745
-0,746
-69,747
-267,748
-221,749
-4,750
-114,751
-36,752
-171,753
-268,754
-36,755
-33,756
-11,757
-42,758
-30,759
-20,27
-269,760
-117,761
-270,762
-28,763
-271,764
-94,765
-5,766
-272,767
-156,768
-91,769
-29,770
-162,771
-273,772
-174,773
-36,774
-9,775
-10,776
-130,777
-85,778
-46,779
-156,780
-121,781
-274,782
-275,783
-276,784
-277,785
-278,786
-279,787
-280,788
-281,789
-282,790
-283,791
-86,792
-42,793
-264,794
-284,795
-285,796
-119,797
-286,798
-8,799
-287,800
-52,801
-112,802
-45,803
-78,804
-185,805
-288,806
-289,807
-76,808
-47,809
-117,810
-31,811
-3,812
-43,813
-42,814
-14,815
-34,816
-290,817
-76,818
-91,819
-43,820
-51,821
-26,822
-41,823
-33,824
-92,825
-69,826
-43,827
-106,828
-8,829
-2,830
-291,831
-292,832
-293,833
-294,834
-4,835
-234,836
-17,837
-29,838
-295,839
-37,840
-73,841
-2,842
-200,843
-296,844
-297,845
-298,846
-43,847
-299,848
-13,849
-9,850
-300,851
-51,852
-47,853
-9,854
-17,855
-301,856
-302,857
-303,858
-3,859
-304,860
-264,861
-182,862
-305,863
-69,864
-29,865
-306,866
-117,867
-0,868
-9,869
-3,870
-128,871
-29,872
-52,873
-307,874
-9,875
-33,876
-209,877
-81,878
-308,879
-29,880
-307,881
-91,882
-58,883
-309,884
-30,885
-65,886
-309,887
-310,888
-311,889
-138,890
-125,891
-32,892
-3,893
-52,894
-17,895
-312,896
-112,897
-313,898
-85,899
-99,900
-123,901
-33,902
-314,903
-70,904
-17,905
-125,906
-233,907
-216,908
-315,909
-184,910
-3,911
-316,912
-33,913
-171,914
-162,915
-158,916
-138,917
-11,918
-9,919
-35,920
-34,921
-287,922
-317,923
-264,924
-91,925
-318,926
-264,927
-91,928
-138,929
-264,930
-319,931
-34,932
-299,933
-34,934
-3,935
-320,936
-125,937
-9,938
-34,939
-158,940
-9,941
-125,942
-69,943
-321,944
-17,945
-35,946
-322,947
-323,948
-26,949
-324,950
-91,951
-325,952
-90,953
-42,954
-36,955
-42,956
-42,957
-326,958
-327,959
-31,960
-31,961
-39,962
-9,963
-198,964
-33,965
-20,966
-51,967
-70,968
-5,969
-248,970
-328,971
-252,972
-329,973
-118,974
-3,975
-330,976
-69,977
-69,978
-331,979
-190,980
-26,981
-332,982
-333,983
-28,984
-334,985
-132,986
-128,987
-47,988
-335,989
-304,990
-336,991
-34,992
-330,993
-13,994
-189,995
-58,996
-337,997
-23,998
-90,999
-338,1000
-3,1001
-81,1002
-309,1003
-36,1004
-36,1005
-9,1006
-11,1007
-339,1008
-3,1009
-340,1010
-8,1011
-33,1012
-85,1013
-341,1014
-342,1015
-138,1016
-0,1017
-11,1018
-91,1019
-328,1020
-26,1021
-37,1022
-9,1023
-343,1024
-121,1025
-344,1026
-4,1027
-156,1028
-42,1029
-345,1030
-9,1031
-346,1032
-9,1033
-304,1034
-13,1035
-347,1036
-33,1037
-4,1038
-9,1039
-348,1040
-349,1041
-96,1042
-69,1043
-253,1044
-253,1045
-350,1046
-9,1047
-123,1048
-33,1049
-351,1050
-33,1051
-69,1052
-30,1053
-33,1054
-352,1055
-318,1056
-69,1057
-353,1058
-354,1059
-115,1060
-36,1061
-4,1062
-96,1063
-17,1064
-121,1065
-121,1066
-121,1067
-8,1068
-355,1069
-356,1070
-357,1071
-358,1072
-8,1073
-359,1074
-360,1075
-20,1076
-13,1077
-20,1078
-17,1079
-233,1080
-9,1081
-21,1082
-33,1083
-280,1084
-13,1085
-361,1086
-14,1087
-70,1088
-8,1089
-92,1090
-29,1091
-9,1092
-59,1093
-21,1094
-91,552
-9,1095
-280,1096
-30,1097
-362,1098
-363,1099
-364,1100
-129,1101
-47,1102
-21,1103
-365,1104
-21,1105
-94,1106
-76,1107
-47,1108
-366,1109
-47,1110
-47,1111
-47,1112
-43,1113
-14,1114
-39,1115
-367,1116
-24,1117
-188,1118
-59,1119
-33,1120
-11,1121
-43,1122
-11,1123
-36,1124
-348,1125
-234,1126
-8,1127
-33,1128
-30,1129
-34,1130
-33,1131
-9,1132
-9,1133
-171,1134
-58,1135
-9,1136
-368,1137
-369,1138
-242,1139
-162,1140
-35,1141
-21,1142
-185,1143
-252,1144
-115,1145
-3,1146
-3,1147
-321,1148
-126,1149
-18,1150
-370,1151
-371,1152
-189,1153
-10,1154
-242,1155
-46,1156
-28,1157
-316,1158
-36,1159
-18,1160
-3,1161
-372,1162
-3,1163
-36,1164
-373,1165
-374,1166
-39,1167
-8,1168
-375,1169
-376,1170
-377,1171
-125,1172
-17,1173
-378,1174
-74,1175
-17,1176
-46,1177
-17,1178
-17,1179
-43,1180
-43,1181
-86,1182
-42,1183
-30,1184
-379,1185
-10,1186
-105,1187
-377,1188
-125,1189
-380,1190
-318,1191
-125,1192
-119,1193
-81,1194
-81,1195
-381,1196
-11,1197
-382,1198
-9,1199
-233,1200
-383,1201
-162,1202
-90,1203
-8,1204
-384,1205
-191,1206
-28,1207
-11,1208
-18,1209
-226,1210
-123,1211
-48,1212
-377,1213
-17,1214
-17,1215
-221,1216
-125,1217
-51,1218
-385,1219
-47,1220
-386,1221
-387,1222
-17,1223
-17,1224
-17,1225
-8,1226
-388,1227
-4,1228
-39,1229
-17,1230
-389,1231
-390,1232
-391,1233
-28,1234
-28,1235
-28,1236
-392,1237
-393,1238
-394,1239
-395,1240
-17,1241
-14,1242
-46,1243
-47,1244
-396,1245
-348,1246
-51,1247
-397,1248
-69,1249
-398,1250
-76,1251
-399,1252
-185,1253
-185,1254
-185,1255
-185,1256
-11,1257
-14,1258
-400,1259
-13,1260
-380,1261
-401,1262
-73,1263
-402,1264
-302,1265
-43,1266
-17,1267
-345,1268
-403,1269
-86,1270
-123,1271
-404,1272
-103,1273
-39,1274
-405,1275
-217,1276
-406,1277
-407,1278
-28,1279
-408,1280
-409,1281
-13,1282
-237,1283
-13,1284
-410,1285
-411,1286
-185,1287
-41,1288
-8,1289
-247,1290
-249,1291
-412,1292
-39,1293
-103,1294
-171,1295
-76,1296
-413,1297
-45,1298
-36,1299
-17,1300
-414,1301
-21,1302
-21,1303
-17,1304
-17,1305
-17,1306
-17,1307
-86,1308
-415,1309
-17,1310
-416,1311
-123,1312
-417,1313
-4,1314
-35,1315
-13,1316
-414,1317
-13,1318
-45,1319
-72,1320
-13,1321
-13,1322
-414,1323
-418,1324
-58,1325
-19,1326
-8,1327
-70,1328
-389,1329
-13,1330
-17,1331
-419,1332
-420,1333
-421,1334
-26,1335
-26,1336
-74,1337
-75,1338
-3,1339
-422,1340
-3,1341
-423,1342
-76,1343
-424,1344
-21,1345
-425,1346
-195,1347
-426,1348
-28,1349
-427,1350
-51,1351
-26,1352
-223,1353
-191,1354
-47,1355
-17,1356
-428,1357
-36,1358
-51,1359
-156,1360
-21,1361
-14,1362
-18,1363
-51,1364
-429,1365
-17,1366
-17,1367
-17,1368
-17,1369
-17,1370
-17,1371
-17,1372
-17,1373
-266,1374
-267,1375
-46,1376
-267,1377
-328,1378
-430,1379
-25,1380
-4,1381
-4,1382
-431,1383
-17,1384
-432,1385
-366,1386
-433,1387
-36,1388
-434,1389
-435,1390
-436,1391
-437,1392
-31,1393
-125,1394
-76,1395
-349,1396
-97,1397
-438,1398
-349,1399
-165,1400
-51,1401
-18,1402
-349,1403
-21,1404
-18,1405
-18,1406
-191,1407
-191,1408
-304,1409
-117,1410
-21,1411
-439,1412
-440,1413
-28,1414
-28,1415
-441,1416
-24,1417
-97,1418
-377,1419
-185,1420
-359,1421
-97,1422
-26,1423
-185,1424
-442,1425
-28,1426
-443,968
-21,1427
-444,1428
-445,1429
-5,1430
-123,1431
-45,1432
-234,1433
-96,1434
-446,1435
-58,1436
-21,1437
-58,1438
-447,1439
-20,1440
-448,1441
-354,1442
-17,1443
-106,1444
-449,1445
-450,1446
-447,1447
-128,1448
-17,1449
-451,1450
-452,1451
-271,1452
-97,1453
-349,1454
-185,1455
-349,1456
-217,1457
-217,1458
-349,1459
-453,1460
-17,1461
-20,1462
-26,1463
-20,1464
-349,1465
-349,1466
-42,1467
-349,1468
-454,1469
-147,1470
-39,1471
-17,1472
-455,1473
-213,1474
-456,1475
-457,1476
-13,1477
-447,1478
-31,1479
-17,1480
-108,1481
-17,1482
-17,1483
-226,1484
-185,1485
-185,1486
-458,1487
-289,1488
-81,1489
-34,262
-185,1490
-17,1491
-17,1492
-17,1493
-17,1494
-17,1495
-17,1496
-17,1497
-17,1498
-17,1499
-17,1500
-17,1501
-17,1502
-17,1503
-17,1504
-17,1505
-17,1506
-17,1507
-17,1508
-17,1509
-349,1510
-17,1511
-459,1512
-226,1513
-28,1514
-123,1515
-460,1516
-69,1517
-147,1518
-461,1519
-4,1520
-421,1521
-26,1522
-462,1523
-26,1524
-421,1525
-421,1526
-26,1527
-415,1528
-26,1529
-26,1530
-28,1531
-75,1532
-132,1533
-463,1534
-276,1535
-384,1536
-42,1537
-174,1538
-464,1539
-174,1540
-28,1541
-164,1542
-26,1543
-465,1544
-92,1545
-92,1546
-21,1547
-26,1548
-26,1549
-26,1550
-222,1551
-26,1552
-330,1553
-104,1554
-213,1555
-102,1556
-123,1557
-21,1558
-154,1559
-75,1560
-75,1561
-253,1562
-18,1563
-39,1564
-217,1565
-466,1566
-467,1567
-432,1568
-468,1569
-469,1570
-468,1571
-24,1572
-19,1573
-470,1574
-185,1575
-217,1576
-28,1577
-106,1578
-73,1579
-128,1580
-123,1581
-99,1582
-24,1583
-123,1584
-43,1585
-264,1586
-252,1587
-471,1588
-472,1589
-472,1590
-473,1591
-472,1592
-91,1593
-14,1594
-41,1595
-252,1596
-13,1597
-104,1598
-104,1599
-474,1600
-475,1601
-46,1602
-41,1603
-21,1604
-128,1605
-26,1606
-476,1607
-92,1608
-51,1609
-51,1610
-13,1611
-477,1612
-396,1613
-478,1614
-39,1615
-1,1616
-21,1617
-396,1618
-479,1619
-18,1620
-480,1621
-34,1622
-481,1623
-3,1624
-138,1625
-473,1626
-76,1627
-76,1628
-76,1629
-79,1630
-171,1631
-191,1632
-482,1633
-8,1634
-123,1635
-128,1636
-321,1637
-171,1638
-171,1639
-69,1640
-79,1641
-483,1642
-484,1643
-76,1644
-73,1645
-390,1646
-485,1647
-486,1648
-487,1649
-488,1650
-489,1651
-421,1652
-490,1653
-128,1654
-491,1655
-46,1656
-139,1657
-491,1658
-99,1659
-181,1660
-492,1661
-14,1662
-181,1663
-46,1664
-46,1665
-21,1666
-3,1667
-65,1668
-493,1669
-494,1670
-25,1671
-14,1672
-495,1673
-486,1674
-496,1675
-463,1676
-81,1677
-497,1678
-33,1679
-103,1680
-498,1681
-11,1682
-8,1683
-499,1684
-500,1685
-123,1686
-17,1687
-139,1688
-150,1689
-501,1690
-318,1691
-502,1692
-20,1693
-347,1694
-503,1695
-91,1696
-39,1697
-322,1698
-128,1699
-42,1700
-42,1701
-29,1702
-42,1703
-29,1704
-29,1705
-233,1706
-76,1707
-65,1708
-214,1709
-504,1710
-505,1711
-29,1712
-209,127
-171,1713
-465,1714
-22,1715
-76,1716
-119,1717
-98,1718
-233,1719
-171,1720
-506,1721
-139,1722
-322,1723
-21,1724
-60,1725
-76,1726
-47,1727
-429,1728
-18,1729
-14,1730
-14,1731
-9,1732
-4,1733
-4,1734
-507,1735
-128,1736
-302,1737
-9,1738
-9,1739
-9,1740
-9,1741
-9,1742
-9,1743
-9,1744
-9,1745
-29,1746
-508,1747
-509,1748
-280,1749
-510,1750
-271,1751
-271,1752
-511,1753
-389,1754
-386,1755
-28,1756
-512,1757
-513,1758
-389,1759
-389,1760
-310,1761
-86,1762
-76,1763
-76,1764
-47,1765
-86,1766
-514,1767
-515,1768
-48,1769
-4,1770
-252,1771
-125,1772
-139,1773
-324,1774
-381,1775
-252,1776
-11,1777
-152,1778
-516,1779
-91,1780
-34,1781
-36,1782
-34,1783
-252,1784
-412,1785
-30,1786
-30,1787
-81,1788
-81,970
-33,1789
-517,1790
-21,1791
-76,1792
-21,1793
-21,1794
-518,1795
-345,1796
-519,1797
-290,1798
-290,1799
-520,1800
-521,1801
-322,1802
-522,1803
-310,1804
-9,1805
-389,1806
-186,1807
-26,1808
-48,1809
-523,1810
-389,1811
-290,1812
-517,1813
-17,1814
-524,1815
-214,1816
-18,1817
-525,1818
-18,1819
-384,1820
-31,1821
-119,1822
-11,1823
-384,1824
-11,1825
-349,1826
-97,1827
-233,1828
-233,1829
-349,1830
-349,1831
-349,1832
-349,1833
-349,1834
-349,1835
-349,1836
-31,1837
-526,1838
-123,1839
-22,1840
-91,1440
-11,1841
-267,1842
-39,1843
-68,147
-31,1844
-69,1845
-0,1846
-36,1847
-224,1848
-239,1849
-527,1850
-51,1851
-20,1852
-389,1853
-389,1854
-389,1855
-528,1856
-269,1857
-529,1858
-354,1859
-349,1860
-79,1861
-11,1862
-132,1863
-47,1864
-530,1865
-518,1866
-21,1867
-74,1868
-14,1869
-102,1870
-14,1871
-164,1872
-531,1873
-185,1874
-532,1875
-533,1876
-76,1877
-280,1878
-534,1879
-418,1880
-535,509
-536,1881
-96,1882
-31,1883
-537,1884
-46,1885
-400,1886
-538,1887
-539,1888
-539,1889
-131,1890
-237,1891
-540,1892
-26,1893
-13,1083
-13,1894
-13,1895
-17,1896
-24,1897
-237,1898
-185,1899
-46,1900
-51,1901
-47,1902
-541,1903
-542,1904
-28,1905
-432,1906
-26,1907
-26,1908
-26,1909
-543,1910
-544,1911
-53,1912
-545,1913
+0,Die Macher
+1,Dragonmaster
+2,Samurai
+3,Tal der Könige
+4,Acquire
+5,Mare Mediterraneum
+6,Cathedral
+7,Lords of Creation
+8,El Caballero
+9,Elfenland
+9,Bohnanza
+10,Ra
+3,CATAN
+11,Basari
+12,Cosmic Encounter
+3,MarraCash
+13,Button Men
+14,RoboRally
+0,Wacky Wacky West
+15,Full Metal Planète
+16,Gateway to the Stars
+17,Magic Realm
+18,Divine Right
+2,Twilight Imperium
+2,Battlemist
+17,Age of Renaissance
+19,Supremacy: The Game of the Superpowers
+20,Illuminati
+15,Terrain Vague
+21,Dark Tower
+22,Dark World
+23,Buffalo Chess
+24,Arkham Horror
+25,Federation & Empire
+26,Dragon Masters
+12,Runes
+12,Darkover
+27,Borderlands
+28,Can't Stop
+0,Tigris & Euphrates
+29,Airlines
+30,David & Goliath
+31,Perudo
+9,Medici
+10,Chinatown
+8,Krieg und Frieden
+29,Mamma Mia!
+3,Lost Cities
+0,Ricochet Robots
+26,Mighty Empires
+32,Brauerei
+33,Tikal
+3,Sophie's World
+34,Schoko & Co.
+26,Kings & Things
+3,Giganten
+35,Vinci
+36,Fossil
+26,Curse of the Mummy's Tomb
+17,Samurai: Game of Politics and Warfare in Feudal Japan
+37,Joan of Arc
+38,The Garden Game
+36,Löwenherz
+39,Conquest
+17,Successors: The Battles for Alexander's Empire (First/Second Edition)
+40,Bollox
+36,Big City
+41,Civilization
+42,Verräter
+43,Show Manager
+44,Apples to Apples
+13,Falling
+17,Air Baron
+45,"EastFront: The War in Russia, 1941-45"
+45,"WestFront: The War in Europe, 1943-45"
+45,MedFront: War in North Africa 1940-43
+45,VolgaFront: East of EastFront 1942-43
+45,"EuroFront: War in Europe, 1939-45"
+45,Bobby Lee: The Civil War in Virginia 1861-1865
+45,Sam Grant: The Civil War in the West 1862-1864
+45,Rommel in the Desert
+45,Quebec 1759
+45,Victory: World War II
+11,Torres
+46,Blue vs. Gray
+47,Star Wars: Episode 1 - Clash of the Lightsabers
+46,Paths of Glory
+0,El Grande
+9,Union Pacific
+48,Igel Ärgern
+49,Broadsides & Boarding Parties
+21,Conquest of the Empire
+50,Axis & Allies
+21,Fortress America
+51,Detroit-Cleveland Grand Prix
+0,Klunker
+17,Titan
+52,Extrablatt
+17,Colossal Arena
+53,Mystery Rummy: Jack the Ripper
+54,Peaceful Resistance
+55,TAMSK
+5,Wettstreit der Baumeister
+56,Auf Achse
+57,Rheinländer
+58,Condottiere
+30,"Plotters, Inc."
+39,Ransom
+59,I'm the Boss!
+14,Guillotine
+60,Ta Yü
+0,Modern Art
+0,Cosmolancer
+10,Hoity Toity
+17,Dune
+0,Quo Vadis?
+61,Green Thumb Cards
+48,Primordial Soup
+62,Money!
+63,The Really Nasty Horse Racing Game
+17,Princess Ryan's Star Marines
+64,Take it Easy!
+51,Iron Dragon
+3,Caesar & Cleopatra
+65,Frischfleisch
+3,Cape Horn
+8,Kontor
+9,Robin Hood
+66,Pass the Bomb
+12,Hoax
+39,Pit
+8,Andromeda
+36,Vino
+67,Wortelboer
+68,Elfenwizards
+69,Metropolis
+70,Trading Titans
+71,Crude: The Oil Game
+34,Die Glücksritter
+72,PitchCar
+29,Piratenbillard
+9,Mü & More
+8,Take 5!
+73,Union vs. Central
+52,Was sticht?
+69,Wildlife Adventure
+51,Eurorails
+8,Elfengold
+74,The Awful Green Things From Outer Space
+75,Balderdash
+13,"Before I Kill You, Mister Spy..."
+76,Black Box
+77,Black Death
+29,Dicke Kartoffeln
+51,Empire Builder
+29,En Garde
+78,Family Business
+31,Chess
+59,For Sale
+58,Formula Dé
+0,T-Rex
+8,What the Heck?
+13,Give Me the Brain!
+17,Advanced Civilization
+79,Mole Hill
+9,Nuba
+11,Pool Position
+28,Risk
+80,Hungry
+81,Stonehenge
+13,Devil Bunny Needs a Ham
+82,Split
+31,Go
+3,Die Siedler von Nürnberg
+0,Dolce Vita
+9,Nicht die Bohne!
+29,Fill or Bust
+83,Groo: The Game
+21,NASCAR Champions
+17,Kremlin
+84,HellRail: Second Perdition
+11,Buried Treasure
+0,Manhattan
+8,Entdecker
+85,The Rose King
+86,Targui
+28,Skworms
+8,Stephenson's Rocket
+11,Jalape-NO!
+9,Twitch
+11,Ex & Hopp
+87,Don Pepe
+88,Times to Remember
+9,Café International
+89,Tichu
+29,Atlanteon
+90,A la carte
+4,High-Bid
+91,Volle Hütte
+33,High Society
+21,Ikusa
+9,Space Beans
+9,Expeditions: Around the World
+92,History of the World
+93,Icehouse
+94,Isi
+95,Knightmare Chess
+96,Lunch Money
+9,King of the Elves
+17,Merchant of Venus
+17,Geronimo
+35,Serenissima
+17,Hannibal: Rome vs. Carthage
+17,Blackbeard
+17,Wooden Ships & Iron Men
+97,"Wagram: The Peace of Vienna, 5-6 July 1809"
+17,Britannia
+98,Age of Exploration
+99,Junta
+17,Advanced Squad Leader
+17,Circus Maximus
+100,Politika
+8,Gloria Picktoria
+26,Blood Royale
+101,Lifeboats
+17,Colonial Diplomacy
+102,The Battle of Borodino: Napoleon in Russia 1812
+103,Empires in Arms
+97,"Jena-Auerstadt: The Battle for Prussia, 14 October 1806"
+36,Mississippi Queen
+13,Kill Doctor Lucky
+104,Fluxx
+17,Atlantic Storm
+17,Starship Troopers: Prepare For Battle!
+0,Olympia 2000 (v. Chr.)
+36,Manitou
+17,Enemy in Sight
+9,Intrigue
+86,Tycoon
+0,Cheops
+79,Svea Rike
+105,It's Mine!
+29,Downtown
+106,Africa 1880
+17,Guerilla
+107,Extinction
+108,"La Guerre de l'Empereur: The Emperor's War, 1805-1815"
+43,Res Publica
+3,Catan Card Game
+13,The Very Clever Pipe Game
+109,Neue Spiele im alten Rom
+110,Ostindiska kompaniet
+111,Vikingatid
+17,Advanced Third Reich
+112,Lords of the Sierra Madre (Second Edition)
+17,Monsters Ravage America
+17,Machiavelli
+4,Bazaar
+113,Rossyïa 1917
+37,Chariot Lords
+0,Gold Digger
+37,Courtisans of Versailles
+114,Attacke
+115,Bamboleo
+116,Keydom
+35,Europa 1945-2030
+36,Medieval Merchant
+117,Stadens nyckel
+11,Lang lebe der König!
+118,De Bellis Antiquitatis: Quick Play Wargame Rules with Army Lists for Ancient and Medieval Battles
+9,Tutankhamen
+81,Campanile
+3,Forum Romanum
+119,Koalition
+36,Evergreen
+120,Der Fliegende Holländer
+8,Die Siedler von Catan: Historische Szenarien
+17,Candidate
+68,Santa Fe
+121,Arabana-Ikibiti
+17,Wizard's Quest
+98,Time Agent
+65,Landlord!
+3,Big Boss
+86,Highlanders
+31,Bagh Chal
+122,Chase
+9,The Mob
+39,Looney Leo
+36,Top It
+123,Scrabble
+33,The Mole in the Hole
+124,Tonga Bonga
+125,Anno 1452
+70,Ponte Vecchio
+3,CATAN: Seafarers
+21,Loopin' Louie
+73,Damn the Torpedoes!
+17,Russian Front
+26,Block Mania
+126,Vernissage
+127,Waterworks
+128,Advance to Boardwalk
+4,Breakthru
+4,Jumpin
+9,Circus Flohcati
+43,Bargain Hunter
+9,Quiddler
+48,Frank's Zoo
+125,Hong Kong
+9,Twins
+81,Classic Art
+129,Prairie Railroads
+68,Fishy
+130,Merchants of the Middle Ages
+3,Halunken & Spelunken
+9,Hattrick
+131,Trumpet
+29,Inkognito: The Card Game
+9,Stick 'Em
+3,Das letzte Paradies
+36,Ab die Post!
+9,Excape
+57,Bucket Brigade
+132,Quests of the Round Table
+8,Hare & Tortoise
+69,Elefantenparade
+36,Cat Blues
+29,Samarkand
+68,Tricks
+11,Viva Pamplona!
+90,Overthrone
+91,Relationship Tightrope
+133,5ive Straight
+0,El Grande: König & Intrigant
+59,Mystery Rummy: Murders in the Rue Morgue
+91,Schotten Totten
+134,Wrott & Swindlers
+34,Colorado County
+135,6 Billion
+3,DruidenWalzer
+136,Neighbors
+73,Lancashire Railways
+51,Express
+137,Polarity
+32,X Pasch
+138,Heimlich & Co.
+139,Turf Horse Racing
+140,TurfMaster
+39,Pirateer
+96,Corruption
+3,Finale
+39,Die Mauer
+42,Ocean
+13,Brawl
+17,Dinosaurs of the Lost World
+3,Kahuna
+43,Der dreizehnte Holzwurm
+9,Diskwars
+9,Wildlife Safari
+141,Tom Clancy's Politika
+33,Shanghai
+34,Gold Connection
+3,Elk Fest
+142,Worm Up!
+86,Meteo
+9,Zoon
+42,Dschungel
+143,D'raf
+85,Yukon Company
+144,Die Erben von Hoax
+145,Around the World in 80 Days
+9,Espresso
+11,A to Z
+36,Edison & Co.
+17,Rail Baron
+17,1830: Railways & Robber Barons
+0,1835
+51,1856: Railroading in Upper Canada from 1856
+51,1870: Railroading Across the Trans Mississippi from 1870
+2,Thunder's Edge
+17,The Battle of the Bulge
+123,Grass
+36,Galopp Royal
+33,Magalon
+11,Asterix: Das Kartenspiel
+43,Alhambra: The Card Game
+9,Take 5
+146,Shark
+76,Yucata'
+29,Canyon
+33,Master Labyrinth
+33,Scotland Yard
+11,Zoff in Buffalo
+14,Filthy Rich
+123,Um Reifenbreite
+147,Code 777
+33,Escape from the Hidden Castle
+81,Die Osterinsel
+47,Avalanche
+28,The Great Balloon Race
+148,Octi
+149,Beutelschneider
+91,Mummy Rummy
+9,Bohnanza: La Isla Bohnitâ
+48,Tante Tarantel
+0,Am Fuß des Kilimandscharo
+86,Jumbo Grand Prix
+150,Sherlock Holmes: The Card Game
+91,Ausgebremst
+151,Railway Rivals
+0,Freibeuter
+48,Esels-Rennen
+14,Magic: The Gathering
+9,Billabong
+152,Zankapfel
+153,Inkognito
+9,Bohnanza Erweiterungs-Set
+154,Dump
+11,In Teufels Küche
+51,Road to the White House
+43,Totem
+76,DungeonQuest
+29,Olé!
+97,Cold War
+10,Taj Mahal
+4,Mr. President
+155,The Broadway Game
+0,Citadels
+42,Bambuti
+156,Age of Arguments
+129,Carolus Magnus
+79,Sky Runner
+17,Diplomacy
+92,Stratego Legends
+29,Galloping Pigs
+8,Barnyard Buddies
+157,Power
+91,Stake Your Claim
+158,Pacal
+159,Warangel
+36,Web of Power
+0,Aladdin's Dragons
+114,Ave Caesar
+125,Time Pirates
+11,Dilemma
+36,Vampire
+160,Sufferin' Spirits
+161,Arbos
+162,MARK
+69,Dschungelrennen
+29,Bretonenboule
+3,Through the Desert
+69,Die Verbotene Stadt
+11,Goldener Drache
+13,The Big Cheese
+163,Cartel
+164,Blue Max
+3,The Reef
+34,Eschnapur
+51,Silverton
+165,Holiday!
+166,WarChest
+167,True Colors
+168,6-Tage Rennen
+169,Shark Bait
+169,Cat vs. Mouse
+68,Mush
+92,Axis & Allies: Europe
+31,Crokinole
+39,Desperados
+42,Pisa
+123,Abalone
+55,GIPF
+55,ZÈRTZ
+67,Charlemagne
+170,Entenrallye
+86,Merchants of Amsterdam
+33,Labyrinth: The Card Game
+74,N.Y. Chase
+21,Power Barons
+171,Visionary
+132,Ice Blocks
+119,Manager
+76,Dampfross
+70,Sisimizi
+172,Das Motorsportspiel
+35,Animocrazy
+173,Kaleidos
+11,Flohzirkus
+18,Buck Rogers: Battle for the 25th Century Game
+39,Aerodrome
+76,Barbarossa
+92,Battle Cry
+174,Bus
+20,Chez Geek
+3,La Città
+10,The Princes of Florence
+9,7 Safari
+43,Laguna
+126,Der weiße Lotus
+43,Metro
+170,Flußpiraten
+43,Silberzwerg
+175,Doolittle & Waite
+34,Die Seidenstraße
+43,Port Royal
+36,Wongar
+176,Quartier Latin
+8,Rage
+117,Maestro
+177,Terrain Game
+178,Papua
+179,Battle Cattle
+180,Grand Prix
+181,Devil Take the Hindmost
+34,Das Kollier
+20,Illuminati: Y2K
+13,Parts Unknown
+34,Protzen
+39,Field of Fire
+20,Tile Chess
+182,Kampf um Rom
+129,The El Grande Expansions
+183,Kardinal
+17,Up Front
+184,Sumera
+185,Wiz-War
+127,Mille Bornes
+31,Spades
+170,Favoriten
+4,Sleuth
+13,Escape from Elba
+185,Trolley Car
+0,El Grande: Grandissimo
+186,Stack 21
+125,Die Weinhändler
+11,Take Two
+187,Animal Poker
+43,Putsch
+188,Verrat!
+48,Banana Republic
+48,Pico 2
+9,Honor of the Samurai
+36,Siesta
+34,Ferkelei
+11,Knights of the Rainbow
+189,Ironman Football
+148,Kippit
+190,Overboard
+123,Rubik's Race
+75,Double Decker
+91,What's That on My Head?
+11,Alles Futsch
+14,MLB Showdown
+121,The Bottle Imp
+17,We the People
+47,25 Words or Less
+13,Change!
+191,Swashbuckler: A Game of Swordplay and Derring-do
+192,Quoridor
+193,Business
+17,War and Peace
+194,Royal Tank Corps
+104,Q-Turn
+195,Double Quick
+21,Daytona 500
+11,Cloud 9
+114,Elixir
+196,River Dragons
+197,Formula Motor Racing
+198,Blindside
+199,The Stock Car Championship Racing Card Game
+3,Hera and Zeus
+200,American Megafauna
+21,Oodles
+2,Deadlands: Doomtown Range Wars
+201,Shipwrecked
+76,Bosworth
+202,Pirate's Plunder
+203,Mystick Domination
+37,Vox Populi
+37,Thieves of Bagdad
+204,Fairy Meat
+205,Zero Down
+32,X-Net
+42,Shit!
+35,Castle
+29,Münchhausen
+188,Riffifi
+125,Where's Bob's Hat?
+206,Siege
+207,Shift
+60,Quackshot
+21,Stump
+125,Refugium
+36,Sternenhimmel
+208,Plague & Pestilence
+17,Starship Troopers
+17,Bull Run: The First Major Battle of the American Civil War
+209,Star Traders
+210,J.U.M.P. Into the Unknown
+39,4th Dimension
+211,Ninja Wars
+76,Would You Rather...?
+212,X-it!
+213,Minion Hunter
+214,Dune
+192,Quarto
+215,Timeline
+115,Monopoly: The Card Game
+216,Marrakesh
+121,Dr. Jekyll & Mr. Hyde
+36,Cabale
+217,Manchu: The Taiping Rebellion - 1852-1868
+218,Dubble Kross
+18,Singapore
+43,Timbuktu
+45,Wizard Kings
+219,Fibonacci
+220,The Big Idea
+9,Conspiracy
+221,Gother Than Thou
+26,HeroQuest
+222,Battle Masters
+164,A House Divided: War Between the States 1861-65
+223,Wabbit Wampage
+112,Roman Civil War
+58,Montgolfière
+112,Caesar in Gallia: Conquest on the Ancient Frontier
+17,Frederick the Great: The Campaigns of The Soldier King 1756-1759
+194,When Tigers Fight
+112,Holy War: Afghanistan
+18,Dragons of Glory
+18,Snit's Revenge!
+68,Elfenroads
+26,Blood Bowl (Third Edition)
+39,Nuclear War
+26,Talisman
+214,Escape from Colditz
+128,Pizza Party
+46,Galaxy: The Dark Ages
+17,Tyranno Ex
+98,Fast Food Franchise
+224,Oregon Trail
+225,Over the Edge
+226,The Uncanny X-Men Alert Adventure Game
+158,Chill: Black Morn Manor
+144,Triple Threat Baseball!
+217,Chinese Civil War: 1946-1949
+112,The Sun Never Sets: Three Campaigns of the British Empire
+17,Breakout: Normandy
+18,Escape from New York
+227,Don't Make Me Laugh
+227,Don't Make Me Laugh Jr.
+227,Strange But True?
+228,Hollywood's Reel Schpeel
+9,San Francisco
+229,Matheeno
+230,Ultimate Soccer of America
+112,Rio Grande:  The Battle of Valverde
+112,Trajan
+112,Germania
+231,Wicked Words
+232,War of Resistance
+17,"The Game of France, 1940: German Blitzkrieg in the West"
+17,Bitter Woods: The Battle of the Bulge
+39,Trax
+94,Dutch Mountains
+139,Shocks & Scares
+233,Minos
+234,Maul of America
+17,Panzerkrieg: von Manstein & HeeresGruppe Süd
+76,Domain
+17,Thunder at Cassino
+185,Black Vienna
+235,Lunatix Loop
+236,Balmy Balloonists
+17,Turning Point: Stalingrad
+46,Battle Line
+13,The Great Brain Robbery
+237,Formula C Minus
+238,Mad Gab
+192,Space Walk
+4,Regatta
+116,Keywood
+116,Keytown
+239,Star Trek Red Alert!
+123,Loot
+240,Kings and Castles
+241,Ausbrecher AG
+3,Beim Zeus!
+36,Buddel Bande
+242,Die Tafelrunde
+36,Remmi Demmi
+243,Auction America: The Trivia Game for Any Collector
+244,Big Battle
+245,Tabloid Teasers
+4,"Win, Place & Show"
+96,Letter Head
+246,Discretion
+247,Dog Eat Dog
+248,Maxi Bour$e
+125,Palermo
+249,Tales of the Arabian Nights
+250,Focus
+3,Terra Turrium
+42,Löwendynastie
+251,Megiddo
+47,Yahtzee Deluxe Poker
+4,Foil
+18,Dragonlance
+97,Shanghai Trader
+252,Flucht aus Mangrovia
+253,Ace of Aces: Handy Rotary Series
+254,The Hills Rise Wild!
+255,Camlyn's Destiny
+112,Crimean War Battles
+112,Taipei: China Invades
+17,Dragonhunt
+256,Thunder Road
+47,Buffy the Vampire Slayer: The Game
+73,West Riding
+257,Pipeline: The Oil Game
+258,Amoeba
+123,Rummikub
+256,Goosebumps: Terror in the Graveyard Game
+104,Aquarius
+104,Chrononauts
+98,2038: Tycoons of the Asteroid Belt
+259,Quacksalbe
+260,Axiom
+91,La Trel
+0,Carcassonne
+2,The Lord of the Rings
+39,Hijara
+47,Screaming Eagles
+261,Cartagena
+8,Attila
+17,Wizards
+262,Battle of the Bands
+263,FIB-OR-NOT?
+264,Schrille Stille
+17,For the People
+265,Chronology
+266,Election
+59,New England Railways
+0,Corsairs
+69,Razzia
+267,Circus Minimus
+221,Mausoleum
+4,Feudal
+114,Tip Tap
+36,Golf Masters
+171,Pop Belly
+268,...und tschüss!
+36,Doge
+33,Java
+11,"New York, New York"
+42,Titanic: Der Mythos
+30,Blindes Huhn
+20,Illuminati
+269,Scotland the Brave
+117,Weapons & Warriors:  Castle Combat Set
+270,Mage Knight
+28,Landslide
+271,"Lie, Cheat & Steal"
+94,Morisi
+5,Atlantis
+272,Bongo!
+156,Empires of the Ancient World
+91,Fire
+29,M
+162,Offline
+273,Pythago
+174,Roads & Boats
+36,Tennis Masters
+9,Troia
+10,Wyatt Earp
+130,Tacara
+85,Derby
+46,Ivanhoe
+156,Way Out West
+121,Der Garten des Sonnenkönigs
+274,Real Action Stockcar Championship
+275,Cranium
+276,Ad Mania
+277,Smuggle
+278,LifeLinks
+279,APBA Pro Baseball
+280,Stir Crazy
+281,Dear Abby
+282,Initial Reaction
+283,Movie Mania
+86,City
+42,Meuterer
+264,Hamster Roll
+284,Nightmare Productions
+285,Vagabondo
+119,Abilene
+286,Beheaded
+8,Tally Ho!
+287,Saturn
+52,Kunst Stücke
+112,Empires of the Middle Ages
+45,Pacific Victory: War in the Pacific 1941-45
+78,High Bohn
+185,Battle Platform Antilles
+288,Mystery of the Abbey
+289,Pete the Pirate
+76,Rack-O
+47,Ultimate Outburst
+117,Breakaway Rider
+31,Werewolf
+3,CATAN: Cities & Knights
+43,Lift Off
+42,Gerüchteküche
+14,The Great Dalmuti
+34,Böse Buben
+290,Corner
+76,Top Race
+91,New Orleans Big Band
+43,Die Kette von Saba
+51,Australian Rails
+26,The Fury of Dracula
+41,1825 Unit 1
+33,Enchanted Forest
+92,Star Wars: The Queen's Gambit
+69,Karawane
+43,Turbo Taxi
+106,Snail's Pace
+8,Ligretto
+2,Mag·Blast
+291,Nametrain
+292,Rolazone
+293,Trivia for Dummies
+294,Dao
+4,Twixt
+234,Four Dragons
+17,Football Strategy
+29,Pony Express
+295,Super Giant Monster Showdown
+37,Azteca
+73,PanzerZug
+2,Orcz
+200,Luftschiff
+296,Grapple
+297,ZOKI
+298,Contango
+43,The Gardens of the Alhambra
+299,Kapitän Wackelpudding
+13,Ben Hurt
+9,Kommissar X
+300,Seven Deadly Sins
+51,The Keep
+47,The Powerpuff Girls: Saving the World Before Bedtime
+9,Al Cabohne
+17,Amoeba Wars
+301,Tangoes
+302,Name Burst
+303,Corner the Market
+3,Babel
+304,Kingmaker
+264,Zapp Zerapp
+182,1848
+305,90 Grad
+69,Alcazar
+29,An den Ufern des Nils
+306,Auf Trab im Sulkydrom
+117,Svea Rike: Batalj
+0,Canaletto
+9,Panda Monium
+3,Corona
+128,Vendetta
+29,Cosmic Eidex
+52,Das Regeln Wir Schon!
+307,Der Feuersalamander
+9,Der Tiger ist los
+33,Die Erbraffer
+209,Die Hanse
+81,Die Schlangen von Delhi
+308,Diver
+29,Dream Team
+307,Die Magier
+91,Energie Poker
+58,Fief 2
+309,Finger weg von Mona Lisa
+30,Finito
+65,Fresh Fish
+309,Galaxis
+310,Le Gang des Traction-Avant
+311,Canyon: Grand Canyon
+138,Harun
+125,Himalaya
+32,Konzern
+3,Kraut & Rüben
+52,Lieber bairisch sterben
+17,TV Wars
+312,B-17: Queen of the Skies
+112,"Xenophon: 10,000 Against Persia"
+313,Squad Leader
+85,Speculation
+99,Deadlands: Doomtown
+123,Tantrix
+33,San Marco
+314,Dragon's Gold
+70,Pitstop
+17,Gunslinger
+125,Malawi
+233,Max.X
+216,MeM
+315,Momo
+184,Mutternland
+3,Orbit
+316,Pacific Northwest Rails
+33,Paule Panik
+171,Piratenpoker
+162,Pow Wow
+158,Rockets
+138,Sansibar
+11,Schraumen
+9,Vigo
+35,Zargos
+34,Ordino
+287,Head Quarter
+317,Shadows in the Forest
+264,Aztec
+91,Wat'n dat!?
+318,Der Schatz der Inka
+264,Big Bang
+91,Captain Future
+138,Baubylon
+264,Tokami
+319,Evolution
+34,Die Schlacht der Dinosaurier
+299,Invers
+34,Hexenjagd
+3,Das Gold der Maya
+320,Kaminett
+125,Der Schatz der Erdgeister
+9,Matschig
+34,Luftschlösser
+158,Feuer und Wasser
+9,YoYo
+125,Explosiv
+69,Die Goldene Eins
+321,Jolly Roger
+17,Assassin
+35,Mystery on the Nile
+322,Four Real
+323,Don't Give Up Your Day Job!
+26,Judge Dredd
+324,Downspin
+91,Check the Ripper
+325,Flying Carpet
+90,Kiezkönig
+42,Titus
+36,Nyet!
+42,Last Minute
+42,Kathai
+326,Taboo
+327,Botany Bay
+31,Poker
+31,Oh Hell!
+39,You're Bluffing!
+9,Silver Mine
+198,Dry Gulch
+33,Big Shot
+20,Car Wars: The Card Game
+51,Encounters
+70,Archimedes
+5,Halali
+248,Top Secret
+328,Organized Crime
+252,Road Warrior
+329,Quest For Power
+118,Domain: The Warlock's Challenge
+3,Die Siedler von Catan: Das Buch zum Spielen
+330,Army of Darkness
+69,Fantastische Ballonreise
+69,Ballonrennen
+331,Pass the Gas
+190,Sabotage
+26,Warrior Knights
+332,The Warlock of Firetop Mountain
+333,City of Chaos
+28,Shadowlord!
+334,Outrage! Steal the Crown Jewels
+132,Eagle Kingdoms
+128,Dragon Strike
+47,Lionheart
+335,"Money, Power, Respect"
+304,The Mystic Wood
+336,Nuts! To You
+34,Capitol
+330,Bram Stoker's Dracula: The Board Game
+13,Save Doctor Lucky
+189,Rus': Rise of Russia 200 BC - AD1584
+58,Evo
+337,Boom Town
+23,Perquackey
+90,Burp
+338,"Ciao, Ciao..."
+3,Delfino
+81,Dow Jones
+309,Flower Power
+36,Geisterstunde
+36,Trick 'r Treat
+9,Ricochet
+11,Lucky Five
+339,Millionenspiel
+3,Minister
+340,Movies and Money
+8,Die Ritter von der Haselnuss
+33,Sphinx
+85,Tendix
+341,Turmbau zu Babylon
+342,Tschau Knacki
+138,Walkabout
+0,Zug nach Westen
+11,Casablanca
+91,C'est la Vie
+328,The Fellowship of the Ring
+26,Chaos Marauders
+37,The King's War: The First English Civil War 1642-1646
+9,Continuo
+343,Card Caper
+121,Nanuuk!
+344,The Bottom Line
+4,Speed Circuit
+156,Cloudbusters
+42,Blink
+345,SET
+9,Hocus Focus
+346,Sagarian
+9,"Game, Set, Match!"
+304,The Sorcerer's Cave
+13,Witch Trial
+347,RallySport Board Game
+33,Luxor
+4,Venture
+9,Big Deal
+348,1851: Kentucky & Tennessee
+349,Pax Britannica: The Colonial Era 1880 to the Great War
+96,Cults Across America
+69,Race Through Space
+253,Nuclear Proliferation
+253,Nuclear Escalation
+350,Kommando
+9,Monkey Memory
+123,Mystery Garden
+33,The Secret Labyrinth
+351,Junior Labyrinth
+33,Labyrinth
+69,Looping
+30,Crossed Wires
+33,Fat Cats
+352,Gods
+318,Quest
+69,Babuschka
+353,Stonewall
+354,Maneuver
+115,Bandu
+36,Saludos Amigos!
+4,Facts in Five
+96,Once Upon a Time: The Storytelling Card Game
+17,Yellowstone
+121,So ein Zirkus
+121,Autoscooter
+121,Schlangennest
+8,"Right Turn, Left Turn"
+355,BattleGrid
+356,Cut and Run
+357,Split Second
+358,Meander
+8,Isis & Osiris
+359,Insecta
+360,Gangland!
+20,Hacker II: The Dark Side
+13,Safari Jack
+20,Hacker
+17,New World
+233,Pyramidis
+9,Limits
+21,Crack the Case
+33,Vegas
+280,Star Wars Episode I: Customizable Card Game
+13,Starbase Jeff
+361,Phase 10
+14,Pivot
+70,Rook
+8,Medina
+92,Axis & Allies: Pacific
+29,Knights
+9,Der Schattendieb
+59,Mystery Rummy: Jekyll & Hyde
+21,Polar Dare!
+91,What's That on My Head?
+9,Skip-Bo
+280,Star Wars Customizable Card Game
+30,Volltreffer
+362,Cue Me!
+363,221B Baker Street: The Master Detective Game
+364,Fish & Chips
+129,Dutch InterCity
+47,Jitters
+21,All The King's Men
+365,Shifti
+21,Input
+94,Octet
+76,Boggle
+47,Clue
+366,Pente
+47,Trivial Pursuit: Star Wars Classic Trilogy Collector's Edition
+47,Monopoly: Star Wars
+47,Trivial Pursuit: Genus IV
+43,Im Zeichen des Kreuzes
+14,Netrunner
+39,Cosmic Wimpout
+367,The Squirrel Game
+24,Credo!: the Game of Dueling Dogmas
+188,Ulysses
+59,Krakatoa
+33,Haunted Castle
+11,Confusion
+43,Die Magier von Pangea
+11,Auf Achse: Das Kartenspiel
+36,Nur Peanuts!
+348,1826: Railroading in France and Belgium from 1826
+234,Warhamster Rally
+8,Africa
+33,Plem Plem
+30,Auf falscher Fährte
+34,Blackrock Castle
+33,Magic Hill
+9,The Dog's Meow
+9,Catch the Match
+171,Chip-Chip Hurra!
+58,Cry Havoc
+9,Café International: Das Kartenspiel
+368,Wild Pirates
+369,MacGregor
+242,Contra
+162,Hyle
+35,Savannah Café
+21,Showdown Yahtzee
+185,Ancient Empires
+252,Boom-O
+115,Entdecker: Exploring New Horizons
+3,Gnadenlos!
+3,Eden
+321,Kuba
+126,Volldampf
+18,Dungeon!
+370,Doubloon Lagoon
+371,Crib Wars
+189,Mad Monks and Relics
+10,Genoa
+242,Crazy Race
+46,Simple GBoH
+28,Web of Gold
+316,"Atlantic, Chicago and Pacific Rails"
+36,Das Amulett
+18,Legend of Heroes
+3,Bali
+372,Time's Up!
+3,Zaubercocktail
+36,Willy Waschbär
+373,Hexen Rennen
+374,Play to Become a Millionaire
+39,Field Command
+8,Die Siedler von Catan: Historische Szenarien II
+375,Wit's End
+376,Pillage & Plunder
+377,Olix
+125,Grand National Derby
+17,Tuf
+378,Earthdefenders
+74,The Classic Dungeon
+17,Mustangs
+46,Rise of the Luftwaffe
+17,Midway
+17,Guadalcanal
+43,Serengeti
+43,Danger
+86,Odysseus
+42,Ebbe & Flut
+30,Jockey
+379,Pokémon Master Trainer
+10,Winner's Circle
+105,Pool Party
+377,Abenteuer im Wichtelwald
+125,Aber Hallo!
+380,Alarm
+318,Alaska
+125,Alles klar?
+119,Alles oder Nichts
+81,Auf Kurs
+81,Aura Poku
+381,Banking
+11,Basta!
+382,Ben Hur
+9,Crash Pilot
+233,Chicago
+383,Columbus
+162,Crash!
+90,Neolithibum
+8,Turn the Tide
+384,Strand-Cup
+191,Adventurer: A Game of Man to Man Brawling in the Far Future
+28,Monopoly
+11,Alcatraz
+18,Gammarauders
+226,Spawn: The Game
+123,Trouble
+48,"Fugger, Welser, Medici"
+377,Trendy
+17,Attack Sub
+17,Decathlon
+221,Rat Splatter
+125,Meridian
+51,Alibi
+385,Pylos
+47,Monopoly Express
+386,Lost Worlds
+387,Wadjet
+17,Storm over Arnhem
+17,Book of Lists Game
+17,Raid on St. Nazaire
+8,Lord of the Rings: The Search
+388,GRO: Battle for the Petri Dish
+4,Image
+39,Caesar: Epic Battle of Alesia
+17,War at Sea (Second Edition)
+389,Breakout!
+390,Der grosse Gallier
+391,Dealer's Choice
+28,4000 A.D.
+28,Billionaire
+28,Trust Me
+392,Scre-e-ech!
+393,Penguin Pile-Up
+394,Dinoquest
+395,Turtles
+17,Victory in the Pacific
+14,Alpha Blitz
+46,SPQR
+47,Canasta Caliente
+396,Cheater
+348,1841: Railways in Northern Italy
+51,Freight Train
+397,Kings Cribbage
+69,Jagd der Vampire
+398,Dimenticato
+76,Mhing
+399,Pain Doctors: The Game of Recreational Surgery
+185,RYB
+185,Rocketball
+185,"Run, Hamster, Run!"
+185,Peep War
+11,Sharp Shooters
+14,Earthquake
+400,Crazy Rummy
+13,Girl Genius: The Works
+380,Duo
+401,Wizard
+73,Rebel Rails
+402,Abduction
+302,Anybody's Guess
+43,Venezia
+17,Gangsters
+345,Five Crowns
+403,Barbarians: 70 BC - 260 AD
+86,Ohio
+123,Careers
+404,Entrepreneur
+103,Days of Decision II
+39,VI Caesars
+405,Towers of Wyoming
+217,Imperator
+406,Blind Ignorance
+407,Ubi
+28,Clue: The Great Museum Caper
+408,Domingo
+409,Plunder
+13,"Another Day, Another Dollar: Horror"
+237,Trailer Park Gods
+13,Deadwood Studios USA
+410,The Cigar Game
+411,Outpost
+185,Manic Minelayers
+41,1853
+8,Bohnanza Erweiterungs-Set (Revised Edition)
+247,Stash
+249,Imperium Romanum II
+412,Dino Hunt
+39,Paydirt
+103,World in Flames
+171,Zocken
+76,Masterpiece
+413,Hotel
+45,Mid-East Peace
+36,Bakschisch
+17,Conquistador: The Age of Exploration - 1495-1600
+414,Isis
+21,Broadside
+21,Dogfight
+17,Class Struggle
+17,Outdoor Survival
+17,Hexagony
+17,The Republic of Rome
+86,Yali
+415,Upwords
+17,USAC Auto Racing
+416,Ani-Mayhem
+123,Executive Decision
+417,Kult
+4,Monad
+35,Supremacy: Warlords and Pirates of the Neutral Zones
+13,Get Out
+414,Pharao
+13,Fight City
+45,Dixie: Bull Run
+72,PitchCar: Extension 1
+13,Bitin' Off Hedz
+13,Chief Herman's Holiday Fun Pack
+414,Ramses
+418,Dark Age: Feudal Lords
+58,Ritter ohne Furcht und Tadel
+19,Supremacy: Resource Deck Two
+8,Ghost Chase
+70,Jump!
+389,Formula 1
+13,Lord of the Fries
+17,C&O/B&O
+419,Het 1845 Spel
+420,Amro-Dam
+421,BattleTech
+26,Block Mania: Mega-Mania
+26,Calamity!
+74,Dragon Quest
+75,Beyond Balderdash
+3,Flowerpower
+422,Worlds of Heroes & Tyrants
+3,Janus
+423,Libero
+76,Password
+424,Chebache
+21,Sub Search
+425,Illuminati: New World Order
+195,Judge 'n' Jury
+426,Total Attack!! Soccer
+28,Dungeon Dice
+427,Tenjo
+51,Space Empires
+26,Rogue Trooper
+223,Wabbit's Wevenge
+191,Hero: A Game of Adventure in the Catacombs
+47,Clue Master Detective
+17,Rise and Decline of the Third Reich
+428,Avanté
+36,Mississippi Queen: The Black Rose
+51,Simply Cosmic
+156,Stockers!
+21,Space Crusade
+14,RoboRally: Armed and Dangerous
+18,Sirocco
+51,Sanctuary: Thieves World
+429,Situation 4
+17,Banzai
+17,Tactics II
+17,Gettysburg
+17,Gettysburg (125th Anniversary Edition)
+17,Source of the Nile
+17,RoadKill
+17,Wrasslin'
+17,Legends of Robin Hood
+266,London Cabbie Game
+267,Sicily: Triumph and Folly
+46,"Barbarossa: Army Group Center, 1941"
+267,"Burma: The Campaign in Northern Burma, 1944"
+328,The Hobbit Adventure Boardgame
+430,Bauernschlau
+25,Star Fleet Battles
+4,Stocks & Bonds
+4,Ploy
+431,ChessMage: Deck of the Myriad Shards
+17,Down with the King
+432,Federation Space
+366,Tension
+433,Nevo
+36,Streetcar
+434,Olympica
+435,StarGate: The Final Space Battle for Galactic Freedom
+436,Russian Roulette
+437,Ivy Towers
+31,The Royal Game of Ur
+125,Cortez
+76,The Mad Magazine Game
+349,Ambush!: Purple Heart
+97,Ambush!: Move Out!
+438,Blurt!
+349,Ambush!
+165,Creature Features
+51,The Worlds of Boris Vallejo
+18,Bullwinkle and Rocky Role Playing Party Game
+349,Ambush!: Silver Star
+21,Ghost Castle
+18,Remember the Alamo!
+18,Icebergs
+191,French Foreign Legion
+191,The Roaring 20's
+304,Decline and Fall of the Roman Empire
+117,Mutant Chronicles: Siege of the Citadel
+21,Strata 5
+439,Space Station Zemo
+440,Quest of the Magic Ring
+28,Pokémon Jr. Adventure Game: Pokémon Emergency!
+28,Krull
+441,XXXenophile
+24,Elric
+97,Air War: Modern Tactical Air Combat
+377,Galileo
+185,Barbarian Prince
+359,Shapeshifters
+97,Spies!
+26,Warhammer Quest
+185,Demonlord
+442,The Quest of the Philosopher's Stone
+28,Situation 7
+443,Archimedes
+21,Archie Bunker's Card Game
+444,Blockbusters
+445,Bounty
+5,Romeo und Julia
+123,Tipp-Kick
+45,War of 1812
+234,Maul of America: Chopping Maul
+96,Spammers
+446,Kan-U-Go
+58,Colonisator: The Twelve Planets' War
+21,The Lord of the Rings Adventure Game
+58,Vertigo
+447,Escape from the Casbah
+20,Coup
+448,Double Crossing
+354,Drinkers Wild
+17,Smokers Wild
+106,Space Pigs
+449,Police State
+450,Beat Detroit
+447,The Cattlemen
+128,Balance of Power
+17,"Napoléon: The Waterloo Campaign, 1815"
+451,Clue: Dungeons & Dragons
+452,Heisse Öfen
+271,Airport
+97,Battle Hymn
+349,Battle Hymn: Leatherneck
+185,Modern Naval Battles
+349,Mosby's Raiders: Guerilla Warfare in the Civil War
+217,Modern Naval Battles II: The Campaign Game
+217,Modern Naval Battles III
+349,Open Fire: Solitaire Tank Combat in WWII
+453,Ultimate Golf
+17,Naval War
+20,Illuminati: Brainwash
+26,Blood Bowl: DeathZone
+20,Knightmare Chess 2
+349,"The Peloponnesian War, 431-404 BC"
+349,Carrier: The Southwest Pacific Campaign - 1942-1943
+42,Elements
+349,Tokyo Express: The Guadalcanal Naval Campaign - 1942
+454,The Challenge
+147,Hot Property!
+39,Intern
+17,Kremlin: Revolution
+455,Spy vs Spy
+213,Red Empire
+456,Star Commander
+457,War of the Networks
+13,Unexploded Cow
+447,Whodunit
+31,Spoons
+17,Gladiator
+108,Little Round Top: The South's Best Chance at Gettysburg
+17,The Legend of Robin Hood
+17,Hundred Days Battles
+226,X-Men: Under Siege
+185,Star Smuggler
+185,Outpost Gamma
+458,Toscana
+289,Klondike
+81,Kula Kula
+34,Attacke
+185,Slapshot
+17,UFO: Game of Close Encounters
+17,Spices of the World
+17,Stellar Conquest
+17,Trireme: Tactical Game of Ancient Naval Warfare 494 BC-370 AD
+17,The Siege of Jerusalem (Third Edition)
+17,Richthofen's War: The Air War 1916-1918
+17,Showbiz
+17,Maharaja
+17,Moonstar
+17,Od
+17,Knights of the Air
+17,"Freedom in the Galaxy: The Star Rebellions, 5764 AD"
+17,Foreign Exchange
+17,Dark Emperor
+17,Dragon Pass
+17,Business Strategy
+17,Caesar's Legions
+17,Alpha Omega
+17,Bureaucracy
+349,A Nightmare on Elm Street: The Game
+17,Alexander the Great
+459,Summit
+226,"Mouse, Mouse!  Get Outta My House"
+28,Wide World
+123,Trap the Cap
+460,Tintin
+69,Bei Nacht und Nebel
+147,Iago
+461,Epicus
+4,Evade
+421,Talisman: The Adventure
+26,Talisman: Expansion Set
+462,Castle of Magic
+26,Talisman Dragons
+421,Talisman: City
+421,The Talisman: Dungeon
+26,Talisman: Timescape
+415,Monster Mash
+26,Heroes for Dungeonquest
+26,Dungeonquest: Catacombs
+28,Eyewitness Newsreel Challenge: A VCR Game
+75,A Question of Scruples
+132,Alien Hotshots
+463,Knots
+276,Jumanji
+384,Haps
+42,Im Märchenwald
+174,Kiek
+464,Fette Kühe
+174,Gossip
+28,Yacht Race
+164,Advanced Heroquest
+26,Advanced Heroquest: Terror in the Dark
+465,Fury of the Clansmen
+92,HeroQuest: Return of the Witch Lord
+92,HeroQuest: Kellar's Keep
+21,HeroQuest: Barbarian Quest Pack
+26,HeroQuest: Elf Quest Pack
+26,HeroQuest: Against the Ogre Horde
+26,HeroQuest: Wizards of Morcar
+222,Fireball Island
+26,HeroQuest: Adventure Design Kit
+330,Aliens
+104,Cosmic Coasters
+213,Asteroid
+102,Dawn of the Dead
+123,Sale of the Century
+21,Password Plus
+154,Divine Right: Scarlet Empire
+75,Dark World: Village of Fear
+75,Dark World: Dragon's Gate
+253,Berserker
+18,Knights of Camelot
+39,The Warlord Game
+217,Ancients
+466,The Creature That Ate Sheboygan
+467,Dark Cults
+432,King's Bounty
+468,Og
+469,Pentacle
+468,Phart!  The Dispersing
+24,Raiders and Traders: The Heroic Age of Greece
+19,Rollout: The Game of the Risk-Takers
+470,Space Race
+185,Star Viking
+217,VI Against Rome
+28,Risk: Édition Napoléon
+106,Risk Édition Napoléon: Extension Empire Ottoman
+73,Pampas Railroads
+128,Pay Day
+123,Battle Dice
+99,Warlord: Saga of the Storm
+24,Mythos
+123,Clean Sweep
+43,Zwickern
+264,Zopp
+252,Inklings
+471,The Piggyback Brigade
+472,Shrimpin'
+472,Witch Hunt
+473,Rally!
+472,Night of the Ill-Tempered Squirrel
+91,Chalet
+14,Dilbert: Corporate Shuffle
+41,Spanish Main
+252,Mississippi
+13,Devil Bunny Hates the Earth
+104,Icehouse: Black Ice
+104,Proton
+474,Z-G
+475,Grant Takes Command
+46,Wilderness War
+41,1829
+21,Trump: The Game
+128,Whatzit?
+26,Chainsaw Warrior
+476,Doomsday Cult 2000
+92,Risk 2210 A.D.
+51,Nippon Rails
+51,North American Rails
+13,Spree!
+477,The Willow Game
+396,Chill Out!
+478,Scrutineyes
+39,Solarquest
+1,Word Yahtzee
+21,"The Who, What or Where Game"
+396,Odd Ball
+479,Hurricane
+18,Battle of Britain
+480,Zocker
+34,Zock
+481,Würfel-Duell
+3,Wörtersee
+138,Wind City
+473,Mythrole: Merchants
+76,Insikt
+76,Hägar ruft zum Beutefest
+76,Foqus
+79,Hedbanz for Adults!
+171,Geni 2000
+191,Time War: A Game of Time Travel and Conflict
+482,Diamond City
+8,Doomtrooper
+123,Dragon Dice
+128,Dragonfire
+321,Avalon
+171,Tatort Titanic
+171,Expedition Robinson
+69,Astrotime
+79,Brainstorm
+483,Curse of the Idol
+484,Conquistador
+76,Jägersro
+73,Gold Train
+390,Dark Side
+485,Hurricane: The Game of the Tropics
+486,Babylon 5 Component Game System: Core Sets
+487,Isolation
+488,Pig Pile
+489,Moonshot the Game
+421,Arena: Morituri te salutant
+490,Armour Quest: Quæstro
+128,Atmosfear: The Harbingers
+491,Blazing Camels
+46,Cataphract
+139,Fireside Football
+491,How Much for the Camel?
+99,Legend of the Five Rings
+181,Office Politics
+492,Plateau
+14,Portal
+181,Traffic Lights
+46,War Galley: Naval Warfare in the Ancient World
+46,Salamis
+21,The American Dream Game
+3,The Starfarers of Catan
+65,Friesematenten
+493,13 Dead End Drive
+494,Maul of America: Raid on the Mall
+25,Star Fleet Battle Force
+14,Mad Scientist
+495,Robert Ludlum's Game of Counter Espionage
+486,Babylon 5 Component Game System: Reinforcements Pack #1
+496,International Movie Maker
+463,G.O.O.T.M.U.
+81,Nomadi
+497,Venice Connection
+33,Hollywood for Sale
+103,World Cup Tournament Football
+498,Transsib
+11,Im 7. Himmel
+8,Middle-earth
+499,Shuttles
+500,Stratego
+123,REM
+17,D-Day (3rd Edition)
+139,The Business Game
+150,Sovereign of the Seas
+501,MindTrap
+318,Maloney's Inheritance
+502,Krystal
+20,Munchkin
+347,Dark Continent
+503,Bushido Denied: The Battles of Bataan and Corregidor
+91,Anti-Monopoly III: Washington-Moskau
+39,Anti-Monopoly
+322,Anti-Monopoly II
+128,Key to the Kingdom
+42,Up & Down
+42,Puls
+29,Paparazzo
+42,Lao Pengh
+29,XXL
+29,Kismet
+233,Sindbad
+76,Sjörövarön
+65,Foppen
+214,This Game is Bonkers!
+504,Mogelei
+505,Ultimatum
+29,Ali Baba
+209,Robin Hood
+171,Pratmakarna
+465,Okänd planet
+22,The Mysteries of Peking
+76,Online
+119,Long Short
+98,Mystic War
+233,Kalahen
+171,Star Wars: Episod I - Kampen om Naboo
+506,Game of Dracula
+139,The Game of Nations
+322,Myst
+21,Last Word
+60,5 Alive
+76,Tribond
+47,Risk 'n' Roll 2000
+429,Campaign
+18,Mertwig's Maze
+14,RoboRally: Radioactive
+14,RoboRally: Grand Prix
+9,RoboRally: Crash and Burn
+4,Point Of Law
+4,Oh-Wah-Ree
+507,Bump
+128,Game of the Year
+302,Outburst Junior
+9,Das GROSSE und das kleine A
+9,Stamp
+9,Beutezug
+9,Tor
+9,Rasant
+9,Da Capo!
+9,Gold am Yukon
+9,Schwarzmarkt
+29,Black Spy
+508,Frontier-6
+509,Material World
+280,Overturn
+510,Spy Alley
+271,Emperor of China
+271,Outlaw Trail: The Western Game
+511,The Peter Principle Game
+389,The Great Canadian Pie
+386,Ace of Aces: Jet Eagles
+28,Stop Thief
+512,Troke
+513,Distant Seas: The Merchant Marine Game
+389,"Excuses, Excuses"
+389,Face Off
+310,Zargo's Lords: Magic Duels for World Power
+86,Tutankhamen's Revenge
+76,Utmaningen
+76,True or False
+47,Trivial Pursuit: Family Edition
+86,Magical Maze
+514,Spectrangle
+515,Titanic: The Board Game
+48,Primordial Soup: Freshly Spiced
+4,Jati
+252,Votum
+125,Verflixt und Zugesperrt
+139,Tweedledum: The New Adventures with Alice in Wonderland
+324,Top Banana
+381,Titanic
+252,Till Eulenspiegel
+11,Thrill
+152,Das Magische Hexagon
+516,The Gothic Game
+91,Tempo
+34,Tango
+36,Talking Stones
+34,Steinbeisser
+252,Spirit
+412,Frag
+30,Um Kopf und Kragen
+30,Der Schatz des Pharaos
+81,Sokrates
+81,Top Secret
+33,"Twinkle, Twinkle, Little Star"
+517,Starship Command
+21,Now You See It
+76,Reporter
+21,Eye Guess
+21,The Joker's Wild
+518,Time: The Game
+345,Triology
+519,Skirrid
+290,Barrier
+290,Trippples
+520,They're at the Post
+521,Shogun
+322,"Non-Violent, Politically-Correct War"
+522,Nomad
+310,Blue Stones
+9,Up the Creek
+389,Starships
+186,Target
+26,Life & Death & An American Chainsaw
+48,Pico
+523,The New Dungeon: Miniatures and Game Supplement
+389,Interaction
+290,Courier
+517,Starship Command II
+17,Civilization: West Extension Map
+524,Airline
+214,Probe
+18,A Line in the Sand
+525,Deal Me In
+18,The Great Khan Game
+384,Neues aus dem Wichtelwald
+31,Shogi
+119,"Teufel, Teufel!"
+11,Double
+384,Der Herr der Wichtel
+11,Büro Crazy
+349,Panzer Command: The Gateway to Stalingrad
+97,Sixth Fleet: Modern Naval Combat in the Mediterranean
+233,Murphy
+233,Restaurant
+349,Gulf Strike
+349,Hell's Highway: Operation Market Garden
+349,"Aegean Strike: Land, Air, and Sea Combat in the Eastern Mediterranean"
+349,NATO: The Next War in Europe
+349,Central America
+349,The Civil War 1861-1865
+349,Shell Shock!
+31,Checkers
+526,Sherlock Holmes: The Game of the Great Detective
+123,Elfer raus!
+22,Magic Dance
+91,Coup
+11,Das Letzte Kamel
+267,Stalingrad Pocket: The Wehrmacht's Greatest Disaster
+39,Legions of Steel
+68,Elfengold
+31,Mahjong
+69,4 First Games
+0,Waldmeister
+36,Caprice
+224,Middle Sea: Empires of the Feudal Age
+239,Heresy
+527,Online: Internet Card Game
+51,Myth Fortunes
+20,Orbit War
+389,Project CIA: The Secret Formula
+389,Project KGB: The Double Agent
+389,Speculate
+528,Sopwith
+269,Imperium: 3rd Millennium
+529,The Guru's Famous Baseball Game
+354,Starlord
+349,The Game of Good Cooking
+79,No Bluff!
+11,Nix für Ungut!
+132,"Duck, Duck, Bruce"
+47,Free Parking
+530,Cartino
+518,Scoop the Cash
+21,Illya Kuryakin
+74,221B Baker St.: Sherlock Holmes & the Time Machine
+14,Looney Tunes Trading Card Game
+102,The Sword and the Stars
+14,Vampire: The Eternal Struggle
+164,Shadowrun: The Trading Card Game
+531,Total Depth
+185,Amazons
+532,Overpower
+533,Warlords
+76,Crossbows and Catapults
+280,Young Jedi: Collectible Card Game
+534,Wildstorms
+418,Guardians
+535,Rage
+536,Rage (Second Edition)
+96,On the Edge
+31,Pachisi
+537,Quest for the Grail
+46,Crisis: Sinai 1973
+400,The X-Files Collectible Card Game
+538,Eldorado
+539,Time Vectors
+539,GRYB Game System
+131,UNO Hearts
+237,Ebola Monkey Hunt
+540,Domination
+26,Warlock
+13,Vegas
+13,Huzzah!
+13,Renfield
+17,London's Burning
+24,Stomp!
+237,Dingus
+185,Grav Armor
+46,Thunderbolt/Apache Leader
+51,Agent of Change
+47,Arch Rival
+541,Riddle of the Ring
+542,Finger-Flick Sports: Baseball
+28,Kimbo
+432,Robots!
+26,Tyranid Attack
+26,"Warhammer 40,000 (Third Edition)"
+26,Space Hulk
+543,Square Off
+544,Pokémon Trading Card Game
+53,Wyvern
+545,Jackpot Payoff
+17,Hitler's War
+535,Arcadia: The Wyld Hunt
+546,Bladder
+547,Stealth Chess
+31,4 Player Chess
+391,Coup d'État
+76,Willi Wacker
+0,Willi
+119,Schickeria
+119,Römer
+59,Musketeers
+46,Flagship: Prometheus Unchained
+31,Bridge
+119,Knallbonbon
+119,Ritter Kunibert's 12er Stich
+138,Dino
+138,Drachenlachen
+158,Hexenstich
+321,Pfusch
+532,Star Trek: The Card Game
+452,Hyano
+434,Rivets
+18,Food Fight
+434,Chitin: I
+548,Globbo!
+478,Out of Context
+123,Kensington
+549,Ergo
+4,Thinking Man's Golf
+65,Falsche FuFFziger
+550,Redemption
+21,Swahili
+252,Suppenkasper
+13,Kill Doctor Lucky: Craigdarroch
+21,The Lost World Jurassic Park Game
+21,Jurassic Park Game
+506,Land Grab
+551,The LogiQuad Game System
+354,Klondike
+354,The Last Spike
+20,Proteus
+47,eBay Electronic Talking Auction Game
+18,Revolt on Antares
+18,Saga
+18,They've Invaded Pleasantville
+18,Vampyre
+552,Columbus
+389,Forte
+553,Ion Glory
+389,Clobber!
+554,Top That!
+123,UNO
+555,Circus Imperium
+28,Bamboozle
+0,Greyhounds
+556,The Flea Market Game
+466,War of the Ring
+29,Spiel
+138,Ayanu
+29,Watch
+557,Wu Hsing
+558,Colliding Circles
+20,Chez Dork
+36,Ido
+559,Streets of Stalingrad
+430,Flying Circus
+17,PanzerBlitz
+430,4X4
+28,Mad Magazine Card Game
+560,Sex Maniacs
+254,Creatures & Cultists
+31,Yahtzee
+46,Zero!: The Rise and Fall of The Imperial Japanese Air Force Dec 1941 - June 1942
+379,Leverage
+357,The Sinking of the Titanic
+17,Midway
+561,Strat-O-Matic Baseball
+18,King of the Tabletop
+562,Touring
+17,Title Bout
+30,Kartenschach
+496,The Magnificent Race
+165,Weekend in Vegas
+17,The Stock Market Game
+17,Afrika Korps
+217,Blood and Iron
+563,Battles of Trenton and Princeton
+564,Mythology: A Game of Adventure in the Age of Heros
+217,Crusades II
+506,Isaac Asimov's Super Quiz
+195,Ultimate Stratego
+565,Gobblet
+39,Space: The Game
+26,Lost Patrol
+566,Oil Power
+235,Borderlands
+558,Creeper
+521,Aggravation
+85,Hopfen & Malz
+269,Airlines
+567,Lose Your Shirt
+568,Transformation
+415,Marco Polo
+123,Pictionary
+26,Blood Bowl Companion
+13,Flip
+13,Fight!
+26,Dark Future
+35,Blood Bowl Star Players
+26,"Elves, Dwarfs & Dungeonbowl"
+35,Blood Bowl (Second Edition)
+569,Good & Bad Ghosts
+570,Rubicon
+571,Heiße Karten
+572,Flinch
+69,Astérix et les Romains
+70,Bermuda Triangle
+13,U.S. Patent No. 1
+46,"Kasserine: Rommel's Battle for Tunisia, 1943"
+200,Lords of the Renaissance
+46,Invasion Sicily
+128,The New Dungeon!
+573,Bill Oddie's Great Bird Race Game
+574,Blast-Off!
+126,Knock Out
+322,Murder Mystery Party: Revenge in Rome
+575,Bewitched
+18,Greyhawk Adventures: Wars
+47,Atlantis: Pathways of the Deep
+369,Noah's Ark
+497,Cash
+76,Wild Life
+209,Ringgeister
+69,Off to the Tower
+163,Saratoga: 1777 - Burgoyne vs Gates
+430,X-Bugs
+43,Mückenstich
+576,Scrabble Junior
+11,Trade
+119,Worldbeater
+577,Letres
+123,Malefiz
+359,Last Frontier: The Vesuvius Incident
+39,Monotony
+578,Pirate and Traveler
+579,Starunner
+580,Energy Quest
+581,Medical Monopoly
+582,Spill and Spell
+32,Hacker
+21,Square Mile
+214,Rome & Carthage
+160,S.P.I.V.'s
+58,Droids
+3,Starship Catan
+51,HellRail: Third Perdition
+304,Confrontation
+21,Mystery Mansion
+28,Electronic Talking Mystery Mansion
+94,Titicaca
+83,Groo: The Game - Expansion Set
+583,DVONN
+33,Lotus
+69,Inspector Higgins
+500,Eureka
+584,Mbogo
+33,Treasure Quest
+585,Muscat
+28,Scan
+586,Last Frontier: The Artifact
+582,Scrabble Sentence Cube Game
+34,Nizza
+481,Schatztaucher
+481,Sekt oder Selters
+481,U.F.O.s
+28,Tower of the Wizard King
+587,Orient Express
+119,Black Monday
+321,Sunset Blvd.
+4,Quinto
+69,Haunted Wood
+465,Battlecars
+11,Fiasko
+588,Cows Can't Dance (But They Like to Be Asked!)
+589,Extra!
+406,Goal!
+119,Vendetta
+185,Yukk!
+590,Sequence
+97,The Wreck of the B.S.M. Pandora
+447,Kommissar
+591,Drachenfels
+592,Guesstures
+593,Gridiron Fantasy Football
+123,Scattergories
+594,Sea-Fleet
+4,Blue Line Hockey
+189,Safe Return Doubtful
+372,Sold! The Antique Dealer Game
+31,Chinese Checkers
+302,Huggermugger
+213,Dark Nebula
+31,Othello
+11,Race to Riches
+302,Risky Strategy
+123,Mastermind
+31,Xiangqi
+31,Dominoes
+595,Thoughtwave
+596,Ur: 1830 BC
+31,Backgammon
+31,Cribbage
+31,Senet
+597,The Brotherhood
+117,Globetrotters
+598,Ghoulash
+14,Go Wild!
+599,Sorcerer King
+31,Bezique
+600,Whosit?
+601,Sorry!
+602,Digimon Digital Monsters
+76,Duell
+121,Kanaloa
+506,Mount Everest
+603,Wordthief
+29,The High Kings of Tara
+408,Charge it!
+68,Rainbows
+123,Test Drive
+545,The Great American Auction Card Game
+604,Tell Me: The Grand Quiz Game
+17,Bismarck
+21,Boogey Man
+123,Battleship
+21,Hit the Beach
+21,Skirmish
+21,Battle-Cry
+21,Barnabas Collins Dark Shadows Game
+4,Phlounder
+21,Bargain Hunter
+35,Halloween Party
+560,Reminiscing: The Game For People Over Thirty
+560,"Murder, She Wrote"
+605,The Barons of Fyn
+605,"LNL: Laplace, Newton & Lagrange"
+605,Queen Victoria's Navy
+185,The Way
+185,Bones
+185,Tiles
+140,MotorChamp
+21,Carrier Strike!
+21,Chaseback
+606,Chopper Strike
+102,World War II: European Theater of Operations
+31,Kalah
+8,Lord of the Rings: Friends & Foes
+607,Deuce
+20,Slasher Flick
+123,Jenga
+438,Blokus
+51,India Rails
+8,The Hobbit: The Defeat of Smaug
+608,Torpedo Run!
+20,Battle Cattle: The Card Game
+174,Roads & Boats: Planes & Trains
+609,House of Horrors
+21,Scavenger Hunt
+102,Swords & Sorcery: Quest and Conquest in the Age of Magic
+610,Not Necessarily Rum
+611,Freeze Frame!
+21,Zillionaire
+21,Zero Zap
+612,Wildcatter
+471,The Extraordinary Adventures of Baron Munchausen
+613,Zombies!!!
+614,Grave Robbers from Outer Space
+125,Winkeladvokat
+615,Götterdämmerung
+20,Frag: Death Match
+0,Industrial Waste
+616,Kippour 1973
+12,Quirks
+617,Candidate
+20,Tribes
+222,Zaxxon
+18,Viking Gods
+74,Explore Europe
+618,Game of the States
+619,Flipop
+76,Why
+11,Casanova
+39,Chaos Tiles
+234,The Chicago Way
+81,Doctor Faust
+106,The Grand Alchemist
+39,Hispania
+28,Boggle Bowl
+384,Saloon
+384,Goldrush-City
+620,1-2-3 Go!
+621,Equate
+622,Express Chess
+623,Global Chess
+17,Global Survival
+434,Godsfire
+29,Massai
+384,Himmel und Hölle
+624,Liberté
+523,Caverns Deep
+625,Dark Heaven Apocalypse
+576,Playboss
+626,Sherlock Holmes Consulting Detective: The Thames Murders & Other Cases
+106,Charmed: The Book of Shadows
+627,Colony
+252,Skyline
+171,Pirate Island
+26,Man O' War
+74,Ulcers
+70,Quicksand
+18,Gammarauders: Revenge of the Factoids
+555,Renegade Legion: Interceptor
+13,Nexus
+276,General Hospital
+40,Jingo
+102,StarForce 'Alpha Centauri': Interstellar Conflict in the 25th Century
+518,Fort Worth Scene
+40,Rules of the Road
+18,Attack Force
+40,Good Guys 'n Bad Guys
+17,Flat Top
+439,Maelstrom: The Coming of Chaos
+26,Valley Of The Four Winds
+125,New York
+36,Kupferkessel Co.
+106,Stargate SG-1: La Vengeance d'Apophis
+35,Valley of the Mammoths
+628,Vabanque
+35,Draco & Co
+432,Viceroys
+48,Urland
+174,Beest
+171,Cosmic Cows
+9,Gargon
+42,Pompeji
+4,Contigo
+629,Elixir
+620,Emperor's Challenge
+42,Loopino
+630,Top Hats
+631,Snarf Quest
+632,Fire On The Suns: Tactical Command Fleet Book 1
+632,Fire On The Suns: Tactical Command!
+290,Bali
+138,Auf Fotosafari in Ombagassa
+42,Vom Kap bis Kairo
+504,Zündstoff
+28,Castle Risk
+350,Comeback
+23,Blockade
+28,Pollyanna
+106,Samurai & Katana
+9,Hot Dog
+29,Die Erbtante
+278,Who Stole Ed's Pants?
+42,Monsterjagd
+264,Pick Picknic
+43,Atlantic Star
+78,Mutabohn
+91,Quicksand
+123,"Rivers, Roads & Rails"
+39,Classic Warlord
+311,Samarkand: Isfahan
+182,Kampf um Rom: Das Kartenspiel
+397,Face-it
+11,Phase 10 Dice
+213,Arctic Front: Battle for Norway
+213,Persian Gulf: Battle for the Middle East
+633,Kismet
+47,Catch Phrase!
+39,18GA
+391,Code Name: Sector
+407,Trivial Pursuit: Game Show
+17,Cross of Iron: A Squad Leader Gamette
+42,Winhard
+545,Temptation Poker
+8,Carcassonne: The River
+634,Director's Cut
+123,Pass the Pigs
+11,Quadragammon
+635,Moon Dragon
+264,Villa Paletti
+21,Jurassic Park III: Island Survival Game
+70,Tank Battle
+432,Valkenburg Castle
+242,Gods
+59,Solitaire for Two
+280,The Lord of the Rings Trading Card Game
+114,Compatibility
+139,Tri-Tactics
+123,Dover Patrol
+70,Totopoly
+256,King Oil
+158,Das Störrische Muli
+185,Kardinal & König: Das Kartenspiel
+636,The HellGame
+39,18AL
+432,Intruder
+637,Babble-On
+9,Janus
+161,Knack den Code-X
+464,Westwärts
+464,Welt der Winde
+464,Schwimmer in der Wüste
+638,Claim
+36,Kontor: Das Exportlager
+264,Das Hornberger Schiessen
+86,Das Pferd von Troja
+9,Das Phantom
+639,Poisson d'Avril
+36,Der Kleine Riese Kasimir
+33,Ramses II
+109,Die Bombe
+125,Die Chinesische Mauer
+123,DOG
+549,Quo Vadis
+640,Finance and Fortune
+237,My Brain Is Bleeding
+269,Rome At War I: Hannibal at Bay
+46,"Clash of Giants: Campaigns of Tannenberg and the Marne, 1914"
+17,Panzer Leader: Game of Tactical Warfare on the Western Front
+641,Babylon 5 Collectible Card Game
+642,"Barbarian, Kingdom & Empire"
+643,Frontrunner
+18,Target: Libya
+171,Who Framed Roger Rabbit?
+21,Prize Property
+644,MediCumLaude
+645,Talk Show
+379,Spider Wars
+646,Infection
+65,Power Grid
+647,Wise and Otherwise
+28,Survive: Escape from Atlantis!
+42,Snap
+648,Hive
+471,Inferno
+649,Auweier
+649,Integralis: Die große Keilerei in der Buchbinderei
+649,Die VampirConnection
+21,Bid It Right: The Price is Right Card Game
+21,Small Soldiers Big Battle Game
+295,Super Giant Monster Showdown: Destroy Tokyo Tower
+295,Super Giant Monster Showdown: Cybernetic Attachments
+28,Push Over
+102,Russian Civil War 1918-1922
+112,A Mighty Fortress
+14,What Were You Thinking?
+302,Picture Picture
+132,Frog Juice
+8,Web of Power: The Vatican
+11,Cheeeese Please
+33,Der Herr der Ringe: Die Gefährten - Das Kartenspiel
+650,Hesketh's Legacy
+650,Coppertwaddle
+51,Demo Derby: Saturday Night at the Track
+252,Commercial Crazies
+466,Voyage of the B.S.M. Pandora
+443,Mouse Trap
+75,Stock Ticker
+651,Countdown
+652,Join us Together
+653,Acronym
+654,Baseball Card All Star Game
+655,Battlestar Galactica
+51,British Rails
+555,James Clavell's Shogun
+656,Lancer
+657,Black Beauty Downs
+658,Bottle Topps
+289,Donnerwetter
+53,Weatherslam
+387,Palenque
+659,Spice Navigator
+162,FrachtExpress
+249,Fire Team
+138,Rauchzeichen
+30,Schuss und Tor
+39,Renaissance Traders
+13,"Another Day, Another Dollar: Kung Fu"
+660,New Tactical Games with Dice and Cards
+123,Blazing Aces!: A Fistful of Family Card Games
+191,Attack of the Mutants!
+42,Alibi
+191,The Beastlord
+192,Quivive
+42,Buntbär & Co.
+310,Samarcanda: The Marvellous Adventures of Marco Polo
+555,James Clavell's Noble House
+13,"Another Day, Another Dollar: Space"
+13,"Another Day, Another Dollar: Musicals"
+98,Suzerain
+3,Der Herr der Ringe: Die Gefährten
+59,War! Age of Imperialism
+21,Connect Four
+191,Shooting Stars: A Tactical Game of Fighter Combat in Space
+304,Wembley
+406,Booze Cruise
+0,Dippi Totale
+191,Apache: A Game of the Old West
+249,Star Wars: Escape From The Death Star
+357,Crazy Clock Game
+443,The Generals
+661,Quadwrangle
+662,Upthrust
+28,Pole Position
+663,Stimmvieh
+663,Hossa!
+663,Hossa! Seefahrer-Erweiterung
+8,The Lonely Mountain
+9,The Gnumies
+51,More Cosmic Encounter
+248,Jumbo Jet
+20,Chez Geek 3: Block Party
+150,Wings: World War One Plane to Plane Combat 1916-1918
+191,Starfall
+664,SHOC
+665,WaveLength
+191,Asteroid Pirates: A Game of Ship to Ship Combat in the Asteroid Belts
+666,Airplay
+46,"Thirty Years War: Europe in Agony, 1618-1648"
+59,The American Civil War
+265,Imaginiff
+217,Lawrence of Arabia: The British Offensive - September-October 1918
+191,Combat Cards
+191,Demon's Run
+667,Clintonopoly!
+668,New America
+669,Alien Contact: Extraterrestrial Empires in Conflict
+191,Marine: 2002 - A Game of the First Lunar War
+163,Bridgette
+670,Havannah
+234,Knights of the Dinner Table: Orcs at the Gates
+234,Knights of the Dinner Table: Orcs - The Reckoning
+656,Alpha Playing Cards
+655,Touché
+90,Ein Arsch kommt selten allein
+39,Too Many Cooks
+123,Jeopardy!
+123,Snail's Pace Race
+86,Combo
+123,Stay Alive
+2,Maginor
+656,Mutant Chess
+402,Knights of the Dinner Table: HACK!
+328,The Battle of Five Armies
+176,Heavy Gear Fighter
+125,Safari
+421,Gondor: The Siege of Minas Tirith
+102,Sauron
+31,Tarock
+201,My Word!
+131,Vantage
+339,Thieves in the Wood
+671,Plague!
+31,Game of Goose
+69,First to Reverse
+69,Duck Pond
+69,Regentropfenspiel
+69,Baby Bird Game
+22,Coco Crazy
+69,The Hamsters
+672,Spinball
+20,Car Wars
+673,Quickely Dice
+674,Chez Geek 2: Slack Attack
+150,The Ironclads: Expansion Kit
+217,Arabian Nightmare: The Kuwait War
+150,The Ironclads: A Tactical Level Game of Naval Combat in the American Civil War 1861-1865
+91,Goldraub in London
+97,War in Europe
+32,Ave
+119,200 Jahre Montgolfieren
+185,Caravansérail
+17,U-Boat
+3,CATAN: 5-6 Player Expansion
+17,The Russian Campaign
+217,Star Force Terra #1: Contact!
+357,Checkpoint: Danger!
+17,Blind Justice
+17,Platoon
+447,Scrabble Duplicate Crossword Game
+408,Rapid Recall
+69,Chutes à gogo
+443,Crossfire
+2,Delta V
+252,UNO Attack!
+407,Trivial Pursuit: Genus 5
+161,Astromagie
+123,UNO Stacko
+414,Uräus
+110,Finish Lines
+156,Sixteen Thirty Something
+1,Jackpot Yahtzee
+414,Seneti
+414,Karnak
+414,Theben
+414,Talon
+414,Meander
+139,Great Western Railway Game
+40,Wanted!
+18,Dragonlance Mage Stones
+39,Ant Wars
+675,Loaded Questions
+676,Fair Play
+3,Heuchel und Meuchel
+655,Tennis
+188,TransAmerica
+8,Ketch Up
+98,Throneworld
+20,Star Fist
+19,Supremacy: The Unconventional Forces
+19,Supremacy: High-Tech Edge for Strategic Forces
+19,Supremacy: High-Tech Edge for Conventional Forces
+19,Supremacy: Fortuna
+19,Supremacy: Boomers - Ballistic Missile Subs
+19,Supremacy: Mega Map
+19,Supremacy: Mega Supremacy - Challenge of the New World Order
+432,Liftoff!
+69,Exploration
+375,Stare!
+677,BrewMaster: The Craft Beer Game
+678,Jungle Jam
+679,Mathable
+680,Destiny
+681,Piecepack
+682,Aquitaine: Strategy and the Medieval War Ride
+683,Mr. Bunny's Internet Startup Game
+684,The Great Downhill Ski Game
+337,Automania: The Game of the Motor Giants
+685,Kersplatt!
+686,The London Game
+18,The Baton Races of Yaz
+687,Eye
+688,Column
+689,The Fishing Game
+690,Kookaburra Game
+691,Terrace
+455,Siege
+692,Pentagonal
+103,Patton in Flames
+693,Mage Knight Dungeons
+79,ThinkBlot
+633,Encore
+107,Abstracts
+269,Panzer Grenadier
+694,The Book of Classic Board Games
+11,Pathfinder
+191,C.V.: A Game of the Battle of Midway
+9,The Yeti Slalom
+432,Starfire II
+695,Golem
+19,Supremacy: Main Battle Tanks
+432,Starfire
+432,Starfire III: Empires
+696,Imperial Starfire
+696,Starfire: New Empires
+185,Nanofictionary
+697,Strike It Rich
+47,In Pursuit
+698,Collect
+699,The Stock Exchange Game
+700,Philately
+2,GolfMania
+2,Twilight Imperium: Armada
+18,The Hunt for Red October
+269,John Prados' Third Reich
+200,"Pancho Villa, Dead or Alive!"
+47,Jurassic Park III: The Spinosaurus Chase Game
+555,James Clavell's Tai-Pan
+51,Power Lunch
+214,Point-Blank
+31,Hounds and Jackals: Game of the Pharaohs
+19,Supremacy: Neutron Bombs and Killer Satellites
+19,Supremacy: The Middle Powers
+51,Catan Card Game: Expansion Set
+18,File 13
+217,Age of Chivalry
+701,The Last Crusade
+18,Search for the Emperor's Treasure
+108,Highway to the Kremlin: Napoleon's March on Moscow
+76,The Game of Life
+702,Chairs
+703,Listen Up!
+447,Mr. Ree!:  The Fireside Detective
+357,The Dukes of Hazzard Game
+21,The Goonies
+641,Slasher: The Final Cut
+47,Monopoly: The .com Edition
+704,"The Game of Hoboken, New Jersey"
+705,New York in a Box
+31,Hnefatafl
+18,Ringside
+299,Square Dance
+299,Tashkent Domino
+706,Dice Run
+707,Diceland
+9,Zatre
+682,Fjord
+35,A Dog's Life
+708,Romance of the Three Kingdoms Card Game
+391,Admirals
+415,Lepanto
+9,Halli Galli
+125,Teufel nochmal!
+709,Pipeline
+500,Broker
+91,Kuh & Kompagnon
+17,Dune: Spice Harvest
+17,Dune: The Duel
+600,Morecambe & Wise Game
+248,Trivial Pursuit: Genus Edition
+147,Trivial Pursuit: Genus II
+19,Supremacy: Colonial Legions and Merchant Marine
+29,Mexica
+710,Dirty Minds: The Game of Naughty Clues
+28,Trivial Pursuit: The 1980's
+711,Let's Buy Hollywood
+447,Scrabble Word Rummy
+220,Camden
+162,Confusion: Espionage and Deception in the Cold War
+379,Inner Circle
+712,Stockmarket
+713,Underwriter
+69,Kendo
+682,Craonne
+714,Middleman
+132,Ka-Ching!
+39,Squatter
+123,Kojak Detective Game
+35,Fantasy Business
+70,Scoop
+17,Origins of World War II
+682,Men Against Fire
+715,Headlines
+22,Stratego 4
+582,Bionicle Adventure Game: Quest For Makuta
+276,The Simpsons Trivia Game
+181,Breaking Away
+716,Task Force
+491,Head to Head Golf
+13,Save Doctor Lucky on Moon Base Copernicus
+717,Train Raider
+97,Web and Starship
+288,Pirate's Cove
+97,Sticks & Stones
+14,Instinct
+321,Balanx
+718,Mandala
+719,Rythmo
+0,Carcassonne: Expansion 1 - Inns & Cathedrals
+267,Guderian's Blitzkrieg: The Drive on Moscow
+102,Sniper!
+0,Dodge City
+269,Soldier Kings: The Seven Years War Worldwide
+46,Reds! The Russian Civil War 1918-1921
+26,Gobbos' Banquet
+108,1806: Rossbach Avenged
+720,The Godfather Game
+721,Circuit
+39,Crash Tackle Rugby Board Game
+75,UNO Dice
+39,Chess for Three
+722,Pin Point
+117,Noteability
+39,Wicketz
+723,King of the Mountain
+354,Supermoney
+724,Group Therapy
+725,HiQue
+726,Claim
+213,"Stand & Die: The Battle of Borodino, 1941"
+727,Framed!
+214,The A-Team: B.A. Lends a Hand in the Race for the Formula
+1,Showdown Poker
+47,Monopoly: Looney Tunes
+501,Origins
+70,Clue VCR Mystery Game
+450,VCR 221B Baker Street
+163,Realm
+728,Questique
+729,The Book of Medieval Wargames
+730,Battle of Britain
+731,By Jove
+732,Sheffield Shares
+367,Baggage Claim
+733,Flightplan: The Airline Game
+734,Bus Boss
+47,Cluedo: Super Sleuth
+108,The Last Days of the Grande Armee: The Four Days of Waterloo
+735,Kung Fu 2100
+432,Escape from Altassar
+736,Rhombo Continuo
+432,Swordquest
+555,Star Trek: Starship Tactical Combat Simulator
+17,Panzergruppe Guderian
+432,Survival / The Barbarian
+140,TurfMaster Course Collection 1
+17,Air Assault on Crete / Invasion of Malta: 1942
+737,Pentantastar
+112,"Red Sun/Red Star: The Nomonhan Campaign, 1939"
+737,Rails Through the Rockies
+28,Trivial Pursuit: Millennium Edition
+112,Blood on the Tigris
+108,"Napoleon at Bay: Defend the Gates of Paris, 1814"
+91,How to Host a Murder: The Last Train from Paris
+51,Sim City: The Card Game
+108,Bonaparte in Italy
+217,Sideshow: The Campaign for German East Africa 1914-1918
+738,Counterstrike
+739,Warp 6
+184,Schaumermal
+357,Rebound
+740,Detour!
+46,Samurai: Warfare in the 16th Century Japan
+741,Pyramis
+17,March Madness
+742,CribbGolf
+47,Monopoly: Stock Exchange
+214,Zone X
+743,James Clavell's Shogun Card Game
+91,Komme Gleich
+744,Triangle Game
+269,Red Parachutes: Soviet Airborne Assault Across the Dnepr
+35,Blood Bowl
+26,Necromunda
+198,Just Wait
+21,Uncle Wiggily
+656,Hamlet!
+10,Puerto Rico
+39,The Game of Real Life
+744,Knockabout
+745,Dollars and Dibble
+746,RSVP: Vertical Crossword Game
+747,Rubik's Flip
+1,Deception
+17,Submarine
+76,Buccaneer
+288,Gang of Four
+256,The Omega Virus
+748,Catan: Das Kartenspiel
+749,Dallas
+332,Bounty Hunter: Shootout at the Saloon
+26,Doctor Who: The Game of Time & Space
+686,The Great Game of Britain
+750,Spritfresser
+751,Croak!
+123,Patch Worlds
+249,Star Trek: The Adventure Game
+752,Ascension at Firepeak
+596,1849: The Game of Sicilian Railways
+17,Verdict
+17,Gettysburg
+240,Backpacks and Blisters
+753,Der Berg ruft
+81,Banque Fatale
+70,Pitagoras
+152,Chamäleon
+125,Bronco Ranch
+33,Drei Chinesen mit dem Kontrabass
+754,Mömmen
+185,Goblin
+755,Starmada X
+756,Dragon Rage
+452,Daumen Drauf
+287,And They're Off!
+310,Empire: Triumphs and Humilations for Power
+606,Poleconomy
+26,Battlebikes
+757,Peasantry
+17,Desert War
+8,Haste Worte?
+758,Demono
+389,Succession
+759,Doctor Who Collectible Card Game
+162,Trüffeln Schnüffeln
+99,7th Sea Collectible Card Game
+178,Auf + Zu
+757,Age of Empires: Expandable Card Game
+35,Clippers
+348,1876: Trinidad
+348,1899
+506,Isaac Asimov presents Super Quiz II
+389,Isaac Asimov presents Super Quiz III
+13,Captain Park's Imaginary Polar Expedition
+760,The Card Game for Lovers
+761,GLE'X
+761,Z-Chess
+29,Anno Domini: Erfindungen
+34,Cairo
+36,Goldland
+11,Sixmix
+3,The Bucket King
+28,Willow
+21,High Hand
+9,Paroli
+0,El Grande: Grossinquisitor und Kolonien
+252,Mandarin
+762,La Strada
+76,Lost Valley of the Dinosaurs
+42,Taktvoll
+763,Star Fighter
+35,Star Wars: Starfighter Battle Book
+764,Fantasy Conflict
+8,Nautilus
+34,Lumberjack
+432,The Warriors of Batak
+40,All-Star Baseball
+457,The Home Stretch
+33,Zahltag
+434,Holy War
+217,Port Stanley: Battle for the Falklands
+434,Invasion of the Air-eaters
+26,Doom of the Eldar
+309,Rigatoni Intriganti
+30,Euro
+765,The Whole Brain Game
+766,Alexander's Generals: The Diadochian Wars 323-281 B.C.
+26,Horus Heresy (1993)
+252,Princess of Power Game
+21,Herself the Elf: Elf-Fun Game
+457,The World of Wall Street
+97,Titan Strike! Battle for the Moon of Saturn
+51,The ElfQuest Boardgame
+767,Quickit
+185,Battle for Armageddon
+125,Action Test
+768,Soundbytes
+769,Farkle
+727,Vanished!
+20,Car Wars (Fifth Edition)
+770,Travellers' Tour Through the United States
+771,The Famous Monarchs of England Card Game
+28,Clue Jr. Travel Game
+772,Bionicle: Quest For The Masks CCG
+40,BAS-KET
+773,Quixo
+125,Juwelenzauber
+125,Oxford: Cambridge Boat Race
+42,Dots
+9,Hydra
+11,Denkste!
+11,Kopf oder Knopf
+774,Hecht im Karpfenteich
+123,Ruslan and Liudmila
+8,Lord of the Rings: The Confrontation
+97,RAF
+775,Contack
+123,PRO-GRIDIRON
+384,Da geht was ab im Morgenland
+590,Respond!
+33,Dragonland
+17,Pennant Race
+183,Hekla
+430,UFO
+744,Pagoda
+17,Avalon Hill Game Company's Game of Trivia
+94,Smart
+776,The Three Stooges Trivia Game
+17,The Arab-Israeli Wars: Tank Battles in the Mideast
+114,Demonworld
+123,Lost World
+123,Nieznaika on the Moon
+777,Wizard of Oz's Emerald Town
+626,Sherlock Holmes Consulting Detective: Adventures by Gaslight
+35,Sherlock Holmes Consulting Detective: The Mansion Murders
+35,Sherlock Holmes Consulting Detective: The Queen's Park Affair
+778,Bowl Bound
+766,Sushi-Jalapeńo War
+779,Pueblo
+310,"The Game of Medici: Arms, Loves and Betrayals in XVth Century Europe"
+8,Tyros
+10,Die Sieben Weisen
+171,Fraggle Rock
+192,Ballast
+43,Dschunke
+390,WildLife
+249,Against the Reich
+310,Rally: Risk and Evaluation on All Roads in the Worlds
+780,Nessie Hunt
+781,Victory at Sea
+782,Jack The Ripper
+0,Clash of the Gladiators
+8,Wooly Wars
+783,Hype
+432,Cerberus: The Proxima Centauri Campaign
+102,Albion: Land of Faerie
+18,Planet Busters
+466,Citadel of Blood
+102,Rescue from the Hive
+18,Runngus' Game
+97,Barbarian Kings
+85,Beziehungskisten
+226,Perpetual Notion
+784,Carrott's Canny Captions
+785,Cash Flow
+560,King Tut
+759,Baywatch: The Game
+406,Alien Encounter
+786,Hoodwinked
+384,Gaukelspiel
+237,Little League Lunatics
+21,The Powerpuff Girls: Villains at Large Game
+787,Ukraine '43: The Soviet Summer Offensive Against Army Group South
+788,Crisis: A Twisted Laugh at Life
+112,NUTS! The Battle of the Bulge Card Game
+740,Alien Autopsy
+8,Pizarro & Co.
+192,Bunker Poker
+789,Clue: The Card Game
+13,Lamarckian Poker
+20,Battlesuit
+790,Great Walls
+791,Cat Attack
+616,Imperator
+792,Skittles
+793,Save Our Bureaucrats
+794,Capital Punishment
+795,Magi-Nation Duel
+123,Miss Universe
+796,Gulliver's Travel
+185,Web of Power: The Duel
+242,Kontor: 3 & 4 player expansion
+21,Star Wars: Epic Duels
+47,Star Wars: Jedi Unleashed
+797,Holocaust
+9,Vier auf einen Streich
+119,Odyssee
+3,Der Blaumilch-Kanal
+42,Maskenball Venezia
+119,Osiris
+798,Bloody Mary
+9,König Artus Tafelrunde
+11,Dumm gelaufen!
+3,Athos
+42,Plan-Cheroli
+42,Grabsch
+264,Schleck und weg!!
+32,In Dubio Pro Reo
+119,Die Druiden
+119,Denkste!?
+125,Machu Picchu
+125,Ostindien Company
+125,Im Rampenlicht
+120,Anticipation
+132,Hack Attack
+43,Wallenstein
+249,Air Cav
+125,Irono Ofubi
+799,Challenge the Zodiac
+17,1776: The Game of the American Revolutionary War
+76,Traverse
+9,Lügenbeutel
+125,Die LeuchtturmArchitekten
+46,Prussia's Glory: The Battles of Frederick the Great
+47,Royal Hearts
+3,Heave Ho!
+39,Neutreeko
+47,The Game of Life: A Jedi's Path
+8,Die Pyramiden des Jaguar
+304,Soccerboss
+730,Slapstick
+800,Railroader
+801,Chartbuster
+20,Frag: Fire Zone
+802,The Scotch Whisky Game
+39,Hans Dampf
+803,Peloton
+264,Die Perlen der Scheherazade
+42,Karmas
+804,Illegal
+783,Ganoven Jagd
+34,Hol's der Teufel
+9,Double Down
+36,Nimm's Leich!
+13,Diceland: Deep White Sea
+359,Hard Vacuum
+497,Burn Rate
+801,Soccerama
+76,Go For Broke
+51,Lone Wolf and Cub Game
+605,Admiral on Deck
+805,Sea-Life
+8,Solo
+46,Santa Fe Rails
+91,Die Safeknacker
+69,Schaska
+86,Wer ist der Täter?
+35,Gouda! Gouda! Cat Attack
+471,WW2: Barbarossa to Berlin
+217,Tide of Fortune
+198,Junk Yard
+432,Musketeers
+36,Wie Hund und Katz!
+36,Affenraffen
+31,Anagrams
+806,Lexicon
+807,Fast Freddy's Hong Kong Dice Game
+152,Tripjat
+626,Gumshoe
+808,Das Zeitungsspiel
+809,Trödeln
+102,John Carter: Warlord of Mars
+91,Connections
+128,September
+810,Zamix
+125,San Gimignano
+147,Scrabble Crossword Cubes Game
+811,"Kaos, The Game"
+51,The Company War
+812,20 Questions
+28,The Inventors
+813,The Amazing Spider-Man Game
+75,ReBoot Mainframe Game
+814,Chancer: The Game
+139,Sharpe's Attack
+197,Mahé
+26,Kerrunch
+47,Stratego: Star Wars
+106,Snowboard
+106,Bill: Le jeu
+37,Castle Lords
+582,Friends
+106,Loft Story
+21,Outlaw & Posse
+794,Public Assistance
+379,Monopoly: The Simpsons
+815,Cross Over
+816,Chiamo!
+816,Kooky Kalooki
+816,Eye of Horus
+816,SeaNochle
+158,Undercover
+817,Modigliani
+818,Rise and Fall
+9,The Legend of Landlock
+372,Tin Soldiers
+29,Lines of Action
+39,Key Whiz
+46,This Accursed Civil War
+46,The Napoleonic Wars
+125,Halleluja
+267,Drive on Paris
+46,Brandywine
+46,Saratoga
+267,"Yom Kippur: The Battle for the Sinai, October, 1973"
+139,The Mystic Wood Extension Kit
+267,Fallschirmjaeger: The Airborne Assault on Fortress Holland
+703,Tribulation
+472,Danger Guy
+819,Star Trek: The Game
+280,Tip the Cows!
+94,StreetSoccer
+114,Fantasy
+820,Equations
+821,Skunk
+560,Give Us A Clue
+655,Blockhead!
+60,Save The World
+60,The Party Game
+83,The Three Stooges Card Game
+60,The Idiot Box
+76,PSI
+822,ESP
+816,Golden Deuce
+114,Zwergen Ziehen
+34,Schatzsucher
+39,Gogol
+823,Shendao
+824,HeroClix
+447,Quip Qubes
+152,Marino
+825,Politrics
+826,Royal Comette
+826,Playing Shakespeare
+39,Game Spice: Monopoly Expansion (fan expansion for Monopoly)
+826,The Game of Maze
+31,Hazard
+21,The Dickens Game
+827,Coffee!
+29,Emerald
+828,The Zodiac Game
+826,Ludus Romanus
+826,Runestone
+829,The Hieroglyphs Game
+830,Tabula
+826,The Celtic Game
+165,Major Battles and Campaigns of General George S. Patton
+831,Kaubojai
+707,OrkoMondo
+831,Savana
+97,Wizard
+97,Melee
+434,Black Hole
+434,WarpWar
+108,Star Quest
+24,Panzer Pranks
+289,China Topf
+17,Le Mans
+832,Plagio
+70,RisiKard!
+833,Sandsplatters
+834,Shadowfist
+835,Shadowrun: DMZ Downtown Militarized Zone
+836,Killer Instinct
+833,Nemesis
+17,Past Lives
+9,Pinocchio
+35,Armada
+70,Anno Domini
+192,Bataclan
+14,BattleTech TCG
+14,C-23
+837,Derby
+833,Dragon Ball: Alla ricerca delle Sette Sfere
+838,Dragon Storm
+390,Ferrari F1
+839,Gran Gol
+9,Harry Potter Trading Card Game
+70,Il gioco del campionato
+70,Il gioco della Formula Uno
+840,3-D Chess
+841,Schmuggler an Bord
+70,Fantasy
+842,Star of the Guardians
+843,Star Quest
+844,Super Deck!
+390,Super Pippo
+833,D3 Time Warriors
+8,By Golly!
+9,Hold Everything!
+447,Alfreds Other Game
+123,Battle of the Sexes
+668,The Christmas Game
+226,Doorways to Adventure
+86,Electronic Stratego
+483,Game of Knowledge
+633,"Men Are from Mars, Women Are from Venus"
+214,Option
+70,Tornado Rex
+59,Napoleon in Europe
+845,Millionary
+846,U.E.F.A.
+40,Your America
+276,LCR
+217,Decision At Kasserine: Rommel's Last Chance
+847,Geeks: The Convention
+848,Act One
+310,Iliad: The Most Renowned War Legend
+195,Priceless
+47,Vampire Hunter
+849,Stars On Stripes Football Game
+102,The Return of the Stainless Steel Rat
+102,Damocles Mission
+102,Arena of Death: Heroic Combat in the Fantasy World of DragonQuest
+466,Star Trader
+102,Nightmare House
+850,1-2-3 OY!
+850,A-B-C OY!
+37,Gnome Tribes
+106,Largo Winch
+850,Tic Tac Chec
+850,Noble Celts
+851,XIII: Le Complot
+106,Spider-Man
+707,Antagon
+407,Trivial Pursuit Mini Pack: Flicks
+355,The Mage's Triangle
+269,Survival of the Witless
+852,Assault on Hoth: The Empire Strikes Back
+26,Superpower
+518,Stock Market Specialist
+163,Infinity
+37,Close Action: The Age of Fighting Sail Vol. 1
+76,Rich Uncle
+661,Stick Around
+39,Mime Smashing
+853,Steppe
+318,Quizzard
+97,Ice War
+434,Ram Speed: Naval Warfare in the Bronze Age
+51,Theophrastus
+26,The Lord of the Rings: The Fellowship of the Ring
+463,Programmer's Nightmare
+26,Mordheim: City of the Damned
+4,Thinking Man's Football
+47,Roller Coaster Tycoon
+21,Stage II
+69,Robin Hood
+264,Chicken Cha Cha Cha
+102,Spitfire: Tactical Aerial Combat in Europe 1939-42
+102,Invasion: America - Death Throes of the Superpower
+112,Napoleon at Waterloo
+102,Tank! Armored Combat in the 20th Century
+102,The Plot to Assassinate Hitler
+112,Operation Olympic: The Invasion of Japan 1 November 1945
+102,Terrible Swift Sword: Battle of Gettysburg Game
+21,BattleBots: Kickbot Arena
+854,Numero
+242,Zock!
+46,"Lion of the North: The Dawn of Modern Warfare, 1631-1632"
+91,Rennfieber
+31,Zon Ahl
+102,World War 3: 1976-1984
+102,Sorcerer: The Game of Magical Conflict
+350,Sherlock
+89,Schicksack
+855,Mind Mover 3
+28,Beast Wars Transformers Mutating Card Game
+213,Campaign Trail: The Game of Presidential Elections
+856,Cribb Derby
+182,Konradin oder Interregnum
+35,Star Wars: Star Warriors
+249,Star Wars: Battle for Endor
+201,Squint
+620,Take 4
+561,Strat-O-Matic Hockey
+73,Tracks to Telluride
+857,Link
+213,Fifth Frontier War
+858,MegaNation
+17,Kriegspiel
+213,The Normandy Campaign
+859,Mamba
+213,The Third World War: Battle for Germany
+17,Shakespeare
+17,Dauntless
+17,Air Force
+17,Crescendo of Doom: A Squad Leader Gamette
+17,Word Power
+860,Backgammon 4
+861,Pro Football Fantasm
+213,Air Superiority
+213,Air Strike
+102,"Agincourt: The Triumph of Archery over Armor, 1415"
+555,BattleTech: Battleforce
+25,Operation Pegasus
+766,The World at War
+29,Chain Reaction
+73,TrainSport: Austria
+757,eBay: The Card Game
+252,Survivor
+2,Drakon Expansion 1
+97,DeathMaze: Heroic Adventure in the Corridors of Doom
+102,Demons: The Game of Evil Spirits
+862,Chaostle
+43,Freche Frösche
+863,Start Your Own Riot!
+864,Dragon War
+289,Flinke Flitzer
+865,Foodie Forest
+59,Sid Meier's Civilization: The Boardgame
+866,Iberos: Overlords of the Ancient Peninsula
+407,Trivial Pursuit: Country Music
+784,SongBurst 50's & 60's Edition
+213,Triplanetary
+210,Ultra Vilelence: Module 1
+763,Strange New Worlds
+76,Spy Ring
+763,Grand Imperialism
+867,Assault on Mt. Everest
+763,Spellmaker
+204,Elemental
+432,History of the Second World War: Part 1 - Hitler Turns Against Russia
+17,Luftwaffe: The Game of Aerial Combat Over Germany 1943-45
+69,Boomerang
+868,Wheeler Dealer
+432,Power Play
+18,The Twilight War
+674,Zombies!!! 2: Zombie Corps(e)
+869,NFL Franchise
+870,Uncle Rez's Pets
+871,Squares: The Civil War Battle Game
+550,The Settlers of Canaan
+123,Score Four
+550,Redemption: City of Bondage
+13,Cube Farm
+744,"Rock, Scissors, Paper"
+597,Imperium: Empires in Conflict - Worlds in the Balance
+102,BattleFleet Mars: Space Combat in the 21st Century
+102,"Outreach: The Conquest of the Galaxy, 3000AD"
+549,Grand Mastermind
+491,Sumo Arena
+191,Raider!: A Tactical Game of Commerce Raiding in WWII
+872,Star Fleet Battle Manual
+280,Tribbles Customizable Card Game
+432,Moon Base Clavius
+25,Battlewagon
+873,Dwarves
+434,Hot Spot
+191,Fast Attack Boats: A Game of the Arab-Israeli Naval War 1973
+191,Neck and Neck: A Game of Horse Racing
+874,Global Pursuit
+191,Ultimatum: A Game of Nuclear Confrontation
+191,Commando Actions: A Game of Tactical Level Combat in World War II
+875,Ramparts
+191,Superiority: A Game of the Invasion of Europe in the Near Future
+669,Zulu Attack
+17,Go For The Green
+147,Dragons: The Classic Game
+45,Hammer of the Scots
+252,Yu-Gi-Oh Millennium Game
+28,Picture Pursuit
+18,The Perry Mason Game
+302,Think Alike
+447,Quick Quiz?
+217,Harvest of Death: The Second Day at Gettysburg
+17,Firepower
+112,Empires at War
+112,Great Medieval Battles: Four Battles from the Middle Ages
+21,Championship Baseball
+21,Channel Surfing
+876,The Couch Potato Game
+112,Clontarf
+816,Killer Bunnies and the Quest for the Magic Carrot
+877,Monster Island
+878,Smear
+879,Topple
+880,Authentic Demolition Derby
+185,Robo Battle Pigs
+406,Contraband
+192,Batik
+18,Red Storm Rising
+881,Nuke: The Last Game on Earth
+882,Smog
+17,MBT
+17,Flight Leader
+17,Tac Air
+21,Shenanigans Game
+883,Belly Bumper
+593,Gregory Horror Show
+884,Tractics
+744,Rasslefest
+744,Hex Nut
+366,British Square
+885,Subbuteo
+588,Odd Bodz
+588,Got Milk?
+361,Peanut Butter & Jelly Card Game
+349,1809: Napoleon's Danube Campaign
+80,Qwitch
+886,Carla Cat
+652,Ker Plunk
+17,Statis Pro Baseball
+17,Stock Market Guru
+26,Talisman (Third Edition): Dragon's Tower
+26,Talisman (Third Edition): City of Adventure
+75,Biker Mice from Mars: Take Back the City
+26,Talisman (Third Edition): Dungeon of Doom
+527,Gooey Louie
+21,Operation
+388,Access Denied
+74,Bot
+322,Dr. Seuss Trivia Game
+568,"According to ""Professor"" Hoyle... Pocket Trivia"
+887,The Game of Law School
+38,The Pollination Game
+888,Going Nutz
+889,Bioviva
+252,Star Trek Trivia Game
+447,Cooks Tours: European Travel Game
+890,Captivation
+47,Sumo!
+0,Story
+264,Palazzo Paletti
+891,Nascar Speedway Challenge
+892,Estanciero
+893,The West Point Story
+388,One World Dominion
+58,Croisades
+894,Twin Rotor Combine
+895,Triopoly
+560,Make Your Own Opoly
+535,Trinity: Battleground
+896,WarpQuest
+897,Mister Diamond
+898,Dueltrack: A Car Wars Deluxe Supplement
+631,Babylon 5 Wars
+232,Second Front
+21,Cross Up
+11,Caramba
+899,Palabra
+203,Mystick Companion
+900,Challenge of the Lion Lord
+185,Insectica
+901,Let's Go Racing
+5,Cannae
+5,Fridericus Rex
+5,Kolonial Afrika
+5,Parthenon
+5,Ponton
+5,Royal Ascot
+5,Die Schätze des Ali Baba
+5,Trapper-Company
+5,Via Mala
+382,The American Goldrush 1849
+5,Actium
+5,Aeronautika
+902,Greek Fire
+902,Countermoves Generic Microgame Engine
+379,Pig Pong
+28,Legend of Zagor
+902,No Mans Land
+903,Trial by Pylon
+389,Grade Up to Elite Cow
+389,Golfwinks
+904,Bowling Bunnies
+106,Himalaya
+613,When Darkness Comes
+902,Arena
+902,Counter Space: The CGME Space Opera Gameworld
+905,Slamwich
+906,Domino Dice
+361,UNO: Star Trek
+907,Smokejumpers
+908,Harvey Smith's Show Jumping
+909,Gusher
+185,Evil Genius
+102,"Breakout & Pursuit: The Battle for France, 1944"
+40,Chutzpah
+102,Desert War: Tactical Warfare in North Africa
+102,"World War II: European Theater of Operations, 1939-45"
+33,Tip the Ship
+34,Maharadscha
+910,Alias
+8,Lord of the Rings: Sauron
+432,Star Fleet Missions
+911,Chobolo
+912,Heroes of Asfar
+913,Scandal
+912,Heroes of Asfar: The College of Magi
+39,Breakthrough
+185,Unlur
+408,Creature Castle
+43,Locomotive Werks
+73,Trainsport: Switzerland
+784,Doctor Who: Battle for the Universe
+914,Search for Poseidon's Gold
+915,Takeover: The Stock Market Game
+607,Turbo
+536,Legend of the Burning Sands
+132,Rat-a-Tat Cat
+916,Firestorm
+9,UNO Dominos
+641,RIFTS Collectible Card Game
+917,Echelons of Fire
+842,Wing Commander
+641,Tomb Raider Collectible Card Game
+53,Pez
+918,Yahtzee Jr.
+22,Ghostly Galleon
+593,Racing Challenge
+919,Ultimate Combat!
+920,Red Zone
+921,Galactic Empires
+239,Dune CCG
+280,Star Trek Customizable Card Game
+26,Warhammer Quest: Lair of the Orc Lord
+213,Minion Nation
+693,Crimson Skies
+922,Chainstore
+26,Warhammer Quest: Catacombs of Terror
+443,War of Masters
+75,Wordsearch
+32,ITC
+349,007 James Bond: Live and Let Die
+923,Mechwarrior: Dark Age
+924,Wheel of Intoxication
+925,The Hammer of Thor: The Game of Norse Mythology
+103,7 Ages
+926,Factories
+927,Ultimate Mastermind
+185,Fimbulvetr: Winter of Winters
+21,"What's Up, Doc?"
+555,The Last Starfighter: Tunnel Chase
+555,The Last Starfighter: Duel In Space
+432,4th Reich: Puremen vs. the Mutants for Control of the World
+928,Mana Burn
+13,Gold Digger
+31,Nine Men's Morris
+606,Stock Market Game
+929,Mock My Words
+33,Ali Baba
+930,Lightning Strike
+77,Slag!: Combat on the High Frontier
+931,Star Blazers Fleet Battle System
+932,Full Thrust
+213,Brilliant Lances
+328,Silent Death
+555,Struggle For The Throne: Star Trek III
+933,Glebdo
+355,Rule the Hand
+39,Sturm Nach Osten
+934,Gender Bender
+935,Nuclear Escape
+114,Le Chat Noir
+936,Stop Secret
+21,The Dark Crystal Card Game
+33,Richard Scarry's Busytown Poles & Ladders Game
+322,Dr. Seuss Green Eggs and Ham Game
+33,Pirate's Treasure
+252,Harry Potter: Diagon Alley Board Game
+73,Roundhouse
+937,Contiquences
+357,Tron: Assault on MCP Game
+21,Splat!
+28,Won Over
+280,How to Host a Murder: Roman Ruins
+21,The Dark Crystal Game
+938,Raiders of the Lost Ark Game
+1,Chute-5
+939,Monster Maker
+940,Street Illegal
+941,Monster Maker 2: Dragonbuster
+941,Magic Master
+942,Smart Mouth
+18,Elefant Hunt
+117,Gangsters: The Game of Disorganized Crime
+18,Magus!
+943,Beyond Competition
+944,Spark
+304,The Sorcerer's Cave Extension Kit
+58,Mare Nostrum
+620,Interplay
+28,Indiana Jones from Raiders of the Lost Ark
+276,Bowling Dice
+102,The Art of Siege
+102,The Siege of Constantinople: The End of the Middles Ages 1453 A.D.
+59,Games of Art
+943,Beyond Words
+945,Calculate!
+943,Beyond Solitaire
+51,Dragonriders of Pern
+359,Hard Vacuum: Science Gone Mad
+20,Munchkin 2: Unnatural Axe
+18,The Honeymooners Game
+47,Forbidden Bridge
+521,Pyramid
+614,Cannibal Pygmies in the Jungle of Doom
+310,Jolly Roger: Treasure Islands
+4,Octrix
+946,Quad Checkers
+447,Assembly Line
+17,Baseball Strategy
+947,BANG!
+948,Four-Letter Frenzy
+949,Bioscopy
+934,Songburst: 70's & 80's Edition
+391,Royal Steeple Chase
+950,Tochtli
+951,Prospecting
+4,Sum-Up
+4,Tryce
+952,Crypt: The Pharaoh's Curse
+213,Snapshot
+693,The Succession Wars
+26,Battlefleet Gothic
+20,Demonwand
+386,Lost Worlds Adventure Set I: In the Ruins of the Ancients
+386,BattleTech Science Fiction Combat Book Game: SHD-2H Shadow Hawk
+386,RuneSword: Bith - Female Cleric
+8,Catan: Portable Edition
+15,Footmania
+69,Karl May-Spiel
+39,Corporation
+36,Strong Stuff!
+252,Cassa Grande
+39,Wabanti
+162,Die Drei
+953,Sabotage
+162,Tahiti
+46,Crisis: Korea 1995
+102,Battle for Germany
+954,The VANITPL8 Game
+955,Life As A Blackman
+47,Remote Possibilities
+956,Fact or Crap
+462,The Fall of Castle Bondi
+957,Advanced Tobruk: Tank Battles in North Africa 1940-43
+20,Necromancer
+958,Blackmail
+959,W.A.C.K.O.
+960,Sudden Death!
+21,Round Four
+304,Fortune
+42,Diabolo
+429,Scan
+26,Space Marine
+26,Renegades:  Eldar and Chaos Armies for Space Marine
+961,Dark Lore
+252,Harry Potter and the Sorcerer's Stone Quidditch Card Game
+120,Gundam M.S.War Trading Card Game
+39,P.O.W. Rescue
+504,Diplomacy: Federation Variant
+962,Cobra: Game of the Normandy Breakout
+102,Breitenfeld
+963,Bodyguard Overlord
+964,Jerusalem! Tactical Game of the 1948 War
+217,"Army Group Center: June 22-28, 1941"
+963,"A Bold Stroke: The Soviet Liberation of Kiev, 1943"
+18,Dawn Patrol: Role Playing Game of WW I Air Combat
+269,MacArthur's Return: Leyte 1944
+217,"""Scratch One Flat Top!"""
+112,Charlemagne: Dark Ages in Europe
+965,Pentagon Games
+213,Race For Tunis
+102,"Road to Richmond: The Peninsular Campaign, May-July, 1862"
+966,Diceball!
+20,Frag Deadlands
+967,Ronin: Duels
+18,Lankhmar
+237,Udder Madness
+968,Breacan
+969,Le Tour du Monde en 80 Jours
+970,Take Five
+968,Metis
+31,Jungle
+872,Battlewagon Salvo
+69,Rosetta
+740,Triazzle
+322,Man Bites Dog
+217,Anzio Beachhead
+102,"Raid! Commando Operations, in the 20th Century"
+252,Skip-Bo Dice
+280,The California Raisins Board Game
+971,Tri-Ominos
+123,Go to the Head of the Class
+302,Dweebs Geeks & Weirdos
+28,Garfield Kids' Card Game
+972,World 7
+349,Across 5 Aprils
+269,"War of the States: Gettysburg, 1863"
+51,Hammer's Slammers
+17,Fortress Europa
+973,"Bulls, Bears and Billionaires"
+14,Star Wars: Trading Card Game
+974,Lemmings in Space
+975,Index Pro Football 2002
+974,The Anyville Horror
+976,1776: The Birth Of A Nation
+977,Chaos Progenitus
+20,Undead
+978,Tiles
+979,Swap!
+950,Three Eyed Jack
+21,Scrabble Up
+568,Crime Busters
+980,Pre-Fix
+641,Railroad Dynasty
+979,Rats!
+86,Don't You Forget It
+981,Tri-Virsity
+982,Double Talk
+983,¡Knock-on-Word!
+979,Malarky Card Game
+125,König Laurin
+984,Management Material (General Office Edition)
+123,Who Wants to Be a Millionaire
+40,Wild: Rummy Edition
+59,What's My Word?
+985,Regency
+276,Nick at Nite Classic TV Trivia Game
+195,Can't Stop the Turtles
+496,Hi-Spot
+112,The Alamo
+112,Leningrad
+17,"Napoleon at Bay: The Campaign in France, 1814"
+102,1812: The Campaign of Napoleon in Russia
+349,2nd Fleet: Modern Naval Combat in the North Atlantic
+26,Adeptus Titanicus
+986,wordXchange
+21,Exit
+256,Slip Disc
+987,Star Munchkin
+234,Nodwick: The Card Game
+988,Raise the Roof
+156,Age of Steam
+875,Keythedral
+3,Starfarers of Catan: 5-6 Player Expansion
+3,CATAN: Cities & Knights - 5-6 Player Extension
+113,Europa Universalis
+3,CATAN: Seafarers - 5-6 Player Extension
+321,Sssnake
+641,The Wheel of Time Collectible Card Game
+86,Moderne Zeiten
+527,Hang in There!
+989,Big Bucks Baseball
+14,X-Men Trading Card Game
+990,Hex
+39,Tigers in the Mist: Ardennes Offensive
+447,Ipswich
+991,Gamblers Golf
+992,Capitol Rummy
+28,Ruffhouse
+438,Slide 5
+1,Challenge Yahtzee
+993,King's Court
+781,Road to the Rhine
+390,Electronic Battleship
+28,Gambler
+112,Austro-Prussian War
+97,"The Punic Wars: Rome vs Carthage, 264-146 B.C."
+102,Dixie: The Second War Between the States
+361,Arne
+40,Snapshot
+19,Supremacy: Field Marshall's Handbook
+39,Word Checkers
+28,Across the Continent
+28,In The Dark
+26,Man O' War: Plague Fleet
+26,Man O' War: Sea of Blood
+39,Shadow Wars
+994,Fire in Mississippi
+224,Madame Guillotine
+434,Rommel's Panzers
+938,Topple
+256,Spy Web
+302,Pen the Pig
+123,Guess Who?
+995,Victory in Europe
+17,"Arcola: The Battle for Italy, 1796"
+432,Spellbinder
+31,Mehen
+996,Barrel of Monkeys
+997,Bakari
+998,Black & White: The Adventures in Dairy Farming
+757,Scooby-Doo! Expandable Card Game
+593,Wizard in Training Trading Card Game
+999,Yu-Gi-Oh! Trading Card Game
+1000,Carmel Proper
+1001,Endangered Species
+731,Hail to the Chief
+1002,Word Quest
+1003,Prime Time
+185,Henry VIII: Intrigue in the Tudor Court
+1004,Doghouse
+132,Horse Show
+1005,Quest for the Faysylwood
+276,Sell Out by National Lampoon
+942,Spare Time Bowling
+555,James Clavell's Whirlwind
+1006,Insurgency
+17,Blitzkrieg
+1007,Deathtrap Dungeon: Card Game
+593,Cardcaptors Trading Card Game
+1008,Sailor Moon CCG
+102,Veracruz: U.S. Invasion of Mexico 1847
+17,Anzio: The Struggle for Italy - 1943-1945
+359,Lifeboat
+99,Diskwars: Legend of the Five Rings
+1009,Armies of Arcana
+1010,ShowBiz Shuffle
+1011,Kaliko
+1012,Pizza Wars Imperium
+21,Tri-Trac
+1013,HexiMeros
+1014,Double Dog Dare
+974,Gigantic
+876,B.S.: The Game of Being Sneaky
+281,The Politicians Game
+1015,Chameleon
+1016,"Gangsters, Gun Molls, & G-Men"
+47,Star Wars: Episode I - Battle for Naboo 3-D Action Game
+39,The Battle of Seattle
+13,Bogart
+1017,Warhammer: The Mass Combat Fantasy Roleplaying Game (1st Edition)
+224,War of the Sky Cities
+224,Conquest of North America
+224,War of the Ring: The Game of Middle Earth
+18,Fantasy Forest
+224,Mercenary
+185,Bloody Mary:  Further Intrigue in the Tudor Court
+185,Mesopotamia:  Birth of Civilisation
+267,"Black Wednesday: The Battle of Krasni Bor, 10-11 Feb 1943"
+267,GD '40
+267,GD '41
+267,Tunisia
+17,On to Richmond!
+17,Roads to Gettysburg
+102,"Kharkov: The Soviet Spring Offensive, 1942"
+102,"The Kaiser's Battle: The German Offensive, March 1918"
+289,Monza
+17,Stonewall's Last Battle: The Chancellorsville Campaign
+17,Stonewall Jackson's Way
+17,Here Come the Rebels
+31,Mao
+17,Stonewall in the Valley
+1018,One-Page Bulge
+1019,Boxum
+194,Alexandros
+94,O Zoo le Mio
+39,Goal
+123,Biras
+1020,Quest for the Dragonlords
+102,War Between The States 1861-1865
+1021,Borderline: Europe/Middle East Edition
+1021,Borderline: USA Edition
+545,Stratosphere
+194,"Victory at Midway: Turning Point of the Pacific War, June 1942"
+1022,Successors: Clash of the Generals 323 - 310 BC
+194,1918: Storm in the West
+1023,Spellfire
+112,Napoleon's Last Battles
+1022,Xenophon: March of the Ten Thousand 401 - 400 BC
+194,SS Panzer: Bloodbath at Kursk
+1024,Holiday USA
+194,Hougoumont: Rock of Waterloo
+435,Fulda Gap: The First Battle of the Next War
+435,"Dreadnought: Surface Combat in the Battleship Era, 1906-45"
+102,"El Alamein: Battles in North Africa, 1942"
+39,18 Wheeler
+1025,Korea: The Mobile War 1950-51
+102,Combined Arms: Combat Operations in the 20th Century
+102,Soldiers: Tactical Combat in 1914-15
+102,Foxbat & Phantom: Tactical Aerial Combat in the 1970's
+1026,Man of War
+102,Highway to the Reich: Operation Market-Garden 17-26 September 1944
+432,Asteroid Zero-Four
+432,Checkpoint Omega
+432,Boarding Party
+432,City States of Arklyrell
+1027,Trias
+1028,Mad Nooks
+1029,Globopolis
+112,The Big Red One: The Game of the First Infantry Division at the Battle of the Bulge
+18,"Iwo Jima: Valor of Arms, 19 Feb. - 25 March 1945"
+102,Ney vs. Wellington: The Battle of Quatre Bras
+289,Mäuse-Rallye
+132,Elephant's Trunk
+112,Totaler Krieg! World War II in Europe
+434,The Trojan War: The Game of Gods & Heroes
+310,Odyssey: The Gods Clash
+224,"Odysseus: Role Play for the Homeric Age, Legendry & Mythology"
+37,Tales of Ulysse
+161,Troja
+125,Odysseus
+597,Iliad: The Siege of Troy
+24,Troy
+1030,Jaunty Jalopies
+128,Razzle
+28,Superman III
+217,The Far Seas
+434,Artifact
+33,Punk sucht Lady
+213,Temple of the Beastmen
+1031,Orbit
+102,Pea Ridge: The Gettysburg of the West March 7-8 1862
+194,Across the Potomac
+432,Heroes of Olympus
+962,Battle Over Britain
+502,Flux
+434,Starleader: Assault! - A Futuristic Man-To-Man Combat Game
+13,Freeloader
+17,Greed
+69,Forma
+1032,Dice Quest
+1022,Chattanooga
+674,A Game of Thrones Collectible Card Game
+194,Onslaught
+150,"Panzer: A Tactical Game of Armored Combat on the Eastern Front, 1941-1945"
+191,"88: A Tactical Game of Armored Combat on the North African Front, 1940-1942"
+191,Pickett's Charge: A Game of the Battle of Gettysburg
+191,"Armor: A Tactical Game of Armored Combat in Western Europe, 1944-1945"
+1033,The Sword and the Flame
+191,The Great Redoubt: A Game of the Battle of Borodino - 1812
+191,The Thin Red Line: A Game of the Battle of Waterloo
+191,"Murfreesboro: A Game of the Battle of Stones River December 31, 1862"
+191,Battles & Leaders: A Game of Tactical Level Combat in the American Civil War 1861-1865
+1034,Dallas: A Game of the Ewing Family
+191,Beachhead: A Game of Island Invasions in the South Pacific 1942-1944
+191,Battle: The Game of Strategy
+191,The Barbarians: Games of the Fall of Rome and the Mongol Invasion of Europe
+191,The Fall of South Vietnam: A Game of Combat in South Vietnam - 1973-1975
+17,Slang
+1035,"Ostkrieg: Armoured Warfare on the East Front, 1944-45"
+1036,The Shakespeare Game
+120,Pracoro Dice Battle
+139,Sting
+1037,Hexentrio
+422,Worlds of Heroes & Tyrants Card Expansion #1: Frozen in Time
+213,"Belter: Mining the Asteroids, 2076"
+213,Mayday
+174,"Cannes: Stars, Scripts and Screens"
+112,Zeppelin
+434,The Air-Eaters Strike Back!
+1038,Resistoly
+174,VOC! Founding the Dutch East Indies Company
+47,Risk: The Lord of the Rings
+28,Conflict
+264,Virus & Co
+35,War & Sheep
+35,Tony & Tino
+35,Drake & Drake
+121,Kanaloa
+192,Quads
+1039,Dibs
+389,Rip-Off
+1040,Chart Wars
+518,Kata-Kiuchi: The Raid on Lord Kira's House
+18,Cromwell's Victory: The Battle of Marston Moor
+1041,Dragon Hordes
+2,Twilight Imperium: Second Edition - Hope's End
+1040,Space Waste
+555,Combots
+123,Market Madness
+267,"Screaming Eagles in Holland: The 101st Airborne Division's Defense of Hell's Highway, 22-23 September, 1944"
+267,Semper Fi!
+1042,Beer: The  Card Game
+102,"Cedar Mountain: Prelude to Bull Run, August 9, 1862"
+2,Thunder's Edge: Demon Canyon
+73,HoverTank 3
+1022,Jutland: Duel of the Dreadnoughts
+2,Battlemist: The Sails of War
+1043,Global Summit: The Peace Game
+13,Fightball
+185,Vector 3: Tactical Space Combat in Three Dimensions
+1044,Dark Horizon: Escape
+1045,Therapy
+278,Monkeys on the Moon
+267,"Aspern-Essling: Napoleon on the Danube, 1809"
+17,The Guns of August
+194,1914: Glory's End
+213,Attack in the Ardennes: The Battle of the Bulge
+267,"Champion Hill: May 16th, 1863 - The Road to Vicksburg"
+267,Seven Pines
+267,"Gaines Mill: The Battles of the Seven Days, June 1862, Volume 1"
+1022,Dark Victory: The Battle of the Alamo
+18,"Remember the Maine! The Spanish-American War, 1898"
+1046,Nero: Legacy of a Despot
+267,In their Quiet Fields II
+289,Das Zahnputzspiel
+65,Fische Fluppen Frikadellen
+234,Last Man Standing
+221,Froop!
+112,Operation Felix
+620,Crosstrack
+43,Krone & Schwert
+590,Kings in the Corner
+9,Ladybohn
+9,Cootie
+194,Bug-Eyed Monsters
+1047,"Dillinger: The Mid-West Crime Wave, 1931-1934"
+194,Back to Iraq
+28,Go For It!
+9,Oskar
+9,Im Schatten des Sonnenkönigs
+180,A Gamut of Games
+31,Fanorona
+46,"Rome: Imperium, Circus Maximus, Hannibal vs Rome"
+0,Carcassonne: Hunters and Gatherers
+1048,Magefire
+330,Dragonstar Rising
+9,Elevator Eddie
+3,The Settlers of the Stone Age
+9,Bean Trader
+3,Odin's Ravens
+189,Legend of the Lost Dutchman
+422,Overlords
+42,Canal Grande
+42,Bayon
+280,Rumors: An Adult Conversation Game
+17,Gold!
+190,The Big Deal
+443,Mini Archimedes
+128,Don't Miss the Boat!
+150,Cyborg: The Ultimate Adventure
+252,Yu-Gi-Oh! Hexors Collectible Battle Tile Game
+47,Barn Buzzin' Goofy
+224,Citadel
+18,Warlocks & Warriors
+249,Star Trek III
+1049,Empire 1
+422,Worlds of Heroes & Tyrants: Hell Card Expansion #3 - The Maze
+422,Worlds of Heroes & Tyrants Card Expansion #2: Secrets of The Cataclysm
+422,Worlds of Heroes & Tyrants: Hell
+422,Worlds of Heroes & Tyrants: Hell Card Expansion #2 - Anger Management
+422,Worlds of Heroes & Tyrants: Hell Card Expansion #1 - Alone
+663,Ad Acta
+161,snip
+275,Cranium: Hoopla
+51,Waterloo: Napoleon's Last Battle
+26,Adeptus Titanicus II
+70,Super Cluedo Challenge
+130,Die Flößerei
+1050,Prisma
+1051,Chess Race
+1052,Burgenland
+125,Acrobats
+1053,The Poll Game
+138,Pirate Inc.
+102,Cityfight: Modern Combat in the Urban Environment
+1054,Gaudí
+766,This Hallowed Ground
+1,Roll and Score Tic Tac Dice
+185,PornStar
+174,Oraklos
+384,Am Rande des Gletschers
+42,Sambesi
+90,Delphi
+1055,Navigation
+21,Plus One
+102,The Battle of Monmouth
+18,The Road to Vicksburg: The Battle of Champion Hill
+613,When Darkness Comes: The Horror Within
+613,When Darkness Comes: Hell Unleashed
+17,Statis Pro Basketball
+17,Statis Pro Football
+37,"The Great Invasion: The Gettysburg Campaign June 24 - July 3, 1863"
+1056,1862
+357,Green Ghost
+1057,Chauvinist Pigs
+39,FS Chess Football: A Thinking Fan's Game
+1058,WildWords
+51,Xanth
+288,Fist of Dragonstones
+1059,Arnhem Bridge
+1060,Pompeii: The Last Days
+1061,Dice Deck
+65,Unexpected Treasures
+1062,Hot Potato
+242,Station Manager
+75,Ratrace
+921,Trial of the Century
+1063,Winchester
+1064,The Buntu Circus
+1065,Maremba
+89,Hotel Life
+102,Dragonslayer
+1066,Silk Road
+2,Scarab Lords
+2,Cave Troll
+47,Trivial Pursuit: 20th Anniversary Edition
+289,Kayanak
+213,Phase Line Smash
+132,Fill 'er Up!
+1067,Horse Sense
+210,Monster Mash I
+34,Eskimemo
+1068,Banana Republic
+1022,Like Lions They Fought
+1069,Weed Wars: On Higher Ground
+264,König der Maulwürfel
+845,Grand Prix: F1
+31,Tarot
+574,"Lindy, the New Flying Game"
+1070,The Lindy Flying Game
+1071,Warchon
+76,Funny Bones
+1072,Johnny Reb III: Regimental Grand Tactical American Civil War Miniatures Rules
+1073,Armchair Golf
+32,Früchtchen
+9,Hand Drauf!
+1074,Zap!
+252,Boundary
+97,Ragnarok: The Twilight of the Gods
+154,Run Hippy! Run! The Boardgame
+39,Sauerbaum
+679,Yum
+39,Tour Mala!s
+1075,K-Tel Superstar Game: The Original Rock 'n Roll Music Game
+1076,The Ladybug's Costume Party
+1077,Loser
+32,Waldesfrust
+1078,Articulation
+289,Coolympics
+1079,Notable Quotables
+472,Election Day
+3,Hellas
+32,Life is Money
+114,Mein Lieber Biber
+1080,Thud
+461,Dice Kwon Do
+1081,Rays of Light
+555,The White Flame
+631,Gamer Tycoon
+1082,Baston
+70,Golden Goal
+1083,The Voyage of the Mayflower
+1084,el Juego de las Diez Pistas
+21,Personality Game
+1085,Indiana Jones and the Temple of Doom
+1086,Crusade: Lawrence Welk's All-Star ACS Kit
+1087,Upper Hand
+456,Cradle of Civilization
+1088,The Cities Game
+1089,Dinosaur Hunters!
+1090,Timestream: The Remnant
+31,1000 Blank White Cards
+661,Quick Cross
+22,Zorro
+78,Attribute
+1091,Phalanx
+307,Das Blaue Amulett
+17,Patton's Best
+1092,Take Off!
+147,Ginny-O
+28,Fast 111's
+1093,Carrera de Mente
+1094,Mogul
+1095,Gorilla
+112,Blue & Gray: Four American Civil War Battles
+1083,The Old Pacific
+21,Ripley's Believe It or Not!
+195,Racko Plus
+1096,Insight
+21,Wordsters
+374,Solar Space Maze
+1097,Megachess
+39,E$tabli$hment
+1098,Slang Teasers
+1099,Saqqara
+560,Dealing with Murder: Fatal Error
+1100,Hollywood Squares
+131,UNO Wild Tiles
+1101,Pirates des Caraïbes
+1102,Who Is Going to Do the Dishes?
+1103,Corporate Pursuit
+41,The Game of Ancient Kingdoms
+31,Pinochle
+35,James Bond 007 Le Jeu
+123,Seaside Frolics
+9,Bärenspiel
+11,Roller Coaster Hippo
+545,Money! Money! Money!
+1104,The Love Boat World Cruise Game
+1105,Duo-Bridge
+34,Criss-Cross
+1106,Campaign Politiks
+240,Blooming Gardens
+35,Guet-Apens
+1107,Fortune Seeker
+69,Ein Nilpferd kommt selten allein
+18,Blood Wars
+443,Word Rummikub
+1081,Shades of Thought
+1108,Der Sport-Vagabund
+1109,Word Maze
+472,Juggler's Jam
+412,Chez Greek
+472,Sucking Vacuum
+1110,Omnigon
+76,MM-peli
+355,Tzuris
+8,Lord of the Rings: The Duel
+119,Haithabu
+1111,Go Surf
+39,1854
+1112,The Touch
+39,Arimaa
+1098,Mercanauts
+1113,Networking
+1114,The Prestel New York Architecture Game
+960,Cloak & Dagger
+102,"The Fast Carriers: Air-Sea Operations, 1941-77"
+21,Electronic Arcade Mania
+310,Millennium: The Era of Invasion
+28,Thistle
+432,Ultra-Warrior
+21,Ice Cube
+324,A Racing Game!
+1115,Fire on the Suns: Tactical Command (2nd Edition)
+649,Die Monstermacher
+29,Stop
+26,Warhammer Warriors: Kal Jerico
+18,1 on 1 Adventure Gamebooks: Castle Arcania
+261,Clans
+668,Max
+634,Spellcast
+1116,Rolled Bones
+1117,Life on the Farm Board Game
+39,Sports Illustrated Baseball
+1118,Fire and Ice
+1119,Dragon Epic
+26,Bommerz over da Sulphur River
+328,Cleric's Revenge
+1120,Tower Siege
+1121,Across the Board
+17,Stalingrad
+271,Drug Attack
+1122,Egomania
+1123,Rigamarole
+1124,Battle of the Halji
+39,The Classified Encyclopedia of Chess Variants
+1125,Replay Baseball
+73,ConTrack: Switzerland & Austria
+47,Moods
+1126,Decimal Shopping
+1127,You Said It
+1128,Scouting Trails
+4,Challenge Bridge
+701,Fields of Honor: The American War for Independence
+45,Eagles: Waterloo
+28,Lost Treasure
+252,Harry Potter Dicers Game
+1129,Proclaim!
+20,INWO SubGenius
+1130,Run For President
+1131,Assault on Sevastapol
+217,"Knights of Justice: The Siege of Malta, 1565"
+217,Rush for Glory
+1132,Lee Invades the North
+555,Star Trek III: The Search For Spock
+555,Starship Duel II
+217,"Baton Rouge: Street Fighting in the Louisiana Capital, August 5, 1862"
+25,Prochorovka: Armor at Kursk
+39,Market Mania
+506,Piedestal
+17,War at Sea 2
+1133,Willie's White House
+475,Angola
+69,Parallelslalom
+1134,Obsidian Lords
+571,Meistertrick
+3,White Lady
+276,Friends Trivia Game
+245,Weapons & Warriors: Lashout Launcher Set
+28,Outwit
+681,The Fall of France
+1135,Pro Tennis
+1136,King of the Hill
+21,The Rifleman Game
+1137,Aux Sabords!
+1138,The Game of Real Estate
+75,An Evening of Murder: Beyond the Grave
+75,An Evening of Murder: Terminal Espionage
+1139,An Evening of Murder: Breaking Point
+75,An Evening of Murder: Forever Friends
+1139,An Evening of Murder: Dead of Winter
+75,An Evening of Murder: Resort to Murder
+75,An Evening of Murder: Winner Take All
+224,The DragonLords
+91,Conflix!
+12,Cosmic Encounter: Expansion Set #1
+12,Cosmic Encounter: Expansion Set #2
+12,Cosmic Encounter: Expansion Set #3
+12,Cosmic Encounter: Expansion Set #4
+12,Cosmic Encounter: Expansion Set #5
+12,Cosmic Encounter: Expansion Set #6
+12,Cosmic Encounter: Expansion Set #7
+12,Cosmic Encounter: Expansion Set #8
+12,Cosmic Encounter: Expansion Set #9
+1140,The Lord of the Rings: The Fellowship of the Ring
+1141,By Force Of Arms
+1141,To Forge a Nation
+1139,An Evening of Murder: Fatal Reunion
+1141,War Of The Ages
+1141,Legends Of Football
+75,An Evening of Murder: Last Kiss
+1139,An Evening of Murder: The Tangled Web
+1142,Space Warrior
+51,I.C.B.M.
+51,Translyvania
+240,Where There's A Will
+1006,Armor Supremacy
+1143,Numble
+21,Dead Stop!
+217,"Run Silent, Run Deep"
+1144,Warmachine
+1145,The Ultimate Trivia Game Presented by Newsweek
+1146,Life of the Party: Mystery of the Mislaid Egg
+1147,Battlecards: World Conflict - Western European Campaign: Starter Set
+749,Dungeons & Dragons Computer Labyrinth Game
+21,Life of the Party: Who Stole the Stars?
+21,Life of the Party: Rockin' Late at the Prom of '58
+21,Life of the Party: Passion Cabana in Havana
+1148,"Life of the Party: Where There's a Will, There's a Murder"
+1148,Life of the Party: The Coffeehouse Murder
+75,An Evening of Murder: The Eternal Cruise
+2,King's Gate
+224,Tyrannosaurus Wrecks
+500,Count Down
+584,Beyond the Stars
+584,3-Ring Circus Card Game
+1149,Lifts & Runs
+422,The War to End All Wars: Box Set Edition
+1148,Life of the Party: Murder in Paradise
+1148,Life of the Party: Who Killed Roger Ellington?
+75,An Evening of Murder: Flight 013
+21,Casino Yahtzee
+28,As the World Turns
+357,Fu Manchu's Hidden Hoard
+357,Murder on the Orient Express
+269,Great War at Sea: The Mediterranean
+536,Star Trek: The Next Generation Collectible Dice Game
+1150,Tightline
+217,Simon de Montfort
+1151,March on Rome
+503,Breaking into Valhalla
+907,Blood & Steel Expansion
+357,The Game of Blast
+983,Grand Slam Baseball
+415,Sinaí
+21,Easy Money
+33,Der Herr der Ringe: Die Zwei Türme - das Kartenspiel
+47,Electronic Talking Battleship
+1152,Mysteries by Vincent: White Flag Over the Seven Seas
+60,Test Match
+1152,Mysteries by Vincent: Case of the Wirst Case Scenario
+21,Captain Caveman and the Teen Angels Game
+557,Quad-Ominos
+1153,Trivial Pursuit: Genus III
+407,Trivial Pursuit: Volume II
+1,Duplicate Ad-Lib Crossword Cubes
+31,Tiddledy Winks
+1154,Glib
+213,Soldier King
+359,Insecta: Rainforest
+359,Insecta: Trilobite
+600,Guinness Game of World Records
+447,LIFE Remembers
+1155,Dicemaster: Cities of Doom
+1155,Dicemaster: Wilds of Doom
+1155,Dicemaster: Doom Cubes
+217,Holy Roman Empire
+75,An Evening of Murder: Love & Marriage
+1152,Mysteries by Vincent: Rocky Mountain Mayhem
+1152,Mysteries by Vincent: Murder on the Millennium
+1152,Mysteries by Vincent: A Perfectly Perilous Pageant
+40,Fighter-Bomber: The Game of Mustangs and Messerschmitts
+1156,The Bill
+357,BattleBoard
+224,Diadem
+47,Rules of the Game
+249,Kamakura
+103,Rubout
+102,The Campaign for North Africa: The Desert War 1940-43
+9,Xactika
+40,Treasure Hunt
+1157,Empire
+1152,Mysteries by Vincent: A Very Domestic Demise
+1152,Mysteries by Vincent: Boogie Woogie Bungle Up
+1152,Mysteries by Vincent: High Noon on the Silver Spittoon
+1152,Mysteries by Vincent: Hard Drive Homicide
+1152,Mysteries by Vincent: Lynched in Lucre Valley
+1152,Mysteries by Vincent: Murder in Montana
+1152,Mysteries by Vincent: Women Only - Pushing up the Daisies
+1152,Mysteries by Vincent: Women Only - Bump-off at the Beauty Shop
+1152,Mysteries by Vincent: Women Only - High Tea at the Liberty Library
+1152,The Daisy Diamond Detective Series: Episode #1 - Mystery of the Missing Necklace
+1152,The Daisy Diamond Detective Series: Episode #2 - The Time Machine Mystery
+1152,The Daisy Diamond Detective Series: Episode #3 - The Mystery of the Haunted Mansion
+1158,NFL Strategy
+681,Allenby's Blitzkrieg
+681,Hamel 1918
+226,Judge for Yourself
+1151,Pusan Perimeter
+503,Blitzkrieg Stalled: Arras
+503,Blitzkrieg Checked: Gembloux
+503,"Blitzkrieg Unleashed: The Battle of Sedan - May 13-14, 1940"
+102,Berlin '85: The Enemy at the Gates
+51,Morgan's Rifles
+1159,Monster Derby
+217,Give Me Liberty
+128,Star Wars: Escape from Death Star Game
+1159,Pantheon: The War of the Gods
+102,Blue & Gray II: Four Civil War Battles
+226,The Charade Game
+28,Civil War Game 1863
+102,Armada: The War With Spain 1585-1604
+40,Tripoley
+97,7th Fleet: Modern Naval Combat in the Far East
+11,Crazy Race
+1160,Memory Bank
+1161,Friends & Fortunes
+447,Pass It On
+1162,Keep Quiet Reword
+75,An Evening of Murder: Rodeo Roundup
+1163,Cookie Fu
+22,Outburst!
+252,Scene It?: The DVD Movie Game
+606,Park and Shop
+280,How to Host a Murder: The Tragical Mystery Tour
+280,How to Host a Murder: Maiming of the Shrew
+280,How to Host a Murder: Saturday Night Cleaver
+1164,Tiers-Mondopoly
+280,How to Host a Murder: The Duke's Descent
+75,How to Host a Murder: The Wall Street Scandal
+280,"How to Host a Murder: The Good, The Bad & The Guilty"
+280,How to Host a Murder: The Chicago Caper
+280,How to Host a Murder: The Class of '54
+280,How to Host a Murder: Hoo Hung Woo
+280,How to Host a Murder: The Watersdown Affair
+280,How to Host a Murder: Grapes of Frath
+280,"How to Host a Murder: Archaeologically Speaking, It's the Pits"
+995,War to the Death
+39,Personal Preference
+1165,Proverbial Wisdom
+1166,Salamanca
+194,"The Legend Begins: North Africa, 1940-42"
+28,Chicken Out
+131,Catchword
+21,The Smurf Card Game
+521,Don't Break the Ice
+60,Dizzy Dizzy Dinosaur
+28,Fangface
+876,Big Picture Game
+906,Dragon Strike
+455,The Real Ghostbusters Game
+979,Three For All!
+47,Chicken Run: The Chicken Pot Pie Game
+1167,Bulls and Bears
+590,Shake Up
+545,Cap the Hat
+21,Richie Rich
+1085,Inspector Gadget Game
+60,The Price Is Right
+21,Columbo Detective Game
+28,Wicket The Ewok
+252,The M.U.S.C.L.E. Mega-Match Game
+447,Pronto
+222,PAC-MAN Game
+21,Ms. PAC-MAN Game
+28,Fun City Game
+123,Wheel of Fortune
+408,Wacky Wizard Game
+457,G.I. Joe Adventure Board Game
+1168,Beatlemania Trivia
+269,"Great War at Sea: 1898, The Spanish American War"
+269,Great War at Sea 2: The North & Baltic Seas
+269,"Great War at Sea: 1904-1905, The Russo-Japanese War"
+269,Great War at Sea: U.S. Navy Plan Black
+269,Great War at Sea: U.S. Navy Plan Orange
+269,Great War at Sea: U.S. Navy Plan Red
+349,5th Fleet: Modern Naval Combat in the Indian Ocean
+349,"3rd Fleet: Modern Naval Combat in the North Pacific, Caribbean, and Atlantic Oceans"
+582,Clever Endeavor
+283,NogginNosh
+252,Survivor: The Australian Outback Card Game
+1169,Clay to Win
+893,Big Business
+47,Clue: 50th Anniversary Edition
+1170,Top 40 Trivia
+252,Survivor Trading Card Game
+28,Bruce Jenner Decathlon Game
+1171,Moovit
+226,The Tick: Hip Deep in Evil!
+443,Battling Tops
+213,Test of Arms
+35,Formula Dé Circuits 19 & 20: Suzuka & Melbourne
+35,Formula Dé Circuits 17 & 18: Buenos-Aires & Barcelona
+35,Formula Dé Circuits 13 & 14: Montreal & Long Beach
+35,Formula Dé Circuits 11 & 12: Watkins Glen & Silverstone
+35,Formula Dé Circuits 9 & 10: Estoril & Interlagos
+35,Formula Dé Circuits 5 & 6: Kyalami & Ferrari Autodromo
+35,Formula Dé Circuits 3 & 4: Zandvoort 2 & SPA-Francorchamps
+35,Formula Dé Circuits 31 & 32: Zhuhai & Sepang
+35,Formula Dé Circuits 27 - 30: USA Track Pack #2
+35,Formula Dé Circuits 23 - 26: USA Track Pack #1
+35,Formula Dé Circuit 33: 10th Anniversary
+1172,Play It By Ear
+1172,Play It By Ear: Volume 2
+1173,Road Block
+21,PAC-MAN Card Game
+28,"Trivial Pursuit: TV Edition - 4,800 Questions and Answers"
+21,1313 Dead End Drive
+35,Formula Dé Circuits 7 & 8: Magny-Cours & Monza
+35,Formula Dé Circuits 21 & 22: Budapest & Nürburgring
+35,Formula Dé Circuits 15 & 16: Hockenheim & Zeltweg
+289,Timberland
+267,Ardennes
+267,"Crusader: The 8th Army's Winter Victory, Nov-Dec 1941"
+267,Gazala
+1174,Sunda to Sahul
 17,1914
-535,1915
-546,1916
-547,1917
-31,1918
-391,1919
-76,1920
-0,1921
-119,1922
-119,1923
-59,1924
-46,1925
-31,1926
-119,1927
-119,1928
-138,1929
-138,1930
-158,1931
-321,1932
-532,1933
-452,1934
-434,1935
-18,1936
-434,1937
-548,1938
-478,1939
-123,1940
-549,1941
-4,1942
-65,1943
-550,1944
-21,1945
-252,1946
-13,1947
-21,1948
-21,1949
-506,1950
-551,1951
-354,1488
-354,1952
-20,1953
-47,1954
-18,1955
-18,1956
-18,1957
-18,1958
-552,1201
-389,1959
-553,1960
-389,1961
-554,1962
-123,1963
-555,1964
-28,1965
-0,1966
-556,1967
-466,1968
-29,1969
-138,1970
-29,1971
-557,1972
-558,1973
-20,1974
-36,1975
-559,1976
-430,1977
-17,1978
-430,1979
-28,1980
-560,1981
-254,1982
-31,1983
-46,1984
-379,1985
-357,1986
-17,1178
-561,1987
-18,1988
-562,1989
-17,1990
-30,1991
-496,1992
-165,1993
-17,1994
-17,1995
-217,1996
-563,1997
-564,1998
-217,1999
-506,2000
-195,2001
-565,2002
-39,2003
-26,2004
-566,2005
-235,37
-558,2006
-521,2007
-85,2008
-269,40
-567,2009
-568,2010
-415,2011
-123,2012
-26,2013
-13,2014
-13,2015
-26,2016
-35,2017
-26,2018
-35,2019
-569,2020
-570,2021
-571,2022
-572,2023
-69,2024
-70,2025
-13,2026
-46,2027
-200,2028
-46,2029
-128,2030
-573,2031
-574,2032
-126,2033
-322,2034
-575,2035
-18,2036
-47,2037
-369,2038
-497,2039
-76,2040
-209,2041
-69,2042
-163,2043
-430,2044
-43,2045
-576,2046
-11,2047
-119,2048
-577,2049
-123,2050
-359,2051
-39,2052
-578,2053
-579,2054
-580,2055
-581,2056
-582,2057
-32,1078
-21,2058
-214,2059
-160,2060
-58,2061
-3,2062
-51,2063
-304,2064
-21,2065
-28,2066
-94,2067
-83,2068
-583,2069
-33,2070
-69,2071
-500,2072
-584,2073
-33,2074
-585,2075
-28,2076
-586,2077
-582,2078
-34,2079
-481,2080
-481,2081
-481,2082
-28,2083
-587,2084
-119,2085
-321,2086
-4,2087
-69,2088
-465,2089
-11,2090
-588,2091
-589,2092
-406,2093
-119,871
-185,2094
-590,2095
-97,2096
-447,2097
-591,2098
-592,2099
-593,2100
-123,2101
-594,2102
-4,2103
-189,2104
-372,2105
-31,2106
-302,2107
-213,2108
-31,2109
-11,2110
-302,2111
-123,2112
-31,2113
-31,2114
-595,2115
-596,2116
-31,2117
-31,2118
-31,2119
-597,2120
-117,2121
-598,2122
-14,2123
-599,2124
-31,2125
-600,2126
-601,2127
-602,2128
-76,2129
-121,2130
-506,2131
-603,2132
-29,2133
-408,2134
-68,2135
-123,2136
-545,2137
-604,2138
-17,2139
-21,2140
-123,2141
-21,2142
-21,2143
-21,2144
-21,2145
-4,2146
-21,306
-35,2147
-560,2148
-560,2149
-605,2150
-605,2151
-605,2152
-185,2153
-185,2154
-185,2155
-140,2156
-21,2157
-21,2158
-606,2159
-102,2160
-31,2161
-8,2162
-607,2163
-20,2164
-123,2165
-438,2166
-51,2167
-8,2168
-608,2169
-20,2170
-174,2171
-609,2172
-21,2173
-102,2174
-610,2175
-611,2176
-21,2177
-21,2178
-612,2179
-471,2180
-613,2181
-614,2182
-125,2183
-615,2184
-20,2185
-0,2186
-616,2187
-12,2188
-617,277
-20,2189
-222,2190
-18,2191
-74,2192
-618,2193
-619,2194
-76,2195
-11,2196
-39,2197
-234,2198
-81,2199
-106,2200
-39,2201
-28,2202
-384,2203
-384,2204
-620,2205
-621,2206
-622,2207
-623,2208
-17,2209
-434,2210
-29,2211
-384,2212
-624,2213
-523,2214
-625,2215
-576,2216
-626,2217
-106,2218
-627,2219
-252,2220
-171,2221
-26,2222
-74,2223
-70,2224
-18,2225
-555,2226
-13,2227
-276,2228
-40,2229
-102,2230
-518,2231
-40,2232
-18,2233
-40,2234
-17,2235
-439,2236
-26,2237
-125,2238
-36,2239
-106,2240
-35,2241
-628,2242
-35,2243
-432,2244
-48,2245
-174,2246
-171,2247
-9,2248
-42,2249
-4,2250
-629,568
-620,2251
-42,2252
-630,2253
-631,2254
-632,2255
-632,2256
-290,1161
-138,2257
-42,2258
-504,2259
-28,2260
-350,2261
-23,2262
-28,2263
-106,2264
-9,2265
-29,2266
-278,2267
-42,2268
-264,2269
-43,2270
-78,2271
-91,2224
-123,2272
-39,2273
-311,2274
-182,2275
-397,2276
-11,2277
-213,2278
-213,2279
-633,1705
-47,2280
-39,2281
-391,2282
-407,2283
-17,2284
-42,2285
-545,2286
-8,2287
-634,2288
-123,2289
-11,2290
-635,2291
-264,2292
-21,2293
-70,2294
-432,2295
-242,1055
-59,2296
-280,2297
-114,2298
-139,2299
-123,2300
-70,2301
-256,2302
-158,2303
-185,2304
-636,2305
-39,2306
-432,2307
-637,2308
-9,1341
-161,2309
-464,2310
-464,2311
-464,2312
-638,2313
-36,2314
-264,2315
-86,2316
-9,2317
-639,2318
-36,2319
-33,2320
-109,2321
-125,2322
-123,2323
-549,2324
-640,2325
-237,2326
-269,2327
-46,2328
-17,2329
-641,2330
-642,2331
-643,2332
-18,2333
-171,2334
-21,2335
-644,2336
-645,2337
-379,2338
-646,2339
-65,2340
-647,2341
-28,2342
-42,2343
-648,2344
-471,2345
-649,2346
-649,2347
-649,2348
-21,2349
-21,2350
-295,2351
-295,2352
-28,2353
-102,2354
-112,2355
-14,2356
-302,2357
-132,2358
-8,2359
-11,2360
-33,2361
-650,2362
-650,2363
-51,2364
-252,2365
-466,2366
-443,2367
-75,2368
-651,2369
-652,2370
-653,2371
-654,2372
-655,2373
-51,2374
-555,2375
-656,2376
-657,2377
-658,2378
-289,2379
-53,2380
-387,2381
-659,2382
-162,2383
-249,2384
-138,2385
-30,2386
-39,2387
-13,2388
-660,2389
-123,2390
-191,2391
-42,1218
-191,2392
-192,2393
-42,2394
-310,2395
-555,2396
-13,2397
-13,2398
-98,2399
-3,2400
-59,2401
-21,2402
-191,2403
-304,2404
-406,2405
-0,2406
-191,2407
-249,2408
-357,2409
-443,2410
-661,2411
-662,2412
-28,2413
-663,2414
-663,2415
-663,2416
-8,2417
-9,2418
-51,2419
-248,2420
-20,2421
-150,2422
-191,2423
-664,2424
-665,2425
-191,2426
-666,2427
-46,2428
-59,2429
-265,2430
-217,2431
-191,2432
-191,2433
-667,2434
-668,2435
-669,2436
-191,2437
-163,2438
-670,2439
-234,2440
-234,2441
-656,2442
-655,2443
-90,2444
-39,2445
-123,2446
-123,2447
-86,2448
-123,2449
-2,2450
-656,2451
-402,2452
-328,2453
-176,2454
-125,2455
-421,2456
-102,2457
-31,2458
-201,2459
-131,2460
-339,2461
-671,2462
-31,2463
-69,2464
-69,2465
-69,2466
-69,2467
-22,2468
-69,2469
-672,2470
-20,2471
-673,2472
-674,2473
-150,2474
-217,2475
-150,2476
-91,2477
-97,2478
-32,2479
-119,2480
-185,2481
-17,2482
-3,2483
-17,2484
-217,2485
-357,2486
-17,2487
-17,2488
-447,2489
-408,2490
-69,2491
-443,2492
-2,2493
-252,2494
-407,2495
-161,2496
-123,2497
-414,2498
-110,2499
-156,2500
-1,2501
-414,2502
-414,2503
-414,2504
-414,2505
-414,1072
-139,2506
-40,2507
-18,2508
-39,2509
-675,2510
-676,2511
-3,2512
-655,2513
-188,2514
-8,2515
-98,2516
-20,2517
-19,2518
-19,2519
-19,2520
-19,2521
-19,2522
-19,2523
-19,2524
-432,2525
-69,2526
-375,2527
-677,2528
-678,2529
-679,2530
-680,2531
-681,2532
-682,2533
-683,2534
-684,2535
-337,2536
-685,2537
-686,2538
-18,2539
-687,2540
-688,2541
-689,2542
-690,2543
-691,2544
-455,591
-692,2545
-103,2546
-693,2547
-79,2548
-633,2549
-107,2550
-269,2551
-694,2552
-11,2553
-191,2554
-9,2555
-432,2556
-695,2557
-19,2558
-432,2559
-432,2560
-696,2561
-696,2562
-185,2563
-697,2564
-47,2565
-698,2566
-699,2567
-700,2568
-2,2569
-2,2570
-18,2571
-269,2572
-200,2573
-47,2574
-555,2575
-51,2576
-214,2577
-31,2578
-19,2579
-19,2580
-51,2581
-18,2582
-217,2583
-701,2584
-18,2585
-108,2586
-76,2587
-702,2588
-703,2589
-447,2590
-357,2591
-21,2592
-641,2593
-47,2594
-704,2595
-705,2596
-31,2597
-18,2598
-299,2599
-299,2600
-706,2601
-707,2602
-9,2603
-682,2604
-35,2605
-708,2606
-391,2607
-415,2608
-9,2609
-125,2610
-709,2611
-500,2612
-91,2613
-17,2614
-17,2615
-600,2616
-248,2617
-147,2618
-19,2619
-29,2620
-710,2621
-28,2622
-711,2623
-447,2624
-220,2625
-162,2626
-379,2627
-712,2628
-713,2629
-69,2630
-682,2631
-714,2632
-132,2633
-39,2634
-123,2635
-35,2636
-70,2637
-17,2638
-682,2639
-715,2640
-22,2641
-582,2642
-276,2643
-181,2644
-716,2645
-491,2646
-13,2647
-717,2648
-97,2649
-288,2650
-97,2651
-14,2652
-321,2653
-718,2654
-719,2655
-0,2656
-267,2657
-102,2658
-0,2659
-269,2660
-46,2661
-26,2662
-108,2663
-720,2664
-721,2665
-39,2666
-75,2667
-39,2668
-722,2669
-117,2670
-39,2671
-723,2672
-354,2673
-724,2674
-725,2675
-726,2313
-213,2676
-727,2677
-214,2678
-1,2679
-47,2680
-501,2681
-70,2682
-450,2683
-163,2684
-728,2685
-729,2686
-730,1620
-731,2687
-732,2688
-367,2689
-733,2690
-734,2691
-47,2692
-108,2693
-735,2694
-432,2695
-736,2696
-432,2697
-555,2698
-17,2699
-432,2700
-140,2701
-17,2702
-737,2703
-112,2704
-737,2705
-28,2706
-112,2707
-108,2708
-91,2709
-51,2710
-108,2711
-217,2712
-738,2713
-739,2714
-184,2715
-357,2716
-740,2717
-46,2718
-741,2719
-17,2720
-742,2721
-47,2722
-214,2723
-743,2724
-91,2725
-744,2726
-269,2727
-35,2728
-26,2729
-198,2730
-21,2731
-656,2732
-10,2733
-39,2734
-744,2735
-745,2736
-746,2737
-747,2738
-1,2739
-17,2740
-76,2741
-288,2742
-256,2743
-748,2744
-749,2745
-332,2746
-26,2747
-686,2748
-750,2749
-751,2750
-123,2751
-249,2752
-752,2753
-596,2754
-17,2755
-17,1368
-240,2756
-753,2757
-81,2758
-70,2759
-152,2760
-125,2761
-33,2762
-754,2763
-185,2764
-755,2765
-756,2766
-452,2767
-287,2768
-310,2769
-606,2770
-26,2771
-757,2772
-17,2773
-8,2774
-758,2775
-389,2776
-759,2777
-162,2778
-99,2779
-178,2780
-757,2781
-35,2782
-348,2783
-348,2784
-506,2785
-389,2786
-13,2787
-760,2788
-761,2789
-761,2790
-29,2791
-34,2792
-36,2793
-11,2794
-3,2795
-28,2796
-21,2797
-9,2798
-0,2799
-252,2800
-762,2801
-76,2802
-42,2803
-763,2804
-35,2805
-764,2806
-8,2807
-34,2808
-432,2809
-40,2810
-457,2811
-33,2812
-434,2813
-217,2814
-434,2815
-26,2816
-309,2817
-30,2818
-765,2819
-766,2820
-26,2821
-252,2822
-21,2823
-457,2824
-97,2825
-51,2826
-767,2827
-185,2828
-125,2829
-768,2830
-769,2831
-727,2832
-20,2833
-770,2834
-771,2835
-28,2836
-772,2837
-40,2838
-773,2839
-125,2840
-125,2841
-42,2842
-9,2843
-11,2844
-11,2845
-774,2846
-123,2847
-8,2848
-97,2849
-775,2850
-123,2851
-384,2852
-590,2853
-33,2854
-17,2855
-183,2856
-430,2857
-744,2858
-17,2859
-94,2860
-776,2861
-17,2862
-114,2863
-123,2864
-123,2865
-777,2866
-626,2867
-35,2868
-35,2869
-778,2870
-766,2871
-779,2872
-310,2873
-8,2874
-10,2875
-171,2876
-192,2877
-43,2878
-390,2879
-249,2880
-310,2881
-780,2882
-781,2883
-782,2884
-0,2885
-8,2886
-783,2887
-432,2888
-102,2889
-18,2890
-466,2891
-102,2892
-18,2893
-97,2894
-85,2895
-226,2896
-784,2897
-785,2898
-560,2899
-759,2900
-406,2901
-786,2902
-384,2903
-237,2904
-21,2905
-787,2906
-788,2907
-112,2908
-740,2909
-8,2910
-192,2911
-789,2912
-13,2913
-20,2914
-790,2915
-791,2916
-616,1276
-792,2917
-793,2918
-794,2919
-795,2920
-123,2921
-796,2922
-185,2923
-242,2924
-21,2925
-47,2926
-797,2927
-9,2928
-119,2929
-3,2930
-42,2931
-119,2932
-798,2933
-9,2934
-11,2935
-3,2936
-42,2937
-42,2938
-264,2939
-32,2940
-119,2941
-119,2942
-125,2943
-125,2944
-125,2945
-120,2946
-132,2947
-43,2948
-249,2949
-125,2950
-799,2951
-17,2952
-76,2953
-9,2954
-125,2955
-46,2956
-47,2957
-3,2958
-39,2959
-47,2960
-8,2961
-304,2962
-730,2963
-800,2964
-801,2965
-20,2966
-802,2967
-39,2968
-803,2969
-264,2970
-42,2971
-804,2972
-783,2973
-34,2974
-9,2975
-36,2976
-13,2977
-359,2978
-497,2979
-801,2980
-76,2981
-51,2982
-605,2983
-805,2984
-8,2985
-46,2986
-91,2987
-69,2988
-86,2989
-35,2990
-471,2991
-217,2992
-198,2993
-432,1924
-36,2994
-36,2995
-31,2996
-806,2997
-807,2998
-152,2999
-626,3000
-808,3001
-809,3002
-102,3003
-91,3004
-128,3005
-810,3006
-125,3007
-147,3008
-811,3009
-51,3010
-812,3011
-28,3012
-813,3013
-75,3014
-814,3015
-139,3016
-197,3017
-26,3018
-47,3019
-106,3020
-106,3021
-37,3022
-582,3023
-106,3024
-21,3025
-794,3026
-379,3027
-815,3028
-816,3029
-816,3030
-816,3031
-816,3032
-158,3033
-817,3034
-818,3035
-9,3036
-372,3037
-29,3038
-39,3039
-46,3040
-46,3041
-125,3042
-267,3043
-46,3044
-46,3045
-267,3046
-139,3047
-267,3048
-703,3049
-472,3050
-819,3051
-280,3052
-94,3053
-114,3054
-820,3055
-821,3056
-560,3057
-655,3058
-60,3059
-60,3060
-83,3061
-60,3062
-76,3063
-822,3064
-816,3065
-114,3066
-34,3067
-39,3068
-823,3069
-824,3070
-447,3071
-152,3072
-825,3073
-826,3074
-826,3075
-39,3076
-826,3077
-31,3078
-21,3079
-827,3080
-29,3081
-828,3082
-826,3083
-826,3084
-829,3085
-830,3086
-826,3087
-165,3088
-831,3089
-707,3090
-831,3091
-97,1262
-97,3092
-434,3093
-434,3094
-108,3095
-24,3096
-289,3097
-17,3098
-832,3099
-70,3100
-833,3101
-834,3102
-835,3103
-836,3104
-833,3105
-17,3106
-9,3107
-35,3108
-70,3109
-192,3110
-14,3111
-14,3112
-837,778
-833,3113
-838,3114
-390,3115
-839,3116
-9,3117
-70,3118
-70,3119
-840,3120
-841,3121
-70,3054
-842,3122
-843,3095
-844,3123
-390,3124
-833,3125
-8,3126
-9,3127
-447,3128
-123,3129
-668,3130
-226,3131
-86,3132
-483,3133
-633,3134
-214,3135
-70,3136
-59,3137
-845,3138
-846,3139
-40,3140
-276,3141
-217,3142
-847,3143
-848,3144
-310,3145
-195,3146
-47,3147
-849,3148
-102,3149
-102,3150
-102,3151
-466,3152
-102,3153
-850,3154
-850,3155
-37,3156
-106,3157
-850,3158
-850,3159
-851,3160
-106,3161
-707,3162
-407,3163
-355,3164
-269,3165
-852,3166
-26,3167
-518,3168
-163,3169
-37,3170
-76,3171
-661,3172
-39,3173
-853,3174
-318,3175
-97,3176
-434,3177
-51,3178
-26,3179
-463,3180
-26,3181
-4,3182
-47,3183
-21,3184
-69,127
-264,3185
-102,3186
-102,3187
-112,3188
-102,3189
-102,3190
-112,3191
-102,3192
-21,3193
-854,3194
-242,3195
-46,3196
-91,3197
-31,3198
-102,3199
-102,3200
-350,3201
-89,3202
-855,3203
-28,3204
-213,3205
-856,3206
-182,3207
-35,3208
-249,3209
-201,3210
-620,3211
-561,3212
-73,3213
-857,3214
-213,3215
-858,3216
-17,3217
-213,3218
-859,3219
-213,3220
-17,3221
-17,3222
-17,3223
-17,3224
-17,3225
-860,3226
-861,3227
-213,3228
-213,3229
-102,3230
-555,3231
-25,3232
-766,3233
-29,3234
-73,3235
-757,3236
-252,3237
-2,3238
-97,3239
-102,3240
-862,3241
-43,3242
-863,3243
-864,3244
-289,3245
-865,3246
-59,3247
-866,3248
-407,3249
-784,3250
-213,3251
-210,3252
-763,3253
-76,3254
-763,3255
-867,3256
-763,3257
-204,3258
-432,3259
-17,3260
-69,3261
-868,3262
-432,3263
-18,3264
-674,3265
-869,3266
-870,3267
-871,3268
-550,3269
-123,3270
-550,3271
-13,3272
-744,3273
-597,3274
-102,3275
-102,3276
-549,3277
-491,3278
-191,3279
-872,3280
-280,3281
-432,3282
-25,3283
-873,3284
-434,3285
-191,3286
-191,3287
-874,3288
-191,3289
-191,3290
-875,3291
-191,3292
-669,3293
-17,3294
-147,3295
-45,3296
-252,3297
-28,3298
-18,3299
-302,3300
-447,3301
-217,3302
-17,3303
-112,3304
-112,3305
-21,3306
-21,3307
-876,3308
-112,3309
-816,3310
-877,3311
-878,3312
-879,3313
-880,3314
-185,3315
-406,3316
-192,3317
-18,3318
-881,3319
-882,3320
-17,3321
-17,3322
-17,3323
-21,3324
-883,3325
-593,3326
-884,3327
-744,3328
-744,3329
-366,3330
-885,3331
-588,3332
-588,3333
-361,3334
-349,3335
-80,3336
-886,3337
-652,3338
-17,3339
-17,3340
-26,3341
-26,3342
-75,3343
-26,3344
-527,3345
-21,3346
-388,3347
-74,3348
-322,3349
-568,3350
-887,3351
-38,3352
-888,3353
-889,3354
-252,3355
-447,3356
-890,3357
-47,3358
-0,3359
-264,3360
-891,3361
-892,3362
-893,3363
-388,3364
-58,3365
-894,3366
-895,3367
-560,3368
-535,3369
-896,3370
-897,3371
-898,3372
-631,3373
-232,3374
-21,3375
-11,3376
-899,3377
-203,3378
-900,3379
-185,3380
-901,3381
-5,3382
-5,3383
-5,3384
-5,3385
-5,3386
-5,3387
-5,3388
-5,3389
-5,3390
-382,3391
-5,3392
-5,3393
-902,3394
-902,3395
-379,3396
-28,3397
-902,3398
-903,3399
-389,3400
-389,3401
-904,3402
-106,891
-613,3403
-902,3404
-902,3405
-905,3406
-906,3407
-361,3408
-907,3409
-908,3410
-909,3411
-185,3412
-102,3413
-40,3414
-102,3415
-102,3416
-33,3417
-34,3418
-910,3419
-8,3420
-432,3421
-911,3422
-912,3423
-913,3424
-912,3425
-39,3426
-185,3427
-408,3428
-43,3429
-73,3430
-784,3431
-914,3432
-915,3433
-607,3434
-536,3435
-132,3436
-916,3437
-9,3438
-641,3439
-917,3440
-842,3441
-641,3442
-53,3443
-918,3444
-22,3445
-593,3446
-919,3447
-920,3448
-921,3449
-239,3450
-280,3451
-26,3452
-213,3453
-693,3454
-922,3455
-26,3456
-443,3457
-75,3458
-32,3459
-349,3460
-923,3461
-924,3462
-925,3463
-103,3464
-926,3465
-927,3466
-185,3467
-21,3468
-555,3469
-555,3470
-432,3471
-928,3472
-13,260
-31,3473
-606,3474
-929,3475
-33,1712
-930,3476
-77,3477
-931,3478
-932,3479
-213,3480
-328,3481
-555,3482
-933,3483
-355,3484
-39,3485
-934,3486
-935,3487
-114,3488
-936,3489
-21,3490
-33,3491
-322,3492
-33,3493
-252,3494
-73,3495
-937,3496
-357,3497
-21,3498
-28,3499
-280,3500
-21,3501
-938,3502
-1,3503
-939,3504
-940,3505
-941,3506
-941,3507
-942,3508
-18,3509
-117,3510
-18,3511
-943,3512
-944,3513
-304,3514
-58,3515
-620,3516
-28,3517
-276,3518
-102,3519
-102,3520
-59,3521
-943,3522
-945,3523
-943,3524
-51,3525
-359,3526
-20,3527
-18,3528
-47,3529
-521,3530
-614,3531
-310,3532
-4,3533
-946,3534
-447,3535
-17,3536
-947,3537
-948,3538
-949,3539
-934,3540
-391,3541
-950,3542
-951,3543
-4,3544
-4,3545
-952,3546
-213,3547
-693,3548
-26,3549
-20,3550
-386,3551
-386,3552
-386,3553
-8,3554
-15,3555
-69,3556
-39,3557
-36,3558
-252,3559
-39,3560
-162,3561
-953,980
-162,3562
-46,3563
-102,3564
-954,3565
-955,3566
-47,3567
-956,3568
-462,3569
-957,3570
-20,3571
-958,3572
-959,3573
-960,3574
-21,3575
-304,3576
-42,3577
-429,2076
-26,3578
-26,3579
-961,3580
-252,3581
-120,3582
-39,3583
-504,3584
-962,3585
-102,3586
-963,3587
-964,3588
-217,3589
-963,3590
-18,3591
-269,3592
-217,3593
-112,3594
-965,3595
-213,3596
-102,3597
-966,3598
-20,3599
-967,3600
-18,3601
-237,3602
-968,3603
-969,3604
-970,3605
-968,3606
-31,3607
-872,3608
-69,3609
-740,3610
-322,3611
-217,3612
-102,3613
-252,3614
-280,3615
-971,3616
-123,3617
-302,3618
-28,3619
-972,3620
-349,3621
-269,3622
-51,3623
-17,3624
-973,3625
-14,3626
-974,3627
-975,3628
-974,3629
-976,3630
-977,3631
-20,3632
-978,2155
-979,3633
-950,3634
-21,3635
-568,3636
-980,3637
-641,3638
-979,3639
-86,3640
-981,3641
-982,3642
-983,3643
-979,3644
-125,3645
-984,3646
-123,3647
-40,3648
-59,3649
-985,3650
-276,3651
-195,3652
-496,3653
-112,3654
-112,3655
-17,3656
-102,3657
-349,3658
-26,3659
-986,3660
-21,3661
-256,3662
-987,3663
-234,3664
-988,3665
-156,3666
-875,3667
-3,3668
-3,3669
-113,3670
-3,3671
-321,3672
-641,3673
-86,3674
-527,3675
-989,3676
-14,3677
-990,3678
-39,3679
-447,3680
-991,3681
-992,3682
-28,3683
-438,3684
-1,3685
-993,3686
-781,3687
-390,3688
-28,3689
-112,3690
-97,3691
-102,3692
-361,3693
-40,3547
-19,3694
-39,3695
-28,3696
-28,3697
-26,3698
-26,3699
-39,3700
-994,3701
-224,3702
-434,3703
-938,3313
-256,3704
-302,3705
-123,3706
-995,3707
-17,3708
-432,3709
-31,3710
-996,3711
-997,3712
-998,3713
-757,3714
-593,3715
-999,3716
-1000,3717
-1001,3718
-731,3719
-1002,3720
-1003,3721
-185,3722
-1004,3723
-132,3724
-1005,3725
-276,3726
-942,3727
-555,3728
-1006,3729
-17,3730
-1007,3731
-593,3732
-1008,3733
-102,3734
-17,3735
-359,3736
-99,3737
-1009,3738
-1010,3739
-1011,3740
-1012,3741
-21,3742
-1013,3743
-1014,3744
-974,3745
-876,3746
-281,3747
-1015,3748
-1016,3749
-47,3750
-39,3751
-13,3752
-1017,3753
-224,3754
-224,3755
-224,3756
-18,3757
-224,3758
-185,3759
-185,3760
-267,3761
-267,3762
-267,3763
-267,3764
-17,3765
-17,3766
-102,3767
-102,3768
-289,3769
-17,3770
-17,3771
-17,3772
-31,3773
-17,3774
-1018,3775
-1019,3776
-194,3777
-94,3778
-39,3779
-123,3780
-1020,3781
-102,3782
-1021,3783
-1021,3784
-545,3785
-194,3786
-1022,3787
-194,3788
-1023,3789
-112,3790
-1022,3791
-194,3792
-1024,3793
-194,3794
-435,3795
-435,3796
-102,3797
-39,3798
-1025,3799
-102,3800
-102,3801
-102,3802
-1026,3803
-102,3804
-432,3805
-432,3806
-432,3807
-432,3808
-1027,3809
-1028,3810
-1029,3811
-112,3812
-18,3813
-102,3814
-289,3815
-132,3816
-112,3817
-434,3818
-310,3819
-224,3820
-37,3821
-161,3822
-125,1182
-597,3823
-24,3824
-1030,3825
-128,3826
-28,3827
-217,3828
-434,3829
-33,3830
-213,3831
-1031,911
-102,3832
-194,3833
-432,3834
-962,3835
-502,3836
-434,3837
-13,3838
-17,3839
-69,3840
-1032,3841
-1022,3842
-674,3843
-194,3844
-150,3845
-191,3846
-191,3847
-191,3848
-1033,3849
-191,3850
-191,3851
-191,3852
-191,3853
-1034,3854
-191,3855
-191,3856
-191,3857
-191,3858
-17,3859
-1035,3860
-1036,3861
-120,3862
-139,3863
-1037,3864
-422,3865
-213,3866
-213,3867
-174,3868
-112,3869
-434,3870
-1038,3871
-174,3872
-47,3873
-28,3874
-264,3875
-35,3876
-35,3877
-35,3878
-121,2130
-192,3879
-1039,3880
-389,3881
-1040,3882
-518,3883
-18,3884
-1041,3885
-2,3886
-1040,3887
-555,3888
-123,3889
-267,3890
-267,3891
-1042,3892
-102,3893
-2,3894
-73,3895
-1022,3896
-2,3897
-1043,3898
-13,3899
-185,3900
-1044,3901
-1045,3902
-278,3903
-267,3904
-17,3905
-194,3906
-213,3907
-267,3908
-267,3909
-267,3910
-1022,3911
-18,3912
-1046,3913
-267,3914
-289,3915
-65,3916
-234,3917
-221,3918
-112,3919
-620,3920
-43,3921
-590,3922
-9,3923
-9,3924
-194,3925
-1047,3926
-194,3927
-28,3928
-9,3929
-9,3930
-180,3931
-31,3932
-46,3933
-0,3934
-1048,3935
-330,3936
-9,3937
-3,3938
-9,3939
-3,3940
-189,3941
-422,3942
-42,3943
-42,3944
-280,3945
-17,3946
-190,3947
-443,3948
-128,3949
-150,3950
-252,3951
-47,3952
-224,3953
-18,3954
-249,3955
-1049,3956
-422,3957
-422,3958
-422,3959
-422,3960
-422,3961
-663,3962
-161,3963
-275,3964
-51,3965
-26,3966
-70,3967
-130,3968
-1050,3969
-1051,3970
-1052,3971
-125,3972
-1053,3973
-138,3974
-102,3975
-1054,3976
-766,3977
-1,3978
-185,3979
-174,3980
-384,3981
-42,3982
-90,3983
-1055,3984
-21,3985
-102,3986
-18,3987
-613,3988
-613,3989
-17,3990
-17,3991
-37,3992
-1056,3993
-357,3994
-1057,3995
-39,3996
-1058,3997
-51,3998
-288,3999
-1059,4000
-1060,4001
-1061,4002
-65,4003
-1062,4004
-242,4005
-75,4006
-921,4007
-1063,4008
-1064,4009
-1065,4010
-89,4011
-102,4012
-1066,4013
-2,4014
-2,4015
-47,4016
-289,4017
-213,4018
-132,4019
-1067,4020
-210,4021
-34,4022
-1068,541
-1022,4023
-1069,4024
-264,4025
-845,4026
-31,4027
-574,4028
-1070,4029
-1071,4030
-76,4031
-1072,4032
-1073,4033
-32,4034
-9,4035
-1074,4036
-252,4037
-97,4038
-154,4039
-39,4040
-679,4041
-39,4042
-1075,4043
-1076,4044
-1077,4045
-32,4046
-1078,4047
-289,4048
-1079,4049
-472,4050
-3,4051
-32,4052
-114,4053
-1080,4054
-461,4055
-1081,4056
-555,4057
-631,4058
-1082,4059
-70,4060
-1083,4061
-1084,4062
-21,4063
-1085,4064
-1086,4065
-1087,4066
-456,4067
-1088,4068
-1089,4069
-1090,4070
-31,4071
-661,4072
-22,4073
-78,4074
-1091,4075
-307,4076
-17,4077
-1092,4078
-147,4079
-28,4080
-1093,4081
-1094,4082
-1095,4083
-112,4084
-1083,4085
-21,4086
-195,4087
-1096,4088
-21,4089
-374,4090
-1097,4091
-39,4092
-1098,4093
-1099,4094
-560,4095
-1100,4096
-131,4097
-1101,4098
-1102,4099
-1103,4100
-41,4101
-31,4102
-35,4103
-123,4104
-9,4105
-11,4106
-545,4107
-1104,4108
-1105,4109
-34,4110
-1106,4111
-240,4112
-35,4113
-1107,4114
-69,4115
-18,4116
-443,4117
-1081,4118
-1108,4119
-1109,4120
-472,4121
-412,4122
-472,4123
-1110,4124
-76,4125
-355,4126
-8,4127
-119,4128
-1111,4129
-39,4130
-1112,4131
-39,4132
-1098,4133
-1113,4134
-1114,4135
-960,4136
-102,4137
-21,4138
-310,4139
-28,4140
-432,4141
-21,4142
-324,4143
-1115,4144
-649,4145
-29,4146
-26,4147
-18,4148
-261,4149
-668,4150
-634,4151
-1116,4152
-1117,4153
-39,4154
-1118,4155
-1119,4156
-26,4157
-328,4158
-1120,4159
-1121,4160
-17,4161
-271,4162
-1122,4163
-1123,4164
-1124,4165
-39,4166
-1125,4167
-73,4168
-47,4169
-1126,4170
-1127,4171
-1128,4172
-4,4173
-701,4174
-45,4175
-28,4176
-252,4177
-1129,4178
-20,4179
-1130,4180
-1131,4181
-217,4182
-217,4183
-1132,4184
-555,4185
-555,4186
-217,4187
-25,4188
-39,4189
-506,4190
-17,4191
-1133,4192
-475,4193
-69,4194
-1134,4195
-571,4196
-3,4197
-276,4198
-245,4199
-28,4200
-681,4201
-1135,4202
-1136,4203
-21,4204
-1137,4205
-1138,4206
-75,4207
-75,4208
-1139,4209
-75,4210
-1139,4211
-75,4212
-75,4213
-224,4214
-91,4215
-12,4216
-12,4217
-12,4218
-12,4219
-12,4220
-12,4221
-12,4222
-12,4223
-12,4224
-1140,3179
-1141,4225
-1141,4226
-1139,4227
-1141,4228
-1141,4229
-75,4230
-1139,4231
-1142,4232
-51,4233
-51,4234
-240,4235
-1006,4236
-1143,4237
-21,4238
-217,4239
-1144,4240
-1145,4241
-1146,4242
-1147,4243
-749,4244
-21,4245
-21,4246
-21,4247
-1148,4248
-1148,4249
-75,4250
-2,4251
-224,4252
-500,4253
-584,4254
-584,4255
-1149,4256
-422,4257
-1148,4258
-1148,4259
-75,4260
-21,4261
-28,4262
-357,4263
-357,4264
-269,4265
-536,4266
-1150,4267
-217,4268
-1151,4269
-503,4270
-907,4271
-357,4272
-983,4273
-415,4274
-21,4275
-33,4276
-47,4277
-1152,4278
-60,4279
-1152,4280
-21,4281
-557,4282
-1153,4283
-407,4284
-1,4285
-31,4286
-1154,4287
-213,4288
-359,4289
-359,4290
-600,4291
-447,4292
-1155,4293
-1155,4294
-1155,4295
-217,4296
-75,4297
-1152,4298
-1152,4299
-1152,4300
-40,4301
-1156,4302
-357,4303
-224,4304
-47,4305
-249,4306
-103,4307
-102,4308
-9,4309
-40,4310
-1157,4311
-1152,4312
-1152,4313
-1152,4314
-1152,4315
-1152,4316
-1152,4317
-1152,4318
-1152,4319
-1152,4320
-1152,4321
-1152,4322
-1152,4323
-1158,4324
-681,4325
-681,4326
-226,4327
-1151,4328
-503,4329
-503,4330
-503,4331
-102,4332
-51,4333
-1159,4334
-217,4335
-128,4336
-1159,4337
-102,4338
-226,4339
-28,4340
-102,4341
-40,4342
-97,4343
-11,1155
-1160,4344
-1161,4345
-447,4346
-1162,4347
-75,4348
-1163,4349
-22,4350
-252,4351
-606,4352
-280,4353
-280,4354
-280,4355
-1164,4356
-280,4357
-75,4358
-280,4359
-280,4360
-280,4361
-280,4362
-280,4363
-280,4364
-280,4365
-995,4366
-39,4367
-1165,4368
-1166,4369
-194,4370
-28,4371
-131,4372
-21,4373
-521,4374
-60,4375
-28,4376
-876,4377
-906,987
-455,4378
-979,4379
-47,4380
-1167,4381
-590,4382
-545,4383
-21,4384
-1085,4385
-60,4386
-21,4387
-28,4388
-252,4389
-447,4390
-222,4391
-21,4392
-28,4393
-123,4394
-408,4395
-457,4396
-1168,4397
-269,4398
-269,4399
-269,4400
-269,4401
-269,4402
-269,4403
-349,4404
-349,4405
-582,4406
-283,4407
-252,4408
-1169,4409
-893,4410
-47,4411
-1170,4412
-252,4413
-28,4414
-1171,4415
-226,4416
-443,4417
-213,4418
-35,4419
-35,4420
-35,4421
-35,4422
-35,4423
-35,4424
-35,4425
-35,4426
-35,4427
-35,4428
-35,4429
-1172,4430
-1172,4431
-1173,4432
-21,4433
-28,4434
-21,4435
-35,4436
-35,4437
-35,4438
-289,4439
-267,4440
-267,4441
-267,4442
-1174,4443
-17,4444
-578,4445
-191,4446
-20,4447
-1148,4448
-269,4449
-607,4450
-21,4451
-150,4452
-1006,4453
-28,4454
-408,4455
-102,4456
-252,4457
-69,4458
-693,4459
-35,4460
-35,4461
-1175,4462
-170,4463
-3,4464
-17,4465
-26,4466
-559,4467
-447,4468
-39,4469
-621,4470
-113,4471
-252,4472
-1176,4473
-357,4474
-1177,4475
-1178,4476
-17,4477
-1179,4478
-1180,4479
-606,4480
-17,4481
-0,4482
-0,4483
-29,4484
-43,4485
-2,4486
-0,4487
-55,4488
-10,4489
-288,4490
-0,4491
-0,4492
-153,1968
-156,4493
-3,4494
-92,4495
-288,4496
-47,4497
-46,4498
-2,4499
-9,4500
-9,4501
-174,4502
-46,4503
-288,4504
-288,4505
-92,4506
-185,4507
-2,32
-59,4508
-2,4509
-46,4510
-1181,4511
-1182,4512
-2,2848
-288,4513
-65,4514
-174,4515
-1183,4516
-51,4517
-43,1801
-46,4518
-2,4519
-1184,4520
-288,4521
-1185,4522
-0,4523
-1186,4524
-2,4525
-2,4526
-1181,4527
-1187,4528
-288,4529
-3,4530
-0,4531
-46,4532
-65,4533
-614,4534
-288,4535
-10,4536
-1188,4537
-2,4538
-1189,4539
-0,4540
-46,4541
-288,4542
-51,4543
-1190,4544
-129,4545
-1191,4546
-65,4547
-112,4548
-130,4549
-614,4550
-288,4551
-43,4552
-78,4553
-1192,4554
-10,4555
-288,4556
-43,4557
-55,4558
-614,4559
-614,703
-1193,4560
-129,4561
-0,4562
-78,4563
-129,4564
-372,4565
-114,4566
-1194,4567
-2,4568
-65,4569
-114,4570
-1192,4571
-1192,4572
-51,4573
-2,14
-1195,4574
-1189,4575
-1196,4576
-1197,4577
-129,4578
-288,4579
-614,4580
-2,4581
-129,4582
-614,4583
-1198,4584
-1199,4585
-264,4586
-2,4587
-101,4588
-78,4589
-2,4590
-2,4591
-65,4592
-1192,4593
-43,4594
-451,4595
-1200,4596
-1201,4597
-129,4598
-288,4599
-1190,4600
-1187,4601
-26,4602
-196,4603
-1196,4604
-10,4605
-1202,4606
-288,4607
-288,4608
-1203,4609
-0,4610
-2,4611
-833,4612
-2,4613
-46,4614
-1204,4615
-46,4616
-1205,4617
-1206,4618
-1207,4619
-129,4620
-43,4621
-10,4622
-1187,4623
-129,4624
-1194,4625
-1208,4626
-78,4627
-865,4628
-1195,4629
-1209,4630
-2,4631
-1210,4632
-1211,4633
-2,4634
-2,4635
-1207,4636
-288,4637
-1212,4638
-2,4639
-46,4640
-10,4641
-2,4642
-2,4643
-2,4644
-29,4645
-129,4646
-1207,4647
-1213,4648
-1194,4649
-1196,4650
-1203,4651
-1199,4652
-674,4653
-2,4654
-196,4655
-923,4656
-43,4657
-1192,4658
-288,4659
-1192,4660
-29,4661
-2,4662
-1198,4663
-1214,4664
-1215,4665
-1216,660
-78,4666
-2,4667
-2,4668
-130,4669
-2,4670
-129,4671
-47,4672
-1217,4673
-288,4674
-288,4675
-43,4676
-413,4677
-10,2733
-1196,4678
-411,4679
-14,4680
-174,4681
-1194,4682
-46,4683
-43,4684
-173,4685
-153,4686
-10,4687
-3,4688
-650,4689
-1218,4690
-78,4691
-1219,4692
-1220,4693
-1184,4694
-153,4695
-116,4696
-1221,4697
-1222,4698
-1223,4699
-1187,4700
-1203,4701
-2,4702
-59,4703
-129,4704
-1224,4705
-1210,4706
-1210,4707
-1192,4708
-196,4709
-10,4710
-865,4711
-3,4712
-1211,4713
-1225,4714
-1226,4715
-200,4716
-1198,4717
-1218,4718
-593,4719
-99,4720
-923,4721
-46,4722
-1198,1440
-46,4723
-129,4724
-1227,4725
-1228,4726
-1225,4727
-1194,4728
-14,4729
-153,2453
-1229,4730
-132,4731
-130,4732
-0,4733
-614,4734
-129,4735
-43,4736
-2,4737
-593,4738
-1226,4739
-1230,4740
-1192,4741
-1231,4742
-1232,4743
-284,4744
-1233,4745
-2,4746
-593,4747
-59,4748
-1192,4749
-1223,4750
-1219,4751
-46,4752
-130,4753
-1211,4754
-0,4755
-1221,4756
-220,4757
-2,4758
-2,4759
-1234,4760
-593,4761
-1235,4762
-1236,4763
-1237,4764
-220,4765
-1222,4766
-1234,4767
-185,4768
-412,4769
-593,4770
-1238,4771
-1203,4772
-614,4773
-59,4774
-1221,4775
-451,4776
-130,4777
-1184,4778
-648,4779
-1199,4780
-1236,4781
-2,4782
-1239,4783
-1222,4784
-1240,931
-196,4785
-65,4786
-1209,4787
-412,506
-1241,4788
-1242,4789
-1243,4790
-1244,4791
-288,4792
-1214,4793
-1245,4794
-1232,4795
-1195,4796
-1219,4797
-1246,4798
-288,4799
-1247,4800
-1219,4801
-59,4802
-1248,4803
-614,4804
-1192,4805
-1211,4806
-1215,4807
-1249,4808
-593,4809
-1222,4810
-78,4811
-2,4812
-1250,4813
-1251,4814
-1234,4815
-2,4816
-2,4817
-1252,4818
-1253,4819
-10,4820
-1254,3105
-1203,4821
-1255,4822
-99,4823
-2,4824
-1256,4825
-1257,4826
-1225,4827
-1258,4828
-1239,4829
-1259,4830
-1201,4831
-153,4832
-196,4833
-29,4834
-0,4835
-1260,4836
-0,4837
-129,4838
-1233,4839
-1261,4840
-10,4841
-130,4842
-412,4843
-1262,4844
-1194,4845
-1209,4846
-1263,4847
-114,4848
-205,4849
-1264,4850
-1239,4851
-2,4852
-59,4853
-129,4854
-1265,4855
-1239,4856
-288,4857
-78,4858
-288,4859
-1205,4860
-2,4861
-2,4862
-1266,4863
-1267,4864
-196,4865
-1219,4866
-1192,4867
-1268,4868
-1182,3221
-1234,4869
-1211,4870
-1269,4871
-1187,4872
-2,4873
-1196,4874
-2,4875
-0,4876
-2,4877
-1192,4878
-288,4879
-1240,4880
-1237,4881
-78,4882
-289,4883
-1225,4884
-2,4885
-1252,4886
-78,4887
-59,4888
-865,4889
-1249,4890
-1246,4891
-1264,4892
-2,4893
-1270,4894
-1271,4895
-1254,4896
-1234,4897
-1226,4898
-832,4899
-1272,4900
-3,4901
-1273,4902
-614,4903
-132,4904
-1184,4905
-1196,4906
-78,4907
-129,4908
-1203,4909
-1274,4910
-1215,4911
-1195,4912
-130,4913
-1225,4914
-1226,4915
-1196,4916
-99,4917
-1191,4918
-1262,4919
-173,4920
-99,4921
-1220,4922
-1225,4923
-2,4924
-1192,4925
-614,4926
-200,4927
-1237,4928
-451,4929
-1212,4930
-1210,4931
-1275,4932
-1225,4933
-1276,4934
-78,4935
-1277,4936
-1225,4937
-923,4938
-288,4939
-1194,4940
-3,4941
-1278,4942
-114,4943
-1279,4944
-565,4945
-1252,4946
-2,4947
-2,4948
-1280,428
-2,4949
-173,4950
-46,4951
-173,4952
-0,4953
-2,4954
-1281,4955
-129,4956
-1282,4957
-1283,4958
-1258,4959
-1258,4960
-2,4961
-26,4962
-1256,4963
-1234,4964
-288,4965
-1284,4966
-99,4967
-1285,4968
-1286,4969
-1287,4970
-1219,4971
-33,4972
-1288,4973
-1277,4974
-1255,4975
-1272,4976
-565,4977
-1289,4978
-78,4979
-1212,4980
-1261,4981
-1261,4982
-1219,4983
-1290,4984
-1291,4985
-2,4986
-614,4987
-1292,4988
-1293,4989
-1254,4990
-923,4991
-1184,4992
-1225,4993
-1192,4994
-1191,4995
-173,4996
-173,4997
-2,4998
-1294,4999
-3,5000
-2,5001
-471,5002
-130,5003
-1295,5004
-1192,5005
-1296,5006
-1297,5007
-1210,5008
-2,5009
-1237,5010
-1298,5011
-0,5012
-1299,5013
-1300,5014
-1255,5015
-565,5016
-1215,5017
-1301,5018
-1240,5019
-1282,5020
-2,5021
-2,5022
-1203,5023
-1277,5024
-1302,5025
-1303,5026
-78,5027
-1252,5028
-1273,5029
-1304,5030
-1258,5031
-59,5032
-1305,5033
-1265,5034
-1306,5035
-92,5036
-1307,5037
-1305,5038
-1198,5039
-2,5040
-1225,5041
-99,5042
-196,5043
-1308,5044
-1309,5045
-1208,5046
-1275,5047
-1287,5048
-1243,5049
-34,5050
-1278,5051
-1277,5052
-130,5053
-1269,5054
-1269,5055
-130,5056
-10,5057
-59,5058
-173,5059
-1310,5060
-1304,5061
-1210,5062
-1255,5063
-1194,5064
-1214,5065
-1311,5066
-1312,5067
-923,5068
-1225,5069
-99,5070
-1313,5071
-1314,5072
-412,5073
-1278,5074
-1315,5075
-1316,5076
-2,5077
-173,5078
-1194,5079
-1249,5080
-1255,5081
-2,5082
-1262,5083
-1298,5084
-1284,5085
-1313,2611
-1187,5086
-1294,5087
-1317,5088
-1318,5089
-2,5090
-2,5091
-1225,5092
-1319,5093
-1320,5094
-1276,5095
-1321,5096
-614,5097
-130,5098
-1225,5099
-1273,5100
-130,5101
-1322,5102
-1323,5103
-1215,5104
-46,5105
-1278,5106
-1256,5107
-1324,5108
-1254,5109
-78,2654
-1325,5110
-1302,5111
-99,5112
-1234,5113
-1326,5114
-1225,5115
-1277,5116
-1327,5117
-1258,5118
-1328,5119
-1222,5120
-1304,5121
-0,5122
-34,5123
-34,5124
-34,5125
-2,5126
-1329,5127
-1272,5128
-1330,5129
-1184,5130
-1282,5131
-1331,5132
-10,4641
-1332,5133
-33,5134
-1325,5135
-2,5136
-1305,5137
-1305,5138
-173,5139
-1255,5140
-1329,5141
-1333,5142
-1333,5143
-99,5144
-1334,5145
-1311,5146
-99,5147
-614,4720
-1288,5148
-1249,5149
-1300,5150
-1293,5151
-1234,5152
-1254,5153
-1192,5154
-1335,5155
-1191,5156
-1336,5157
-33,5158
-1337,5159
-1226,114
-1310,5160
-1296,5161
-1296,5162
-0,5163
-3,5164
-1214,5165
-59,5166
-1338,5167
-1339,5168
-1312,5169
-33,5170
-1333,5171
-1265,5172
-1258,5173
-2,5174
-173,5175
-1268,5176
-1225,5177
-412,5178
-173,5179
-1298,5180
-1323,5181
-1276,5182
-1276,5183
-2,5184
-1340,5185
-1304,5186
-1225,5187
-1341,5188
-1229,5189
-1263,5190
-1305,5191
-1342,5192
-1343,5193
-1254,5194
-1344,5195
-865,5196
-1234,5197
-1333,5198
-1345,5199
-3,5200
-1333,5201
-1263,5202
-1346,5203
-1337,5204
-59,5205
-1258,5206
-1347,5207
-1305,5208
-1348,5209
-196,5210
-173,5211
-99,5212
-1278,2557
-1327,5213
-2,5214
-923,5215
-1265,5216
-78,5217
-0,5218
-1225,5219
-2,5220
-105,5221
-1222,5222
-1258,5223
-1203,5224
-1349,5225
-1350,5226
-1195,5227
-1258,5228
-1351,5229
-1304,5230
-2,5231
-1192,5232
-1269,5233
-1352,5234
-1221,5235
-1288,5236
-1336,5237
-1311,5238
-1194,5239
-1305,5240
-1254,5241
-1353,5242
-3,5243
-1255,5244
-1354,5245
-1192,5246
-614,5247
-1355,5248
-173,5249
-1225,5250
-1256,5251
-2,5252
-1194,5253
-1356,5254
-1277,5255
-129,5256
-1292,5257
-1357,5258
-1304,5259
-1304,5260
-86,5261
-1338,5262
-1276,5263
-1358,5264
-1304,5265
-1359,5266
-1360,5267
-2,5268
-471,5269
-3,5270
-1254,5271
-1333,5272
-3,5273
-1232,5274
-1327,5275
-1347,5276
-1255,5277
-1191,5278
-1351,5279
-1361,5280
-0,5281
-1194,5282
-288,5283
-8,5284
-1305,5285
-1362,5286
-1276,5287
-1276,5288
-1317,5289
-1296,5290
-1203,5291
-1363,5292
-1337,5293
-39,5294
-1243,5295
-1284,5296
-173,5297
-1192,5298
-1226,5299
-1364,5300
-1249,5301
-1304,5302
-1338,5303
-1319,5304
-1365,5305
-1303,5306
-1323,5307
-2,5308
-130,5309
-1192,5310
-1348,5311
-1277,5312
-1284,5313
-43,610
-1219,5314
-1252,5315
-1366,5316
-1367,5317
-97,5318
-34,5319
-1194,5320
-1298,5321
-2,5322
-412,5323
-1287,5324
-471,5325
-2,5326
-1368,5327
-1258,5328
-99,5329
-99,5330
-1348,5331
-105,5332
-1369,5333
-565,5334
-1258,5335
-1311,5336
-1225,5337
-1273,5338
-1294,5339
-192,5340
-1364,5341
-1370,5342
-2,5343
-1305,5344
-2,5345
-153,5346
-1298,5347
-10,5348
-130,5349
-1234,5350
-1215,5351
-1371,5352
-1277,5353
-288,5354
-1225,5355
-1258,5356
-173,5357
-1209,5358
-1277,5359
-1215,5360
-1302,5361
-99,5362
-1372,5363
-1219,5364
-1370,5365
-412,5366
-614,5367
-471,5368
-1294,5369
-2,5370
-1225,5371
-1209,5372
-130,5373
-1284,5374
-1192,5375
-1313,5376
-1348,5377
-1340,5378
-1373,5379
-1192,5380
-1356,5381
-1258,5382
-2,5383
-288,5384
-78,5385
-1348,5386
-1252,5387
-1277,5388
-1225,5389
-1370,5390
-1225,5391
-105,5392
-1196,5393
-1356,5394
-1192,5395
-1194,5396
-1374,5397
+578,Enemy Agent
+191,Close Assault: A Man-to-Man Game of Squad Tactics and Command - Europe 1939-1945
+20,Frag: PvP
+1148,Jamie Swise Mystery Games: Murder by Proxy
+269,Rome at War II: Fading Legions
+607,Big Foot
+21,Manhunt
+150,Decision in France
+1006,Viva España: A Game of the Spanish Civil War - 1936-1939
+28,Lost Gold
+408,Pay Cards!
+102,"Wellington's Victory: Battle of Waterloo Game - June 18th, 1815"
+252,Pick Two!
+69,Derby Days
+693,VOR: The Maelstrom
+35,Warzone (Second Edition)
+35,Blood Berets
+1175,Cityscape
+170,Sensationen
+3,Der Herr der Ringe: Die Zwei Türme
+17,Jutland
+26,Warmaster
+559,Elementary Watson
+447,Meet the Presidents
+39,Equality
+621,Equate Advanced Tile Set
+113,Scandinavia
+252,Apples to Apples Kids
+1176,Earth Satellite Game
+357,The Sting Game
+1177,Consequential
+1178,Dollars & Sense
+17,Quest for the Ideal Mate
+1179,HellRail
+1180,Desperado
+606,Jet World
+17,Tuf-abet
+0,Amun-Re
+0,Carcassonne: Expansion 2 - Traders & Builders
+29,Coloretto
+43,Alhambra
+2,A Game of Thrones
+0,Carcassonne: The Castle
+55,YINSH
+10,San Juan
+288,Ticket to Ride
+0,Goa: A New Expedition
+0,Saint Petersburg
+153,War of the Ring
+156,Struggle of Empires
+3,Ingenious
+92,Betrayal at House on the Hill
+288,Memoir '44
+47,Heroscape Master Set: Rise of the Valkyrie
+46,Twilight Struggle
+2,Twilight Imperium: Third Edition
+9,No Thanks!
+9,The Downfall of Pompeii
+174,Antiquity
+46,Commands & Colors: Ancients
+288,Ticket to Ride: Europe
+288,Shadows over Camelot
+92,Nexus Ops
+185,Blood Bowl: Living Rulebook
+2,Arkham Horror
+59,Railways of the World
+2,Descent: Journeys in the Dark
+46,Here I Stand
+1181,1846: The Race for the Midwest
+1182,Caylus
+2,Lord of the Rings: The Confrontation
+288,Memoir '44: Eastern Front
+65,Power Grid: France/Italy
+174,Indonesia
+1183,Glory to Rome
+51,Lords of Vegas
+43,Shogun
+46,Combat Commander: Europe
+2,Arkham Horror: Dunwich Horror Expansion
+1184,Neuroshima Hex
+288,Ticket to Ride: Märklin
+1185,Mr. Jack
+0,Thurn and Taxis
+1186,Age of Empires III: The Age of Discovery
+2,Twilight Imperium: Third Edition - Shattered Empire
+2,StarCraft: The Board Game
+1181,Shikoku 1889
+1187,Imperial
+288,Ticket to Ride: USA 1910
+3,The Pillars of the Earth
+0,Taluva
+46,Sekigahara: The Unification of Japan
+65,Power Grid: Benelux/Central Europe
+614,Merchants & Marauders
+288,BattleLore
+10,Notre Dame
+1188,Through the Ages: A Story of Civilization
+2,Arkham Horror: The King in Yellow Expansion
+1189,Kingsburg
+0,Vikings
+46,1960: The Making of the President
+288,Colosseum
+51,Steam
+1190,Jamaica
+129,Race for the Galaxy
+1191,Brass: Lancashire
+65,Power Grid: The New Power Plants - Set 1
+112,D-Day at Omaha Beach
+130,Cuba
+614,Pandemic
+288,Ticket to Ride: Switzerland
+43,Thebes
+78,Agricola
+1192,Galaxy Trucker
+10,In the Year of the Dragon
+288,Ticket to Ride: Nordic Countries
+43,Wabash Cannonball
+55,TZAAR
+614,Endeavor
+614,Tales of the Arabian Nights
+1193,Biblios
+129,Race for the Galaxy: The Gathering Storm
+0,Stone Age
+78,Le Havre
+129,Dominion
+372,Time's Up! Title Recall!
+114,Claustrophobia
+1194,Ghost Stories
+2,Battlestar Galactica: The Board Game
+65,Power Grid: China/Korea
+114,Formula D
+1192,Galaxy Trucker: The Big Expansion
+1192,Space Alert
+51,Automobile
+2,Cosmic Encounter
+1195,At the Gates of Loyang
+1189,Kingsburg: To Forge a Realm
+1196,Dixit
+1197,Carson City
+129,Race for the Galaxy: Rebel vs Imperium
+288,Small World
+614,Clash of Cultures
+2,Arkham Horror: Innsmouth Horror Expansion
+129,Dominion: Intrigue
+614,Pandemic: On the Brink
+1198,The Resistance
+1199,Vinhos
+264,Tobago
+2,Gears of War: The Board Game
+101,Hansa Teutonica
+78,Agricola: Farmers of the Moor
+2,Chaos in the Old World
+2,Battlestar Galactica: The Board Game - Pegasus Expansion
+65,Friday
+1192,Dungeon Lords
+43,Alhambra: Big Box
+451,Telestrations
+1200,Alien Frontiers
+1201,Belfort
+129,Dominion: Seaside
+288,Ticket to Ride: Europa 1912
+1190,Jaipur
+1187,Imperial 2030
+26,Space Hulk (Third Edition)
+196,Cyclades
+1196,Dixit: Quest
+10,Macao
+1202,Kingdom Death: Monster
+288,Small World: Grand Dames of Small World
+288,Small World: Cursed!
+1203,Summoner Wars
+0,Egizia
+2,Runewars
+833,Letters from Whitechapel
+2,Cosmic Encounter: Cosmic Incursion
+46,Dominant Species
+1204,Commands & Colors: Napoleonics
+46,"Labyrinth: The War on Terror, 2001 - ?"
+1205,The Manhattan Project
+1206,Innovation
+1207,London
+129,Race for the Galaxy: The Brink of War
+43,Fresco
+10,Glen More
+1187,Navegador
+129,Dominion: Prosperity
+1194,7 Wonders
+1208,Ascension: Deckbuilding Game
+78,Ora et Labora
+865,King of Tokyo
+1195,Luna
+1209,Takenoko
+2,Space Hulk: Death Angel - The Card Game
+1210,Eclipse: New Dawn for the Galaxy
+1211,Troyes
+2,Sid Meier's Civilization: The Board Game
+2,The Lord of the Rings: The Card Game
+1207,A Few Acres of Snow
+288,Small World: Be Not Afraid...
+1212,Xia: Legends of a Drift System
+2,Mansions of Madness
+46,Space Empires 4X
+10,The Castles of Burgundy
+2,Battlestar Galactica: The Board Game - Exodus Expansion
+2,Cosmic Encounter: Cosmic Conflict
+2,Blood Bowl: Team Manager - The Card Game
+29,Airlines Europe
+129,Dominion: Cornucopia
+1207,Discworld: Ankh-Morpork
+1213,Skull
+1194,7 Wonders: Leaders
+1196,Dixit: Odyssey
+1203,Summoner Wars: Master Set
+1199,Madeira
+674,Chaos in the Old World: The Horned Rat Expansion
+2,Twilight Imperium: Third Edition - Shards of the Throne
+196,Cyclades: Hades
+923,Mage Knight Board Game
+43,Lancaster
+1192,Dungeon Petz
+288,Small World Underground
+1192,Last Will
+29,Hanabi
+2,Elder Sign
+1198,Flash Point: Fire Rescue
+1214,Mage Wars Arena
+1215,Sentinels of the Multiverse
+1216,Trajan
+78,Caverna: The Cave Farmers
+2,A Game of Thrones: The Board Game (Second Edition)
+2,Star Wars: X-Wing Miniatures Game
+130,Village
+2,Descent: Journeys in the Dark (Second Edition)
+129,Dominion: Hinterlands
+47,Risk Legacy
+1217,Archipelago
+288,Ticket to Ride Map Collection 1: Asia + Legendary Asia
+288,Ticket to Ride Map Collection 2: India & Switzerland
+43,Kingdom Builder
+413,Sid Meier's Civilization: The Board Game - Fame and Fortune
+10,Puerto Rico
+1196,Seasons
+411,Kanban: Driver's Edition
+14,Lords of Waterdeep
+174,The Great Zimbabwe
+1194,7 Wonders: Cities
+46,Cuba Libre
+43,Escape: The Curse of the Temple
+173,Zombicide
+153,War of the Ring: Second Edition
+10,Las Vegas
+3,Targi
+650,Snowdonia
+1218,Freedom: The Underground Railroad
+78,Agricola: All Creatures Big and Small
+1219,Terra Mystica
+1220,Trains
+1184,Robinson Crusoe: Adventures on the Cursed Island
+153,War of the Ring: Lords of Middle-earth
+116,Keyflower
+1221,BattleCON: Devastation of Indines
+1222,Suburbia
+1223,Tokaido
+1187,Concordia
+1203,Mice and Mystics
+2,Android: Netrunner
+59,The Gallerist
+129,Dominion: Dark Ages
+1224,Libertalia
+1210,Eclipse: Rise of the Ancients
+1210,Nations
+1192,Tzolk'in: The Mayan Calendar
+196,Kemet
+10,Bora Bora
+865,King of Tokyo: Power Up!
+3,Legends of Andor
+1211,Ginkgopolis
+1225,Viticulture
+1226,Spartacus: A Game of Blood and Treachery
+200,Pax Porfiriana
+1198,The Resistance: Avalon
+1218,1775: Rebellion
+593,Legendary: A Marvel Deck Building Game
+99,Love Letter
+923,Mage Knight Board Game: The Lost Legion Expansion
+46,Triumph & Tragedy: European Balance of Power 1936-1945
+1198,Coup
+46,Churchill
+129,Roll for the Galaxy
+1227,Pathfinder Adventure Card Game: Rise of the Runelords - Base Set
+1228,Sushi Go!
+1225,Euphoria: Build a Better Dystopia
+1194,7 Wonders: Wonder Pack
+14,Lords of Waterdeep: Scoundrels of Skullport
+153,The Battle of Five Armies
+1229,A Fake Artist Goes to New York
+132,Forbidden Desert
+130,Village: Inn
+0,Bruges
+614,Pandemic: In the Lab
+129,Dominion: Guilds
+43,Amerigo
+2,Elder Sign: Unseen Forces
+593,Legendary: A Marvel Deck Building Game - Dark City
+1226,Firefly: The Game
+1230,Cthulhu Wars
+1192,Galaxy Trucker: Anniversary Edition
+1231,Francis Drake
+1232,Lewis & Clark: The Expedition
+284,Arboretum
+1233,Paperback
+2,Battlestar Galactica: The Board Game - Daybreak Expansion
+593,Legendary: A Marvel Deck Building Game - Fantastic Four
+59,Escape Plan
+1192,Tzolk'in: The Mayan Calendar - Tribes & Prophecies
+1223,Quantum
+1219,Glass Road
+46,Fire in the Lake
+130,Rococo
+1211,Bruxelles 1893
+0,Russian Railroads
+1221,Argent: The Consortium
+220,Suburbia Inc
+2,Eldritch Horror
+2,BattleLore: Second Edition
+1234,T.I.M.E Stories
+593,Legendary Encounters: An Alien Deck Building Game
+1235,Shadows of Brimstone: City of the Ancients
+1236,La Granja
+1237,Star Realms
+220,Viticulture: Tuscany
+1222,One Night Ultimate Werewolf
+1234,Splendor
+185,Maquis
+412,Istanbul
+593,Legendary: A Marvel Deck Building Game - Paint the Town Red
+1238,Skull King
+1203,Dead of Winter: A Crossroads Game
+614,Pandemic: The Cure
+59,Baseball Highlights: 2045
+1221,Millennium Blades
+451,Telestrations: 12 Player Party Pack
+130,Camel Up
+1184,Imperial Settlers
+648,Hive Pocket
+1199,Nippon
+1236,Arkwright
+2,Eldritch Horror: Forsaken Lore
+1239,Arcadia Quest
+1222,Castles of Mad King Ludwig
+1240,Evolution
+196,Inis
+65,Power Grid Deluxe: Europe/North America
+1209,Abyss
+412,Port Royal
+1241,Deception: Murder in Hong Kong
+1242,Onirim (Second Edition)
+1243,Monikers
+1244,Black Orchestra
+288,Five Tribes: The Djinns of Naqala
+1214,Sheriff of Nottingham
+1245,Hanamikoji
+1232,Colt Express
+1195,AquaSphere
+1219,Fields of Arle
+1246,Conan
+288,Ticket to Ride: 10th Anniversary
+1247,Onitama
+1219,Terra Mystica: Fire & Ice
+59,Lisboa
+1248,Stockpile
+614,Pandemic Legacy: Season 1
+1192,Alchemists
+1211,Deus
+1215,Spirit Island
+1249,Trickerion: Legends of Illusion
+593,Legendary: A Marvel Deck Building Game - Guardians of the Galaxy
+1222,One Night Ultimate Werewolf: Daybreak
+78,Patchwork
+2,Star Wars: Armada
+1250,Feudum
+1251,Tiny Epic Galaxies
+1234,Elysium
+2,Star Wars: Imperial Assault
+2,Eldritch Horror: Mountains of Madness
+1252,Orléans
+1253,KLASK
+10,San Juan (Second Edition)
+1254,Nemesis
+1203,Ashes Reborn: Rise of the Phoenixborn
+1255,Terraforming Mars
+99,Love Letter: Batman
+2,A Game of Thrones: The Card Game (Second Edition)
+1256,Roll Player
+1257,Middara: Unintentional Malum - Act 1
+1225,Scythe
+1258,Raiders of the North Sea
+1239,Blood Rage
+1259,Valeria: Card Kingdoms
+1201,Crusaders: Thy Will Be Done
+153,Sword & Sorcery
+196,Captain Sonar
+29,Cacao
+0,The Voyages of Marco Polo
+1260,The Grizzled
+0,El Grande Big Box
+129,Dominion: Adventures
+1233,Burgle Bros.
+1261,Champions of Midgard
+10,Broom Service
+130,Mombasa
+412,Istanbul: Mocha & Baksheesh
+1262,Above and Below
+1194,7 Wonders Duel
+1209,Takenoko: Chibis
+1263,Gloomhaven
+114,Blood Rage: 5th Player Expansion
+205,Mare Nostrum: Empires
+1264,Dawn of the Zeds (Third Edition)
+1239,Blood Rage: Mystics of Midgard
+2,Forbidden Stars
+59,Vinhos: Deluxe Edition
+129,Roll for the Galaxy: Ambition
+1265,Food Chain Magnate
+1239,Zombicide: Black Plague
+288,Quadropolis
+78,Isle of Skye: From Chieftain to King
+288,Five Tribes: The Artisans of Naqala
+1205,The Manhattan Project: Energy Empire
+2,Mission: Red Planet (Second/Third Edition)
+2,Eldritch Horror: Strange Remnants
+1266,Carson City: Big Box
+1267,IKI
+196,Raptor
+1219,A Feast for Odin
+1192,Codenames
+1268,The 7th Continent
+1182,Shakespeare
+1234,T.I.M.E Stories: The Marcy Case
+1211,The Bloody Inn
+1269,Potion Explosion
+1187,Concordia: Salsa
+2,Fury of Dracula (Third/Fourth Edition)
+1196,Mysterium
+2,Runebound (Third Edition)
+0,Russian Railroads: German Railroads
+2,Eldritch Horror: Under the Pyramids
+1192,Through the Ages: A New Story of Civilization
+288,Ticket to Ride Map Collection 5: United Kingdom & Pennsylvania
+1240,Evolution: Climate
+1237,Star Realms: Colony Wars
+78,Grand Austria Hotel
+289,Karuba
+1225,Viticulture Essential Edition
+2,Star Wars: X-Wing Miniatures Game - The Force Awakens Core Set
+1252,Orléans: Invasion
+78,Oh My Goods!
+59,On Mars
+865,Bunny Kingdom
+1249,Anachrony
+1246,Mythic Battles: Pantheon
+1264,Nemo's War (Second Edition)
+2,Star Wars: Rebellion
+1270,Secret Hitler
+1271,Awkward Guests: The Walton Case
+1254,This War of Mine: The Board Game
+1234,T.I.M.E Stories: A Prophecy of Dragons
+1226,Tyrants of the Underdark
+832,Whitehall Mystery
+1272,Aeon's End
+3,Imhotep
+1273,Too Many Bones
+614,Reign of Cthulhu
+132,Sushi Go Party!
+1184,51st State: Master Set
+1196,Mysterium: Hidden Signs
+78,The Colonists
+129,Dominion: Empires
+1203,Dead of Winter: The Long Night
+1274,Junk Art
+1215,Spirit Island: Branch & Claw
+1195,The Oracle of Delphi
+130,Great Western Trail
+1225,Viticulture: Moor Visitors Expansion
+1226,Star Trek: Ascendancy
+1196,Dice Forge
+99,Mystic Vale
+1191,Santorini
+1262,Near and Far
+173,The Godfather: Corleone's Empire
+99,Love Letter: Premium Edition
+1220,Yokohama
+1225,Charterstone
+2,Eldritch Horror: Signs of Carcosa
+1192,Codenames: Pictures
+614,Iberia
+200,Pax Renaissance
+1237,Hero Realms
+451,Harry Potter: Hogwarts Battle
+1212,Xia: Embers of a Forsaken Star
+1210,Flamme Rouge
+1275,Sagrada
+1225,Scythe: Invaders from Afar
+1276,Everdell
+78,Agricola (Revised Edition)
+1277,Clank!: A Deck-Building Adventure
+1225,Viticulture: Tuscany Essential Edition
+923,Sidereal Confluence
+288,Ticket to Ride: Rails & Sails
+1194,7 Wonders Duel: Pantheon
+3,Exit: The Game - The Abandoned Cabin
+1278,Lorenzo il Magnifico
+114,Sherlock Holmes Consulting Detective: Jack the Ripper & West End Adventures
+1279,Sub Terra
+565,Kingdomino
+1252,Orléans: Trade & Intrigue
+2,Mansions of Madness: Second Edition
+2,Star Wars: Destiny
+1280,Citadels
+2,Arkham Horror: The Card Game
+173,Rising Sun
+46,Imperial Struggle
+173,Ethnos
+0,First Class: All Aboard the Orient Express!
+2,Arkham Horror: The Card Game - The Dunwich Legacy: Expansion
+1281,Mechs vs. Minions
+129,Dominion (Second Edition)
+1282,Century: Spice Road
+1283,Magic Maze
+1258,Raiders of the North Sea: Hall of Heroes
+1258,Raiders of the North Sea: Fields of Fame
+2,Mansions of Madness: Second Edition - Beyond the Threshold: Expansion
+26,Blood Bowl (2016 Edition)
+1256,Roll Player: Monsters & Minions
+1234,Unlock!: Escape Adventures
+288,Yamataï
+1284,Downforce
+99,Thunderstone Quest
+1285,Clans of Caledonia
+1286,Fantastic Factories
+1287,Dice Throne: Season One
+1219,A Feast for Odin: The Norwegians
+33,The Quest for El Dorado
+1288,Detective: City of Angels
+1277,Clank!: Sunken Treasures
+1255,Terraforming Mars: Hellas & Elysium
+1272,Aeon's End: War Eternal
+565,Photosynthesis
+1289,Anachrony: Exosuit Commander Pack
+78,Bärenpark
+1212,Arydia: The Paths We Dare Tread
+1261,Champions of Midgard: The Dark Mountains
+1261,Champions of Midgard: Valhalla
+1219,Gaia Project
+1290,The Shipwreck Arcana
+1291,Rajas of the Ganges
+2,Eldritch Horror: Cities in Ruin
+614,Pandemic Legacy: Season 2
+1292,Dinosaur Island
+1293,The Fox in the Forest
+1254,Lords of Hellas
+923,Fantasy Realms
+1184,Detective: A Modern Crime Board Game
+1225,Scythe: The Wind Gambit
+1192,Codenames: Duet
+1191,Brass: Birmingham
+173,Rising Sun: Daimyo Box
+173,Zombicide: Green Horde
+2,Arkham Horror: The Card Game - The Path to Carcosa: Expansion
+1294,Decrypto
+3,Exit: The Game - Dead Man on the Orient Express
+2,Star Wars: Rebellion - Rise of the Empire
+471,The Red Cathedral
+130,Heaven & Ale
+1295,Wonderland's War
+1192,Pulsar 2849
+1296,Santa Maria
+1297,Teotihuacan: City of Gods
+1210,Flamme Rouge: Peloton
+2,Mansions of Madness: Second Edition - Streets of Arkham: Expansion
+1237,Star Realms: Frontiers
+1298,Azul
+0,Carcassonne Big Box 6
+1299,AuZtralia
+1300,Obsession
+1255,Terraforming Mars: Venus Next
+565,Queendomino
+1215,Spirit Island: Promo Pack 1
+1301,Western Legends
+1240,Oceans
+1282,Century: Golem Edition
+2,Twilight Imperium: Fourth Edition
+2,Civilization: A New Dawn
+1203,Stuffed Fables
+1277,Clank! In! Space!: A Deck-Building Adventure
+1302,Endeavor: Age of Sail
+1303,Welcome To...
+78,Nusfjord
+1252,Altiplano
+1273,Too Many Bones: Undertow
+1304,London (Second Edition)
+1258,Architects of the West Kingdom
+59,Weather Machine
+1305,Root
+1265,Chronicles of Crime
+1306,Black Rose Wars
+92,Betrayal Legacy
+1307,Blood on the Clocktower
+1305,Root: The Riverfolk Expansion
+1198,Aeon's End: Legacy
+2,Mansions of Madness: Second Edition - Sanctum of Twilight: Expansion
+1225,Scythe: The Rise of Fenris
+99,Space Base
+196,Treasure Island
+1308,Aeon Trespass: Odyssey
+1309,Yellow & Yangtze
+1208,Shards of Infinity
+1275,Sagrada: 5-6 Player Expansion
+1287,Dice Throne: Season Two - Battle Chest
+1243,Quacks
+34,That's Pretty Clever!
+1278,Newton
+1277,Clank!: The Mummy's Curse
+130,Coimbra
+1269,Railroad Ink: Deep Blue Edition
+1269,The King's Dilemma
+130,Great Western Trail: Rails to the North
+10,Carpe Diem
+59,Fleet: The Dice Game
+173,Gizmos
+1310,Smartphone Inc.
+1304,Cryptid
+1210,Eclipse: Second Dawn for the Galaxy
+1255,Terraforming Mars: Prelude
+1194,7 Wonders: Armada
+1214,"Air, Land, & Sea"
+1311,Underwater Cities
+1312,Atlantis Rising (Second Edition)
+923,Mage Knight: Ultimate Edition
+1225,Viticulture: Visit from the Rhine Valley
+99,War Chest
+1313,The Estates
+1314,Gùgōng
+412,Istanbul: Big Box
+1278,Barrage
+1315,Sprawlopolis
+1316,Oathsworn: Into the Deepwood
+2,Star Wars: X-Wing (Second Edition)
+173,Cthulhu: Death May Die
+1194,Just One
+1249,Trickerion: Collector's Edition
+1255,Terraforming Mars: Colonies
+2,Mansions of Madness: Second Edition - Horrific Journeys: Expansion
+1262,Sleeping Gods
+1298,Azul: Stained Glass of Sintra
+1284,Return to Dark Tower
+1313,Pipeline
+1187,Concordia Venus
+1294,Zombie Kidz Evolution
+1317,Pax Pamir: Second Edition
+1318,Project: ELITE
+2,Arkham Horror (Third Edition)
+2,KeyForge: Call of the Archons
+1225,Between Two Castles of Mad King Ludwig
+1319,Blitzkrieg!: World War Two in 20 Minutes
+1320,Planet Unknown
+1276,Everdell: Pearlbrook
+1321,Project L
+614,Fall of Rome
+130,Camel Up (Second Edition)
+1225,Scythe: Encounters
+1273,Cloudspire
+130,Blackout: Hong Kong
+1322,Wavelength
+1323,Res Arcana
+1215,Spirit Island: Jagged Earth
+46,Dominant Species: Marine
+1278,Barrage: The Leeghwater Project
+1256,Cartographers
+1324,Draftosaurus
+1254,Tainted Grail: The Fall of Avalon
+78,Mandala
+1325,Glen More II: Chronicles
+1302,In the Hall of the Mountain King
+99,Tiny Towns
+1234,Unlock!: Heroic Adventures
+1326,Babylonia
+1225,Wingspan
+1277,Clank! Legacy: Acquisitions Incorporated
+1327,PARKS
+1258,Paladins of the West Kingdom
+1328,QE
+1222,Suburbia: Collector's Edition
+1304,Undaunted: Normandy
+0,Hadara
+34,The Taverns of Tiefenthal
+34,Twice as Clever!
+34,The Quacks of Quedlinburg: The Herb Witches
+2,The Lord of the Rings: Journeys in Middle-Earth
+1329,Cooper Island
+1272,Aeon's End: The New Age
+1330,Silver & Gold
+1184,Imperial Settlers: Empires of the North
+1282,Century: A New World
+1331,Dwellings of Eldervale
+10,The Castles of Burgundy
+1332,It's a Wonderful World
+33,Disney Villainous: Wicked to the Core
+1325,Feed the Kraken
+2,Star Wars: Outer Rim
+1305,Root: The Underworld Expansion
+1305,Root: The Exiles and Partisans Deck
+173,Bloodborne: The Board Game
+1255,Terraforming Mars: Turmoil
+1329,Watergate
+1333,"Unmatched: Battle of Legends, Volume One"
+1333,Unmatched: Robin Hood vs. Bigfoot
+99,Point Salad
+1334,Maracaibo
+1311,Underwater Cities: New Discoveries
+99,Dead Reckoning
+614,Love Letter
+1288,Final Girl
+1249,Anachrony: Infinity Box
+1300,"Obsession: Upstairs, Downstairs"
+1293,The Search for Planet X
+1234,Unlock!: Timeless Adventures
+1254,Etherfields
+1192,Through the Ages: New Leaders and Wonders
+1335,The Isle of Cats
+1191,Dice Throne Adventures
+1336,High Frontier 4 All
+33,Horrified
+1337,Calico
+1226,Dune
+1310,Aquatica
+1296,The Magnificent
+1296,Trails of Tucana
+0,Marco Polo II: In the Service of the Khan
+3,The Crew: The Quest for Planet Nine
+1214,Foundations of Rome
+59,Kanban EV
+1338,Nova Luna
+1339,Mind MGMT: The Psychic Espionage “Game.”
+1312,Honey Buzz
+33,Disney Villainous: Evil Comes Prepared
+1333,Unmatched: Jurassic Park - InGen vs Raptors
+1265,Destinies
+1258,Architects of the West Kingdom: Age of Artisans
+2,Marvel Champions: The Card Game
+173,Ankh: Gods of Egypt
+1268,The 7th Citadel
+1225,Tapestry
+412,Hansa Teutonica: Big Box
+173,Zombicide: 2nd Edition
+1298,Azul: Summer Pavilion
+1323,Res Arcana: Lux et Tenebrae
+1276,Everdell: Spirecrest
+1276,Everdell: Bellfaire
+2,Marvel Champions: The Card Game - Captain America Hero Pack
+1340,Canvas
+1304,Undaunted: North Africa
+1225,Wingspan: European Expansion
+1341,Unsettled
+1229,SCOUT
+1263,Gloomhaven: Jaws of the Lion
+1305,Oath
+1342,Dice Throne: Season One ReRolled
+1343,Three Sisters
+1254,The Great Wall
+1344,Nidavellir
+865,King of Tokyo: Dark Edition
+1234,Splendor: Marvel
+1333,Unmatched: Cobble & Fog
+1345,Long Shot: The Dice Game
+3,My City
+1333,Unmatched Game System
+1263,Frosthaven
+1346,Distilled
+1337,Cascadia
+59,Rococo: Deluxe Edition
+1258,Viscounts of the West Kingdom
+1347,Warp's Edge
+1305,Fort
+1348,Tekhenu: Obelisk of the Sun
+196,Kemet: Blood and Sand
+173,Marvel United
+99,Cubitos
+1278,Golem
+1327,PARKS: Nightfall
+2,The Lord of the Rings: Journeys in Middle-earth - Shadowed Paths Expansion
+923,Clash of Cultures: Monumental Edition
+1265,Chronicles of Crime: 1400
+78,Hallertau
+0,Paleo
+1225,Wingspan: Oceania Expansion
+2,Marvel Champions: The Card Game - Doctor Strange Hero Pack
+105,Top Ten
+1222,Whistle Mountain
+1258,Raiders of Scythia
+1203,Forgotten Waters
+1349,Pan Am
+1350,Creature Comforts
+1195,Bonfire
+1258,Hadrian's Wall
+1351,Endless Winter: Paleoamericans
+1304,Merv: The Heart of the Silk Road
+2,Marvel Champions: The Card Game - The Rise of Red Skull
+1192,Under Falling Skies
+1269,Railroad Ink Challenge: Lush Green Edition
+1352,Regicide
+1221,Bullet♥︎
+1288,Final Girl: The Happy Trails Horror
+1336,Pax Renaissance: 2nd Edition
+1311,Praga Caput Regni
+1194,7 Wonders Duel: Agora
+1305,Root: The Vagabond Pack
+1254,Nemesis: Lockdown
+1353,Carnegie
+3,Anno 1800: The Board Game
+1255,Terraforming Mars: Big Box
+1354,Frostpunk: The Board Game
+1192,Lost Ruins of Arnak
+614,Pandemic Legacy: Season 0
+1355,Meadow
+173,Massive Darkness 2: Hellscape
+1225,Tapestry: Plans and Ploys
+1256,Cartographers Heroes
+2,Twilight Imperium: Fourth Edition - Prophecy of Kings
+1194,7 Wonders (Second Edition)
+1356,The LOOP
+1277,Dune: Imperium
+129,Beyond the Sun
+1292,Dinosaur Island: Rawr 'n Write
+1357,Furnace
+1304,Imperium: Legends
+1304,Imperium: Classics
+86,HITSTER
+1338,MicroMacro: Crime City
+1276,Everdell: Collector's Edition
+1358,Pagan: Fate of Roanoke
+1304,The King Is Dead: Second Edition
+1359,Hegemony: Lead Your Class to Victory
+1360,Darwin's Journey
+2,Descent: Legends of the Dark
+471,Bitoku
+3,The Crew: Mission Deep Sea
+1254,ISS Vanguard
+1333,Unmatched: Little Red Riding Hood vs. Beowulf
+3,The Adventures of Robin Hood
+1232,Living Forest
+1327,Caper: Europe
+1347,My Father's Work
+1255,Terraforming Mars: Ares Expedition
+1191,Radlands
+1351,Unconscious Mind
+1361,Mosaic: A Story of Civilization
+0,Ultimate Railroads
+1194,So Clover!
+288,Ticket to Ride: Europe - 15th Anniversary
+8,Carcassonne: 20th Anniversary Edition
+1305,Root: The Marauder Expansion
+1362,The Witcher: Old World
+1276,Everdell: Newleaf
+1276,Everdell: The Complete Collection
+1317,John Company: Second Edition
+1296,Revive
+1203,Summoner Wars (Second Edition)
+1363,Keep the Heroes Out!
+1337,Verdant
+39,For Northwood! A Solo Trick-Taking Game
+1243,Daybreak
+1284,"Unmatched: Battle of Legends, Volume Two"
+173,Marvel United: X-Men
+1192,Galaxy Trucker (Second Edition)
+1226,Tyrants of the Underdark: Board Game
+1364,Flamecraft
+1249,Voidfall
+1304,Brian Boru: High King of Ireland
+1338,MicroMacro: Crime City - Full House
+1319,Caesar!: Seize Rome in 20 Minutes!
+1365,Slay the Spire: The Board Game
+1303,Welcome to the Moon
+1323,Res Arcana: Perlae Imperii
+2,Unfathomable
+130,Great Western Trail: Second Edition
+1192,Lost Ruins of Arnak: Expedition Leaders
+1348,La Granja: Deluxe Master Set
+1277,Dune: Imperium - Rise of Ix
+1284,Thunder Road: Vendetta
+43,Marrakesh
+1219,Ark Nova
+1252,Boonlake
+1366,Mindbug: First Contact
+1367,Federation
+97,Cat in the Box: Deluxe Edition
+34,Mille Fiori
+1194,7 Wonders: Architects
+1298,Azul: Queen's Garden
+2,Star Wars: Outer Rim - Unfinished Business
+412,First Rat
+1287,Marvel Dice Throne
+471,Lacrimosa
+2,The Lord of the Rings: The Card Game - Revised Core Set
+1368,Earth
+1258,Wayfarers of the South Tigris
+99,The Guild of Merchant Explorers
+99,Ready Set Bet
+1348,Tiletum
+105,Trio
+1369,Trekking Through History
+565,Next Station: London
+1258,Legacy of Yu
+1311,Woodcraft
+1225,Libertalia: Winds of Galecrest
+1273,The Elder Scrolls: Betrayal of the Second Era
+1294,Turing Machine
+192,Akropolis
+1364,Andromeda's Edge
+1370,Skymines
+2,Arkham Horror: The Card Game (Revised Edition)
+1305,Arcs
+2,Twilight Inscription
+153,War of the Ring: The Card Game
+1298,Azul: Master Chocolatier
+10,The Castles of Burgundy: Special Edition
+130,Great Western Trail: Argentina
+1234,Splendor Duel
+1215,Spirit Island: Nature Incarnate
+1371,World Wonders
+1277,Clank!: Catacombs
+288,Heat: Pedal to the Metal
+1225,Wingspan Asia
+1258,Scholars of the South Tigris
+173,Dune: War for Arrakis
+1209,Sea Salt & Paper
+1277,Dune: Imperium - Immortality
+1215,Horizons of Spirit Island
+1302,Endeavor: Deep Sea
+99,Let's Go! To Japan
+1372,Life of the Amazonia
+1219,Ark Nova: Marine Worlds
+1370,Beer & Bread
+412,Dorfromantik: The Board Game
+614,Star Wars: The Clone Wars
+471,The White Castle
+1294,Sky Team
+2,Star Wars: The Deckbuilding Game
+1225,Expeditions
+1209,Knarr
+130,Great Western Trail: New Zealand
+1284,Unmatched Adventures: Tales to Amaze
+1192,Lost Ruins of Arnak: The Missing Expedition
+1313,Age of Innovation
+1348,Barcelona
+1340,Fromage
+1373,The Vale of Eternity
+1192,Kutná Hora: The City of Silver
+1356,Faraway
+1258,Ezra and Nehemiah
+2,Star Wars: Unlimited
+288,Ticket to Ride Legacy: Legends of the West
+78,Forest Shuffle
+1348,Nucleum
+1252,Pirates of Maracaibo
+1277,Dune: Imperium - Uprising
+1225,Apiary
+1370,Civolution
+1225,Wyrmspan
+105,Bomb Busters
+1196,Harmonies
+1356,Castle Combo
+1192,SETI: Search for Extraterrestrial Intelligence
+1194,The Lord of the Rings: Duel for Middle-earth
+1374,The Fellowship of the Ring: Trick-Taking Game
