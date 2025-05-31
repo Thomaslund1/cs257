@@ -1,0 +1,17 @@
+User Testing Observations 
+30-May-2025
+
+Good Notes:
+	-Everybody was able to navigate to the main features, and nobody had questions about the larger layout
+	-People liked the astetics of the design 
+
+Bad Notes:
+	-Units of time were unclear, should be labeled
+	-Required submit button is hidden just off screen, should be higher up
+	-Unclear on what inputs are good for game reccomender
+	-It was unclear the site was about *board* games
+	-Navigaton elements should be consistent across ALL pages
+
+Notes:
+	-A few features were broken for testing, and we want to add one more for the final project
+	-General positive feedback on the background video. 
