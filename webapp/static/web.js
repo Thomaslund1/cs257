@@ -43,9 +43,13 @@ function onSearch(event) {
         if (time) params.push('time=' + encodeURIComponent(time));
 
         let mechanicsSelect = document.getElementById('mechanics');
-        let selectedMechanics = Array.from(mechanicsSelect.selectedOptions).map(opt => opt.value);
+        let selectedMechanics = Array.from(mechanicsSelect.selectedOptions)
+            .map(opt => parseInt(opt.value) + 1); // shift by 1
+
         if (selectedMechanics.length > 0) {
-            params.push("mechanics=" + encodeURIComponent(selectedMechanics.join(',')));
+            selectedMechanics.forEach(id => {
+                params.push("mechanics=" + encodeURIComponent(id));
+            });
         }
         let designer = document.getElementById('designer').value;
         if (designer) params.push('designer=' + encodeURIComponent(designer));
@@ -57,28 +61,23 @@ function onSearch(event) {
 
 async function populateMechanicsDropdown() {
         try {
-            // Fetch mechanics from the /api/mechanics endpoint
             const response = await fetch('/api/mechanics');
             
-            // Check if the response is OK (status code 200)
             if (!response.ok) {
                 throw new Error('Failed to fetch mechanics');
             }
 
-            // Parse the JSON response
             const mechanics = await response.json();
 
-            // Get the select element
             const selectElement = document.getElementById('mechanics');
 
-            // Clear existing options
             selectElement.innerHTML = '';
 
             // Populate dropdown with the mechanics from the API
             mechanics.forEach(mechanic => {
                 const option = document.createElement('option');
-                option.value = mechanic.id;  // Assuming mechanic object has an 'id' and 'name' field
-                option.textContent = mechanic.name;  // Display mechanic name
+                option.value = mechanic.id; 
+                option.textContent = mechanic.name; 
                 selectElement.appendChild(option);
             });
         } catch (error) {
@@ -86,5 +85,5 @@ async function populateMechanicsDropdown() {
         }
     }
 
-    // Call the function to populate the mechanics dropdown when the page loads
+    // we need some funky load order for populating then fancifying the dropdown
     document.addEventListener('DOMContentLoaded', populateMechanicsDropdown);

@@ -60,9 +60,10 @@ def returnGames():
         listBody += (f'<li>{i}</li>\n')
     return flask.render_template('searchResults.html', listBody = listBody)
 
-@app.route('/game')
-def returnGame():
-    return flask.render_template('game.html')
+@app.route('/game/<id>')
+def returnGame(id):
+    params,headers = api.getParams(id)
+    return flask.render_template('game.html',params=params[0], headers=headers)
 
 @app.route('/recommender')
 def returnRecommender():

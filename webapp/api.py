@@ -113,8 +113,7 @@ def queryGames(params):
     #Here plays is an int that needs to be within min and max of each game that gets returned
     #is this the most efficent term to start with? almost certainly not
     if 'plays' in params:
-        min_plays = params.get('minPlays', 0)
-        max_plays = params.get('maxPlays', 10000)
+        plays = params.get('plays')
 
         joins.extend([
             "minplayers AS minplayers_table",
@@ -122,16 +121,15 @@ def queryGames(params):
             "maxplayers AS maxplayers_table",
             "maxplayers_to_name AS maxplayers_map"
         ])
-        #I made all my dts as text so we have to clean that up quick
         wheres.extend([
-            "CAST(minplayers_table.minplayers AS INTEGER) >= %s",
-            "CAST(maxplayers_table.maxplayers AS INTEGER) <= %s",
+            "CAST(minplayers_table.minplayers AS INTEGER) <= %s",
+            "CAST(maxplayers_table.maxplayers AS INTEGER) >= %s",
             "minplayers_table.id = minplayers_map.minplayers_to_nameid",
             "maxplayers_table.id = maxplayers_map.maxplayers_to_nameid",
             "name.id = minplayers_map.nameid",
             "name.id = maxplayers_map.nameid"
         ])
-        values.extend([min_plays, max_plays])
+        values.extend([plays, plays])
 
     #similarly minimum player age needs to be less than the age given
     if 'age' in params:
@@ -165,7 +163,6 @@ def queryGames(params):
         wheres.append("mechanics_map.nameid = name.id")
         wheres.append(f"mechanics_map.mechanics_to_nameid IN ({','.join(['%s'] * mechanics_count)})")
         values.extend(mechanics_ids)
-
     #10/10 sql sanitizaton
     valid_headers = [
         'artist', 'designer', 'maxplayers', 'minplayers', 'minplaytime',
@@ -224,11 +221,14 @@ def queryGames(params):
     except Exception as e:
         print(e, file=sys.stderr)
         return None
-
     return out
 
-
-
-
+def getParams(id):
+    connection = get_connection()
+    cursor = connection.cursor()
+    cursor.execute('SELECT * FROM game WHERE game.id=%s',(id,))
+    headers = "id,name,designer,publisher,artist,yearpublished,minplayers,maxplayers,playingtime,minplaytime,maxplaytime,age,usersrated,average,bayesaverage,rank,rank_wg,numcomments,numweights,averageweight,stddev,median,owned,trading,wanting,wishing,userrating,image,category,mechanic,comment,1player,2player,3player,4player,5player,6player,7player,8player,9player,10player,11player,12player,13player,14player,15player,16player,17player,18player,19player,20player,description,exp,basegame,basegame_name,reimplement,reimplement_name,reimplemented,reimplemented_name,contains,contains_name,iscontained,iscontained_name,integration,integration_name,accessories,accessories_name,numplays,price,userweight,wishpriority,expansions,domain,family,age_poll,name_others,comments_GL,thumbs_GL,sold_GL,price_GL,currency_GL,user_GL,tags,tags_user"
+    headers = headers.split(',')
+    return [row for row in cursor],headers
 def getFromArgs(args):
     return

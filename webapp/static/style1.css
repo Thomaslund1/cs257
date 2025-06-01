@@ -454,7 +454,7 @@ p {
 .box {
     display: flex;
     flex-wrap: wrap;
-    height: 250px;
+    height: 170px;
     width: 100%;
     align-items: center;
     justify-content: center;
@@ -610,12 +610,12 @@ label{
 .box {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between; /* space around works too */
-    margin-bottom: 20px;
+    justify-content: space-between; 
+    margin-bottom: 10px;
 }
 
 .thirds {
-    flex: 0 0 32%; /* Prevents wrapping, allows some gap */
+    flex: 0 0 32%;
     box-sizing: border-box;
     padding: 10px;
 }
@@ -625,3 +625,25 @@ label{
   color: black;
   font-weight: 600;
 }
+
+
+body {
+            font-family: sans-serif;
+            margin: 2rem;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: 200px 1fr;
+            gap: 0.5rem 1rem;
+            align-items: start;
+        }
+        .header {
+            font-weight: bold;
+            background-color: #333;
+            width: 75%;
+            text-align: center;
+
+        }
+        .value {
+            word-break: break-word;
+        }
