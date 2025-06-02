@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boardgames API Documentation</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <style>
+        code {
+            background-color: #111;
+            border: 1px solid #ddd;
+            border-radius: 3px;
+            padding: 2px 5px;
+            font-family: monospace;
+        }
+        pre {
+            background-color: #111;
+            border: 1px solid #ddd;
+            border-radius: 3px;
+            padding: 15px;
+            overflow-x: auto;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin: 20px 0;
+        }
+        th, td {
+            text-align: left;
+            padding: 12px;
+            border: 1px solid #111;
+        }
+        th {
+            background-color: #111;
+        }
+        .endpoint {
+            background-color: #111;
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+        .method {
+            font-weight: bold;
+            color: #ff6b35;
+        }
+    </style>
+</head>
+<body>
+    <h1>Boardgames API Documentation</h1>
+    <p>This API provides access to boardgame data from our database. All responses are in JSON format.</p>
+
+    <h2>Base URL</h2>
+    <p>All API endpoints are relative to: <code>/api</code></p>
+
+    <h2>Endpoints</h2>
+
+    <div class="endpoint">
+        <h3>1. Get All Games</h3>
+        <p><span class="method">GET</span> <code>/games</code></p>
+        <p>Returns a list of all boardgames in the database.</p>
+        
+        <h4>Example Response:</h4>
+        <pre>
+{
+  "games": [
+    {
+      "id": 0,
+      "name": "Terraforming Mars: Prelude"
+    },
+    {
+      "id": 1,
+      "name": "Brass: Birmingham"
+    },
+    ...
+  ]
+}
+        </pre>
+    </div>
+
+    <div class="endpoint">
+        <h3>2. Get Game by ID</h3>
+        <p><span class="method">GET</span> <code>/games/&lt;id&gt;</code></p>
+        <p>Returns detailed information about a specific game by its ID.</p>
+        
+        <h4>Parameters:</h4>
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Type</th>
+                <th>Description</th>
+            </tr>
+            <tr>
+                <td>id</td>
+                <td>Integer</td>
+                <td>The unique identifier of the game</td>
+            </tr>
+        </table>
+        
+        <h4>Example Request:</h4>
+        <p><code>/api/games/8</code> (Terraforming Mars)</p>
+        
+        <h4>Example Response:</h4>
+        <pre>
+{
+  "game": {
+    "id": 8,
+    "name": "Terraforming Mars",
+    "designer": "Jacob Fryxelius",
+    "publisher": "FryxGames",
+    "yearPublished": 2016,
+    "minPlayers": 1,
+    "maxPlayers": 5,
+    "playingTime": 120,
+    "minPlaytime": 120,
+    "maxPlaytime": 120,
+    "age": 12,
+    "average": 8.43,
+    "rank": 3,
+    "description": "Compete to transform Mars into a habitable planet by..."
+  }
+}
+        </pre>
+    </div>
+
+    <div class="endpoint">
+        <h3>3. Get Game by Name</h3>
+        
+        <p>Returns game(s) that match the provided name (partial match supported).</p>
+        
+        <h4>Parameters:</h4>
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Type</th>
+                <th>URL</th>
+                <th>Description</th>
+            </tr>
+            <tr>
+                <td>name</td>
+                <td>String</td>
+                <td><code>/games/name/&lt;name&gt;</code></td>
+                <td>Full or partial name of the game</td>
+            </tr>
+            <tr>
+                <td>artist</td>
+                <td>String</td>
+                <td><code>/games/artist/&lt;artist&gt;</code></td>
+                <td>Name of person who created artwork for a game </td>
+            </tr>
+            <tr> 
+                <td>desginer</td>
+                <td>String</td>
+                <td><code>/games/designer/&lt;designer&gt;</code></td>
+                <td>Name of person who created the design of a game </td>
+            </tr>
+            <tr>
+                <td>maxplayers</td>
+                <td>String</td>
+                <td><code>/games/maxplayers/&lt;maxplayers&gt;</code></td>
+                <td>The maximum amount of people a game can support </td>
+            </tr>
+            <tr>
+                <td>minplayers</td>
+                <td>String</td>
+                <td><code>/games/minplayers/&lt;minplayers&gt;</code></td>
+                <td>The minimum amount of people a game can support </td>
+            </tr>
+            <tr>
+                <td>minplaytime</td>
+                <td>String</td>
+                <td><code>/games/minplaytime/&lt;minplaytime&gt;</code></td>
+                <td>What is the least amount of time a game takes to play</td>
+            </tr>
+            
+            
+        </table>
+        
+        <h4>Example Request (For entering a the name parameter):</h4>
+        <p><code>/api/games/name/catan</code></p>
+        
+        <h4>Example Response:</h4>
+        <pre>
+{
+  "games": [
+    {
+      "id": 701,
+      "name": "CATAN"
+    },
+    {
+      "id": 706,
+      "name": "CATAN: Seafarers" 
+    },
+    {
+      "id": 399,
+      "name": "CATAN: Cities & Knights"
+    }
+  ]
+        </pre>
+    </div>
+    <footer style="margin-top: 50px; text-align: center; color: #7f8c8d; font-size: 0.9em;">
+
+    </footer>
+</body>
+</html>

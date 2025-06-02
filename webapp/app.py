@@ -81,9 +81,9 @@ def returnGame(id):
 def returnRecommender():
     return flask.render_template('recommender.html')
 
-@app.route('/users')
-def returnUsers():
-    return flask.render_template('users.html')
+@app.route('/api/help')
+def returnHelp():
+    return flask.render_template('help.html')
 
 @app.route('/api/search_games')
 def search_games():
