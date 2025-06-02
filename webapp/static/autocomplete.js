@@ -4,6 +4,18 @@ document.addEventListener("DOMContentLoaded", function() {
     .then(boardGames => {
       autocomplete(document.getElementById("myInput"), boardGames);
     });
+
+  // Redirect search to /games?name=QUERY
+  const searchForm = document.querySelector('.search-container');
+  if (searchForm) {
+    searchForm.addEventListener('submit', function(e) {
+      const input = document.getElementById("myInput");
+      if (input && input.value.trim() !== "") {
+        e.preventDefault();
+        window.location.href = "/games?name=" + encodeURIComponent(input.value.trim());
+      }
+    });
+  }
 });
 
 // adapted from W3Schools autocomplete function
@@ -23,16 +35,18 @@ function autocomplete(inp, arr) {
       a.setAttribute("class", "autocomplete-items");
       this.parentNode.appendChild(a);
       for (i = 0; i < arr.length; i++) {
-        if (arr[i].substr(0, val.length).toUpperCase() == val.toUpperCase()) {
+        // Added Case-insensitive match
+        let matchIndex = arr[i].toUpperCase().indexOf(val.toUpperCase());
+        if (matchIndex !== -1) {
           b = document.createElement("DIV");
-          b.innerHTML = "<strong>" + arr[i].substr(0, val.length) + "</strong>";
-          b.innerHTML += arr[i].substr(val.length);
+          b.innerHTML = arr[i].substr(0, matchIndex)
+            + "<strong>" + arr[i].substr(matchIndex, val.length) + "</strong>"
+            + arr[i].substr(matchIndex + val.length);
           b.innerHTML += "<input type='hidden' value='" + arr[i] + "'>";
           b.addEventListener("click", function(e) {
               inp.value = this.getElementsByTagName("input")[0].value;
               closeAllLists();
-              // Redirect to the game page for the selected name
-              window.location.href = "/game/" + encodeURIComponent(inp.value);
+              window.location.href = "/games?name=" + encodeURIComponent(inp.value);
           });
           a.appendChild(b);
         }
@@ -48,15 +62,18 @@ function autocomplete(inp, arr) {
         currentFocus--;
         addActive(x);
       } else if (e.keyCode == 13) {
-        if (currentFocus > -1) {
-          e.preventDefault(); // Only prevent default if selecting an autocomplete item
-          if (x) x[currentFocus].click();
-        } else if (x && x.length > 0) {
-          // If no suggestion is highlighted, select the first one
+        if (x && currentFocus > -1) {
           e.preventDefault();
-          x[0].click();
+          // Redirect to /games?name= on enter
+          inp.value = x[currentFocus].getElementsByTagName("input")[0].value;
+          closeAllLists();
+          window.location.href = "/games?name=" + encodeURIComponent(inp.value);
+        } else if (x && x.length > 0) {
+          e.preventDefault();
+          inp.value = x[0].getElementsByTagName("input")[0].value;
+          closeAllLists();
+          window.location.href = "/games?name=" + encodeURIComponent(inp.value);
         }
-        // Otherwise, allow form to submit normally
       }
   });
   function addActive(x) {
@@ -65,6 +82,7 @@ function autocomplete(inp, arr) {
     if (currentFocus >= x.length) currentFocus = 0;
     if (currentFocus < 0) currentFocus = (x.length - 1);
     x[currentFocus].classList.add("autocomplete-active");
+    x[currentFocus].scrollIntoView({ block: "nearest" });
   }
   function removeActive(x) {
     for (let i = 0; i < x.length; i++) {

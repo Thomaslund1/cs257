@@ -59,16 +59,8 @@ Sources:
         </div>
     </div>
     <script>
-        document.body.style.overflowY = 'hidden'; // Hides vertical scrollbar
-        document.body.style.overflowX = 'hidden'; // Hides horizontal scrollbar
-
-        document.addEventListener("DOMContentLoaded", function() {
-          fetch('/api/game_names')
-            .then(response => response.json())
-            .then(boardGames => {
-              autocomplete(document.getElementById("myInput"), boardGames);
-            });
-        });
+        document.body.style.overflowY = 'hidden';
+        document.body.style.overflowX = 'hidden';
     </script>
 </body>
 </html>

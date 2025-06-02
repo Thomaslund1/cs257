@@ -28,7 +28,19 @@ def home():
 
 @app.route('/api/game_names')
 def game_names():
-    return api.game_names()
+    # Get the raw result from getNames
+    from flask import jsonify
+    import psycopg2
+    try:
+        connection = get_connection()
+        cursor = connection.cursor()
+        cursor.execute("SELECT name FROM name;")
+        names = [row[0] for row in cursor.fetchall()]
+        connection.close()
+        return jsonify(names)
+    except Exception as e:
+        print(e, file=sys.stderr)
+        return jsonify([])
 
 @app.route('/api/mechanics')
 def returnMechanics():
