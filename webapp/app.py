@@ -73,7 +73,7 @@ def returnRecommender():
 def returnUsers():
     return flask.render_template('users.html')
 
-app.route('/api/search_games')
+@app.route('/api/search_games')
 def search_games():
     query = flask.request.args.get('q', '').strip()
     out = []
