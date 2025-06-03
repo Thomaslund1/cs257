@@ -226,7 +226,7 @@ def queryGames(params):
 def getParams(id):
     connection = get_connection()
     cursor = connection.cursor()
-    cursor.execute('SELECT * FROM game WHERE game.id=%s',(id,))
+    cursor.execute('SELECT * FROM game WHERE game.name=%s',(id,))
     headers = "id,name,designer,publisher,artist,yearpublished,minplayers,maxplayers,playingtime,minplaytime,maxplaytime,age,usersrated,average,bayesaverage,rank,rank_wg,numcomments,numweights,averageweight,stddev,median,owned,trading,wanting,wishing,userrating,image,category,mechanic,comment,1player,2player,3player,4player,5player,6player,7player,8player,9player,10player,11player,12player,13player,14player,15player,16player,17player,18player,19player,20player,description,exp,basegame,basegame_name,reimplement,reimplement_name,reimplemented,reimplemented_name,contains,contains_name,iscontained,iscontained_name,integration,integration_name,accessories,accessories_name,numplays,price,userweight,wishpriority,expansions,domain,family,age_poll,name_others,comments_GL,thumbs_GL,sold_GL,price_GL,currency_GL,user_GL,tags,tags_user"
     headers = headers.split(',')
     return [row for row in cursor],headers

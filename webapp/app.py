@@ -47,8 +47,6 @@ def returnMechanics():
     mechanics = api.getAllMechanics()
     return flask.jsonify([{"id": m_id, "name": m_name} for m_id, m_name in mechanics])
 
-
-
 @app.route('/api/name/<searchTerm>')
 @app.route('/api/name/')
 def returnName(searchTerm):
@@ -69,13 +67,33 @@ def returnGames():
     if sortedVals == None:
         return flask.render_template('searchResults.html', listBody = 'No results found')
     for i in sortedVals:
-        listBody += (f'<li>{i}</li>\n')
+        listBody += (f'<li><a href="/game/{i}">{i}</a></li>\n')
     return flask.render_template('searchResults.html', listBody = listBody)
+
+'''@app.route('/game/<game_name>')
+def game_detail(game_name):
+    # Fetch game data from the database using the name
+    connection = api.get_connection()
+    cursor = connection.cursor()
+    cursor.execute(
+        "SELECT * FROM game WHERE name = %s LIMIT 1;", (game_name,)
+    )
+    row = cursor.fetchone()
+    connection.close()
+    if row:
+        # Adjust the keys to match your table columns
+        columns = [desc[0] for desc in cursor.description]
+        game_data = dict(zip(columns, row))
+        return flask.render_template('game.html', game=game_data)
+    else:
+        return flask.render_template('game.html', game=None)
+'''
 
 @app.route('/game/<id>')
 def returnGame(id):
     params,headers = api.getParams(id)
     return flask.render_template('game.html',params=params[0], headers=headers)
+
 
 @app.route('/recommender')
 def returnRecommender():
@@ -126,23 +144,7 @@ def search_results():
     query = flask.request.args.get('q', '').strip()
     return flask.render_template('search_results.html', query=query)
 
-@app.route('/game/<game_name>')
-def game_detail(game_name):
-    # Fetch game data from the database using the name
-    connection = api.get_connection()
-    cursor = connection.cursor()
-    cursor.execute(
-        "SELECT * FROM game WHERE name = %s LIMIT 1;", (game_name,)
-    )
-    row = cursor.fetchone()
-    connection.close()
-    if row:
-        # Adjust the keys to match your table columns
-        columns = [desc[0] for desc in cursor.description]
-        game_data = dict(zip(columns, row))
-        return flask.render_template('game.html', game=game_data)
-    else:
-        return flask.render_template('game.html', game=None)
+
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser('A sample Flask application/API')
