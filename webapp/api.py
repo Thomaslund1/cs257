@@ -221,7 +221,48 @@ def queryGames(params):
     except Exception as e:
         print(e, file=sys.stderr)
         return None
-    return out
+    
+    #schenanefoolery of adding ratings sorting because I don't know how to add a sort by paramater to this mess
+    rates = []
+    names = tuple(out)  
+
+    if names:
+        query = """
+        SELECT name.name, rating.rating
+        FROM name
+        JOIN rating_to_name ON name.id = rating_to_name.nameid
+        JOIN rating ON rating.id = rating_to_name.rating_to_nameid
+        WHERE name.name IN %s;
+        """
+
+    connection = get_connection()  
+    cursor = connection.cursor()
+    cursor.execute(query, (names,))  
+    ratings_dict = {}
+    for name, rating in cursor:
+        if name not in ratings_dict:
+            ratings_dict[name] = []
+            ratings_dict[name].append(str(rating)) 
+
+    for name in out:
+        rates.append(ratings_dict.get(name, [])) 
+    cursor.close()
+    connection.close()
+    print("All ratings:", rates)
+    flat_ratings = [rate[0] for rate in rates]
+
+    combined = list(zip(out, flat_ratings))
+
+    sorted_combined = sorted(combined, key=lambda x: x[1], reverse=True)
+
+    sorted_out, sorted_ratings = zip(*sorted_combined)
+
+    sorted_out = list(sorted_out)
+    sorted_ratings = list(sorted_ratings)
+
+    print("Sorted Game Names:", sorted_out)
+    print("Sorted Ratings:", sorted_ratings)
+    return sorted_out
 
 def getParams(id):
     connection = get_connection()

@@ -183,3 +183,13 @@ age_to_nameId int,
 nameId int);
 \copy age_to_name FROM 'age_to_name.csv' DELIMITER ',' CSV NULL AS 'NULL'
 
+CREATE TABLE rating(
+rating text,
+id int NOT NULL
+);
+\copy rating FROM 'average.csv' DELIMITER ',' CSV NULL AS 'NULL'
+
+CREATE TABLE rating_to_name(
+rating_to_nameId int,
+nameId int);
+\copy rating_to_name FROM 'average_to_name.csv' DELIMITER ',' CSV NULL AS 'NULL'
