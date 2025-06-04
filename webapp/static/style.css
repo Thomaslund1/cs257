@@ -520,3 +520,32 @@ p {
     padding: 8px 10px;
   }
 }
+
+.game-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 2rem;
+}
+.game-table th, .game-table td {
+  border-bottom: 1px solid #444;
+  padding: 0.75rem;
+  text-align: left;
+}
+.game-table th {
+  background: #222;
+  color: #f5b301;
+}
+.game-row:hover {
+  background: #222;
+  cursor: pointer;
+}
+.game-img-thumb {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 4px;
+  box-shadow: 0 0 3px #000;
+}
+.star-rating {
+  color: #f5b301;
+}

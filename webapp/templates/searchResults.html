@@ -1,24 +1,61 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <title>Search Board Games</title>
-     <link rel="stylesheet" href="{{ url_for('static', filename='style1.css') }}">
-     <script src="{{ url_for('static', filename='results.js') }}"></script>
-    </head>
+    <meta charset="UTF-8">
+    <title>Game Search Results</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+</head>
 <body>
-    <div>
-        <h1>Search Results</h1>
-    </div>
-    <hr>
-    <div class="centerText">
-        <ul class="scroll">
-            {{ listBody|safe }}
-        </ul>
-    </div>
-    <hr>
-    <div class="centerText">
-        <a href="/search">
-            <button style="margin-top: 17px;">Return</button>
-        </a>
-    </div>
+    <nav class="navbar">
+        <div class="navbar-links">
+            <a href="/home">Home</a>
+            <a href="/search">Games</a>
+            <a href="/recommender">Recommender</a>
+        </div>
+    </nav>
+    <h1>Search Results</h1>
+    {% if games %}
+    <table class="game-table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Year</th>
+                <th>Players</th>
+                <th>Play Time</th>
+                <th>Rating</th>
+                <th>Designer</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for game in games %}
+            <tr class="game-row" onclick="window.location='/game/{{ game.name|urlencode }}'">
+                <td>{{ game.name }}</td>
+                <td>{{ game.yearpublished }}</td>
+                <td>{{ game.minplayers }}–{{ game.maxplayers }}</td>
+                <td>{{ game.playingtime }} min</td>
+                <td>
+                    <span class="star-rating">
+                        {% set rating = game.average|float %}
+                        {% for i in range(5) %}
+                            {% if rating >= (i+1)*2 %}
+                                ★
+                            {% elif rating >= (i*2)+1 %}
+                                ☆
+                            {% else %}
+                                ☆
+                            {% endif %}
+                        {% endfor %}
+                    </span>
+                    ({{ rating }}/10)
+                </td>
+                <td>{{ game.designer }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    {% else %}
+        <p>No results found.</p>
+    {% endif %}
 </body>
+</html>

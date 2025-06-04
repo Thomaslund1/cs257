@@ -62,13 +62,28 @@ def returnGames():
     args = flask.request.args
     print(args)
     sortedVals = api.queryGames(args)
-    listBody = ''
-    print(sortedVals)
-    if sortedVals == None:
-        return flask.render_template('searchResults.html', listBody = 'No results found')
-    for i in sortedVals:
-        listBody += (f'<li><a href="/game/{i}">{i}</a></li>\n')
-    return flask.render_template('searchResults.html', listBody = listBody)
+    games = []
+    if sortedVals is None or len(sortedVals) == 0:
+        return flask.render_template('searchResults.html', games=games)
+    # Fetch game details for each name
+    connection = get_connection()
+    cursor = connection.cursor()
+    for name in sortedVals:
+        cursor.execute(
+            "SELECT name, yearpublished, minplayers, maxplayers, playingtime, average, designer FROM game WHERE name = %s LIMIT 1;", (name,))
+        row = cursor.fetchone()
+        if row:
+            games.append({
+                "name": row[0],
+                "yearpublished": row[1],
+                "minplayers": row[2],
+                "maxplayers": row[3],
+                "playingtime": row[4],
+                "average": row[5],
+                "designer": row[6]
+            })
+    connection.close()
+    return flask.render_template('searchResults.html', games=games)
 
 '''@app.route('/game/<game_name>')
 def game_detail(game_name):
