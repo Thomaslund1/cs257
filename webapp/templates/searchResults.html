@@ -36,19 +36,28 @@
                 <td>{{ game.minplayers }}–{{ game.maxplayers }}</td>
                 <td>{{ game.playingtime }} min</td>
                 <td>
-                    <span class="star-rating">
-                        {% set rating = game.average|float %}
+                    <span class="star-rating"
+                          style="font-size: 1.3em; letter-spacing: 0.05em; vertical-align: middle; position:relative;"
+                          onmouseover="this.querySelector('.rating-tooltip').style.display='inline-block';"
+                          onmouseout="this.querySelector('.rating-tooltip').style.display='none';">
+                        {% set rating = game.average|float / 2 %}
                         {% for i in range(5) %}
-                            {% if rating >= (i+1)*2 %}
-                                ★
-                            {% elif rating >= (i*2)+1 %}
-                                ☆
+                            {% if rating >= i + 1 %}
+                                <span style="display:inline-block; width:1em; text-align:center;">★</span>
+                            {% elif rating >= i + 0.5 %}
+                                <span style="display:inline-block; width:1em; text-align:center; position:relative;">
+                                    <span style="position:absolute; width:0.5em; overflow:hidden; left:0; top:0;">★</span>
+                                    <span style="color:#111;">★</span>
+                                </span>
                             {% else %}
-                                ☆
+                                <span style="display:inline-block; width:1em; text-align:center;">☆</span>
                             {% endif %}
                         {% endfor %}
+                        <span class="rating-tooltip"
+                              style="display:none; position:absolute; left:110%; top:50%; transform:translateY(-50%); background:#222; color:#f5b301; padding:0.2em 0.7em; border-radius:4px; font-size:0.95em; white-space:nowrap; box-shadow:0 2px 8px #0008;">
+                            ({{ game.average|float|round(2) }}/10)
+                        </span>
                     </span>
-                    ({{ rating }}/10)
                 </td>
                 <td>{{ game.designer }}</td>
             </tr>
