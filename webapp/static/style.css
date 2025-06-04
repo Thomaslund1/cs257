@@ -27,6 +27,14 @@ body {
   justify-content: space-between; /* changed from flex-start to space-between */
   z-index: 4;
   background: rgba(0, 0, 0, 0.8);
+  transition: top 1s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.navbar.hide {
+  transform: translateY(-100%);
+}
+.navbar.show {
+  transform: translateY(0);
 }
 
 .navbar-brand {
@@ -432,7 +440,7 @@ h1 {
   text-align: center;
   color: #ff6b35;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 300%;
+  font-size: 200%;
   font-weight: 800;
   margin-bottom: 1.5rem;
   text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
