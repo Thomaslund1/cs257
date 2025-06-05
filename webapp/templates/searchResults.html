@@ -5,7 +5,9 @@
     <title>Game Search Results</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
     <script src="{{ url_for('static', filename='hideNav.js') }}"></script>
-
+    <script src="{{ url_for('static', filename='filterPopulate.js') }}"></script>
+    <script src="{{ url_for('static', filename='web.js') }}"></script>
+    <script src="{{ url_for('static', filename='multiselect-dropdown.js') }}"></script>
 </head>
 <body>
     <nav class="navbar" id="navbar">
@@ -16,56 +18,73 @@
         </div>
     </nav>
     <h1>Search Results</h1>
-    {% if games %}
-    <table class="game-table">
-        <thead>
-            <tr>
-                <th>Name</th>
-                <th>Year</th>
-                <th>Players</th>
-                <th>Play Time</th>
-                <th>Rating</th>
-                <th>Designer</th>
-            </tr>
-        </thead>
-        <tbody>
-            {% for game in games %}
-            <tr class="game-row" onclick="window.location='/game/{{ game.name|urlencode }}'">
-                <td>{{ game.name }}</td>
-                <td>{{ game.yearpublished }}</td>
-                <td>{{ game.minplayers }}–{{ game.maxplayers }}</td>
-                <td>{{ game.playingtime }} min</td>
-                <td>
-                    <span class="star-rating"
-                          style="font-size: 1.3em; letter-spacing: 0.05em; vertical-align: middle; position:relative;"
-                          onmouseover="this.querySelector('.rating-tooltip').style.display='inline-block';"
-                          onmouseout="this.querySelector('.rating-tooltip').style.display='none';">
-                        {% set rating = game.average|float / 2 %}
-                        {% for i in range(5) %}
-                            {% if rating >= i + 1 %}
-                                <span style="display:inline-block; width:1em; text-align:center;">★</span>
-                            {% elif rating >= i + 0.5 %}
-                                <span style="display:inline-block; width:1em; text-align:center; position:relative;">
-                                    <span style="position:absolute; width:0.5em; overflow:hidden; left:0; top:0;">★</span>
-                                    <span style="color:#111;">★</span>
+    
+    <!-- Filter Bar -->
+    <div class="container-flex">
+        <aside class="leftbar">
+            <h3>Filter Options</h3>
+            <div class="filter-group">
+                <input class="filter-input" id="numPlays" placeholder="number of players">
+                <input class="filter-input" id="name" placeholder="(optional) name of game">
+                <input class="filter-input" id="minAge" placeholder="(optional) minimum age">
+                <input class="filter-input" id="time" placeholder="time of game">
+                <label for="mechanics" style="margin-top:10px;">(optional) mechanics:</label>
+                <select class="filter-input" style="color:black" name="mechanics" id="mechanics" multiple></select>
+                <input class="filter-input" id="designer" placeholder="(optional) author">
+                <button class="button primary-button" id="searchBut" style="width:100%;margin-top:15px;">Search</button>
+            </div>
+        </aside>
+        <div class="main-content">
+            {% if games %}
+            <table class="game-table">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Year</th>
+                        <th>Players</th>
+                        <th>Play Time</th>
+                        <th>Rating</th>
+                        <th>Designer</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for game in games %}
+                    <tr class="game-row" onclick="window.location='/game/{{ game.name|urlencode }}'">
+                        <td>{{ game.name }}</td>
+                        <td>{{ game.yearpublished }}</td>
+                        <td>{{ game.minplayers }}–{{ game.maxplayers }}</td>
+                        <td>{{ game.playingtime }} min</td>
+                        <td>
+                            <span class="star-rating"
+                                  style="font-size:1.1em; letter-spacing:0.01em; vertical-align:middle; position:relative; white-space:nowrap;">
+                                {% set rating = game.average|float / 2 %}
+                                {% for i in range(5) %}
+                                    {% if rating >= i + 1 %}
+                                        <span style="display:inline-block; width:0.9em; text-align:center;">★</span>
+                                    {% elif rating >= i + 0.5 %}
+                                        <span style="display:inline-block; width:0.9em; text-align:center; position:relative;">
+                                            <span style="position:absolute; width:0.45em; overflow:hidden; left:0; top:0;">★</span>
+                                            <span style="color:#111;">★</span>
+                                        </span>
+                                    {% else %}
+                                        <span style="display:inline-block; width:0.9em; text-align:center;">☆</span>
+                                    {% endif %}
+                                {% endfor %}
+                                <span class="rating-tooltip"
+                                      style="display:none; position:absolute; left:110%; top:50%; transform:translateY(-50%); background:#222; color:#f5b301; padding:0.2em 0.7em; border-radius:4px; font-size:0.95em; white-space:nowrap; box-shadow:0 2px 8px #0008;">
+                                    ({{ game.average|float|round(2) }}/10)
                                 </span>
-                            {% else %}
-                                <span style="display:inline-block; width:1em; text-align:center;">☆</span>
-                            {% endif %}
-                        {% endfor %}
-                        <span class="rating-tooltip"
-                              style="display:none; position:absolute; left:110%; top:50%; transform:translateY(-50%); background:#222; color:#f5b301; padding:0.2em 0.7em; border-radius:4px; font-size:0.95em; white-space:nowrap; box-shadow:0 2px 8px #0008;">
-                            ({{ game.average|float|round(2) }}/10)
-                        </span>
-                    </span>
-                </td>
-                <td>{{ game.designer }}</td>
-            </tr>
-            {% endfor %}
-        </tbody>
-    </table>
-    {% else %}
-        <p>No results found.</p>
-    {% endif %}
+                            </span>
+                        </td>
+                        <td>{{ game.designer }}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+            {% else %}
+                <p>No results found.</p>
+            {% endif %}
+        </div>
+    </div>
+    
 </body>
-</html>
