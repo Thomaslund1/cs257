@@ -32,7 +32,7 @@ Sources:
             <input id="myInput" type="text" placeholder="Search games..." name="q" style="width: 100%;">
             <button type="submit"><i class="fas fa-search"></i></button>
             <!-- The autocomplete dropdown will be injected here by JS -->
-             <img src="{{ url_for('static', filename='search.svg') }}" class="search-svg-right" width="30px" height="30px" alt="Search">
+             <img src="{{ url_for('static', filename='svg/search.svg') }}" class="search-svg-right" width="30px" height="30px" alt="Search">
         </form>
         
     </nav>
@@ -51,11 +51,16 @@ Sources:
     <!-- Text on Video -->
     <div class="content-overlay">
         <h1>Discover Your Next Adventure</h1>
-        <p>Explore thousands of board games across all categories</p>
-        
-        <div class="buttons-container">
-            <a class="button primary-button" href="search">Explore Games</a>
-            <a class="button secondary-button" href="/recommender" >Recommender</a>
+        <span style="font-size:1.3em; font-weight:600; color:#f5b301;">What is BoardGameDB?</span><br>
+        BoardGameDB uses data from
+        <a href="https://boardgamegeek.com/" target="_blank" style="vertical-align:middle; display:inline;">
+            <img src="{{ url_for('static', filename='svg/bgglogo.svg') }}" alt="Board Game Geek" style="height:2em; vertical-align:middle; display:inline;">
+        </a>
+        to help you discover your next board game. Effortlessly sort and filter games by players, time, mechanics, and more.<br>
+        <span style="color:#bbb;">Search tags are provided by the community, and some details such as complexity may vary in accuracy.</span>
+        <div class="buttons-container" style="margin-bottom: 2em;">
+            <a class="button primary-button" href="/games">Explore Games</a>
+            <a class="button secondary-button" href="/recommender">Recommender</a>
         </div>
     </div>
     <script>

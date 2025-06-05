@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Boardgames API Documentation</title>
+    <title>BoardGameDB API Documentation</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
     <style>
         code {
@@ -37,17 +37,17 @@
             background-color: #111;
             padding: 10px;
             border-radius: 5px;
-            margin-bottom: 10px;
+            margin-bottom: 18px;
         }
         .method {
             font-weight: bold;
-            color: #ff6b35;
+            color: #f5b301;
         }
     </style>
 </head>
 <body>
-    <h1>Boardgames API Documentation</h1>
-    <p>This API provides access to boardgame data from our database. All responses are in JSON format.</p>
+    <h1>BoardGameDB API Documentation</h1>
+    <p>This API provides access to board game data from our database. All responses are in JSON format.</p>
 
     <h2>Base URL</h2>
     <p>All API endpoints are relative to: <code>/api</code></p>
@@ -55,150 +55,177 @@
     <h2>Endpoints</h2>
 
     <div class="endpoint">
-        <h3>1. Get All Games</h3>
-        <p><span class="method">GET</span> <code>/games</code></p>
-        <p>Returns a list of all boardgames in the database.</p>
-        
+        <h3>1. Get All Mechanics</h3>
+        <p><span class="method">GET</span> <code>/mechanics</code></p>
+        <p>Returns a list of all mechanics in the database.</p>
+        <h4>Example Response:</h4>
+        <pre>
+[
+  {"id": 1, "name": "Deck Building"},
+  {"id": 2, "name": "Worker Placement"},
+  ...
+]
+        </pre>
+    </div>
+
+    <div class="endpoint">
+        <h3>2. Get All Game Names</h3>
+        <p><span class="method">GET</span> <code>/game_names</code></p>
+        <p>Returns a list of all game names in the database.</p>
+        <h4>Example Response:</h4>
+        <pre>
+[
+  "Terraforming Mars",
+  "Catan",
+  "Wingspan",
+  ...
+]
+        </pre>
+    </div>
+
+    <div class="endpoint">
+        <h3>3. Search Game Names by Prefix</h3>
+        <p><span class="method">GET</span> <code>/name/&lt;searchTerm&gt;</code></p>
+        <p>Returns game names that start with the given search term.</p>
+        <h4>Example Request:</h4>
+        <p><code>/api/name/catan</code></p>
         <h4>Example Response:</h4>
         <pre>
 {
-  "games": [
-    {
-      "id": 0,
-      "name": "Terraforming Mars: Prelude"
-    },
-    {
-      "id": 1,
-      "name": "Brass: Birmingham"
-    },
-    ...
+  "name": [
+    [701, "CATAN"],
+    [706, "CATAN: Seafarers"],
+    [399, "CATAN: Cities & Knights"]
   ]
 }
         </pre>
     </div>
 
     <div class="endpoint">
-        <h3>2. Get Game by ID</h3>
-        <p><span class="method">GET</span> <code>/games/&lt;id&gt;</code></p>
-        <p>Returns detailed information about a specific game by its ID.</p>
-        
-        <h4>Parameters:</h4>
-        <table>
-            <tr>
-                <th>Name</th>
-                <th>Type</th>
-                <th>Description</th>
-            </tr>
-            <tr>
-                <td>id</td>
-                <td>Integer</td>
-                <td>The unique identifier of the game</td>
-            </tr>
-        </table>
-        
+        <h3>4. Search Games by Attribute</h3>
+        <p><span class="method">GET</span> <code>/games/&lt;attribute&gt;/&lt;searchTerm&gt;</code></p>
+        <p>Returns games matching the given attribute and search term. Supported attributes:</p>
+        <ul>
+            <li><code>artist</code></li>
+            <li><code>designer</code></li>
+            <li><code>maxplayers</code></li>
+            <li><code>minplayers</code></li>
+            <li><code>minplaytime</code></li>
+            <li><code>name</code></li>
+        </ul>
         <h4>Example Request:</h4>
-        <p><code>/api/games/8</code> (Terraforming Mars)</p>
-        
+        <p><code>/api/games/designer/Knizia</code></p>
         <h4>Example Response:</h4>
         <pre>
 {
-  "game": {
-    "id": 8,
-    "name": "Terraforming Mars",
-    "designer": "Jacob Fryxelius",
-    "publisher": "FryxGames",
-    "yearPublished": 2016,
-    "minPlayers": 1,
-    "maxPlayers": 5,
-    "playingTime": 120,
-    "minPlaytime": 120,
-    "maxPlaytime": 120,
-    "age": 12,
-    "average": 8.43,
-    "rank": 3,
-    "description": "Compete to transform Mars into a habitable planet by..."
-  }
+  "name": [
+    [123, "Modern Art"],
+    [456, "Ra"]
+  ]
 }
         </pre>
     </div>
 
     <div class="endpoint">
-        <h3>3. Get Game by Name</h3>
-        
-        <p>Returns game(s) that match the provided name (partial match supported).</p>
-        
-        <h4>Parameters:</h4>
+        <h3>5. Advanced Search (Filter)</h3>
+        <p><span class="method">GET</span> <code>/games</code></p>
+        <p>Returns a list of games matching multiple filter parameters. All parameters are optional and can be combined.</p>
+        <h4>Supported Query Parameters:</h4>
         <table>
             <tr>
-                <th>Name</th>
+                <th>Parameter</th>
                 <th>Type</th>
-                <th>URL</th>
                 <th>Description</th>
+            </tr>
+            <tr>
+                <td>plays</td>
+                <td>Integer</td>
+                <td>Number of players (returns games where minplayers ≤ plays ≤ maxplayers)</td>
+            </tr>
+            <tr>
+                <td>age</td>
+                <td>Integer</td>
+                <td>Minimum age (returns games where min age ≤ age)</td>
+            </tr>
+            <tr>
+                <td>time</td>
+                <td>Integer</td>
+                <td>Minimum play time (returns games where min playtime ≤ time)</td>
+            </tr>
+            <tr>
+                <td>mechanics</td>
+                <td>List of Integers</td>
+                <td>Mechanic IDs (returns games with any of the selected mechanics)</td>
             </tr>
             <tr>
                 <td>name</td>
                 <td>String</td>
-                <td><code>/games/name/&lt;name&gt;</code></td>
-                <td>Full or partial name of the game</td>
+                <td>Partial or full name of the game</td>
             </tr>
             <tr>
                 <td>artist</td>
                 <td>String</td>
-                <td><code>/games/artist/&lt;artist&gt;</code></td>
-                <td>Name of person who created artwork for a game </td>
+                <td>Artist name (partial match)</td>
             </tr>
-            <tr> 
-                <td>desginer</td>
+            <tr>
+                <td>designer</td>
                 <td>String</td>
-                <td><code>/games/designer/&lt;designer&gt;</code></td>
-                <td>Name of person who created the design of a game </td>
+                <td>Designer name (partial match)</td>
             </tr>
             <tr>
                 <td>maxplayers</td>
-                <td>String</td>
-                <td><code>/games/maxplayers/&lt;maxplayers&gt;</code></td>
-                <td>The maximum amount of people a game can support </td>
+                <td>Integer</td>
+                <td>Maximum number of players</td>
             </tr>
             <tr>
                 <td>minplayers</td>
-                <td>String</td>
-                <td><code>/games/minplayers/&lt;minplayers&gt;</code></td>
-                <td>The minimum amount of people a game can support </td>
+                <td>Integer</td>
+                <td>Minimum number of players</td>
             </tr>
             <tr>
                 <td>minplaytime</td>
-                <td>String</td>
-                <td><code>/games/minplaytime/&lt;minplaytime&gt;</code></td>
-                <td>What is the least amount of time a game takes to play</td>
+                <td>Integer</td>
+                <td>Minimum play time</td>
             </tr>
-            
-            
         </table>
-        
-        <h4>Example Request (For entering a the name parameter):</h4>
-        <p><code>/api/games/name/catan</code></p>
-        
+        <h4>Example Request:</h4>
+        <p><code>/api/games?plays=4&mechanics=2&mechanics=5&designer=Knizia</code></p>
+        <h4>Example Response:</h4>
+        <pre>
+[
+  "Samurai"
+]
+        </pre>
+    </div>
+
+    <div class="endpoint">
+        <h3>6. Search Games (Autocomplete)</h3>
+        <p><span class="method">GET</span> <code>/search_games?q=&lt;query&gt;</code></p>
+        <p>Returns a list of games matching the query for autocomplete and search bar suggestions.</p>
+        <h4>Example Request:</h4>
+        <p><code>/api/search_games?q=wingspan</code></p>
         <h4>Example Response:</h4>
         <pre>
 {
-  "games": [
+  "results": [
     {
-      "id": 701,
-      "name": "CATAN"
-    },
-    {
-      "id": 706,
-      "name": "CATAN: Seafarers" 
-    },
-    {
-      "id": 399,
-      "name": "CATAN: Cities & Knights"
+      "id": 123,
+      "name": "Wingspan",
+      "yearpublished": 2019,
+      "average": 8.1,
+      "playingtime": 60,
+      "age": 10,
+      "minplayers": 1,
+      "maxplayers": 5,
+      "designer": "Elizabeth Hargrave"
     }
   ]
+}
         </pre>
     </div>
-    <footer style="margin-top: 50px; text-align: center; color: #7f8c8d; font-size: 0.9em;">
 
-    </footer>
+    <footer style="margin-top: 50px; text-align: center; color: #7f8c8d; font-size: 0.9em;">
+        &copy; 2025 BoardGameDB API
+    </footer>/api/games?plays=4&mechanics=2&mechanics=5&designer=Knizia
 </body>
 </html>

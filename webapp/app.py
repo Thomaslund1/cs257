@@ -52,6 +52,11 @@ def returnMechanics():
 def returnName(searchTerm):
     return api.getNames(searchTerm)
 
+@app.route('/api/games')
+def api_games():
+    import api
+    return api.queryGames(flask.request.args)
+
 @app.route('/search')
 def search():
     query = flask.request.args.get('q', '').strip()
