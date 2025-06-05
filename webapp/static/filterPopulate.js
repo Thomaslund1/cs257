@@ -10,7 +10,7 @@ window.addEventListener('DOMContentLoaded', function() {
         }
     }
 
-    setInputValue('numPlays', 'numPlays');
+    setInputValue('numPlays', 'plays');
     setInputValue('name', 'name');
     setInputValue('minAge', 'minAge');
     setInputValue('time', 'time');

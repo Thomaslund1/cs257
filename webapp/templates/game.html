@@ -55,7 +55,7 @@
     <nav class="navbar">
         <div class="navbar-links">
             <a href="/home">Home</a>
-            <a href="/search">Games</a>
+            <a href="/games">Games</a>
             <a href="/recommender">Recommender</a>
         </div>
     </nav>
@@ -96,17 +96,14 @@
 
     <!-- Full Attribute Grid -->
     <h2 style="margin-top:2rem; font-size:1.2em;">Additional Details</h2>
-    <div class="grid"
-         style="background:#181818; border-radius:6px; padding:0.5rem 1rem; margin-bottom:2rem; gap:0.2rem 0.7rem; font-size:0.97em;
-                grid-template-columns: repeat(4, 1fr); align-items: start;">
-        {% set skip = [1, 2, 4, 5, 6, 7, 8, 11, 26, 27, 50] %}
-        {% for i in range(headers|length) %}
-            {% if i not in skip and params[i] and params[i]|string|trim != "" and params[i]|string|lower != "none" %}
-                <div class="header" style="color:#f5b301; padding:0.1em 0; font-weight:500; text-align:right; white-space:nowrap;">{{ headers[i].replace('_', ' ').title() }}</div>
-                <div class="value" style="color:#eee; padding:0.1em 0; white-space:nowrap;">{{ params[i] }}</div>
+    <div class="grid"  style="background:#181818; border-radius:6px; padding:0.5rem 1rem; margin-bottom:2rem; gap:0.2rem 0.7rem; font-size:0.97em; color:#eee;">
+        
+          {% for i in range(headers|length) %}
+            {% if i not in [1, 2, 4, 5, 6, 7, 8, 11, 26, 27, 50] %}
+                <div class="header">{{ headers[i] }}</div>
+                <div class="value">{{ params[i] }}</div>
             {% endif %}
         {% endfor %}
     </div>
-
 </body>
 </html>

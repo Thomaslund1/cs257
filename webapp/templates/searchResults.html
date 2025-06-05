@@ -13,25 +13,25 @@
     <nav class="navbar" id="navbar">
         <div class="navbar-links">
             <a href="/home">Home</a>
-            <a href="/search">Games</a>
+            <a href="/games">Games</a>
             <a href="/recommender">Recommender</a>
         </div>
     </nav>
-    <h1>Search Results</h1>
+    <h1>Search Board Games</h1>
     
     <!-- Filter Bar -->
     <div class="container-flex">
         <aside class="leftbar">
             <h3>Filter Options</h3>
             <div class="filter-group">
-                <input class="filter-input" id="numPlays" placeholder="number of players">
-                <input class="filter-input" id="name" placeholder="(optional) name of game">
-                <input class="filter-input" id="minAge" placeholder="(optional) minimum age">
-                <input class="filter-input" id="time" placeholder="time of game">
-                <label for="mechanics" style="margin-top:10px;">(optional) mechanics:</label>
+                <input class="filter-input" id="numPlays" placeholder="Number of players">
+                <input class="filter-input" id="name" placeholder="Name of game">
+                <input class="filter-input" id="minAge" placeholder="Minimum age">
+                <input class="filter-input" id="time" placeholder="Time of game (minutes)">
+                <input class="filter-input" id="designer" placeholder="Author">
+                <label for="mechanics" style="margin-top:10px;">Mechanics:</label>
                 <select class="filter-input" style="color:black" name="mechanics" id="mechanics" multiple></select>
-                <input class="filter-input" id="designer" placeholder="(optional) author">
-                <button class="button primary-button" id="searchBut" style="width:100%;margin-top:15px;">Search</button>
+                <button class="button primary-button" id="searchBut" style="width:100%;margin-top:15px;">Apply Filters</button>
             </div>
         </aside>
         <div class="main-content">
@@ -56,7 +56,13 @@
                         <td>{{ game.playingtime }} min</td>
                         <td>
                             <span class="star-rating"
-                                  style="font-size:1.1em; letter-spacing:0.01em; vertical-align:middle; position:relative; white-space:nowrap;">
+                                  style="font-size:1.1em; letter-spacing:0.01em; vertical-align:middle; position:relative; white-space:nowrap;"
+                                  tabindex="0"
+                                  onmouseover="this.querySelector('.rating-tooltip').style.display='inline-block';"
+                                  onmouseout="this.querySelector('.rating-tooltip').style.display='none';"
+                                  onfocus="this.querySelector('.rating-tooltip').style.display='inline-block';"
+                                  onblur="this.querySelector('.rating-tooltip').style.display='none';"
+                            >
                                 {% set rating = game.average|float / 2 %}
                                 {% for i in range(5) %}
                                     {% if rating >= i + 1 %}

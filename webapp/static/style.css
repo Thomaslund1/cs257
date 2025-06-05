@@ -546,3 +546,8 @@ p {
 .main-content {
   flex: 1;
 }
+
+.star-rating:hover .rating-tooltip,
+    .star-rating:focus .rating-tooltip {
+        display: inline-block;
+    }
