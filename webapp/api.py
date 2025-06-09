@@ -21,6 +21,7 @@ def get_connection():
         exit()
 
 def getAllMechanics():
+    #Returns all mechanics for dropdown population
     query = 'SELECT id, mechanics FROM mechanics'
     connection = get_connection()
     cursor = connection.cursor()
@@ -29,6 +30,7 @@ def getAllMechanics():
 
 
 def getId(id):
+    #sql wrapper for returning games by id
     out = []
     try:
         query = '''
@@ -50,6 +52,7 @@ def getId(id):
 
 
 def getNames(searchTerm='%'):
+    #sql wrapper for ids by name
     out = []
     try:
         query = f'''
@@ -70,6 +73,7 @@ def getNames(searchTerm='%'):
     return jsonify({'name': out})
 
 def queryGamesNames(header,searchTerm):
+    #Search for all game paramaters from a game name
     out = []
     try:
         valid_headers = ['artist','designer','maxplayers','minplayers','minplaytime','name']
@@ -101,7 +105,7 @@ def queryGames(params):
     A function that creates and executes the final SQL command for data retreival 
     @param params(lol) : dict 
           - The list of search terms and their field from the url
-    @returns out
+    @returns out : list
           - A list of games output from the search function
     """
     out = []
@@ -142,7 +146,7 @@ def queryGames(params):
         ])
         values.append(params['age'])
 
-   #Time should also be less
+   #Time should also be a less than
     if 'time' in params:
         joins.append("minplaytime AS minplaytime_table")
         joins.append("minplaytime_to_name AS minplaytime_map")
@@ -192,7 +196,7 @@ def queryGames(params):
         joins.append(f"{header} AS {alias}")
         joins.append(f"{header}_to_name AS {map_alias}")
 
-        
+        # String/text exeptions 
         if header in ['artist', 'designer']:
             wheres.append(f"{alias}.{header} ILIKE %s")
             values.append(f"%{searchTerm}%")
@@ -226,6 +230,7 @@ def queryGames(params):
     rates = []
     names = tuple(out)  
 
+    #Grabs a list of avg user rating for all returned game names
     if names:
         query = """
         SELECT name.name, rating.rating
@@ -249,9 +254,9 @@ def queryGames(params):
     cursor.close()
     connection.close()
     flat_ratings = [rate[0] for rate in rates]
-
+    #Pair each game with its rating
     combined = list(zip(out, flat_ratings))
-
+    #sort
     sorted_combined = sorted(combined, key=lambda x: x[1], reverse=True)
 
     sorted_out, sorted_ratings = zip(*sorted_combined)
@@ -270,3 +275,46 @@ def getParams(id):
     return [row for row in cursor],headers
 def getFromArgs(args):
     return
+
+def getMechanics(gameName):
+    connection = get_connection()
+    cursor = connection.cursor()
+
+    query = """
+    SELECT mechanics.id
+    FROM mechanics
+    JOIN mechanics_to_name ON mechanics.id = mechanics_to_name.mechanics_to_nameid
+    JOIN name ON name.id = mechanics_to_name.nameid WHERE name.name ILIKE %s LIMIT 1
+;
+    """
+    cursor.execute(query, (f"%{gameName}%",))
+    mechanic_ids = [row[0] for row in cursor.fetchall()]
+    print(mechanic_ids)
+    cursor.close()
+    connection.close()
+    return mechanic_ids
+
+def getGameFromMech(mechID):
+    out = queryGames({'mechanics': (mechID,)})
+    print(out)
+    return queryGames({'mechanics': (mechID,)})[0]
+
+def reccomenderHelper(game1,game2,game3):
+    game1M = getMechanics(game1)
+    game2M = getMechanics(game2)
+    game3M = getMechanics(game3)
+    occurances = {}
+    for i in game1M:
+        occurances[i] = 1
+    for i in game2M:
+        if i in occurances:
+            occurances[i] += 1
+        else:
+            occurances[i] = 1
+    for i in game3M:
+        if i in occurances:
+            occurances[i] += 1
+        else:
+            occurances[i] = 1
+    print(occurances)
+    return getGameFromMech(max(occurances, key=occurances.get))

@@ -149,6 +149,15 @@ def search_results():
     query = flask.request.args.get('q', '').strip()
     return flask.render_template('search_results.html', query=query)
 
+@app.route('/recommendation')
+def reccomend():
+    game1 = flask.request.args.get("game1")
+    game2 = flask.request.args.get("game2")
+    game3 = flask.request.args.get("game3")
+    newGame = api.reccomenderHelper(game1,game2,game3)
+    return flask.redirect(f'/game/{newGame[0]}')
+
+
 
 
 if __name__ == '__main__':
