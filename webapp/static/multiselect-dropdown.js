@@ -1,3 +1,9 @@
+/*
+A pure Javascript library for clean interactable dropdown menus 
+
+----Modified by Thomas Lund 20-May-2025
+*/
+
 var style = document.createElement('style');
 style.setAttribute("id","multiselect_dropdown_styles");
 style.innerHTML = `
