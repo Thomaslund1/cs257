@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BoardGameDB</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="navbar-links">
+            <a href="/home">Home</a>
+            <a href="/search">Games</a>
+            <a href="/recommender">Recommender</a>
+        </div>
+    </nav>
+
+    <h1>Game Recommender</h1>
+    <div>
+        <p>Use the form below to get game recommendations based on your preferences.</p>
+    </div>
+    <div>
+    <form action="/recommender" class="search-container2" method="post"> 
+        <input type="text" placeholder="A Game you like" style="width: 100%;">
+    </form>
+    <p>&nbsp;</p>
+    <form action="/recommender" class="search-container2" method="post"> 
+        <input type="text" placeholder="A Game you like" style="width: 100%;">
+    </form>
+    <p>&nbsp;</p>
+    <form action="/recommender" class="search-container2" method="post"> 
+        <input type="text" placeholder="A Game you like" style="width: 100%;">
+    </form>
+    <p>&nbsp;</p>
+    <a class="button primary-button" href="/game/Hegemony%3A%20Lead%20Your%20Class%20to%20Victory">Search</a>
+
+    </div>
+</body>
+</html>

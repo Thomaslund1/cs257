@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BoardGameDB</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style1.css') }}">
+    <script src="{{ url_for('static', filename='multiselect-dropdown.js') }}"></script>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <a href="#" class="navbar-brand">BoardGameDB</a>
+        
+        <div class="navbar-links">
+            <a href="home" class="active">Home</a>
+            <a href="games">Games</a>
+            <a href="users">Users</a>
+            <a href="recommender" class="active">Recommender</a> 
+        </div>
+        
+        <form action="#" class="search-container">
+            <input type="text" placeholder="Search games..." name="search">
+            <button type="button" id="search"><i class="fas fa-search"></i> Search</button>
+        </form>
+    </nav>
+
+    <h1>Game Finder</h1>
+    <div>
+        <p>This website takes data from BGG and makes it easy to sort and filter by a variety of parameters in an attempt to make it easy to find the next board game to play. Search tags are largely provided by community members, and certain parameters such as complexity may not always be accurate.</p>
+    </div>
+    <hr>
+    <div class="box">
+        <div class="thirds section"><input id="numPlays" placeholder="number of players"></div>
+        <div class="thirds section"><input id="complexity" placeholder="(optional) complexity"></div>
+        <div class="thirds section"><input id="minAge" placeholder="(optional) minimum age"></div>
+    </div>
+    <div class="box">
+        <div class="thirds section"><input id="time" placeholder="time of game"></div>
+        <div class="thirds section">
+            <label for="mechanics">(optional) mechanics:</label>
+            <select style="padding-left: 25px; padding-right: 25px; color:floralwhite" name="mechanics" id="mechanics" multiple>
+                <option value="1">Sample1</option>
+                <option value="2">Sample2</option>
+                <option value="3">Sample3</option>
+                <option value="4">Sample5</option>
+                <option value="5">Sample6</option>
+                <option value="6">Sample7</option>
+                <option value="7">Sample8</option>
+            </select>
+        </div>
+        <div class="thirds section"><input id="designer" placeholder="(optional) author"></div>
+    </div>
+    <hr>
+    <div class="box">
+        <div class="thirds section"> </div>
+        <div class="thirds section"><button type="button" id="searchBut">Search</button></div>
+        <div class="thirds section"> </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='web.js') }}"></script>
+</body>
+</html>

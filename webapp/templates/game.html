@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ params[1] }} — Game Info</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style1.css') }}">
+    <style>
+        .game-header {
+            display: flex;
+            align-items: center;
+            margin-top: 2rem;
+            gap: 2rem;
+        }
+
+        .game-image {
+            max-width: 250px;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0,0,0,0.2);
+        }
+
+        .star-rating {
+            font-size: 1.5rem;
+            color: #f5b301;
+        }
+
+        .description {
+            margin-top: 1rem;
+            padding: 1rem;
+            background: #222;
+            border-radius: 6px;
+            white-space: pre-wrap;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: 200px 1fr;
+            gap: 0.5rem 1rem;
+            align-items: start;
+            margin-top: 2rem;
+        }
+
+        .header {
+            font-weight: bold;
+            text-align: right;
+        }
+
+        .value {
+            word-break: break-word;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="navbar-links">
+            <a href="/home">Home</a>
+            <a href="/search">Games</a>
+            <a href="/recommender">Recommender</a>
+        </div>
+    </nav>
+
+    <!-- Title and Main Info -->
+    <h1>{{ params[1] }}</h1>
+
+    <div class="game-header">
+        <img src="{{ params[27] }}" alt="{{ params[1] }} image" class="game-image">
+        <div>
+            <div class="star-rating">
+                {% set rating = params[13] | float %}
+                {% for i in range(10) %}
+                    {% if rating >= i + 1 %}
+                        ★
+                    {% elif rating >= i + 0.5 %}
+                        ☆
+                    {% else %}
+                        ☆
+                    {% endif %}
+                {% endfor %}
+                <span>({{ rating }}/10)</span>
+            </div>
+            <p><strong>Published:</strong> {{ params[5] }}<br>
+               <strong>Designer:</strong> {{ params[2] }}<br>
+               <strong>Artist:</strong> {{ params[4] }}<br>
+               <strong>Players:</strong> {{ params[6] }}–{{ params[7] }}<br>
+               <strong>Play time:</strong> {{ params[8] }} min<br>
+               <strong>Recommended age:</strong> {{ params[11] }}+</p>
+        </div>
+    </div>
+
+    <!-- Description -->
+    <div class="description">
+        <h3>Description</h3>
+        {{ params[51] }}
+    </div>
+
+    <!-- Full Attribute Grid -->
+    <h2>Additional Details</h2>
+    <div class="grid">
+        {% for i in range(headers|length) %}
+            {% if i not in [1, 2, 4, 5, 6, 7, 8, 11, 26, 27, 50] %}
+                <div class="header">{{ headers[i] }}</div>
+                <div class="value">{{ params[i] }}</div>
+            {% endif %}
+        {% endfor %}
+    </div>
+
+</body>
+</html>

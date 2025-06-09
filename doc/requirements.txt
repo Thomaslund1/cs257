@@ -1,0 +1,32 @@
+# TEAM
+Luke Poley, Thomas Lund
+
+# DATA
+We are pulling data from the BGG website. A sample for the first 100 entries can be found here 
+https://drive.google.com/file/d/14C_TetyglXR6NQW4t_vEWCLklVusjWgm/view?usp=sharing
+
+# User stories 
+
+STORY:
+A prospective board game player is at a board-game cafe looking for something to play tonight with their three friends, but they don't particularly want a game that takes all night. 
+
+IMPLEMENTATION:
+The user uses the game search menu to filter for games that take four players under two hours, and input the bgg account of the cafe so they can filter for only owned games. 
+
+STORY:
+A group of friends are looking for a new game to buy for board game night, but they want something well-liked that they can all agree on
+
+IMPLEMENTATION:
+The group inputs their BGG accounts and get a list of highly rated games that are on all of their want-to-play lists, or are in the same genre as most of their liked games
+
+STORY:
+A casual user wonders what the best rated games are this month. 
+
+IMPLEMENTATION:
+They use the game search menu to find games in the past month sorted high to low rating 
+
+STORY:
+A user finds a really cool game and is curious about it
+
+IMPLEMENTATION:
+They click the link embeded the title of the game and read the page about it 

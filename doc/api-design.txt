@@ -1,0 +1,34 @@
+Names: Luke, Thomas
+
+REQUEST: /games
+
+GET paramaters:
+    Author (optional: default='') -- returns games with authors that contain the search term 
+    Genre (optional: default='') -- returns games with specified genre included
+    PlayerNum (optional: default='') -- returns games with minPlayers < playerNum < maxPlayers
+    Complexity (optional: default='') --returns games with given complexity rating +- 0.5
+    Mechanics (optional: default='') --returns games with given mechanics containing serach term
+    
+RESPONSE: A list of games in json sorted by avg user rating
+Each dictionary entry has the headers:
+
+name - str: name of primary author
+bggId - int: bgg id of game/version
+avgRating - int: mean user rating of game
+Genre - str[]: genres of game
+minPlayers - int: minimum players for the game
+maxPlayers - int: maximum players for the game
+playTime - int: playtime in minutes
+complexity - int: bgg complexity rating of game
+artist - str: primary artist 
+description - str: bgg given description of the game
+
+
+REQUEST: /User/userId
+
+GET paramaters:
+    OwnedGames (optional: default=0) -- also returns games from the user's owned games list
+    WantToBuy (optional: default=0) -- also returns games from the user's want to buy list
+
+RESPOSNSE: A list of game IDs for the user's list of liked games from bgg.
+

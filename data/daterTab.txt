@@ -1,0 +1,84 @@
+ id                | integer          |           | not null | 
+ name              | text             |           |          | 
+ designer          | text             |           |          | 
+ publisher         | text             |           |          | 
+ artist            | text             |           |          | 
+ yearpublished     | integer          |           |          | 
+ minplayers        | integer          |           |          | 
+ maxplayers        | integer          |           |          | 
+ playtime          | integer          |           |          | 
+ minplaytime       | integer          |           |          | 
+ maxplaytime       | integer          |           |          | 
+ age               | integer          |           |          | 
+ rating            | integer          |           |          | 
+ average           | double precision |           |          | 
+ bayesavg          | double precision |           |          | 
+ rank              | integer          |           |          | 
+ rankwg            | double precision |           |          | 
+ numcomments       | integer          |           |          | 
+ numweights        | integer          |           |          | 
+ averageweight     | double precision |           |          | 
+ stddev            | double precision |           |          | 
+ median            | double precision |           |          | 
+ owned             | integer          |           |          | 
+ trading           | integer          |           |          | 
+ wanting           | integer          |           |          | 
+ wishing           | integer          |           |          | 
+ userrating        | text             |           |          | 
+ img               | text             |           |          | 
+ category          | text             |           |          | 
+ mechanic          | text             |           |          | 
+ comment           | text             |           |          | 
+ player1           | text             |           |          | 
+ player2           | text             |           |          | 
+ player3           | text             |           |          | 
+ player4           | text             |           |          | 
+ player5           | text             |           |          | 
+ player6           | text             |           |          | 
+ player7           | text             |           |          | 
+ player8           | text             |           |          | 
+ player9           | text             |           |          | 
+ player10          | text             |           |          | 
+ player11          | text             |           |          | 
+ player12          | text             |           |          | 
+ player13          | text             |           |          | 
+ player14          | text             |           |          | 
+ player15          | text             |           |          | 
+ player16          | text             |           |          | 
+ player17          | text             |           |          | 
+ player18          | text             |           |          | 
+ player19          | text             |           |          | 
+ player20          | text             |           |          | 
+ dsc               | text             |           |          | 
+ exp               | text             |           |          | 
+ basegame          | integer          |           |          | 
+ basegamename      | text             |           |          | 
+ reimplement       | text             |           |          | 
+ reimplementname   | text             |           |          | 
+ reimplemented     | text             |           |          | 
+ reimplementedname | text             |           |          | 
+ contains          | text             |           |          | 
+ containsname      | text             |           |          | 
+ iscontained       | text             |           |          | 
+ iscontainedname   | text             |           |          | 
+ integration       | text             |           |          | 
+ integrationname   | text             |           |          | 
+ accessories       | text             |           |          | 
+ accessoriesname   | text             |           |          | 
+ numplays          | integer          |           |          | 
+ price             | double precision |           |          | 
+ userweight        | double precision |           |          | 
+ wishpriority      | double precision |           |          | 
+ expansions        | text             |           |          | 
+ domain            | text             |           |          | 
+ family            | text             |           |          | 
+ agepoll           | double precision |           |          | 
+ nameothers        | text             |           |          | 
+ commentsgl        | text             |           |          | 
+ thumbsgl          | text             |           |          | 
+ soldgl            | text             |           |          | 
+ pricegl           | text             |           |          | 
+ currencygl        | text             |           |          | 
+ usergl            | text             |           |          | 
+ tags              | text             |           |          | 
+ tagsuser
