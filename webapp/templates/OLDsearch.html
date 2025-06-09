@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BoardGameDB</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style1.css') }}">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="navbar-links">
+            <a href="/home">Home</a>
+            <a href="/search">Games</a>
+            <a href="/recommender">Recommender</a>
+        </div>
+    </nav>
+
+    <h1>Game Finder</h1>
+    <div>
+        <p>This website takes data from BGG and makes it easy to sort and filter by a variety of parameters in an attempt to make it easy to find the next board game to play. Search tags are largely provided by community members, and certain parameters such as complexity may not always be accurate.</p>
+    </div>
+    <hr>
+    <div class="box">
+        <div class="thirds section"><input id="numPlays" placeholder="number of players"></div>
+        <div class="thirds section"><input id="name" placeholder="(optional) name of game"></div>
+        <div class="thirds section"><input id="minAge" placeholder="(optional) minimum age"></div>
+    </div>
+    <div class="box">
+        <div class="thirds section"><input id="time" placeholder="time of game"></div>
+        <div class="thirds section">
+            <label for="mechanics">(optional) mechanics:</label>
+            <select style="padding-left: 25px; padding-right: 25px; color:black" name="mechanics" id="mechanics" multiple></select>
+        </div>
+        <div class="thirds section"><input id="designer" placeholder="(optional) author"></div>
+    </div>
+    <hr>
+    <div class="box">
+        <div class="thirds section"></div>
+        <div class="thirds section"><button class="button primary-button" id="searchBut">Search</button></div>
+        <div class="thirds section"></div>
+    </div>
+    <script src="{{ url_for('static', filename='web.js') }}"></script>
+    <script src="{{ url_for('static', filename='multiselect-dropdown.js') }}"></script>
+</body>
+</html>
