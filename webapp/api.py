@@ -1,4 +1,4 @@
-import psycopg2
+import psycopg2 as psy
 from flask import Flask, jsonify
 import sys
 import config
@@ -19,7 +19,6 @@ def get_connection():
     except Exception as e:
         print(e, file=sys.stderr)
         exit()
-
 
 def getAllMechanics():
     query = 'SELECT id, mechanics FROM mechanics'

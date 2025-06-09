@@ -21,7 +21,6 @@ def get_connection():
         print(e, file=sys.stderr)
         exit()
 
-
 @app.route('/')
 @app.route('/home')
 def home():
